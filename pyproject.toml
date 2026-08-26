@@ -16,6 +16,8 @@ dependencies = [
     "torch>=2.13.0",
     "transformers>=5.16.1",
     "setuptools<82",
+    "ipykernel>=7.3.0",
+    "scipy>=1.15.3",
 ]
 
 [build-system]
