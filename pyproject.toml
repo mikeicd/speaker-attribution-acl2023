@@ -1,0 +1,23 @@
+[tool.uv]
+package = false
+
+[project]
+name = "speaker-attribution-acl2023"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Mike Domingues", email = "mikeicd@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.3.3",
+    "spacy>=3.8.16",
+    "torch>=2.13.0",
+    "transformers>=5.16.1",
+    "setuptools<82",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
