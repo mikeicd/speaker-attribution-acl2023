@@ -1,11 +1,14 @@
 from booknlpen.english.english_booknlp import EnglishBookNLP as BookNLP 
+import spacy
 import os
+
+spacy.cli.download("en_core_web_sm")
 
 model_params={
 		"pipeline":"entity,quote,supersense,event,coref", 
 		"model":"big"
 	}
-	
+
 booknlp = BookNLP(model_params)
 
 IN_ROOT = 'data/pdnc_source'
