@@ -49,7 +49,7 @@
 426,427,NOM_PER,Heir presumptive
 429,431,PROP_PER,William Walter Elliot
 436,442,NOM_PER,great grandson of the second Sir Walter
-439,442,NOM_PER,the second Sir Walter
+439,442,PROP_PER,the second Sir Walter
 453,455,PROP_PER,Sir Walter Elliot
 466,466,PRON_PER,He
 472,472,PRON_PER,his
@@ -88,7 +88,7 @@
 679,679,PRON_PER,her
 691,691,PRON_PER,her
 693,693,PRON_PER,she
-699,700,NOM_PER,them.--Three girls
+700,700,NOM_PER,girls
 702,707,NOM_PER,the two eldest sixteen and fourteen
 714,715,NOM_PER,a mother
 732,736,NOM_PER,"a conceited , silly father"
@@ -115,7 +115,7 @@
 856,857,NOM_PER,a widower
 859,860,NOM_PER,the other
 861,862,NOM_PER,a widow
-865,878,NOM_PER,"Lady Russell , of steady age and character , and extremely well provided for"
+865,866,PROP_PER,Lady Russell
 893,894,NOM_PER,the public
 905,906,NOM_PER,a woman
 913,913,PRON_PER,she
@@ -143,6 +143,7 @@
 1067,1067,PROP_PER,Anne
 1083,1083,PRON_PER,her
 1086,1090,NOM_PER,any people of real understanding
+1093,1093,NOM_PER,nobody
 1096,1096,NOM_PER,father
 1098,1098,NOM_PER,sister
 1100,1100,PRON_PER,her
@@ -152,7 +153,7 @@
 1120,1121,PROP_PER,Lady Russell
 1125,1125,PRON_PER,she
 1127,1135,NOM_PER,a most dear and highly valued god - daughter
-1140,1140,NOM_PER,friend
+1137,1140,NOM_PER,"favourite , and friend"
 1142,1143,PROP_PER,Lady Russell
 1145,1145,PRON_PER,them
 1153,1153,PROP_PER,Anne
@@ -180,11 +181,11 @@
 1317,1318,NOM_PER,a woman
 1326,1326,PRON_PER,she
 1365,1365,PROP_PER,Elizabeth
-1371,1372,PROP_PER,Miss Elliot
+1368,1372,PROP_PER,the same handsome Miss Elliot
 1374,1374,PRON_PER,she
 1384,1385,PROP_PER,Sir Walter
 1394,1394,PRON_PER,her
-1404,1407,NOM_PER,only half a fool
+1406,1407,NOM_PER,a fool
 1411,1411,PRON_PER,himself
 1413,1413,PROP_PER,Elizabeth
 1427,1428,NOM_PER,everybody else
@@ -192,11 +193,10 @@
 1437,1442,NOM_PER,all the rest of his family
 1441,1441,PRON_PER,his
 1441,1442,NOM_PER,his family
-1448,1448,PROP_PER,Anne
-1451,1451,PROP_PER,Mary
+1448,1449,PROP_PER,Anne haggard
+1451,1452,PROP_PER,Mary coarse
 1457,1458,NOM_FAC,the neighbourhood
 1471,1472,PROP_PER,Lady Russell
-1471,1474,NOM_FAC,Lady Russell 's temples
 1481,1481,PRON_PER,him
 1483,1483,PROP_PER,Elizabeth
 1488,1488,PRON_PER,her
@@ -213,7 +213,6 @@
 1576,1577,NOM_LOC,the country
 1586,1586,PRON_PER,her
 1593,1595,NOM_FAC,a scanty neighbourhood
-1602,1602,PRON_PER,their
 1606,1606,PRON_PER,she
 1610,1610,PROP_GPE,London
 1612,1612,PRON_PER,her
@@ -225,7 +224,6 @@
 1655,1655,PRON_PER,she
 1669,1669,PRON_PER,she
 1671,1671,PRON_PER,her
-1691,1693,NOM_PER,baronet - blood
 1703,1703,PRON_PER,she
 1717,1717,PRON_PER,her
 1723,1723,PRON_PER,she
@@ -267,7 +265,7 @@
 1963,1963,PRON_PER,her
 1967,1968,PROP_PER,Mr Elliot
 1976,1976,PRON_PER,He
-1981,1984,NOM_PER,a very young man
+1981,1993,NOM_PER,"a very young man , just engaged in the study of the law"
 1996,1996,PROP_PER,Elizabeth
 1998,1998,PRON_PER,him
 2006,2006,PRON_PER,his
@@ -281,6 +279,7 @@
 2071,2071,PRON_PER,he
 2078,2078,PRON_PER,his
 2086,2092,NOM_PER,the heir of the house of Elliot
+2089,2092,NOM_FAC,the house of Elliot
 2094,2094,PRON_PER,he
 2100,2100,PRON_PER,himself
 2102,2107,NOM_PER,a rich woman of inferior birth
@@ -345,8 +344,8 @@
 2566,2566,PRON_PER,his
 2566,2567,NOM_PER,his agent
 2570,2570,PRON_PER,his
+2573,2575,NOM_FAC,The Kellynch property
 2583,2584,PROP_PER,Sir Walter
-2588,2589,NOM_GPE,the state
 2592,2593,NOM_PER,its possessor
 2596,2597,PROP_PER,Lady Elliot
 2614,2614,PRON_PER,him
@@ -389,7 +388,6 @@
 2933,2933,PRON_PER,his
 2933,2934,NOM_FAC,his estate
 2936,2937,PROP_PER,Sir Walter
-2944,2945,NOM_FAC,every acre
 2956,2956,PRON_PER,He
 2964,2964,PRON_PER,he
 2970,2970,PRON_PER,he
@@ -397,7 +395,6 @@
 2983,2983,PRON_PER,his
 2988,2990,NOM_FAC,The Kellynch estate
 2999,2999,PRON_PER,he
-3002,3002,PRON_FAC,it
 3004,3004,PRON_PER,Their
 3004,3007,NOM_PER,Their two confidential friends
 3009,3010,PROP_PER,Mr Shepherd
@@ -409,7 +406,7 @@
 3051,3051,PRON_PER,their
 3055,3055,PRON_PER,their
 3072,3073,PROP_PER,Mr Shepherd
-3075,3079,NOM_PER,"a civil , cautious lawyer"
+3075,3093,NOM_PER,"a civil , cautious lawyer , who , whatever might be his hold or his views on Sir Walter"
 3086,3086,PRON_PER,his
 3089,3089,PRON_PER,his
 3092,3093,PROP_PER,Sir Walter
@@ -448,10 +445,10 @@
 3379,3381,NOM_PER,an old acquaintance
 3383,3385,NOM_PER,an attentive neighbour
 3387,3389,NOM_PER,an obliging landlord
-3391,3405,NOM_PER,"the husband of her very dear friend , the father of Anne and her sisters"
+3391,3397,NOM_PER,the husband of her very dear friend
 3394,3394,PRON_PER,her
 3394,3397,NOM_PER,her very dear friend
-3399,3402,NOM_PER,the father of Anne
+3399,3405,NOM_PER,the father of Anne and her sisters
 3402,3402,PROP_PER,Anne
 3404,3404,PRON_PER,her
 3404,3405,NOM_PER,her sisters
@@ -490,7 +487,6 @@
 3667,3668,NOM_PER,sensible people
 3673,3676,NOM_PER,a man of principle
 3680,3680,PRON_PER,he
-3689,3694,NOM_PER,very many of our first families
 3692,3692,PRON_PER,our
 3692,3694,NOM_PER,our first families
 3709,3709,PRON_PER,his
@@ -499,7 +495,6 @@
 3734,3734,PRON_PER,I
 3741,3741,PRON_PER,We
 3752,3757,NOM_PER,the person who has contracted debts
-3760,3760,PRON_PER,them
 3773,3774,NOM_PER,the gentleman
 3777,3785,NOM_PER,"the head of a house , like your father"
 3780,3781,NOM_FAC,a house
@@ -538,13 +533,14 @@
 4061,4062,PROP_FAC,Kellynch Hall
 4072,4073,PROP_PER,Mr Shepherd
 4083,4084,PROP_PER,Sir Walter
+4089,4102,NOM_PER,who was perfectly persuaded that nothing would be done without a change of abode
 4120,4120,PRON_PER,he
 4126,4126,PRON_PER,he
 4132,4132,PRON_PER,his
 4146,4146,PRON_PER,him
 4148,4149,PROP_PER,Sir Walter
 4153,4153,PRON_PER,his
-4158,4159,NOM_FAC,a house
+4158,4171,NOM_FAC,a house which had such a character of hospitality and ancient dignity to support
 4177,4178,PROP_PER,Sir Walter
 4182,4182,PRON_PER,himself
 4200,4200,PRON_PER,he
@@ -558,15 +554,16 @@
 4261,4265,NOM_FAC,another house in the country
 4264,4265,NOM_LOC,the country
 4268,4268,PROP_PER,Anne
-4277,4293,NOM_FAC,"A small house in their own neighbourhood , where they might still have Lady Russell 's society"
+4277,4283,NOM_FAC,A small house in their own neighbourhood
 4281,4281,PRON_PER,their
 4281,4283,NOM_FAC,their own neighbourhood
+4284,4313,NOM_GPE,", where they might still have Lady Russell 's society , still be near Mary , and still have the pleasure of sometimes seeing the lawns and groves of Kellynch"
 4286,4286,PRON_PER,they
 4290,4291,PROP_PER,Lady Russell
 4290,4293,NOM_FAC,Lady Russell 's society
 4298,4298,PROP_PER,Mary
 4308,4313,NOM_FAC,the lawns and groves of Kellynch
-4313,4313,PROP_PER,Kellynch
+4313,4313,PROP_GPE,Kellynch
 4319,4319,PRON_PER,her
 4327,4327,PROP_PER,Anne
 4329,4329,PRON_PER,her
@@ -574,7 +571,7 @@
 4342,4342,PRON_PER,She
 4344,4344,PROP_GPE,Bath
 4353,4353,PRON_PER,her
-4356,4356,NOM_FAC,Bath
+4356,4356,PROP_GPE,Bath
 4360,4360,PRON_PER,her
 4360,4361,NOM_FAC,her home
 4363,4364,PROP_PER,Sir Walter
@@ -583,7 +580,7 @@
 4378,4378,PRON_PER,he
 4384,4384,PROP_GPE,London
 4393,4393,PRON_PER,him
-4399,4399,PROP_GPE,Bath
+4399,4399,PROP_PER,Bath
 4409,4410,NOM_PER,a gentleman
 4412,4412,PRON_PER,his
 4415,4415,PRON_PER,he
@@ -593,12 +590,12 @@
 4441,4441,PRON_FAC,its
 4446,4446,PROP_GPE,Kellynch
 4453,4454,PROP_PER,Lady Russell
-4471,4480,NOM_PER,"Lady Russell , whose first views on the projected change"
+4471,4472,PROP_PER,Lady Russell
 4484,4484,PROP_GPE,Bath
 4486,4487,PROP_PER,Sir Walter
 4489,4489,PROP_PER,Elizabeth
 4495,4495,PRON_PER,they
-4504,4504,NOM_GPE,there
+4504,4504,NOM_FAC,there
 4506,4507,PROP_PER,Lady Russell
 4512,4512,PRON_PER,her
 4514,4514,PROP_PER,Anne
@@ -632,6 +629,7 @@
 4695,4695,PROP_PER,Anne
 4701,4701,NOM_FAC,home
 4707,4707,PRON_PER,Her
+4713,4715,NOM_PER,A larger society
 4718,4718,PRON_PER,them
 4720,4720,PRON_PER,She
 4722,4722,PRON_PER,her
@@ -660,21 +658,20 @@
 4951,4952,PROP_PER,Sir Walter
 4954,4954,PRON_PER,his
 4954,4955,NOM_PER,his family
-4960,4961,NOM_LOC,the country
+4960,4961,NOM_GPE,the country
 4963,4963,PROP_PER,Elizabeth
 4972,4972,PRON_PER,she
-4984,4985,PROP_PER,Mr Shepherd
 4997,4997,PRON_PER,her
 4997,4998,NOM_PER,her father
 4997,5000,NOM_FAC,her father 's house
 5007,5008,NOM_PER,two children
 5010,5010,PRON_PER,She
-5012,5030,NOM_PER,"a clever young woman , who understood the art of pleasing -- the art of pleasing , at least"
+5012,5015,NOM_PER,a clever young woman
 5033,5034,PROP_FAC,Kellynch Hall
 5040,5040,PRON_PER,herself
 5044,5045,PROP_PER,Miss Elliot
 5053,5053,NOM_FAC,there
-5063,5081,NOM_PER,"Lady Russell , who thought it a friendship quite out of place , could hint of caution and reserve"
+5063,5064,PROP_PER,Lady Russell
 5083,5084,PROP_PER,Lady Russell
 5093,5093,PROP_PER,Elizabeth
 5099,5099,PRON_PER,her
@@ -697,6 +694,7 @@
 5235,5236,PROP_PER,Mrs Clay
 5245,5246,NOM_PER,a sister
 5250,5250,PRON_PER,her
+5255,5269,NOM_PER,one who ought to have been nothing to her but the object of distant civility
 5263,5263,PRON_PER,her
 5265,5269,NOM_PER,the object of distant civility
 5274,5275,PROP_PER,Mrs Clay
@@ -742,7 +740,6 @@
 5554,5554,PRON_PER,I
 5560,5560,PRON_PER,they
 5572,5573,NOM_PER,desirable tenants
-5575,5582,NOM_PER,any set of people one should meet with
 5579,5579,NOM_PER,one
 5586,5587,PROP_PER,Sir Walter
 5590,5590,PRON_PER,I
@@ -771,7 +768,6 @@
 5800,5801,NOM_FAC,the room
 5803,5803,PRON_PER,he
 5811,5815,NOM_PER,the gentlemen of the navy
-5814,5815,NOM_ORG,the navy
 5817,5817,PRON_PER,I
 5827,5827,PRON_PER,themselves
 5829,5833,NOM_FAC,a house of this description
@@ -809,6 +805,7 @@
 6022,6023,NOM_FAC,my house
 6025,6025,PRON_PER,I
 6032,6032,PRON_PER,my
+6042,6042,PRON_FAC,it
 6044,6044,PRON_PER,I
 6051,6052,NOM_PER,a tenant
 6054,6055,NOM_FAC,The park
@@ -826,6 +823,7 @@
 6130,6132,NOM_FAC,her flower garden
 6134,6134,PRON_PER,I
 6141,6145,NOM_PER,a tenant of Kellynch Hall
+6144,6145,PROP_PER,Kellynch Hall
 6150,6150,PRON_PER,I
 6152,6152,PRON_PER,you
 6155,6155,PRON_PER,he
@@ -845,7 +843,7 @@
 6240,6241,PROP_PER,John Shepherd
 6245,6245,PRON_PER,him
 6249,6249,PROP_PER,Anne
-6252,6253,NOM_ORG,The navy
+6252,6253,NOM_PER,The navy
 6255,6255,PRON_PER,I
 6264,6264,PRON_PER,us
 6273,6277,NOM_PER,any other set of men
@@ -859,7 +857,8 @@
 6338,6339,NOM_PER,his daughter
 6343,6344,PROP_PER,Sir Walter
 6359,6359,PRON_PER,I
-6365,6368,NOM_PER,any friend of mine
+6365,6371,NOM_PER,any friend of mine belonging to it
+6368,6368,PRON_PER,mine
 6399,6399,PRON_PER,me
 6401,6401,PRON_PER,I
 6419,6422,NOM_PER,persons of obscure birth
@@ -928,7 +927,6 @@
 6932,6933,NOM_PER,a man
 6943,6944,NOM_PER,The lawyer
 6952,6953,NOM_PER,the physician
-6968,6969,NOM_PER,the clergyman--
 6971,6971,PRON_PER,she
 6984,6985,NOM_PER,the clergyman
 6987,6987,PRON_PER,you
@@ -977,7 +975,6 @@
 7320,7320,PRON_PER,he
 7323,7323,PRON_PER,himself
 7325,7325,PRON_PER,him
-7351,7352,NOM_GPE,the place
 7354,7361,NOM_PER,a man who knew it only by description
 7367,7368,PROP_PER,Mr Shepherd
 7371,7371,PRON_PER,his
@@ -988,14 +985,13 @@
 7398,7399,PROP_PER,Sir Walter
 7405,7406,PROP_PER,Mr Shepherd
 7409,7409,PRON_PER,his
-7412,7413,NOM_PER,a gentleman
 7412,7415,NOM_PER,a gentleman 's family
 7419,7420,NOM_FAC,a place
 7423,7423,PROP_PER,Anne
 7434,7434,PRON_PER,He
 7436,7441,NOM_PER,a rear admiral of the white
 7443,7443,PRON_PER,He
-7454,7456,PROP_LOC,the East Indies
+7454,7456,PROP_GPE,the East Indies
 7459,7459,PRON_PER,he
 7462,7462,NOM_GPE,there
 7464,7464,PRON_PER,I
@@ -1007,6 +1003,7 @@
 7507,7507,PRON_PER,him
 7510,7511,PROP_PER,Admiral Croft
 7513,7522,NOM_PER,"a very hale , hearty , well - looking man"
+7540,7541,NOM_PER,the gentleman
 7544,7544,PRON_PER,his
 7561,7563,NOM_FAC,a comfortable home
 7569,7569,PRON_FAC,it
@@ -1294,6 +1291,7 @@
 9711,9711,PRON_PER,him
 9714,9714,PRON_PER,she
 9738,9738,PROP_FAC,Bath
+9752,9752,NOM_PER,society
 9754,9755,NOM_PER,No one
 9770,9771,PROP_PER,Frederick Wentworth
 9774,9774,PRON_PER,he
@@ -1441,7 +1439,6 @@
 10866,10866,PROP_PER,Anne
 10873,10873,PRON_PER,her
 10878,10879,PROP_PER,Lady Russell
-10878,10880,NOM_FAC,Lady Russell 's
 10894,10894,PRON_PER,she
 10903,10903,PRON_PER,she
 10910,10910,PRON_PER,them
@@ -1456,7 +1453,6 @@
 11015,11016,NOM_PER,the Admiral
 11025,11026,NOM_FAC,The house
 11028,11028,NOM_FAC,grounds
-11036,11037,PROP_PER,the Crofts
 11056,11057,PROP_PER,Mr Shepherd
 11056,11059,NOM_PER,Mr Shepherd 's clerks
 11084,11085,PROP_PER,Sir Walter
@@ -1480,7 +1476,7 @@
 11179,11179,PRON_PER,they
 11181,11181,PRON_PER,us
 11183,11183,PROP_GPE,Taunton
-11185,11186,NOM_PER,The Baronet
+11185,11186,PROP_PER,The Baronet
 11190,11191,PROP_LOC,the Thames
 11203,11203,PRON_PER,him
 11216,11217,PROP_PER,The Crofts
@@ -1528,7 +1524,7 @@
 11554,11554,PRON_PER,her
 11556,11556,PROP_GPE,Bath
 11586,11586,PROP_PER,Anne
-11617,11618,NOM_LOC,the country
+11617,11618,NOM_GPE,the country
 11621,11621,PRON_PER,her
 11621,11624,NOM_GPE,her own dear country
 11634,11634,PROP_PER,Mary
@@ -1707,6 +1703,7 @@
 12831,12831,PROP_GPE,Uppercross
 12837,12837,PROP_PER,Kellynch
 12839,12841,NOM_PER,The two families
+12858,12859,NOM_PER,each other
 12858,12861,NOM_FAC,each other 's house
 12873,12873,PRON_PER,her
 12876,12876,PROP_PER,Mary
@@ -1734,6 +1731,7 @@
 13076,13076,PRON_PER,I
 13080,13080,PRON_PER,I
 13085,13085,PRON_PER,I
+13089,13093,NOM_PER,a creature the whole morning
 13097,13097,PRON_PER,I
 13102,13102,PRON_PER,you
 13107,13107,PROP_PER,Anne
@@ -1801,6 +1799,7 @@
 13444,13444,PRON_PER,I
 13446,13446,PRON_PER,him
 13449,13449,PRON_PER,I
+13452,13455,NOM_PER,not one of them
 13455,13455,PRON_PER,them
 13459,13459,PRON_PER,me
 13467,13469,PROP_PER,the Miss Musgroves
@@ -1835,7 +1834,8 @@
 13617,13617,PRON_PER,her
 13620,13620,PRON_PER,I
 13635,13635,PRON_PER,I
-13642,13642,PROP_GPE,Kellynch
+13642,13642,PROP_PER,Kellynch
+13647,13647,NOM_PER,Dear
 13648,13648,PRON_PER,me
 13652,13652,PRON_PER,you
 13665,13665,PRON_PER,I
@@ -1933,7 +1933,7 @@
 14301,14302,NOM_PER,neither family
 14310,14312,NOM_FAC,the Great House
 14314,14314,PRON_PER,they
-14324,14346,NOM_FAC,"the old - fashioned square parlour , with a small carpet and shining floor , to which the present daughters of the house"
+14324,14329,NOM_FAC,the old - fashioned square parlour
 14341,14346,NOM_PER,the present daughters of the house
 14389,14393,NOM_PER,the gentlemen in brown velvet
 14395,14399,NOM_PER,the ladies in blue satin
@@ -1974,6 +1974,7 @@
 14655,14655,PRON_PER,them
 14676,14676,PRON_PER,she
 14681,14681,PRON_PER,herself
+14683,14686,NOM_PER,either of her sisters
 14685,14685,PRON_PER,her
 14685,14686,NOM_PER,her sisters
 14688,14688,PRON_PER,They
@@ -1997,7 +1998,7 @@
 14889,14889,PRON_PER,our
 14897,14897,PRON_PER,her
 14904,14904,PRON_PER,she
-14919,14920,NOM_FAC,both houses
+14919,14922,NOM_FAC,both houses in Kellynch
 14922,14922,PROP_GPE,Kellynch
 14927,14927,PRON_PER,she
 14936,14936,PRON_PER,she
@@ -2006,7 +2007,7 @@
 14957,14958,PROP_PER,Sir Walter
 14960,14960,PRON_PER,your
 14960,14961,NOM_PER,your sister
-14969,14969,NOM_FAC,Bath
+14969,14969,PROP_GPE,Bath
 14971,14971,PRON_PER,you
 14973,14973,PRON_PER,they
 14991,14993,NOM_PER,the young ladies
@@ -2034,6 +2035,7 @@
 15129,15130,NOM_PER,the females
 15143,15143,NOM_PER,neighbours
 15152,15152,PRON_PER,She
+15161,15164,NOM_PER,every little social commonwealth
 15181,15192,NOM_PER,a not unworthy member of the one she was now transplanted into
 15188,15188,PRON_PER,she
 15204,15204,PROP_GPE,Uppercross
@@ -2096,6 +2098,7 @@
 15620,15621,NOM_PER,his wife
 15625,15625,PRON_PER,his
 15632,15632,PRON_PER,I
+15635,15635,PRON_PER,them
 15644,15644,PROP_PER,Mary
 15651,15651,PROP_PER,Anne
 15654,15654,PRON_PER,him
@@ -2150,13 +2153,12 @@
 15959,15960,NOM_PER,those children
 15962,15962,PRON_PER,They
 15968,15968,PRON_PER,you
-15977,15977,PRON_PER,they
 15986,15986,PRON_PER,you
 15990,15990,PRON_PER,your
 15990,15991,NOM_PER,your sister
 15997,15997,PRON_PER,them
 15999,15999,PRON_PER,They
-16001,16006,NOM_PER,as fine healthy children as ever
+16001,16008,NOM_PER,as fine healthy children as ever were seen
 16010,16012,NOM_PER,poor little dears
 16018,16019,PROP_PER,Mrs Charles
 16024,16024,PRON_PER,they
@@ -2225,7 +2227,7 @@
 16353,16353,PRON_PER,my
 16357,16357,PRON_PER,I
 16361,16361,PRON_PER,she
-16363,16380,NOM_PER,"such a fine - dressing lady , that she is enough to ruin any servants she comes near"
+16364,16368,NOM_PER,a fine - dressing lady
 16371,16371,PRON_PER,she
 16376,16380,NOM_PER,any servants she comes near
 16378,16378,PRON_PER,she
@@ -2330,16 +2332,16 @@
 17068,17070,NOM_PER,any other family
 17072,17072,PRON_PER,They
 17078,17079,NOM_PER,The girls
-17100,17108,NOM_PER,a family of cousins within a walk of Uppercross
+17100,17103,NOM_PER,a family of cousins
 17108,17108,PROP_GPE,Uppercross
 17118,17119,PROP_PER,the Musgroves
 17122,17122,PRON_PER,their
 17125,17125,PRON_PER,they
 17143,17143,PROP_PER,Anne
-17151,17151,NOM_PER,musician
-17153,17156,NOM_PER,a more active post
+17151,17156,NOM_PER,musician to a more active post
 17162,17162,PRON_PER,them
 17173,17173,PRON_PER,her
+17180,17180,PROP_PER,Mr
 17182,17183,PROP_PER,Mrs Musgrove
 17196,17197,PROP_PER,Miss Anne
 17204,17204,PROP_PER,Lord
@@ -2351,8 +2353,7 @@
 17245,17245,NOM_PER,others
 17268,17268,PRON_PER,She
 17282,17282,PRON_PER,she
-17291,17291,PROP_PER,Mary
-17295,17305,NOM_PER,on having occasion to note down the day of the month
+17291,17305,NOM_PER,"Mary , who , on having occasion to note down the day of the month"
 17311,17311,PRON_PER,me
 17318,17319,NOM_PER,the Crofts
 17324,17324,PROP_GPE,Kellynch
@@ -2391,6 +2392,7 @@
 17529,17529,PRON_PER,her
 17550,17551,PROP_PER,Mrs Croft
 17574,17574,PRON_PER,her
+17574,17575,NOM_PER,her person
 17577,17577,PRON_PER,She
 17593,17593,PRON_PER,her
 17604,17604,PRON_PER,her
@@ -2402,6 +2404,7 @@
 17629,17629,PRON_PER,her
 17637,17637,PRON_PER,Her
 17654,17654,PRON_PER,herself
+17657,17662,NOM_PER,no doubts of what to do
 17679,17679,PROP_PER,Anne
 17681,17681,PRON_PER,her
 17692,17692,PRON_PER,herself
@@ -2419,7 +2422,7 @@
 17794,17794,PRON_PER,my
 17794,17795,NOM_PER,my brother
 17805,17805,PRON_PER,he
-17808,17809,NOM_GPE,this country
+17808,17809,NOM_LOC,this country
 17812,17812,PROP_PER,Anne
 17814,17814,PRON_PER,she
 17827,17827,PRON_PER,she
@@ -2443,8 +2446,7 @@
 17930,17932,NOM_PER,their former neighbour
 17950,17950,PRON_PER,they
 17954,17954,PRON_PER,she
-17956,17957,NOM_PER,the Admiral
-17960,17960,PROP_PER,Mary--
+17956,17957,PROP_PER,the Admiral
 17962,17962,PRON_PER,We
 17965,17971,NOM_PER,a brother of Mrs Croft 's here
 17968,17969,PROP_PER,Mrs Croft
@@ -2456,7 +2458,6 @@
 17999,17999,PRON_PER,him
 18001,18003,NOM_PER,an old friend
 18007,18007,PRON_PER,he
-18021,18021,PRON_PER,them
 18024,18024,PRON_PER,his
 18040,18040,PRON_PER,he
 18044,18044,PROP_PER,Anne
@@ -2506,8 +2507,8 @@
 18371,18371,PROP_PER,mamma
 18376,18376,PRON_PER,they
 18381,18381,PROP_PER,Wentworth
+18393,18394,PROP_PER,poor Richard
 18393,18396,NOM_PER,poor Richard 's captain
-18394,18394,PROP_PER,Richard
 18401,18401,PRON_PER,I
 18414,18414,PRON_PER,he
 18417,18418,NOM_PER,poor fellow
@@ -2540,7 +2541,7 @@
 18605,18605,PRON_PER,they
 18608,18608,PRON_PER,him
 18612,18612,PRON_PER,him
-18615,18615,PROP_PER,Richard
+18614,18615,PROP_PER,poor Richard
 18622,18652,PROP_PER,"a thick - headed , unfeeling , unprofitable Dick Musgrove , who had never done anything to entitle himself to more than the abbreviation of his name , living or dead"
 18630,18631,PROP_PER,Dick Musgrove
 18640,18640,PRON_PER,himself
@@ -2551,7 +2552,7 @@
 18683,18684,NOM_PER,every captain
 18696,18698,PROP_PER,Captain Frederick Wentworth
 18696,18700,NOM_VEH,Captain Frederick Wentworth 's frigate
-18702,18703,PROP_LOC,the Laconia
+18702,18703,PROP_VEH,the Laconia
 18707,18708,PROP_LOC,the Laconia
 18709,18709,PRON_PER,he
 18716,18716,PRON_PER,his
@@ -2899,7 +2900,8 @@
 21040,21041,NOM_PER,your husband
 21044,21045,PROP_PER,little Charles
 21047,21047,PRON_PER,my
-21050,21053,PROP_PER,Mr and Mrs Musgrove
+21050,21050,PROP_PER,Mr
+21052,21053,PROP_PER,Mrs Musgrove
 21060,21060,PRON_PER,I
 21063,21063,PRON_PER,him
 21068,21068,PRON_PER,you
@@ -3089,7 +3091,7 @@
 22189,22189,PROP_PER,Mary
 22200,22202,PROP_PER,the Miss Musgroves
 22211,22212,NOM_FAC,the room
-22218,22220,NOM_PER,persons and voices
+22218,22218,NOM_PER,persons
 22229,22229,PROP_PER,Charles
 22231,22231,PRON_PER,himself
 22240,22240,PRON_PER,their
@@ -3126,7 +3128,6 @@
 22531,22531,PRON_PER,their
 22534,22535,NOM_FAC,the Cottage
 22536,22536,PRON_PER,she
-22542,22542,PROP_PER,Mary:--
 22544,22545,PROP_PER,Captain Wentworth
 22551,22551,PRON_PER,you
 22553,22553,PROP_PER,Anne
@@ -3599,7 +3600,6 @@
 25665,25665,PRON_PER,myself
 25669,25669,PRON_PER,he
 25680,25680,PRON_PER,them
-25699,25700,NOM_PER,all one
 25712,25712,NOM_PER,women
 25725,25725,NOM_PER,Admiral
 25732,25732,NOM_PER,women
@@ -3672,7 +3672,6 @@
 26072,26072,PRON_PER,you
 26084,26084,PRON_PER,us
 26084,26110,NOM_PER,"us poor sailors ' wives , who often want to be conveyed to one port or another , after our husbands , if everybody had your feelings"
-26097,26098,NOM_GPE,one port
 26103,26103,PRON_PER,our
 26103,26104,NOM_PER,our husbands
 26107,26107,NOM_PER,everybody
@@ -3725,14 +3724,13 @@
 26333,26333,PRON_PER,He
 26342,26344,NOM_PER,a great traveller
 26345,26345,PRON_PER,you
-26350,26350,NOM_PER,ma'am
 26354,26355,PROP_PER,Mrs Musgrove
 26357,26358,PROP_PER,Mrs Croft
 26364,26364,NOM_PER,ma'am
 26370,26370,PRON_PER,my
 26374,26375,NOM_PER,many women
 26380,26380,PRON_PER,I
-26383,26384,PROP_LOC,the Atlantic
+26383,26384,NOM_LOC,the Atlantic
 26393,26395,PROP_LOC,the East Indies
 26411,26411,NOM_FAC,home
 26413,26413,PROP_GPE,Cork
@@ -3767,7 +3765,6 @@
 26569,26570,NOM_VEH,a ship
 26573,26573,PRON_PER,we
 26577,26577,PRON_PER,you
-26588,26588,PROP_PER,God
 26590,26590,PRON_PER,I
 26600,26601,NOM_PER,no climate
 26604,26604,PRON_PER,me
@@ -3797,7 +3794,6 @@
 26790,26790,PRON_PER,I
 26797,26798,PROP_PER,Mr Musgrove
 26805,26805,PRON_PER,I
-26810,26810,PRON_PER,they
 26815,26815,PRON_PER,he
 26833,26833,PROP_PER,Anne
 26835,26835,PRON_PER,her
@@ -3809,10 +3805,11 @@
 26894,26894,PRON_PER,She
 26897,26897,PRON_PER,he
 26903,26903,PRON_PER,him
-26915,26918,NOM_PER,all the young women
+26916,26918,NOM_PER,the young women
 26923,26925,PROP_PER,The Miss Hayters
 26927,26935,NOM_PER,the females of the family of cousins already mentioned
 26930,26935,NOM_PER,the family of cousins already mentioned
+26933,26935,NOM_PER,cousins already mentioned
 26948,26948,PRON_PER,him
 26953,26953,PROP_PER,Henrietta
 26955,26955,PROP_PER,Louisa
@@ -3827,7 +3824,6 @@
 27048,27048,PRON_PER,he
 27052,27052,PRON_PER,herself
 27055,27055,PRON_PER,her
-27065,27065,PRON_PER,them
 27075,27075,PRON_PER,him
 27079,27079,PRON_PER,she
 27082,27082,PRON_PER,he
@@ -3849,7 +3845,6 @@
 27183,27183,PRON_PER,he
 27187,27189,PROP_PER,the Miss Musgroves
 27195,27195,PRON_PER,she
-27198,27202,NOM_FAC,that part of the room
 27201,27202,NOM_FAC,the room
 27204,27204,PRON_PER,he
 27206,27206,PRON_PER,her
@@ -3864,7 +3859,7 @@
 27270,27270,PRON_PER,his
 27281,27282,PROP_PER,Captain Wentworth
 27286,27286,PROP_GPE,Kellynch
-27289,27290,NOM_FAC,a home
+27290,27290,NOM_FAC,home
 27297,27297,PRON_PER,he
 27306,27307,NOM_PER,the Admiral
 27313,27313,PRON_PER,his
@@ -3898,6 +3893,7 @@
 27475,27475,PRON_PER,their
 27487,27489,NOM_PER,a third person
 27501,27501,PRON_PER,their
+27501,27502,NOM_FAC,their establishment
 27512,27513,PROP_PER,Captain Wentworth
 27515,27516,PROP_PER,the Musgroves
 27518,27518,PRON_PER,their
@@ -3935,10 +3931,9 @@
 27706,27707,PROP_PER,Mr Hayter
 27712,27712,PRON_PER,his
 27721,27722,PROP_PER,Mr Musgrove
-27721,27723,NOM_FAC,Mr Musgrove 's
 27727,27728,PROP_PER,the Musgroves
 27731,27738,NOM_PER,the first class of society in the country
-27737,27738,NOM_GPE,the country
+27737,27738,NOM_LOC,the country
 27740,27742,NOM_PER,the young Hayters
 27746,27746,PRON_PER,their
 27746,27747,NOM_PER,their parents
@@ -3946,8 +3941,7 @@
 27776,27776,PRON_PER,their
 27779,27779,PROP_GPE,Uppercross
 27781,27786,NOM_PER,this eldest son of course excepted
-27793,27794,NOM_PER,a scholar
-27796,27797,NOM_PER,a gentleman
+27793,27797,NOM_PER,a scholar and a gentleman
 27809,27811,NOM_PER,all the rest
 27813,27815,NOM_PER,The two families
 27846,27848,PROP_PER,the Miss Musgroves
@@ -3961,7 +3955,6 @@
 27871,27871,NOM_PER,mother
 27885,27885,PRON_PER,her
 27889,27889,PROP_PER,Henrietta
-27891,27891,PRON_PER,"him,""--"
 27893,27893,PROP_PER,Henrietta
 27898,27898,PRON_PER,him
 27900,27900,PROP_PER,Henrietta
@@ -3974,11 +3967,13 @@
 27947,27947,PROP_PER,Henrietta
 27953,27953,PROP_PER,Louisa
 27960,27960,PRON_PER,she
+27966,27973,NOM_PER,the more gentle or the more lively character
 27979,27979,PRON_PER,him
-27983,27984,PROP_PER,Mrs Musgrove
+27981,27984,PROP_PER,Mr and Mrs Musgrove
 28001,28001,PRON_PER,their
 28001,28002,NOM_PER,their daughters
-28007,28013,NOM_PER,the young men who came near them
+28007,28012,NOM_PER,the young men who came near
+28013,28013,PRON_PER,them
 28035,28035,PRON_PER,them
 28037,28040,NOM_FAC,the Mansion - house
 28047,28048,NOM_FAC,the Cottage
@@ -3990,7 +3985,6 @@
 28089,28089,PROP_PER,Anne
 28097,28097,PRON_PER,her
 28097,28098,NOM_PER,her brother
-28106,28109,NOM_PER,the one liked best
 28111,28111,PROP_PER,Charles
 28115,28115,PROP_PER,Louisa
 28117,28117,PROP_PER,Mary
@@ -4005,7 +3999,7 @@
 28163,28163,PRON_PER,he
 28202,28202,PRON_PER,he
 28205,28206,PROP_PER,Captain Wentworth
-28210,28220,NOM_PER,a man to distinguish himself as any officer in the navy
+28210,28211,NOM_PER,a man
 28214,28214,PRON_PER,himself
 28216,28220,NOM_PER,any officer in the navy
 28231,28234,NOM_PER,either of his sisters
@@ -4049,10 +4043,10 @@
 28459,28464,NOM_PER,the principal part of her family
 28463,28463,PRON_PER,her
 28463,28464,NOM_PER,her family
-28472,28478,NOM_PER,those who have not been used to
+28472,28479,NOM_PER,those who have not been used to them
 28479,28479,PRON_PER,them
 28487,28488,PROP_PER,Charles Hayter
-28492,28494,NOM_PER,a country curate
+28492,28494,NOM_FAC,a country curate
 28501,28504,PROP_PER,Miss Musgrove of Uppercross
 28507,28507,PRON_PER,Her
 28507,28508,NOM_PER,Her husband
@@ -4082,7 +4076,7 @@
 28639,28642,NOM_FAC,the farm near Taunton
 28642,28642,PROP_GPE,Taunton
 28646,28653,NOM_LOC,some of the best land in the country
-28652,28653,NOM_GPE,the country
+28652,28653,NOM_LOC,the country
 28655,28655,PRON_PER,I
 28657,28657,PRON_PER,you
 28662,28662,PRON_PER,them
@@ -4090,11 +4084,10 @@
 28672,28672,PROP_PER,Henrietta
 28681,28681,PRON_PER,he
 28692,28692,PRON_PER,he
-28703,28704,NOM_PER,a fellow
+28694,28704,NOM_PER,"a very good - natured , good sort of a fellow"
 28708,28708,PROP_PER,Winthrop
 28711,28711,PRON_PER,his
 28714,28714,PRON_PER,he
-28737,28738,NOM_FAC,that property
 28740,28740,PRON_PER,he
 28744,28746,NOM_PER,a contemptible man
 28757,28757,PROP_PER,Henrietta
@@ -4141,7 +4134,6 @@
 28959,28959,PRON_PER,you
 28967,28967,PRON_PER,me
 28973,28974,PROP_PER,Mr Musgrove
-28973,28975,NOM_FAC,Mr Musgrove 's
 28989,28989,PROP_PER,Anne
 28992,28992,PRON_PER,she
 28996,28996,NOM_FAC,home
@@ -4176,10 +4168,11 @@
 29196,29196,PRON_PER,She
 29203,29203,PRON_PER,him
 29221,29221,PRON_PER,him
-29230,29230,PROP_PER,Uppercross
+29230,29230,PROP_GPE,Uppercross
 29244,29249,NOM_PER,such a man as Captain Wentworth
 29248,29249,PROP_PER,Captain Wentworth
 29259,29259,PRON_PER,He
+29265,29265,PROP_PER,Sundays
 29269,29269,PRON_PER,they
 29274,29274,PRON_PER,her
 29282,29282,PRON_PER,his
@@ -4191,6 +4184,7 @@
 29316,29317,NOM_PER,the rector
 29333,29333,PRON_PER,his
 29333,29334,NOM_FAC,his office
+29345,29345,PRON_PER,them
 29353,29354,NOM_PER,a curate
 29358,29358,PRON_PER,his
 29364,29364,PRON_PER,he
@@ -4202,7 +4196,7 @@
 29413,29413,PRON_PER,their
 29413,29414,NOM_PER,their dear
 29415,29416,PROP_PER,Dr Shirley
-29422,29424,PROP_PER,good Dr Shirley
+29423,29424,PROP_PER,Dr Shirley
 29432,29432,PRON_PER,he
 29451,29451,PROP_PER,Louisa
 29459,29459,PROP_PER,Henrietta
@@ -4274,8 +4268,7 @@
 29832,29832,PRON_PER,they
 29841,29841,PRON_PER,her
 29846,29846,PRON_PER,she
-29848,29850,NOM_PER,some other person
-29852,29854,NOM_FAC,the little vestibule
+29848,29854,NOM_PER,some other person crossing the little vestibule
 29856,29856,PRON_PER,She
 29861,29861,PRON_PER,her
 29866,29870,NOM_PER,the master of the house
@@ -4288,7 +4281,6 @@
 29921,29921,PRON_PER,you
 29925,29925,PRON_PER,you
 29930,29931,NOM_PER,The others
-29934,29934,NOM_FAC,here
 29938,29939,PROP_PER,Captain Wentworth
 29945,29945,PRON_PER,his
 29957,29958,PROP_PER,Charles Hayter
@@ -4376,7 +4368,6 @@
 30430,30431,NOM_FAC,the room
 30433,30433,PRON_PER,She
 30451,30452,NOM_PER,the four
-30454,30454,PRON_PER,they
 30460,30460,PRON_PER,she
 30472,30473,PROP_PER,Charles Hayter
 30479,30480,PROP_PER,Captain Wentworth
@@ -4457,7 +4448,7 @@
 31017,31021,NOM_PER,the sisters in the Cottage
 31020,31021,NOM_FAC,the Cottage
 31028,31028,PRON_PER,they
-31035,31036,NOM_PER,the sisters
+31035,31041,NOM_PER,the sisters from the Mansion - house
 31038,31041,NOM_FAC,the Mansion - house
 31052,31054,PROP_PER,the Miss Musgroves
 31057,31059,NOM_FAC,the little grounds
@@ -4516,7 +4507,7 @@
 31479,31479,NOM_PER,sister
 31481,31481,PRON_PER,Her
 31518,31518,PRON_PER,herself
-31551,31552,NOM_PER,every poet
+31551,31568,NOM_PER,"every poet , worthy of being read , some attempt at description , or some lines of feeling"
 31570,31570,PRON_PER,She
 31572,31572,PRON_PER,her
 31596,31597,PROP_PER,Captain Wentworth
@@ -4577,8 +4568,7 @@
 31959,31959,PRON_PER,She
 31961,31961,PRON_PER,herself
 31966,31966,PRON_PER,they
-31971,31972,NOM_FAC,another path
-31983,31983,PROP_GPE,Winthrop
+31983,31983,PROP_PER,Winthrop
 31987,31987,NOM_PER,nobody
 31995,31995,NOM_PER,nobody
 31997,31997,PRON_PER,her
@@ -4588,9 +4578,11 @@
 32008,32009,NOM_PER,young men
 32021,32021,NOM_FAC,home
 32024,32024,PRON_PER,their
+32040,32043,NOM_FAC,the ploughs at work
 32046,32049,NOM_FAC,the fresh made path
-32051,32064,NOM_PER,"the farmer counteracting the sweets of poetical despondence , and meaning to have spring"
+32051,32052,NOM_PER,the farmer
 32067,32067,PRON_PER,they
+32069,32081,NOM_LOC,"the summit of the most considerable hill , which parted Uppercross and Winthrop"
 32072,32075,NOM_LOC,the most considerable hill
 32079,32079,PROP_PER,Uppercross
 32081,32081,PROP_GPE,Winthrop
@@ -4598,8 +4590,7 @@
 32097,32102,NOM_LOC,the hill on the other side
 32104,32104,PROP_GPE,Winthrop
 32115,32115,PRON_PER,them
-32117,32119,NOM_FAC,an indifferent house
-32128,32136,NOM_FAC,the barns and buildings of a farm - yard
+32117,32136,NOM_FAC,"an indifferent house , standing low , and hemmed in by the barns and buildings of a farm - yard"
 32133,32136,NOM_FAC,a farm - yard
 32138,32138,PROP_PER,Mary
 32143,32143,PRON_PER,me
@@ -4628,7 +4619,7 @@
 32292,32292,PRON_PER,her
 32297,32297,PRON_PER,he
 32303,32303,PRON_PER,herself
-32310,32310,PROP_FAC,Winthrop
+32310,32310,PROP_GPE,Winthrop
 32313,32313,PRON_PER,she
 32318,32318,PRON_PER,she
 32331,32332,NOM_LOC,that hill
@@ -4656,11 +4647,10 @@
 32451,32451,PROP_PER,Henrietta
 32453,32453,PROP_PER,Mary
 32461,32461,PRON_PER,her
-32466,32467,PROP_PER,Captain Wentworth--
 32480,32480,PRON_PER,I
 32482,32482,PRON_PER,you
 32484,32484,PRON_PER,I
-32489,32491,NOM_FAC,the house above
+32489,32490,NOM_FAC,the house
 32494,32494,PRON_PER,my
 32498,32498,PRON_PER,She
 32518,32518,PRON_PER,he
@@ -4668,10 +4658,11 @@
 32530,32534,NOM_LOC,The brow of the hill
 32533,32534,NOM_LOC,the hill
 32537,32537,PRON_PER,they
-32541,32543,NOM_LOC,a cheerful spot
+32541,32543,NOM_FAC,a cheerful spot
 32545,32545,PROP_PER,Louisa
 32549,32549,PROP_PER,Mary
 32556,32556,PRON_PER,herself
+32571,32572,NOM_PER,the others
 32576,32576,PRON_PER,her
 32580,32580,PROP_PER,Louisa
 32582,32583,PROP_PER,Captain Wentworth
@@ -4687,7 +4678,6 @@
 32661,32661,PRON_PER,them
 32663,32663,PROP_PER,Anne
 32669,32669,PRON_PER,her
-32672,32675,NOM_LOC,a dry sunny bank
 32685,32685,PRON_PER,she
 32690,32690,PRON_PER,their
 32700,32700,PROP_PER,Mary
@@ -4717,6 +4707,7 @@
 32854,32854,PRON_PER,I
 32862,32862,PRON_PER,I
 32874,32876,NOM_PER,such a person
+32880,32881,NOM_PER,any person
 32882,32882,PRON_PER,I
 32888,32888,PRON_PER,I
 32899,32899,PRON_PER,I
@@ -4724,7 +4715,6 @@
 32906,32906,PRON_PER,I
 32912,32912,PROP_PER,Henrietta
 32919,32919,PRON_PER,hers
-32923,32923,PROP_GPE,Winthrop
 32931,32931,PRON_PER,she
 32946,32946,PRON_PER,She
 32955,32955,PRON_PER,you
@@ -4762,7 +4752,6 @@
 33259,33259,PRON_PER,his
 33259,33260,NOM_PER,his brethren
 33291,33291,PRON_PER,his
-33298,33303,NOM_PER,all whom I am interested in
 33300,33300,PRON_PER,I
 33307,33307,PRON_PER,they
 33313,33314,PROP_PER,Louisa Musgrove
@@ -4813,8 +4802,9 @@
 33563,33563,PRON_PER,We
 33568,33568,PRON_PER,her
 33575,33575,NOM_PER,papa
-33577,33577,PROP_PER,mamma
+33577,33577,NOM_PER,mamma
 33582,33582,PRON_PER,her
+33582,33584,NOM_PER,her great friend
 33585,33586,PROP_PER,Lady Russell
 33591,33591,PRON_PER,she
 33595,33595,PRON_PER,They
@@ -4867,10 +4857,12 @@
 33899,33900,PROP_PER,Captain Wentworth
 33917,33917,PRON_PER,they
 33921,33921,PRON_PER,they
+33930,33932,NOM_PER,the other two
 33935,33940,NOM_LOC,a long strip of meadow land
-33939,33940,NOM_LOC,meadow land
 33950,33950,PRON_PER,they
 33956,33958,NOM_PER,three distinct parties
+33962,33976,NOM_PER,"that party of the three which boasted least animation , and least complaisance , Anne"
+33965,33974,NOM_PER,"the three which boasted least animation , and least complaisance"
 33976,33976,PROP_PER,Anne
 33980,33980,PRON_PER,She
 33982,33982,PROP_PER,Charles
@@ -4895,8 +4887,10 @@
 34121,34121,PRON_PER,him
 34126,34128,NOM_LOC,This long meadow
 34134,34134,PRON_PER,their
+34134,34135,NOM_FAC,their footpath
 34141,34141,PRON_FAC,it
 34148,34149,NOM_PER,the party
+34158,34159,NOM_VEH,the carriage
 34182,34183,PROP_PER,Admiral Croft
 34187,34187,PRON_PER,He
 34189,34189,PRON_PER,his
@@ -4908,7 +4902,7 @@
 34221,34227,NOM_PER,any lady who might be particularly tired
 34232,34232,PRON_PER,her
 34238,34238,PRON_PER,they
-34242,34242,PROP_GPE,Uppercross
+34242,34242,PROP_FAC,Uppercross
 34253,34255,PROP_PER,The Miss Musgroves
 34263,34263,PROP_PER,Mary
 34275,34276,NOM_PER,the others
@@ -4973,7 +4967,6 @@
 34585,34585,PRON_PER,he
 34593,34593,PRON_PER,her
 34611,34611,PRON_PER,her
-34618,34618,NOM_PER,another
 34621,34621,PRON_PER,he
 34625,34625,PRON_PER,her
 34633,34633,PRON_PER,her
@@ -4992,6 +4985,7 @@
 34729,34729,PRON_PER,them
 34733,34733,PROP_PER,Frederick
 34737,34737,PRON_PER,He
+34742,34748,NOM_PER,one or other of those two girls
 34746,34748,NOM_PER,those two girls
 34750,34750,PROP_PER,Sophy
 34754,34755,NOM_PER,the Admiral
@@ -5029,13 +5023,11 @@
 34953,34953,PRON_PER,I
 34955,34955,PROP_PER,Frederick
 34965,34965,PRON_PER,us
-34969,34971,NOM_PER,these young ladies
-34973,34973,PROP_GPE,Kellynch
+34969,34973,NOM_PER,these young ladies to Kellynch
+34973,34973,PROP_PER,Kellynch
 34982,34982,PRON_PER,them
-34985,34988,NOM_PER,very nice young ladies
 34989,34989,PRON_PER,they
 34993,34993,PRON_PER,I
-34998,34999,NOM_PER,the other
 35007,35008,NOM_PER,unaffected girls
 35014,35015,PROP_PER,Mrs Croft
 35027,35027,PROP_PER,Anne
@@ -5048,12 +5040,12 @@
 35059,35060,NOM_PER,better people
 35062,35062,PRON_PER,My
 35062,35063,NOM_PER,My dear
+35064,35064,PROP_PER,Admiral
 35069,35069,PRON_PER,we
 35086,35086,PRON_PER,herself
 35087,35087,PRON_PER,they
 35100,35100,PRON_PER,her
 35102,35102,PRON_PER,they
-35113,35116,NOM_VEH,a dung - cart
 35119,35119,PROP_PER,Anne
 35125,35125,PRON_PER,their
 35131,35131,PRON_PER,she
@@ -5111,7 +5103,7 @@
 35451,35451,PRON_PER,Her
 35454,35455,PROP_PER,little Charles
 35465,35465,PRON_PER,her
-35470,35470,NOM_GPE,there
+35470,35470,NOM_FAC,there
 35473,35473,PRON_PER,he
 35480,35480,PRON_PER,she
 35491,35491,PRON_PER,her
@@ -5130,6 +5122,7 @@
 35568,35569,NOM_PER,his family
 35571,35571,PROP_GPE,Lyme
 35577,35577,PRON_PER,their
+35588,35589,NOM_PER,each other
 35591,35592,PROP_PER,Captain Harville
 35604,35604,PRON_PER,he
 35611,35612,PROP_PER,Captain Wentworth
@@ -5155,6 +5148,7 @@
 35710,35710,PRON_PER,himself
 35718,35718,PROP_GPE,Uppercross
 35736,35736,PROP_PER,Louisa
+35744,35752,NOM_PER,"the eager , having formed the resolution to go"
 35761,35761,PRON_PER,she
 35774,35774,PRON_PER,her
 35784,35784,PRON_PER,her
@@ -5170,8 +5164,8 @@
 35814,35815,PROP_PER,Captain Wentworth
 35836,35837,PROP_PER,Mr Musgrove
 35843,35843,PRON_PER,his
-35873,35875,NOM_GPE,a new place
-35886,35887,NOM_LOC,the country
+35873,35875,NOM_LOC,a new place
+35886,35887,NOM_GPE,the country
 35895,35895,PRON_PER,They
 35930,35930,PRON_PER,they
 35934,35936,NOM_FAC,the Great House
@@ -5180,12 +5174,11 @@
 35961,35964,NOM_VEH,Mr Musgrove 's coach
 35966,35968,NOM_PER,the four ladies
 35971,35971,PROP_PER,Charles
-35971,35973,NOM_VEH,Charles 's curricle
 35977,35977,PRON_PER,he
 35979,35980,PROP_PER,Captain Wentworth
 35984,35986,NOM_LOC,the long hill
 35988,35988,PROP_GPE,Lyme
-35993,35996,NOM_FAC,the still steeper street
+35993,36000,NOM_FAC,the still steeper street of the town itself
 35998,35999,NOM_GPE,the town
 36007,36007,PRON_PER,they
 36017,36017,PRON_PER,them
@@ -5194,7 +5187,7 @@
 36057,36058,NOM_LOC,the sea
 36060,36060,PRON_PER,They
 36074,36074,PROP_GPE,Lyme
-36077,36079,NOM_GPE,a public place
+36077,36079,NOM_FAC,a public place
 36084,36085,NOM_FAC,The rooms
 36090,36091,NOM_PER,the lodgers
 36096,36098,NOM_PER,scarcely any family
@@ -5205,6 +5198,7 @@
 36131,36132,NOM_LOC,the water
 36137,36138,PROP_FAC,the Cobb
 36142,36145,NOM_LOC,the pleasant little bay
+36161,36163,NOM_FAC,the Cobb itself
 36165,36165,PRON_FAC,its
 36182,36186,NOM_LOC,the east of the town
 36185,36186,NOM_GPE,the town
@@ -5214,23 +5208,22 @@
 36216,36216,PROP_GPE,Lyme
 36220,36220,PRON_PER,him
 36230,36230,PRON_FAC,its
-36230,36231,NOM_FAC,its neighbourhood
+36230,36231,NOM_LOC,its neighbourhood
 36233,36233,PROP_GPE,Charmouth
 36236,36236,PRON_FAC,its
-36236,36243,NOM_LOC,its high grounds and extensive sweeps of country
+36240,36243,NOM_LOC,extensive sweeps of country
 36249,36249,PRON_FAC,its
 36249,36253,NOM_LOC,"its sweet , retired bay"
 36257,36267,NOM_LOC,"dark cliffs , where fragments of low rock among the sands"
 36270,36270,PRON_LOC,it
 36271,36273,NOM_LOC,the happiest spot
+36288,36297,NOM_FAC,the woody varieties of the cheerful village of Up Lyme
 36292,36297,NOM_GPE,the cheerful village of Up Lyme
 36304,36304,PROP_GPE,Pinny
 36307,36307,PRON_FAC,its
-36311,36312,NOM_LOC,romantic rocks
 36327,36329,NOM_PER,many a generation
-36372,36378,NOM_LOC,the far - famed Isle of Wight
-36378,36378,PROP_GPE,Wight
-36380,36381,NOM_GPE,these places
+36372,36378,NOM_GPE,the far - famed Isle of Wight
+36380,36381,NOM_FAC,these places
 36395,36395,PROP_GPE,Lyme
 36398,36401,NOM_PER,The party from Uppercross
 36401,36401,PROP_GPE,Uppercross
@@ -5239,10 +5232,10 @@
 36421,36424,NOM_LOC,the sea - shore
 36431,36431,NOM_PER,all
 36441,36442,NOM_LOC,the sea
-36456,36457,NOM_FAC,the Cobb
+36456,36457,PROP_LOC,the Cobb
 36460,36460,PRON_PER,their
 36466,36467,PROP_PER,Captain Wentworth
-36473,36486,NOM_FAC,"a small house , near the foot of an old pier of unknown date"
+36473,36475,NOM_FAC,a small house
 36481,36486,NOM_FAC,an old pier of unknown date
 36489,36490,PROP_PER,the Harvilles
 36493,36494,PROP_PER,Captain Wentworth
@@ -5251,7 +5244,7 @@
 36503,36504,NOM_PER,the others
 36509,36509,PRON_PER,he
 36513,36513,PRON_PER,them
-36515,36516,NOM_FAC,the Cobb
+36515,36516,PROP_FAC,the Cobb
 36518,36518,PRON_PER,They
 36532,36532,PROP_PER,Louisa
 36537,36537,PRON_PER,they
@@ -5259,10 +5252,10 @@
 36546,36546,PRON_PER,they
 36548,36548,PRON_PER,him
 36551,36551,PRON_PER,them
-36554,36570,NOM_PER,"three companions , all well known already , by description , to be Captain and Mrs Harville"
+36554,36555,NOM_PER,three companions
 36567,36567,NOM_PER,Captain
 36569,36570,PROP_PER,Mrs Harville
-36573,36581,PROP_PER,"a Captain Benwick , who was staying with them"
+36573,36575,PROP_PER,a Captain Benwick
 36581,36581,PRON_PER,them
 36583,36584,PROP_PER,Captain Benwick
 36590,36594,NOM_PER,first lieutenant of the Laconia
@@ -5274,7 +5267,6 @@
 36614,36614,PRON_PER,his
 36618,36618,PRON_PER,him
 36620,36623,NOM_PER,an excellent young man
-36625,36626,NOM_PER,an officer
 36629,36629,PRON_PER,he
 36639,36639,PRON_PER,him
 36645,36646,NOM_PER,every listener
@@ -5296,7 +5288,7 @@
 36745,36746,PROP_PER,Captain Wentworth
 36751,36751,NOM_PER,man
 36757,36757,NOM_PER,woman
-36760,36760,PROP_PER,Benwick
+36759,36760,PROP_PER,poor Benwick
 36764,36765,PROP_PER,Fanny Harville
 36778,36778,PRON_PER,He
 36780,36780,PRON_PER,his
@@ -5321,7 +5313,6 @@
 36940,36940,PROP_PER,Anne
 36942,36942,PRON_PER,herself
 36945,36945,PRON_PER,they
-36951,36952,NOM_PER,the party
 36955,36955,PRON_PER,he
 36966,36966,PRON_PER,I
 36969,36969,PRON_PER,I
@@ -5333,7 +5324,7 @@
 37013,37013,PRON_PER,They
 37021,37022,PROP_PER,Captain Harville
 37024,37035,NOM_PER,"a tall , dark man , with a sensible , benevolent countenance"
-37037,37039,NOM_PER,a little lame
+37037,37048,NOM_PER,a little lame ; and from strong features and want of health
 37054,37055,PROP_PER,Captain Wentworth
 37057,37058,PROP_PER,Captain Benwick
 37076,37076,PRON_PER,them
@@ -5342,11 +5333,12 @@
 37094,37094,PRON_PER,he
 37105,37106,PROP_PER,Captain Harville
 37111,37112,PROP_PER,Captain Wentworth
-37117,37126,NOM_PER,"a perfect gentleman , unaffected , warm , and obliging"
+37117,37119,NOM_PER,a perfect gentleman
 37128,37129,PROP_PER,Mrs Harville
 37136,37136,PRON_PER,her
 37136,37137,NOM_PER,her husband
 37157,37157,PRON_PER,their
+37165,37165,NOM_PER,friends
 37167,37167,PRON_PER,their
 37171,37175,NOM_PER,the friends of Captain Wentworth
 37174,37175,PROP_PER,Captain Wentworth
@@ -5356,7 +5348,7 @@
 37199,37200,NOM_FAC,the inn
 37215,37215,PRON_PER,they
 37220,37221,PROP_PER,Captain Wentworth
-37225,37229,NOM_ORG,any such party to Lyme
+37225,37227,NOM_PER,any such party
 37229,37229,PROP_GPE,Lyme
 37240,37240,PRON_PER,they
 37244,37244,PRON_PER,them
@@ -5369,22 +5361,23 @@
 37317,37318,NOM_PER,my friends
 37322,37322,PRON_PER,her
 37326,37326,PRON_PER,she
-37339,37340,PROP_FAC,the Cobb
+37339,37340,NOM_FAC,the Cobb
 37342,37342,PRON_PER,they
 37349,37349,PRON_PER,their
 37349,37351,NOM_PER,their new friends
+37355,37355,NOM_FAC,rooms
 37361,37366,NOM_PER,those who invite from the heart
-37372,37373,NOM_PER,so many
 37375,37375,PROP_PER,Anne
 37384,37384,PRON_PER,herself
 37409,37410,PROP_PER,Captain Harville
 37427,37429,NOM_FAC,lodging - house
 37454,37455,NOM_FAC,the rooms
-37463,37470,NOM_PER,"the owner , in the common indifferent plight"
+37463,37464,NOM_PER,the owner
 37496,37503,NOM_LOC,all the distant countries Captain Harville had visited
 37500,37501,PROP_PER,Captain Harville
 37510,37510,PROP_PER,Anne
 37518,37518,PRON_PER,his
+37524,37524,PRON_PER,its
 37533,37533,PRON_PER,his
 37549,37549,PRON_PER,her
 37560,37561,PROP_PER,Captain Harville
@@ -5411,7 +5404,7 @@
 37687,37687,PROP_PER,Louisa
 37691,37691,PRON_PER,she
 37693,37693,PRON_PER,herself
-37708,37709,NOM_PER,the navy
+37708,37709,NOM_ORG,the navy
 37711,37711,PRON_PER,their
 37714,37714,PRON_PER,their
 37717,37717,PRON_PER,their
@@ -5787,7 +5780,6 @@
 40278,40279,NOM_PER,his servant
 40282,40282,PRON_PER,he
 40285,40287,NOM_PER,the Kellynch family
-40293,40293,NOM_PER,ma'am
 40295,40295,PRON_PER,he
 40299,40301,NOM_PER,no particular family
 40304,40304,PRON_PER,he
@@ -5946,7 +5938,6 @@
 41244,41245,NOM_PER,the Grappler
 41250,41250,PROP_GPE,Portsmouth
 41257,41257,PRON_PER,him
-41267,41267,PRON_PER,I.
 41268,41268,PRON_PER,I
 41277,41280,NOM_FAC,the yard - arm
 41282,41282,NOM_PER,Nobody
@@ -5960,7 +5951,7 @@
 41322,41322,PRON_PER,his
 41346,41346,PRON_PER,he
 41349,41349,PROP_GPE,Portsmouth
-41354,41355,PROP_PER,the Grappler
+41354,41355,NOM_PER,the Grappler
 41362,41364,NOM_PER,the poor fellow
 41372,41372,PRON_PER,he
 41376,41377,NOM_PER,nobody else
@@ -6006,6 +5997,7 @@
 41666,41666,PRON_PER,she
 41669,41669,PRON_PER,him
 41671,41671,PRON_PER,her
+41696,41702,NOM_FAC,the high part of the new Cobb
 41700,41702,NOM_FAC,the new Cobb
 41705,41706,NOM_PER,the ladies
 41709,41709,PRON_PER,they
@@ -6084,7 +6076,6 @@
 42156,42156,PROP_PER,Anne
 42165,42166,PROP_PER,Captain Wentworth
 42173,42173,PRON_PER,his
-42183,42183,PROP_PER,God
 42185,42185,PRON_PER,her
 42185,42186,NOM_PER,her father
 42188,42188,NOM_PER,mother
@@ -6247,7 +6238,6 @@
 43343,43344,PROP_PER,Miss Musgrove
 43355,43355,PRON_PER,her
 43357,43358,PROP_PER,Mrs Harville
-43357,43360,NOM_FAC,Mrs Harville 's care
 43363,43364,PROP_PER,Mrs Harville
 43366,43369,NOM_PER,a very experienced nurse
 43372,43372,PRON_PER,her
@@ -6311,6 +6301,7 @@
 43802,43802,NOM_PER,one
 43806,43807,PROP_PER,Mrs Harville
 43809,43809,PRON_PER,I
+43814,43815,NOM_PER,only one
 43817,43819,PROP_PER,Mrs Charles Musgrove
 43830,43830,PRON_PER,her
 43830,43831,NOM_PER,her children
@@ -6362,7 +6353,6 @@
 44175,44175,PRON_PER,her
 44175,44176,NOM_PER,her sister
 44186,44186,PROP_PER,Henrietta
-44186,44188,NOM_FAC,Henrietta 's stead
 44193,44193,PRON_PER,she
 44199,44199,PROP_PER,Anne
 44204,44204,NOM_FAC,home
@@ -6494,7 +6484,8 @@
 45078,45079,NOM_VEH,the carriage
 45081,45081,PRON_PER,her
 45084,45084,PRON_PER,I
-45091,45094,PROP_PER,Mr and Mrs Musgrove
+45091,45091,PROP_PER,Mr
+45093,45094,PROP_PER,Mrs Musgrove
 45097,45097,PRON_PER,you
 45106,45106,PRON_PER,She
 45109,45109,PRON_PER,he
@@ -6516,7 +6507,6 @@
 45250,45252,NOM_FAC,the Mansion House
 45255,45255,PRON_PER,she
 45261,45261,PRON_PER,herself
-45264,45264,NOM_GPE,there
 45268,45270,NOM_PER,an immediate companion
 45286,45286,PROP_PER,Mr
 45288,45289,PROP_PER,Mrs Musgrove
@@ -6558,7 +6548,7 @@
 45532,45532,PRON_PER,his
 45553,45553,PROP_GPE,Crewkherne
 45556,45556,PROP_PER,Charles
-45559,45647,NOM_PER,"a far more useful person in the old nursery - maid of the family , one who having brought up all the children , and seen the very last , the lingering and long - petted Master Harry , sent to school after his brothers , was now living in her deserted nursery to mend stockings and dress all the blains and bruises she could get near her , and who , consequently , was only too happy in being allowed to go and help nurse dear Miss Louisa"
+45559,45603,NOM_PER,"a far more useful person in the old nursery - maid of the family , one who having brought up all the children , and seen the very last , the lingering and long - petted Master Harry , sent to school after his brothers"
 45565,45572,NOM_PER,the old nursery - maid of the family
 45571,45572,NOM_PER,the family
 45579,45581,NOM_PER,all the children
@@ -6569,7 +6559,7 @@
 45609,45611,NOM_FAC,her deserted nursery
 45622,45622,PRON_PER,she
 45626,45626,PRON_PER,her
-45646,45647,PROP_PER,Miss Louisa
+45645,45647,PROP_PER,dear Miss Louisa
 45653,45654,PROP_PER,Sarah thither
 45660,45661,PROP_PER,Mrs Musgrove
 45663,45663,PROP_PER,Henrietta
@@ -6633,6 +6623,7 @@
 46077,46077,PRON_PER,her
 46110,46111,PROP_PER,Anne Elliot
 46156,46157,PROP_PER,Lady Russell
+46156,46159,NOM_VEH,Lady Russell 's carriage
 46172,46172,PRON_PER,she
 46176,46178,NOM_FAC,the Mansion House
 46185,46186,NOM_FAC,the Cottage
@@ -6817,7 +6808,6 @@
 47426,47426,PRON_PER,her
 47444,47444,PRON_PER,her
 47471,47486,NOM_PER,"a couple of steady , sensible women , whose judgements had to work on ascertained events"
-47474,47486,NOM_PER,"steady , sensible women , whose judgements had to work on ascertained events"
 47523,47524,PROP_PER,Miss Musgrove
 47535,47535,PRON_PER,she
 47546,47547,NOM_PER,The Admiral
@@ -6832,6 +6822,7 @@
 47646,47646,PRON_PER,you
 47650,47650,PRON_PER,he
 47665,47665,PRON_PER,us
+47666,47666,NOM_FAC,here
 47668,47668,PRON_PER,I
 47675,47675,PRON_PER,I
 47699,47704,NOM_FAC,all the rooms in the house
@@ -6877,6 +6868,7 @@
 47969,47969,PRON_PER,we
 47981,47981,PRON_PER,My
 47981,47982,NOM_PER,My wife
+47988,47988,PRON_PER,them
 47992,47992,PRON_PER,I
 48008,48008,PRON_PER,my
 48008,48011,NOM_FAC,my dressing - room
@@ -6958,7 +6950,7 @@
 48469,48469,PRON_PER,their
 48472,48472,PROP_GPE,Uppercross
 48473,48473,PRON_PER,they
-48477,48478,NOM_FAC,the Lodge
+48477,48478,PROP_FAC,the Lodge
 48480,48480,PRON_PER,They
 48483,48483,PROP_PER,Louisa
 48490,48490,PRON_PER,her
@@ -7134,7 +7126,7 @@
 49513,49513,PRON_PER,you
 49522,49522,PRON_PER,I
 49525,49525,PRON_PER,you
-49527,49527,NOM_PER,ma'am
+49527,49527,PRON_PER,ma'am
 49531,49531,PROP_PER,Charles
 49535,49535,PRON_PER,he
 49543,49543,PRON_PER,us
@@ -7179,7 +7171,6 @@
 49745,49745,PRON_PER,him
 49747,49747,PRON_PER,I
 49749,49749,PRON_PER,you
-49751,49751,NOM_PER,ma'am
 49753,49753,PRON_PER,He
 49755,49763,NOM_PER,one of the dullest young men that ever lived
 49765,49765,PRON_PER,He
@@ -7217,6 +7208,7 @@
 49917,49917,PRON_PER,his
 49924,49925,NOM_PER,a person
 49928,49928,PRON_PER,him
+49932,49932,NOM_PER,one
 49934,49934,NOM_PER,one
 49944,49944,PRON_PER,you
 49946,49947,PROP_PER,Lady Russell
@@ -7509,7 +7501,6 @@
 51756,51756,NOM_PER,Everybody
 51761,51761,PRON_PER,them
 51763,51763,PRON_PER,They
-51779,51784,NOM_PER,people of whom they knew nothing
 51782,51782,PRON_PER,they
 51793,51793,PROP_PER,Anne
 51796,51796,PRON_PER,her
@@ -7713,7 +7704,7 @@
 53243,53244,PROP_PER,Mr Elliot
 53247,53247,PRON_PER,her
 53250,53253,NOM_PER,a most charming woman
-53261,53262,NOM_FAC,Camden Place
+53261,53262,PROP_FAC,Camden Place
 53269,53269,PRON_PER,she
 53271,53271,PRON_PER,they
 53277,53278,PROP_PER,Sir Walter
@@ -7738,10 +7729,9 @@
 53400,53401,PROP_FAC,Bond Street
 53403,53403,PRON_PER,he
 53406,53409,NOM_PER,eighty - seven women
-53413,53415,NOM_PER,one after another
 53424,53424,PRON_PER,them
 53442,53447,NOM_PER,hardly one woman in a thousand
-53464,53467,NOM_PER,ugly women in Bath
+53460,53467,NOM_PER,a dreadful multitude of ugly women in Bath
 53467,53467,PROP_GPE,Bath
 53472,53473,NOM_PER,the men
 53475,53475,PRON_PER,they
@@ -7751,6 +7741,7 @@
 53509,53513,NOM_PER,a man of decent appearance
 53516,53516,PRON_PER,He
 53527,53528,PROP_PER,Colonel Wallis
+53532,53540,NOM_PER,"a fine military figure , though sandy - haired"
 53545,53546,NOM_PER,every woman
 53551,53551,PRON_PER,him
 53553,53554,NOM_PER,every woman
@@ -7833,7 +7824,6 @@
 54079,54079,PRON_PER,his
 54086,54086,PRON_PER,his
 54108,54108,PRON_PER,she
-54111,54111,PRON_PER,them
 54116,54117,NOM_PER,one person
 54128,54128,PRON_PER,they
 54136,54136,PRON_PER,He
@@ -7957,6 +7947,7 @@
 54898,54898,PRON_PER,you
 54903,54903,PROP_PER,Bath
 54905,54905,PRON_PER,You
+54908,54908,NOM_FAC,here
 54914,54914,PRON_PER,You
 54920,54920,PRON_PER,us
 54923,54923,PRON_PER,You
@@ -8115,7 +8106,6 @@
 56110,56110,NOM_PER,sister
 56117,56117,PRON_PER,she
 56122,56122,PRON_PER,them
-56125,56125,PROP_GPE,Bath
 56133,56136,PROP_PER,the Dowager Viscountess Dalrymple
 56139,56139,PRON_PER,her
 56139,56140,NOM_PER,her daughter
@@ -8409,7 +8399,6 @@
 58108,58123,NOM_PER,"the elegant little woman of seven - and - twenty , with every beauty except bloom"
 58132,58132,PRON_PER,they
 58142,58151,NOM_PER,"the fine - looking , well - grown Miss Hamilton"
-58150,58151,PROP_PER,Miss Hamilton
 58165,58171,NOM_PER,"a poor , infirm , helpless widow"
 58177,58177,PRON_PER,her
 58177,58179,NOM_PER,her former protegee
@@ -8524,7 +8513,6 @@
 59066,59066,PRON_PER,me
 59068,59068,PRON_PER,she
 59085,59085,NOM_PER,one
-59087,59087,NOM_PER,one
 59092,59092,NOM_PER,One
 59117,59117,PRON_PER,me
 59125,59125,PRON_PER,her
@@ -8655,7 +8643,8 @@
 60064,60065,PROP_PER,Mrs Smith
 60068,60069,PROP_FAC,Westgate Buildings
 60071,60082,NOM_PER,"A poor widow barely able to live , between thirty and forty"
-60084,60087,NOM_PER,a mere Mrs Smith
+60086,60087,PROP_PER,Mrs Smith
+60089,60104,NOM_PER,"an every - day Mrs Smith , of all people and all names in the world"
 60093,60094,PROP_PER,Mrs Smith
 60103,60104,NOM_LOC,the world
 60108,60114,NOM_PER,the chosen friend of Miss Anne Elliot
@@ -8682,7 +8671,6 @@
 60212,60212,PRON_PER,himself
 60217,60218,PROP_PER,Mrs Smith
 60221,60225,NOM_PER,the only widow in Bath
-60225,60225,PROP_GPE,Bath
 60243,60243,PROP_PER,Anne
 60245,60245,PRON_PER,her
 60248,60249,NOM_PER,the others
@@ -8690,7 +8678,6 @@
 60256,60256,PRON_PER,she
 60262,60262,PRON_PER,they
 60269,60269,PRON_PER,She
-60272,60278,NOM_PER,the only one of the set absent
 60276,60278,NOM_PER,the set absent
 60281,60282,PROP_PER,Sir Walter
 60284,60284,PROP_PER,Elizabeth
@@ -8698,7 +8685,6 @@
 60291,60292,NOM_PER,her ladyship
 60295,60295,PRON_PER,themselves
 60306,60306,PRON_PER,her
-60309,60309,NOM_PER,others
 60320,60321,PROP_PER,Lady Russell
 60323,60324,PROP_PER,Mr Elliot
 60327,60328,PROP_PER,Mr Elliot
@@ -8762,6 +8748,7 @@
 60719,60719,PRON_PER,him
 60721,60721,PRON_PER,I
 60729,60729,PRON_PER,your
+60734,60737,NOM_PER,A most suitable connection
 60738,60738,NOM_PER,everybody
 60744,60744,PRON_PER,I
 60756,60757,PROP_PER,Mr Elliot
@@ -8775,7 +8762,7 @@
 60807,60807,PRON_PER,you
 60809,60813,NOM_PER,the future mistress of Kellynch
 60813,60813,PROP_PER,Kellynch
-60815,60818,PROP_PER,the future Lady Elliot
+60815,60818,NOM_PER,the future Lady Elliot
 60825,60825,PRON_PER,you
 60827,60827,PRON_PER,your
 60827,60829,NOM_PER,your dear mother
@@ -8933,7 +8920,6 @@
 61885,61885,PRON_PER,her
 61901,61901,PRON_PER,My
 61901,61902,NOM_PER,My dear
-61903,61903,PROP_PER,"Anne,--I"
 61908,61908,PRON_PER,my
 61912,61912,PRON_PER,I
 61915,61916,NOM_PER,little people
@@ -9066,7 +9052,7 @@
 62678,62678,PRON_PER,them
 62682,62682,PRON_PER,Our
 62682,62683,NOM_FAC,Our neighbourhood
-62688,62690,NOM_PER,a pleasant family
+62687,62690,NOM_PER,such a pleasant family
 62695,62695,PROP_PER,Louisa
 62697,62697,PRON_PER,I
 62705,62705,PRON_PER,you
@@ -9147,7 +9133,7 @@
 63127,63127,PRON_PER,her
 63129,63129,PRON_PER,they
 63134,63135,PROP_PER,Sir Walter
-63140,63141,NOM_PER,the Crofts
+63140,63141,PROP_PER,the Crofts
 63149,63149,PRON_PER,they
 63156,63160,NOM_LOC,such a part of Bath
 63160,63160,PROP_GPE,Bath
@@ -9419,7 +9405,8 @@
 64796,64796,PRON_PER,my
 64803,64803,PRON_PER,I
 64809,64809,PRON_PER,I
-64812,64814,NOM_PER,a woman there
+64812,64813,NOM_PER,a woman
+64814,64814,NOM_FAC,there
 64816,64816,NOM_PER,Lord
 64834,64834,PRON_PER,they
 64843,64843,PRON_PER,you
@@ -9520,7 +9507,7 @@
 65269,65269,PRON_PER,him
 65271,65271,PRON_PER,his
 65278,65278,PRON_PER,they
-65282,65282,PROP_GPE,Belmont
+65282,65282,PROP_PER,Belmont
 65284,65284,PRON_PER,he
 65290,65290,PRON_PER,you
 65297,65297,PRON_PER,you
@@ -9635,7 +9622,7 @@
 65989,65989,PRON_PER,he
 65991,65991,PRON_PER,us
 65996,65996,PRON_PER,he
-66005,66005,PROP_PER,Harville
+66005,66005,PROP_GPE,Harville
 66013,66013,PROP_GPE,Uppercross
 66015,66015,PRON_PER,I
 66017,66017,PRON_PER,they
@@ -9743,7 +9730,7 @@
 66639,66640,PROP_PER,Miss Elliot
 66648,66648,NOM_FAC,home
 66650,66651,PROP_PER,Lady Dalrymple
-66650,66662,NOM_VEH,"Lady Dalrymple 's carriage , which was seen waiting at a little distance"
+66650,66653,NOM_VEH,Lady Dalrymple 's carriage
 66664,66664,PRON_PER,she
 66666,66666,PROP_PER,Anne
 66669,66670,PROP_PER,Mrs Clay
@@ -9786,7 +9773,6 @@
 66930,66931,NOM_PER,his cousin
 66932,66932,PROP_PER,Anne
 66946,66947,PROP_PER,Mrs Clay
-66951,66955,NOM_PER,the party in the carriage
 66954,66955,NOM_VEH,the carriage
 66958,66958,PRON_PER,they
 66966,66966,PROP_PER,Anne
@@ -9819,11 +9805,12 @@
 67117,67117,PRON_PER,her
 67120,67120,PRON_PER,she
 67127,67127,PRON_PER,her
+67136,67138,NOM_PER,the other half
 67152,67152,PRON_PER,She
 67159,67159,PRON_PER,She
 67173,67174,PROP_PER,Captain Wentworth
 67175,67175,PRON_PER,himself
-67178,67183,NOM_PER,a party of gentlemen and ladies
+67178,67187,NOM_PER,"a party of gentlemen and ladies , evidently his acquaintance"
 67181,67181,NOM_PER,gentlemen
 67183,67183,NOM_PER,ladies
 67186,67186,PRON_PER,his
@@ -9887,15 +9874,14 @@
 67589,67592,NOM_VEH,Lady Dalrymple 's carriage
 67596,67597,PROP_PER,Miss Elliot
 67607,67608,NOM_PER,the servant
-67640,67643,NOM_PER,all the little crowd
-67645,67646,NOM_FAC,the shop
+67641,67646,NOM_PER,the little crowd in the shop
 67649,67650,PROP_PER,Lady Dalrymple
 67655,67656,PROP_PER,Miss Elliot
 67660,67661,PROP_PER,Miss Elliot
 67663,67663,PRON_PER,her
 67663,67664,NOM_PER,her friend
 67669,67670,NOM_PER,the servant
-67676,67679,NOM_PER,no cousin returned )
+67676,67677,NOM_PER,no cousin
 67686,67687,PROP_PER,Captain Wentworth
 67690,67690,PRON_PER,them
 67695,67695,PROP_PER,Anne
@@ -9927,14 +9913,13 @@
 67869,67869,PRON_PER,I
 67874,67875,PROP_PER,Mr Elliot
 67877,67877,PRON_PER,He
-67880,67880,NOM_FAC,here
 67885,67885,PRON_PER,I
 67890,67890,PRON_PER,She
 67897,67898,PROP_PER,Mr Elliot
 67902,67903,PROP_PER,Captain Wentworth
 67905,67905,PRON_PER,him
 67913,67913,PRON_PER,him
-67915,67924,NOM_PER,the man who had stood on the steps at Lyme
+67915,67945,NOM_PER,"the man who had stood on the steps at Lyme , admiring Anne as she passed , except in the air and look and manner of the privileged relation and friend"
 67924,67924,PROP_GPE,Lyme
 67927,67927,PROP_PER,Anne
 67929,67929,PRON_PER,she
@@ -9974,6 +9959,7 @@
 68142,68142,PRON_PER,She
 68146,68146,PRON_PER,I
 68149,68150,PROP_PER,Anne Elliot
+68156,68156,NOM_PER,one
 68161,68161,PRON_PER,her
 68173,68173,PRON_PER,I
 68175,68175,PRON_PER,I
@@ -10041,7 +10027,7 @@
 68570,68570,PRON_PER,him
 68583,68583,PRON_PER,him
 68590,68591,NOM_FAC,the street
-68595,68599,NOM_PER,many other men about him
+68595,68597,NOM_PER,many other men
 68599,68599,PRON_PER,him
 68601,68606,NOM_PER,many groups walking the same way
 68613,68613,PRON_PER,him
@@ -10084,8 +10070,8 @@
 68851,68852,PROP_PER,Mrs Frankland
 68855,68855,PRON_PER,me
 68860,68860,PRON_PER,They
-68870,68879,NOM_FAC,one of the houses on this side of the way
-68872,68873,NOM_FAC,the houses
+68870,68886,NOM_FAC,"one of the houses on this side of the way , and this part of the street"
+68872,68879,NOM_FAC,the houses on this side of the way
 68882,68886,NOM_LOC,this part of the street
 68885,68886,NOM_FAC,the street
 68898,68898,PROP_GPE,Bath
@@ -10222,7 +10208,6 @@
 69834,69835,NOM_PER,a surgeon
 69837,69837,PRON_PER,you
 69843,69843,PRON_PER,his
-69846,69853,NOM_PER,one of those most concerned in her recovery
 69852,69852,PRON_PER,her
 69858,69858,PRON_PER,I
 69867,69867,PRON_PER,I
@@ -10292,6 +10277,7 @@
 70410,70410,PROP_PER,Louisa
 70418,70418,PRON_PER,I
 70436,70436,PRON_PER,my
+70440,70440,PRON_PER,mine
 70442,70442,PRON_PER,She
 70449,70449,PRON_PER,I
 70455,70458,NOM_LOC,The country round Lyme
@@ -10347,6 +10333,7 @@
 70865,70865,PRON_PER,she
 70872,70872,PRON_PER,she
 70874,70874,PRON_PER,herself
+70880,70881,NOM_PER,the party
 70898,70898,PRON_PER,She
 70906,70906,PRON_PER,She
 70912,70912,PRON_PER,her
@@ -10444,6 +10431,7 @@
 71589,71589,PROP_PER,Anne
 71611,71611,PRON_PER,she
 71615,71616,NOM_PER,the tender
+71620,71621,NOM_PER,the gay
 71663,71663,PRON_PER,she
 71671,71672,PROP_PER,Mr Elliot
 71674,71674,PRON_PER,They
@@ -10491,7 +10479,6 @@
 72006,72006,PROP_GPE,Bath
 72008,72008,PRON_PER,I
 72011,72011,PRON_PER,you
-72014,72018,NOM_PER,those who knew you intimately
 72017,72017,PRON_PER,you
 72020,72020,PRON_PER,I
 72025,72025,PRON_PER,you
@@ -10501,6 +10488,7 @@
 72049,72050,PROP_PER,Mr Elliot
 72057,72057,PRON_PER,he
 72062,72063,NOM_PER,No one
+72080,72082,NOM_PER,a recent acquaintance
 72085,72086,NOM_PER,nameless people
 72092,72092,PROP_PER,Anne
 72097,72097,PRON_PER,She
@@ -10546,6 +10534,7 @@
 72350,72355,NOM_PER,a very well - looking man
 72359,72363,NOM_PER,A very fine young man
 72368,72369,PROP_PER,Lady Dalrymple
+72375,72375,NOM_PER,one
 72379,72379,PROP_GPE,Bath
 72381,72381,PROP_PER,Irish
 72383,72383,PRON_PER,I
@@ -10554,7 +10543,6 @@
 72397,72399,NOM_PER,A bowing acquaintance
 72401,72401,PROP_PER,Wentworth
 72403,72407,NOM_PER,Captain Wentworth of the navy
-72406,72407,NOM_ORG,the navy
 72409,72409,PRON_PER,His
 72409,72410,NOM_PER,His sister
 72412,72412,PRON_PER,my
@@ -10859,6 +10847,7 @@
 74515,74515,PROP_GPE,Bath
 74519,74520,PROP_PER,Mr Elliot
 74524,74524,PROP_PER,Anne
+74534,74534,PRON_PER,shewed
 74535,74535,PRON_PER,her
 74538,74538,PRON_PER,she
 74543,74543,PRON_PER,She
@@ -10964,7 +10953,7 @@
 75096,75096,PRON_PER,you
 75101,75101,PRON_PER,me
 75104,75104,PRON_PER,my
-75104,75107,NOM_PER,my -- present friend
+75104,75118,NOM_PER,"my -- present friend I can not call him , but for my former friend"
 75108,75108,PRON_PER,I
 75112,75112,PRON_PER,him
 75116,75116,PRON_PER,my
@@ -11090,7 +11079,6 @@
 75851,75852,NOM_PER,the maid
 75854,75854,PRON_PER,I
 75856,75859,NOM_PER,no one in particular
-75863,75863,PRON_PER,It
 75865,75865,PRON_PER,my
 75865,75866,NOM_PER,my friend
 75867,75868,PROP_PER,Mrs Rooke
@@ -11098,7 +11086,7 @@
 75887,75887,PRON_PER,you
 75899,75899,PRON_PER,you
 75902,75902,PRON_PER,She
-75906,75907,PROP_FAC,Marlborough Buildings
+75906,75907,PROP_PER,Marlborough Buildings
 75913,75913,PRON_PER,she
 75918,75918,PRON_PER,me
 75919,75919,PRON_PER,you
@@ -11142,6 +11130,7 @@
 76154,76154,PRON_PER,I
 76156,76156,PRON_PER,him
 76164,76164,PRON_PER,you
+76170,76170,PROP_PER,Intimately
 76179,76179,PRON_PER,me
 76181,76181,PRON_PER,he
 76189,76189,PRON_PER,I
@@ -11442,7 +11431,7 @@
 77856,77856,PRON_PER,he
 77865,77865,PRON_PER,His
 77868,77870,NOM_FAC,the Kellynch estate
-77879,77880,NOM_PER,the family
+77879,77882,NOM_PER,the family he held
 77881,77881,PRON_PER,he
 77888,77888,PRON_PER,I
 77892,77892,PRON_PER,him
@@ -11506,7 +11495,6 @@
 78296,78297,PROP_PER,Charles Smith
 78301,78302,PROP_GPE,Tunbridge Wells
 78308,78308,PROP_GPE,London
-78318,78319,PROP_PER,"Dear Smith,--I"
 78322,78322,PRON_PER,yours
 78324,78324,PRON_PER,Your
 78328,78328,PRON_PER,me
@@ -11520,7 +11508,7 @@
 78383,78383,PRON_PER,me
 78386,78386,PRON_PER,I
 78391,78392,PROP_PER,Sir Walter
-78394,78394,NOM_PER,Miss.
+78394,78394,PROP_PER,Miss.
 78395,78395,PRON_PER,They
 78400,78400,PROP_GPE,Kellynch
 78405,78405,PRON_PER,me
@@ -11727,7 +11715,7 @@
 79606,79606,PRON_PER,your
 79606,79607,NOM_PER,your father
 79616,79616,PRON_PER,he
-79622,79623,PROP_FAC,Camden Place
+79622,79623,PROP_GPE,Camden Place
 79626,79626,PRON_PER,his
 79629,79630,PROP_PER,Mr Elliot
 79632,79632,PRON_PER,him
@@ -11826,7 +11814,6 @@
 80295,80296,PROP_PER,Mrs Wallis
 80305,80305,PRON_PER,my
 80308,80308,PROP_PER,Rooke
-80322,80322,NOM_PER,ma'am
 80326,80326,PRON_PER,she
 80333,80333,PRON_PER,his
 80335,80336,NOM_PER,anybody else
@@ -12358,7 +12345,7 @@
 84094,84094,PROP_PER,Louisa
 84107,84107,PROP_PER,Charles
 84119,84119,PROP_GPE,Uppercross
-84123,84126,NOM_LOC,a very fine country
+84123,84126,NOM_GPE,a very fine country
 84128,84131,NOM_LOC,fine part of Dorsetshire
 84131,84131,PROP_GPE,Dorsetshire
 84137,84144,NOM_FAC,some of the best preserves in the kingdom
@@ -12374,7 +12361,6 @@
 84209,84209,PRON_PER,I
 84218,84218,PROP_PER,Anne
 84231,84247,NOM_PER,"two sisters , who both deserve equally well , and who have always been such good friends"
-84260,84261,NOM_PER,the other
 84264,84264,PRON_PER,they
 84270,84270,PRON_PER,their
 84275,84275,PRON_PER,I
@@ -12431,6 +12417,7 @@
 84571,84571,PRON_PER,she
 84594,84594,NOM_PER,one
 84605,84605,PRON_PER,she
+84610,84617,NOM_PER,a young dab - chick in the water
 84620,84620,PROP_PER,Benwick
 84623,84623,PRON_PER,her
 84632,84632,PRON_PER,her
@@ -12646,6 +12633,7 @@
 86036,86036,PRON_PER,They
 86050,86050,PRON_PER,me
 86055,86055,PRON_PER,I
+86058,86058,PRON_PER,It
 86060,86061,PROP_PER,Mr Elliot
 86062,86062,PRON_PER,himself
 86070,86070,PROP_PER,Anne
@@ -12665,7 +12653,7 @@
 86150,86150,PRON_PER,she
 86157,86157,PRON_PER,her
 86157,86159,NOM_PER,her own cousin
-86166,86168,NOM_PER,the family features
+86166,86167,NOM_PER,the family
 86178,86179,PROP_PER,Mr Elliot
 86184,86184,PROP_PER,Anne
 86190,86190,PRON_PER,herself
@@ -12734,7 +12722,7 @@
 86592,86593,PROP_PER,Mrs Musgrove
 86600,86600,PRON_PER,her
 86608,86608,PROP_PER,Henrietta
-86611,86612,NOM_PER,the others
+86610,86612,NOM_PER,all the others
 86617,86617,PROP_PER,Mary
 86620,86620,PRON_PER,her
 86627,86627,PROP_PER,Charles
@@ -12750,7 +12738,6 @@
 86682,86686,NOM_PER,all the principal family connexions
 86694,86694,PRON_PER,them
 86698,86698,PRON_PER,you
-86705,86705,PROP_PER,Phoo
 86711,86711,PROP_PER,Charles
 86724,86724,PRON_PER,Your
 86724,86725,NOM_PER,Your father
@@ -12778,7 +12765,6 @@
 86875,86875,PRON_PER,you
 86889,86890,PROP_PER,Mr Elliot
 86894,86894,PRON_PER,my
-86894,86895,NOM_PER,my father
 86894,86897,NOM_PER,my father 's heir
 86899,86904,NOM_PER,the future representative of the family
 86903,86904,NOM_PER,the family
@@ -12788,6 +12774,7 @@
 86920,86920,PROP_PER,Charles
 86923,86923,PRON_PER,I
 86925,86965,NOM_PER,"not one of those who neglect the reigning power to bow to the rising sun . If I would not go for the sake of your father , I should think it scandalous to go for the sake of his heir"
+86928,86939,NOM_PER,those who neglect the reigning power to bow to the rising sun
 86942,86942,PRON_PER,I
 86950,86950,PRON_PER,your
 86950,86951,NOM_PER,your father
@@ -12829,7 +12816,6 @@
 87174,87174,PRON_PER,her
 87189,87189,PRON_PER,her
 87199,87199,PRON_PER,my
-87202,87202,NOM_PER,ma'am
 87207,87207,NOM_FAC,home
 87211,87211,PROP_PER,Mary
 87222,87222,PRON_PER,I
@@ -13051,6 +13037,7 @@
 88908,88908,PRON_PER,she
 88910,88910,PRON_PER,herself
 88918,88921,NOM_PER,the first to arrive
+88923,88926,NOM_PER,The party before her
 88926,88926,PRON_PER,her
 88929,88930,PROP_PER,Mrs Musgrove
 88934,88935,PROP_PER,Mrs Croft
@@ -13061,7 +13048,6 @@
 88951,88951,PROP_PER,Henrietta
 88983,88984,PROP_PER,Mrs Musgrove
 88987,88987,PRON_PER,her
-88988,88988,NOM_FAC,there
 88990,88990,PRON_PER,they
 88993,88993,PRON_PER,She
 89008,89008,PRON_PER,herself
@@ -13107,7 +13093,6 @@
 89328,89328,PRON_PER,she
 89338,89338,PROP_PER,Anne
 89340,89341,NOM_PER,the gentlemen
-89357,89357,NOM_PER,ma'am
 89366,89367,PROP_PER,Mrs Musgrove
 89370,89370,PRON_PER,her
 89376,89376,PRON_PER,we
@@ -13178,7 +13163,6 @@
 89937,89938,NOM_FAC,the room
 89941,89943,NOM_PER,the two ladies
 89951,89952,PROP_PER,Captain Wentworth
-89951,89954,NOM_FAC,Captain Wentworth 's table
 89961,89961,PRON_PER,she
 89963,89963,PRON_PER,him
 89965,89966,PROP_PER,Captain Harville
@@ -13300,7 +13284,6 @@
 90816,90816,PRON_PER,him
 90819,90819,PRON_PER,she
 90835,90835,PRON_PER,he
-90840,90840,PRON_PER,them
 90849,90849,PRON_PER,she
 90853,90853,PRON_PER,he
 90860,90860,PRON_PER,you
@@ -13390,6 +13373,7 @@
 91507,91507,PRON_PER,you
 91512,91512,PRON_PER,I
 91523,91523,PRON_PER,my
+91523,91526,NOM_PER,my fellow - creatures
 91528,91528,PRON_PER,I
 91534,91534,PRON_PER,I
 91547,91547,NOM_PER,woman
@@ -13611,7 +13595,6 @@
 92951,92951,PRON_PER,her
 92963,92963,PROP_PER,Anne
 92969,92969,PRON_PER,I
-92973,92973,NOM_PER,ma'am
 92990,92992,NOM_PER,the other gentlemen
 92994,92994,PRON_PER,we
 92998,92998,PRON_PER,your
@@ -13705,7 +13688,6 @@
 93485,93485,PRON_PER,She
 93503,93503,PRON_PER,I
 93508,93509,NOM_PER,that fellow
-93508,93514,NOM_FAC,that fellow 's in the Market Place
 93512,93514,NOM_FAC,the Market Place
 93516,93516,PRON_PER,He
 93518,93518,PRON_PER,me
@@ -13727,6 +13709,7 @@
 93703,93703,PRON_PER,they
 93737,93737,PRON_PER,they
 93751,93751,PRON_PER,their
+93776,93777,NOM_PER,each other
 93800,93800,PRON_PER,they
 93809,93812,NOM_PER,every group around them
 93812,93812,PRON_PER,them
@@ -13783,7 +13766,6 @@
 94214,94214,PRON_PER,him
 94220,94221,PROP_FAC,the Cobb
 94224,94225,PROP_PER,Captain Harville
-94224,94226,NOM_FAC,Captain Harville 's
 94229,94229,PRON_PER,her
 94233,94233,PRON_PER,his
 94238,94238,PRON_PER,himself
@@ -13936,6 +13918,7 @@
 95296,95301,NOM_PER,the friend who sat behind you
 95301,95301,PRON_PER,you
 95315,95315,PRON_PER,her
+95325,95325,PRON_PER,persuasion
 95335,95335,PRON_PER,me
 95339,95339,PRON_PER,You
 95346,95346,PROP_PER,Anne
@@ -14000,6 +13983,7 @@
 95825,95825,PROP_PER,Anne
 95846,95846,PRON_PER,she
 95853,95853,PRON_PER,she
+95860,95863,NOM_PER,every creature around her
 95863,95863,PRON_PER,her
 95865,95866,PROP_PER,Mr Elliot
 95868,95868,NOM_FAC,there
@@ -14077,7 +14061,7 @@
 96359,96359,PRON_PER,me
 96363,96363,PRON_PER,I
 96366,96366,PROP_GPE,England
-96382,96383,PROP_LOC,the Laconia
+96382,96383,NOM_FAC,the Laconia
 96386,96386,PRON_PER,I
 96391,96391,PRON_PER,you
 96394,96394,PRON_PER,you
@@ -14174,7 +14158,6 @@
 97135,97135,PRON_PER,their
 97140,97140,PRON_PER,their
 97146,97146,PRON_PER,she
-97153,97153,PRON_PER,them
 97174,97175,PROP_PER,Lady Russell
 97183,97183,PRON_PER,she
 97231,97231,NOM_PER,others
@@ -14334,7 +14317,6 @@
 98143,98143,PRON_PER,her
 98149,98149,PRON_PER,her
 98149,98150,NOM_PER,her husband
-98149,98156,NOM_FAC,her husband 's property in the West Indies
 98154,98156,NOM_LOC,the West Indies
 98161,98161,PRON_PER,her
 98165,98165,PRON_PER,her

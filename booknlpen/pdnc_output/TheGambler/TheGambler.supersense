@@ -2,7 +2,7 @@ start_token	end_token	supersense_category	text
 1	1	noun.person	Gambler
 3	4	noun.person	Fyodor Dostoyevsky
 5	5	verb.creation	Translated
-7	10	noun.person	C. J. Hogarth I
+7	9	noun.person	C. J. Hogarth
 14	14	verb.motion	returned
 17	17	noun.time	weeks
 18	20	noun.time	leave of absence
@@ -19,7 +19,7 @@ start_token	end_token	supersense_category	text
 55	55	verb.communication	greeted
 60	60	noun.attribute	fashion
 63	63	verb.communication	dismissed
-66	66	verb.possession	pay
+66	66	verb.communication	pay
 68	68	noun.communication	respects
 71	71	noun.person	sister
 74	74	verb.stative	was
@@ -62,7 +62,7 @@ start_token	end_token	supersense_category	text
 208	208	verb.stative	was
 211	211	noun.event	accident
 215	215	verb.cognition	felt
-221	221	noun.cognition	light
+221	221	noun.attribute	light
 223	223	noun.cognition	matters
 228	228	noun.time	time
 236	236	verb.social	assigned
@@ -110,7 +110,7 @@ start_token	end_token	supersense_category	text
 370	370	verb.change	began
 372	372	verb.communication	deigning
 374	374	verb.communication	inquire
-382	382	verb.motion	take
+382	382	verb.social	take
 384	384	noun.person	children
 394	394	verb.cognition	see
 397	397	verb.social	failed
@@ -138,7 +138,7 @@ start_token	end_token	supersense_category	text
 488	488	verb.cognition	suppose
 491	491	verb.emotion	like
 493	493	verb.motion	take
-497	497	noun.group	Casino
+497	497	noun.artifact	Casino
 499	499	verb.competition	play
 504	504	verb.communication	excuse
 506	506	verb.communication	speaking
@@ -279,7 +279,7 @@ start_token	end_token	supersense_category	text
 1008	1008	verb.motion	dispatched
 1010	1010	verb.social	dine
 1013	1013	noun.artifact	table
-1015	1016	noun.person	h te
+1014	1016	noun.person	d h te
 1021	1021	verb.communication	presented
 1025	1025	noun.attribute	guise
 1028	1028	noun.person	General
@@ -294,7 +294,7 @@ start_token	end_token	supersense_category	text
 1058	1058	verb.social	met
 1060	1060	noun.person	Englishman
 1062	1063	noun.person	Mr. Astley
-1065	1065	verb.social	saved
+1065	1065	verb.possession	saved
 1071	1071	verb.cognition	figured
 1076	1076	noun.group	company
 1080	1080	noun.person	Englishman
@@ -316,7 +316,7 @@ start_token	end_token	supersense_category	text
 1159	1159	verb.cognition	known
 1163	1163	noun.person	man
 1167	1167	verb.stative	was
-1171	1171	noun.attribute	pitch
+1171	1171	noun.state	pitch
 1173	1173	noun.cognition	imbecility
 1180	1180	noun.communication	fact
 1184	1184	verb.stative	was
@@ -689,7 +689,6 @@ start_token	end_token	supersense_category	text
 2576	2576	verb.stative	was
 2579	2579	noun.person	boy
 2584	2584	noun.group	family
-2585	2585	verb.stative	are
 2587	2587	verb.stative	residing
 2589	2589	noun.location	Moscow
 2593	2593	noun.person	Impossible
@@ -712,7 +711,7 @@ start_token	end_token	supersense_category	text
 2646	2646	noun.body	cheek
 2650	2650	noun.person	Frenchman
 2652	2652	verb.change	began
-2653	2653	verb.communication	chattering
+2653	2653	verb.perception	chattering
 2658	2658	noun.person	General
 2659	2659	verb.social	supported
 2664	2664	verb.communication	recommended
@@ -1369,7 +1368,7 @@ start_token	end_token	supersense_category	text
 5334	5334	noun.quantity	nothing
 5340	5340	verb.communication	applauded
 5342	5342	noun.cognition	opinion
-5346	5346	noun.person	dead
+5346	5346	noun.substance	dead
 5353	5353	noun.person	moralist
 5355	5355	verb.communication	replied
 5358	5358	noun.communication	excuse
@@ -1448,7 +1447,7 @@ start_token	end_token	supersense_category	text
 5634	5634	noun.attribute	distinctions
 5637	5637	noun.act	game
 5639	5639	verb.stative	is
-5643	5643	noun.cognition	genre
+5643	5643	noun.attribute	genre
 5647	5647	noun.act	game
 5649	5649	verb.stative	is
 5654	5654	noun.person	man
@@ -1464,19 +1463,17 @@ start_token	end_token	supersense_category	text
 5685	5685	noun.act	game
 5688	5688	noun.group	herd
 5693	5693	verb.communication	said
-5696	5696	verb.communication	draw
+5696	5696	verb.contact	draw
 5698	5698	noun.attribute	distinctions
 5704	5704	verb.stative	are
 5706	5706	noun.relation	distinctions
 5712	5712	noun.person	gentleman
 5714	5714	verb.possession	stake
-5716	5716	verb.communication	say
 5721	5721	noun.quantity	louis
 5725	5725	noun.quantity	more
 5729	5729	verb.stative	is
 5733	5733	noun.person	man
 5738	5738	verb.social	stake
-5740	5740	verb.communication	say
 5744	5744	noun.quantity	francs
 5750	5750	verb.social	do
 5755	5755	noun.feeling	love
@@ -1579,7 +1576,6 @@ start_token	end_token	supersense_category	text
 6115	6115	noun.quantity	francs
 6117	6117	noun.possession	gold
 6121	6121	verb.contact	staked
-6124	6124	noun.attribute	black
 6127	6127	verb.competition	won
 6133	6134	verb.possession	take up
 6136	6136	noun.possession	winnings
@@ -1618,10 +1614,10 @@ start_token	end_token	supersense_category	text
 6274	6274	verb.possession	lose
 6277	6277	noun.state	substance
 6282	6283	verb.change	give way
-6285	6285	noun.feeling	annoyance
+6285	6285	noun.state	annoyance
 6287	6287	noun.possession	Money
 6289	6289	verb.stative	be
-6293	6293	noun.attribute	gentility
+6293	6293	noun.state	gentility
 6297	6297	verb.stative	be
 6300	6300	noun.cognition	thought
 6310	6310	noun.state	thing
@@ -1636,6 +1632,7 @@ start_token	end_token	supersense_category	text
 6338	6338	verb.perception	scan
 6343	6343	verb.perception	gape
 6347	6347	noun.group	mob
+6350	6350	noun.feeling	preference
 6354	6354	noun.artifact	lorgnette
 6362	6362	verb.motion	taking
 6364	6364	noun.group	crowd
@@ -1644,7 +1641,7 @@ start_token	end_token	supersense_category	text
 6377	6377	verb.creation	organised
 6381	6381	noun.person	gentleman
 6383	6383	noun.act	diversion
-6389	6389	verb.emotion	squeezed
+6389	6389	verb.contact	squeezed
 6392	6392	noun.group	crowd
 6396	6396	verb.perception	look
 6402	6402	verb.communication	assured
@@ -1652,7 +1649,7 @@ start_token	end_token	supersense_category	text
 6406	6406	noun.person	observer
 6408	6408	verb.stative	having
 6410	6410	noun.relation	part
-6412	6412	noun.state	lot
+6412	6412	noun.attribute	lot
 6423	6423	verb.perception	stare
 6427	6427	verb.stative	is
 6435	6435	verb.stative	is
@@ -1699,7 +1696,7 @@ start_token	end_token	supersense_category	text
 6593	6593	noun.group	mob
 6595	6595	verb.competition	playing
 6599	6599	noun.attribute	fashion
-6604	6604	verb.perception	have
+6604	6604	verb.possession	have
 6606	6606	noun.cognition	idea
 6609	6609	noun.act	robbery
 6611	6612	verb.change	going on
@@ -1717,9 +1714,10 @@ start_token	end_token	supersense_category	text
 6655	6655	noun.group	crowd
 6660	6660	verb.stative	consisted
 6663	6663	noun.person	Frenchmen
-6670	6671	verb.social	taking notes
+6670	6670	verb.change	taking
+6671	6671	noun.cognition	notes
 6676	6676	verb.stative	be
-6679	6679	verb.communication	give
+6679	6679	verb.possession	give
 6682	6682	noun.communication	description
 6684	6684	noun.communication	roulette
 6690	6690	verb.change	get
@@ -1728,10 +1726,11 @@ start_token	end_token	supersense_category	text
 6701	6701	verb.change	begin
 6703	6703	verb.competition	play
 6709	6709	verb.cognition	noticed
+6711	6711	noun.quantity	nothing
 6712	6712	verb.stative	was
 6719	6719	noun.body	hand
 6721	6722	verb.contact	stretch out
-6724	6724	verb.contact	grab
+6724	6724	verb.possession	grab
 6727	6727	noun.possession	winnings
 6731	6731	verb.competition	won
 6736	6736	verb.stative	arise
@@ -1740,7 +1739,7 @@ start_token	end_token	supersense_category	text
 6748	6748	verb.stative	be
 6750	6750	noun.event	case
 6754	6754	verb.communication	beg
-6758	6758	verb.communication	prove
+6758	6758	verb.cognition	prove
 6762	6762	verb.creation	produce
 6763	6763	noun.person	witnesses
 6766	6766	noun.communication	fact
@@ -1748,19 +1747,19 @@ start_token	end_token	supersense_category	text
 6771	6771	verb.stative	is
 6778	6778	noun.act	proceedings
 6779	6779	verb.stative	were
-6788	6788	verb.creation	divine
+6788	6788	verb.perception	divine
 6790	6790	verb.cognition	distinguish
 6792	6792	noun.possession	stakes
 6794	6794	verb.competition	hazarded
-6796	6796	noun.quantity	numbers
-6809	6809	noun.artifact	colours
-6811	6811	noun.person	Polina
+6796	6796	noun.communication	numbers
+6809	6809	noun.attribute	colours
 6813	6813	noun.possession	money
 6815	6815	verb.cognition	decided
 6817	6817	verb.social	risk
 6820	6820	noun.time	evening
 6825	6825	noun.possession	amount
 6828	6828	noun.quantity	g
+6829	6829	noun.quantity	lden
 6832	6832	noun.cognition	thought
 6839	6839	verb.competition	play
 6843	6843	verb.emotion	unnerved
@@ -1769,7 +1768,7 @@ start_token	end_token	supersense_category	text
 6854	6854	verb.social	tried
 6857	6857	verb.communication	banish
 6861	6861	verb.perception	had
-6863	6863	noun.communication	feeling
+6863	6863	noun.Tops	feeling
 6869	6869	verb.change	begun
 6871	6871	verb.competition	play
 6873	6873	noun.person	Polina
@@ -1779,13 +1778,12 @@ start_token	end_token	supersense_category	text
 6893	6893	verb.motion	approached
 6895	6897	noun.artifact	gaming - table
 6899	6899	verb.emotion	falling
-6902	6902	noun.person	prey
 6904	6904	noun.cognition	superstition
-6907	6907	verb.change	began
+6907	6907	verb.creation	began
 6909	6910	verb.contact	pulling out
 6912	6912	noun.quantity	g
 6913	6913	noun.artifact	lden
-6916	6916	verb.motion	staking
+6916	6916	verb.possession	staking
 6924	6924	noun.artifact	wheel
 6925	6925	verb.motion	spun
 6927	6927	verb.motion	stopped
@@ -1800,14 +1798,15 @@ start_token	end_token	supersense_category	text
 6964	6964	noun.quantity	g
 6965	6965	noun.artifact	lden
 6967	6967	noun.event	time
-6972	6973	noun.person	The red
+6973	6973	noun.body	red
 6974	6975	verb.motion	turned up
 6978	6978	noun.event	time
 6980	6980	verb.contact	staked
 6983	6983	noun.quantity	g
 6984	6984	noun.artifact	lden
 6988	6988	verb.stative	lay
-6993	6994	verb.motion	turned up
+6992	6992	noun.attribute	red
+6993	6994	verb.change	turned up
 6998	6998	verb.possession	staked
 7001	7001	noun.possession	sum
 7006	7006	noun.body	red
@@ -1844,10 +1843,10 @@ start_token	end_token	supersense_category	text
 7120	7120	noun.artifact	wheel
 7121	7122	verb.motion	stopped at
 7123	7123	noun.quantity	4
-7127	7127	verb.possession	paid
+7127	7128	verb.possession	paid out
 7131	7131	noun.quantity	g
 7132	7132	noun.quantity	lden
-7136	7137	verb.contact	snatching up
+7136	7137	verb.possession	snatching up
 7139	7139	noun.artifact	pile
 7141	7141	noun.quantity	1600
 7143	7143	verb.motion	departed
@@ -1858,7 +1857,7 @@ start_token	end_token	supersense_category	text
 7155	7155	verb.motion	walking
 7158	7158	noun.location	park
 7161	7161	verb.stative	was
-7164	7164	verb.change	get
+7164	7164	verb.possession	get
 7166	7166	noun.communication	interview
 7171	7171	noun.food	supper
 7174	7174	noun.event	time
@@ -1886,6 +1885,7 @@ start_token	end_token	supersense_category	text
 7253	7253	verb.social	compromised
 7257	7257	verb.communication	added
 7260	7260	noun.communication	meaning
+7261	7261	noun.cognition	sort
 7263	7263	noun.attribute	way
 7269	7269	verb.possession	have
 7275	7275	verb.communication	order
@@ -1896,11 +1896,11 @@ start_token	end_token	supersense_category	text
 7298	7298	verb.communication	answered
 7302	7302	verb.possession	had
 7305	7305	noun.possession	money
-7308	7308	noun.act	possession
+7308	7308	noun.possession	possession
 7316	7316	verb.stative	was
-7320	7320	noun.state	position
+7320	7320	noun.cognition	position
 7322	7322	verb.social	indulge
-7326	7326	noun.act	play
+7326	7326	noun.communication	play
 7332	7332	verb.possession	gamble
 7338	7338	verb.motion	ascending
 7342	7342	noun.artifact	room
@@ -1919,7 +1919,7 @@ start_token	end_token	supersense_category	text
 7399	7399	verb.stative	is
 7402	7402	noun.motive	reason
 7407	7407	verb.stative	are
-7413	7413	noun.act	roulette
+7413	7413	noun.shape	roulette
 7415	7415	noun.act	playing
 7417	7417	verb.change	get
 7422	7422	noun.state	difficulties
@@ -1937,6 +1937,7 @@ start_token	end_token	supersense_category	text
 7479	7479	noun.time	day
 7481	7481	noun.possession	winnings
 7484	7484	verb.possession	offered
+7488	7488	noun.attribute	lden
 7495	7495	verb.competition	gambled
 7499	7499	noun.communication	terms
 7503	7503	verb.communication	refused
@@ -1960,7 +1961,7 @@ start_token	end_token	supersense_category	text
 7591	7591	noun.possession	shares
 7600	7600	verb.social	do
 7603	7603	verb.emotion	wish
-7608	7608	verb.cognition	left
+7608	7608	verb.change	left
 7611	7611	verb.perception	listening
 7615	7615	noun.communication	protests
 7618	7618	noun.cognition	part
@@ -2058,6 +2059,8 @@ start_token	end_token	supersense_category	text
 8029	8029	verb.stative	been
 8035	8035	noun.state	case
 8042	8042	verb.stative	was
+8046	8046	noun.time	while
+8048	8048	verb.social	trouble
 8053	8053	noun.Tops	feelings
 8056	8056	noun.cognition	fact
 8061	8061	verb.stative	was
@@ -2169,8 +2172,8 @@ start_token	end_token	supersense_category	text
 8468	8468	noun.cognition	plot
 8470	8470	verb.change	come
 8477	8477	verb.stative	was
-8482	8482	noun.state	stage
-8485	8486	verb.communication	talked of
+8482	8482	noun.time	stage
+8485	8485	verb.communication	talked
 8488	8488	noun.person	Likewise
 8490	8490	verb.stative	was
 8498	8498	noun.group	family
@@ -2190,7 +2193,7 @@ start_token	end_token	supersense_category	text
 8542	8542	verb.stative	was
 8545	8545	noun.act	vice
 8549	8549	noun.relation	part
-8552	8552	noun.cognition	affair
+8552	8552	noun.act	affair
 8555	8555	verb.social	played
 8557	8557	noun.person	Mlle
 8559	8559	noun.person	Blanche
@@ -2220,7 +2223,7 @@ start_token	end_token	supersense_category	text
 8656	8656	noun.person	Frenchman
 8663	8663	noun.group	party
 8666	8666	verb.stative	stood
-8674	8674	noun.attribute	footing
+8674	8674	noun.state	footing
 8682	8682	noun.state	acquaintanceship
 8684	8684	noun.state	friendship
 8687	8687	noun.attribute	intimacy
@@ -2398,7 +2401,6 @@ start_token	end_token	supersense_category	text
 9351	9351	noun.group	society
 9357	9357	noun.location	Moscow
 9359	9359	noun.location	Germany
-9363	9363	verb.stative	be
 9372	9372	verb.stative	been
 9374	9374	noun.location	France
 9376	9376	verb.possession	had
@@ -2420,7 +2422,6 @@ start_token	end_token	supersense_category	text
 9429	9430	verb.cognition	depend upon
 9432	9432	noun.act	means
 9436	9436	noun.person	General
-9438	9438	verb.stative	be
 9441	9441	verb.change	flourish
 9443	9443	noun.possession	money
 9446	9446	noun.attribute	face
@@ -2428,8 +2429,7 @@ start_token	end_token	supersense_category	text
 9453	9453	verb.change	arrive
 9456	9456	noun.person	grandmother
 9457	9457	verb.stative	was
-9461	9461	noun.person	Mlle
-9463	9463	noun.person	Blanche
+9461	9463	noun.person	Mlle . Blanche
 9466	9466	verb.emotion	felt
 9470	9470	verb.change	disappear
 9473	9473	noun.time	twinkling
@@ -2442,6 +2442,7 @@ start_token	end_token	supersense_category	text
 9496	9496	verb.emotion	loathed
 9502	9502	noun.feeling	pleasure
 9506	9506	verb.possession	given
+9511	9513	noun.act	go - by
 9519	9519	verb.motion	leave
 9520	9520	noun.location	Polina
 9528	9528	verb.perception	show
@@ -2449,7 +2450,7 @@ start_token	end_token	supersense_category	text
 9533	9533	verb.stative	surrounded
 9536	9536	noun.act	Espionage
 9537	9537	verb.stative	is
-9540	9540	noun.cognition	thing
+9539	9540	noun.artifact	base thing
 9551	9552	noun.person	Mr. Astley
 9557	9557	verb.possession	found
 9560	9560	noun.person	person
@@ -2689,7 +2690,6 @@ start_token	end_token	supersense_category	text
 10498	10498	verb.stative	alternate
 10501	10501	noun.attribute	black
 10507	10507	noun.communication	order
-10511	10511	noun.time	moment
 10520	10520	noun.act	rounds
 10522	10522	verb.stative	end
 10534	10534	noun.time	day
@@ -2780,7 +2780,7 @@ start_token	end_token	supersense_category	text
 10840	10840	noun.time	days
 10843	10845	noun.person	Mlle . Blanche
 10848	10848	noun.person	Frenchman
-10850	10850	verb.consumption	lunching
+10850	10850	verb.social	lunching
 10856	10856	verb.perception	appeared
 10864	10864	noun.location	Casino
 10866	10866	noun.time	morning
@@ -2853,19 +2853,20 @@ start_token	end_token	supersense_category	text
 11139	11139	noun.body	face
 11144	11144	noun.state	circumstances
 11145	11145	verb.change	made
-11153	11153	verb.cognition	hear
+11153	11153	verb.perception	hear
 11155	11155	noun.communication	piles
 11157	11157	noun.possession	gold
 11158	11158	verb.motion	passing
 11161	11161	noun.body	hands
 11165	11165	noun.person	fool
-11170	11170	noun.Tops	space
+11170	11170	noun.group	space
 11173	11173	noun.quantity	quarter
 11176	11176	noun.time	hour
 11181	11181	verb.perception	have
 11183	11183	noun.cognition	idea
 11187	11187	noun.time	night
 11192	11192	noun.person	Frenchman
+11193	11193	verb.perception	had
 11196	11196	noun.act	encounter
 11203	11203	noun.event	events
 11205	11205	verb.contact	closeted
@@ -2883,7 +2884,7 @@ start_token	end_token	supersense_category	text
 11244	11244	verb.cognition	hearing
 11247	11247	noun.possession	losses
 11253	11253	verb.communication	remarked
-11263	11263	noun.attribute	air
+11263	11263	noun.communication	air
 11267	11267	noun.person	man
 11270	11270	verb.motion	go
 11279	11279	noun.motive	reason
@@ -2920,7 +2921,6 @@ start_token	end_token	supersense_category	text
 11395	11395	noun.attribute	merits
 11399	11399	noun.person	Westerner
 11402	11402	verb.change	become
-11404	11404	verb.communication	added
 11407	11407	verb.stative	is
 11411	11411	noun.communication	point
 11413	11413	noun.communication	capacity
@@ -2948,7 +2948,7 @@ start_token	end_token	supersense_category	text
 11494	11494	noun.attribute	attraction
 11501	11501	verb.competition	play
 11504	11504	noun.attribute	fashion
-11508	11508	verb.possession	taking
+11508	11508	noun.act	taking
 11510	11510	noun.act	trouble
 11515	11515	verb.possession	lose
 11522	11522	noun.state	extent
@@ -2957,7 +2957,7 @@ start_token	end_token	supersense_category	text
 11530	11530	noun.person	Frenchman
 11536	11536	noun.communication	air
 11543	11543	verb.stative	is
-11548	11549	verb.communication	put in
+11548	11548	verb.communication	put
 11551	11551	noun.person	General
 11560	11560	verb.communication	added
 11573	11573	verb.social	traducing
@@ -2971,7 +2971,6 @@ start_token	end_token	supersense_category	text
 11604	11604	noun.cognition	ineptitude
 11608	11608	noun.cognition	method
 11610	11610	verb.change	growing
-11614	11614	noun.act	toil
 11621	11621	noun.cognition	idea
 11624	11624	verb.communication	cried
 11626	11626	noun.person	General
@@ -3023,7 +3022,7 @@ start_token	end_token	supersense_category	text
 11799	11799	verb.stative	is
 11802	11802	verb.possession	have
 11805	11805	verb.stative	do
-11813	11813	verb.consumption	bear
+11813	11813	verb.cognition	bear
 11814	11814	noun.group	people
 11817	11817	noun.cognition	sort
 11821	11821	noun.person	Vater
@@ -3041,6 +3040,7 @@ start_token	end_token	supersense_category	text
 11850	11850	verb.motion	sunk
 11853	11853	noun.relation	rest
 11856	11856	noun.animal	stork
+11858	11858	verb.creation	roosting
 11861	11861	noun.artifact	gable
 11865	11865	verb.stative	is
 11873	11873	verb.stative	be
@@ -3062,12 +3062,12 @@ start_token	end_token	supersense_category	text
 11939	11939	verb.social	done
 11944	11944	noun.group	family
 11945	11945	verb.stative	is
-11948	11948	noun.state	slavery
-11951	11951	noun.act	submission
+11948	11948	noun.act	slavery
+11951	11951	noun.communication	submission
 11954	11954	noun.person	Vater
 11957	11957	verb.social	work
 11959	11959	noun.animal	oxen
-11962	11962	verb.contact	amass
+11962	11962	verb.possession	amass
 11963	11963	noun.state	wealth
 11965	11965	noun.person	Jews
 11967	11967	verb.communication	Suppose
@@ -3075,7 +3075,7 @@ start_token	end_token	supersense_category	text
 11971	11971	verb.contact	put
 11975	11975	noun.quantity	number
 11977	11977	noun.quantity	g
-11978	11978	noun.person	lden
+11978	11978	noun.quantity	lden
 11981	11982	verb.possession	hands over
 11986	11986	noun.person	son
 11993	11993	noun.person	son
@@ -3205,7 +3205,6 @@ start_token	end_token	supersense_category	text
 12464	12464	verb.communication	say
 12467	12467	verb.stative	are
 12477	12477	verb.possession	have
-12486	12486	noun.relation	part
 12491	12491	verb.change	grow
 12496	12496	noun.attribute	manner
 12499	12499	verb.possession	squander
@@ -3260,7 +3259,6 @@ start_token	end_token	supersense_category	text
 12708	12708	noun.communication	voice
 12714	12714	noun.act	progress
 12717	12717	noun.food	meal
-12719	12719	noun.person	V
 12720	12720	noun.communication	Yes
 12724	12724	verb.stative	been
 12731	12731	verb.motion	leaving
@@ -3330,8 +3328,8 @@ start_token	end_token	supersense_category	text
 12978	12978	verb.stative	be
 12987	12987	verb.stative	are
 13000	13000	verb.stative	be
-13002	13002	noun.event	case
-13004	13004	noun.act	Farewell
+13002	13002	noun.state	case
+13004	13004	noun.person	Farewell
 13006	13008	noun.person	Mlle . Blanche
 13012	13012	verb.communication	remarked
 13019	13019	noun.event	event
@@ -3391,7 +3389,7 @@ start_token	end_token	supersense_category	text
 13251	13251	verb.communication	told
 13256	13256	verb.possession	win
 13259	13259	noun.group	people
-13267	13267	verb.social	obeyed
+13267	13267	verb.emotion	obeyed
 13272	13272	verb.communication	ordered
 13280	13280	verb.communication	blame
 13284	13284	noun.phenomenon	result
@@ -3406,16 +3404,16 @@ start_token	end_token	supersense_category	text
 13326	13326	noun.communication	questions
 13332	13332	verb.communication	promised
 13334	13334	verb.communication	explain
-13335	13335	noun.Tops	matters
+13335	13335	noun.cognition	matters
 13339	13339	verb.cognition	Listen
 13342	13342	verb.stative	am
 13351	13351	verb.change	begin
-13353	13354	verb.competition	play for
+13353	13354	verb.social	play for
 13360	13360	verb.possession	have
-13362	13363	noun.substance	g lden
+13362	13363	noun.artifact	g lden
 13369	13369	verb.possession	win
-13374	13374	verb.possession	take
-13383	13383	verb.creation	made
+13374	13375	verb.cognition	take of
+13383	13383	verb.body	made
 13386	13386	noun.communication	grimace
 13392	13392	verb.stative	be
 13399	13399	verb.communication	continued
@@ -3454,7 +3452,7 @@ start_token	end_token	supersense_category	text
 13531	13531	noun.act	gaming
 13533	13533	noun.group	tables
 13537	13537	verb.cognition	think
-13542	13542	verb.communication	tell
+13542	13542	verb.cognition	tell
 13547	13547	verb.cognition	think
 13553	13553	noun.cognition	assurance
 13557	13557	verb.stative	is
@@ -3477,53 +3475,50 @@ start_token	end_token	supersense_category	text
 13625	13625	noun.person	Polina
 13626	13626	verb.body	looked
 13634	13634	verb.communication	said
-13641	13641	verb.emotion	hope
+13641	13641	verb.communication	hope
 13649	13649	verb.communication	tell
 13656	13656	noun.time	weeks
 13661	13661	verb.stative	were
 13664	13664	verb.competition	winning
-13666	13666	noun.location	roulette
 13669	13669	verb.competition	played
 13676	13676	verb.communication	ask
 13680	13680	verb.cognition	consider
 13683	13683	noun.person	fool
 13685	13685	verb.social	doing
 13690	13690	verb.communication	joking
+13696	13696	verb.stative	been
 13700	13700	verb.cognition	remember
 13703	13703	verb.communication	spoke
 13706	13706	noun.attribute	gravity
-13708	13708	verb.social	forbade
+13708	13708	verb.communication	forbade
 13710	13710	noun.cognition	idea
 13713	13713	noun.act	jesting
 13721	13721	verb.communication	replied
-13727	13727	verb.emotion	felt
+13727	13727	verb.cognition	felt
 13732	13732	verb.possession	win
 13738	13738	verb.communication	say
-13739	13739	verb.creation	makes
+13739	13739	verb.communication	makes
 13741	13741	verb.communication	ask
-13749	13749	noun.event	losses
+13749	13749	noun.possession	losses
 13751	13751	noun.time	today
-13752	13752	verb.communication	raised
+13752	13752	verb.cognition	raised
 13754	13754	noun.cognition	doubt
 13757	13757	noun.cognition	mind
 13761	13761	verb.stative	am
 13773	13773	verb.change	begin
 13775	13776	verb.competition	play for
 13782	13782	verb.competition	win
-13788	13788	verb.stative	are
 13796	13796	verb.communication	tell
-13798	13798	noun.communication	truth
+13798	13798	noun.cognition	truth
 13803	13803	verb.cognition	know
 13807	13807	verb.cognition	know
-13813	13813	verb.competition	win
+13813	13813	verb.possession	win
 13816	13816	verb.stative	is
 13819	13819	noun.possession	resource
-13821	13821	verb.possession	have
 13829	13829	verb.emotion	feel
 13843	13843	verb.social	help
 13844	13844	verb.competition	winning
 13847	13847	verb.stative	is
-13851	13851	verb.social	doing
 13859	13859	verb.cognition	wager
 13864	13864	verb.cognition	think
 13869	13869	noun.Tops	feeling
@@ -3540,7 +3535,6 @@ start_token	end_token	supersense_category	text
 13915	13915	verb.stative	are
 13918	13918	verb.emotion	worrying
 13925	13925	verb.stative	are
-13931	13931	verb.emotion	unsettled
 13933	13933	noun.person	person
 13941	13941	verb.emotion	want
 13942	13942	noun.possession	money
@@ -3559,6 +3553,7 @@ start_token	end_token	supersense_category	text
 14006	14006	noun.communication	questions
 14009	14009	verb.stative	are
 14012	14012	noun.time	today
+14016	14016	verb.stative	are
 14023	14023	verb.cognition	know
 14028	14028	verb.stative	stand
 14031	14031	noun.act	ceremony
@@ -3575,25 +3570,23 @@ start_token	end_token	supersense_category	text
 14069	14069	verb.stative	is
 14073	14073	verb.social	comport
 14076	14076	noun.attribute	dignity
-14080	14080	verb.possession	has
 14082	14082	noun.communication	quarrel
-14086	14086	verb.communication	elevate
+14086	14086	verb.cognition	elevate
 14090	14090	verb.change	degrade
 14096	14096	noun.communication	maxim
 14100	14100	noun.communication	copybook
 14102	14102	verb.communication	Suppose
-14108	14108	verb.social	comport
+14108	14108	verb.cognition	comport
 14111	14111	noun.attribute	dignity
 14116	14116	verb.communication	mean
 14121	14121	verb.stative	am
 14123	14123	noun.person	man
-14125	14125	noun.cognition	self
-14127	14127	noun.attribute	respect
+14125	14127	noun.cognition	self - respect
 14130	14130	verb.stative	am
 14133	14134	verb.creation	carry off
 14136	14136	noun.state	situation
 14141	14141	verb.cognition	know
-14143	14143	noun.communication	reason
+14143	14143	noun.motive	reason
 14146	14146	verb.stative	is
 14149	14149	noun.person	Russians
 14150	14150	verb.stative	are
@@ -3616,10 +3609,9 @@ start_token	end_token	supersense_category	text
 14203	14203	noun.cognition	genius
 14204	14204	verb.stative	is
 14210	14210	noun.motive	reason
-14214	14214	noun.attribute	genius
+14214	14214	noun.cognition	genius
 14217	14217	verb.stative	exists
 14220	14220	verb.stative	belongs
-14224	14224	noun.person	French
 14229	14229	noun.person	Europeans
 14231	14231	verb.change	elaborated
 14233	14233	noun.cognition	forms
@@ -3628,7 +3620,6 @@ start_token	end_token	supersense_category	text
 14244	14244	noun.attribute	dignity
 14248	14248	verb.stative	be
 14251	14251	noun.person	persons
-14254	14254	verb.stative	is
 14261	14261	noun.attribute	mode
 14262	14262	verb.stative	is
 14269	14269	noun.person	Frenchman
@@ -3636,7 +3627,7 @@ start_token	end_token	supersense_category	text
 14273	14273	noun.communication	insult
 14279	14279	noun.communication	insult
 14289	14289	verb.body	frown
-14293	14293	noun.act	tweaking
+14293	14293	verb.communication	tweaking
 14296	14296	noun.body	nose
 14300	14300	verb.cognition	bear
 14304	14304	noun.motive	reason
@@ -3645,8 +3636,7 @@ start_token	end_token	supersense_category	text
 14311	14311	noun.act	infringement
 14318	14318	noun.time	time
 14321	14321	noun.state	order
-14323	14323	noun.state	decorum
-14326	14326	verb.stative	is
+14323	14323	noun.attribute	decorum
 14329	14330	noun.person	good ladies
 14335	14335	noun.person	Frenchmen
 14337	14337	noun.person	Frenchman
@@ -3661,20 +3651,19 @@ start_token	end_token	supersense_category	text
 14363	14363	noun.person	Frenchman
 14364	14364	verb.stative	is
 14367	14367	noun.animal	bird
-14370	14370	noun.group	coq
 14371	14371	noun.person	gaulois
 14381	14381	verb.stative	am
 14384	14384	noun.person	woman
 14390	14390	verb.cognition	understand
 14392	14392	noun.communication	question
-14394	14394	noun.person	Cocks
+14394	14394	noun.animal	Cocks
 14396	14396	verb.stative	be
 14398	14398	noun.animal	birds
 14402	14402	verb.stative	am
 14406	14406	verb.social	stop
 14412	14412	verb.motion	stop
 14414	14414	verb.communication	correct
-14421	14421	verb.communication	speaking
+14421	14422	verb.communication	speaking to
 14427	14427	verb.stative	am
 14431	14431	verb.communication	say
 14434	14434	verb.stative	is
@@ -3688,18 +3677,17 @@ start_token	end_token	supersense_category	text
 14463	14463	verb.communication	tell
 14468	14468	verb.cognition	set
 14473	14473	noun.cognition	things
-14479	14479	verb.cognition	undergone
+14479	14479	verb.perception	undergone
 14481	14481	noun.body	cheek
 14484	14484	verb.cognition	know
 14486	14486	noun.communication	reason
-14489	14489	verb.possession	have
-14493	14493	noun.animal	human
+14489	14489	verb.perception	have
 14494	14494	noun.cognition	thought
 14497	14497	noun.body	head
-14502	14502	noun.time	while
+14501	14502	noun.time	long while
 14505	14505	verb.stative	been
 14510	14511	verb.change	going on
-14514	14514	noun.object	world
+14514	14514	noun.group	world
 14518	14518	noun.location	Russia
 14524	14524	noun.person	Dresden
 14527	14527	verb.stative	am
@@ -3710,7 +3698,7 @@ start_token	end_token	supersense_category	text
 14542	14542	noun.communication	cause
 14545	14545	noun.feeling	obsession
 14548	14548	verb.possession	have
-14550	14550	noun.feeling	hope
+14550	14550	noun.cognition	hope
 14554	14554	verb.stative	am
 14557	14557	noun.person	cipher
 14560	14560	noun.body	eyes
@@ -3721,7 +3709,7 @@ start_token	end_token	supersense_category	text
 14579	14579	verb.stative	is
 14581	14581	noun.cognition	matter
 14583	14583	noun.feeling	indifference
-14591	14591	verb.motion	come
+14591	14591	verb.change	come
 14593	14593	verb.emotion	love
 14598	14598	verb.cognition	know
 14602	14602	verb.stative	be
@@ -3731,35 +3719,35 @@ start_token	end_token	supersense_category	text
 14618	14618	verb.stative	am
 14625	14625	noun.body	face
 14626	14626	verb.stative	is
-14636	14636	noun.cognition	heart
+14631	14631	noun.attribute	probability
+14636	14636	noun.body	heart
 14637	14637	verb.stative	is
 14643	14643	verb.stative	is
 14647	14647	noun.cognition	mind
 14648	14648	verb.stative	is
 14659	14660	verb.cognition	believe in
 14662	14662	noun.attribute	nobility
+14664	14664	noun.person	soul
 14666	14666	verb.cognition	think
 14668	14668	verb.possession	purchase
 14671	14671	noun.possession	money
 14675	14675	verb.communication	said
 14683	14683	verb.cognition	thought
-14685	14685	verb.social	do
 14689	14689	verb.stative	was
 14691	14691	noun.communication	reply
 14696	14696	verb.possession	losing
 14698	14698	noun.artifact	thread
 14701	14701	noun.communication	argument
-14707	14707	verb.cognition	wish
+14707	14707	verb.emotion	wish
 14709	14709	verb.possession	purchase
 14714	14714	noun.event	events
 14716	14716	verb.emotion	wish
 14718	14718	verb.possession	purchase
-14720	14720	noun.state	respect
+14720	14720	noun.possession	respect
 14730	14730	verb.communication	told
 14734	14734	verb.cognition	find
 14738	14738	verb.communication	explain
 14742	14742	verb.stative	are
-14749	14749	verb.stative	be
 14753	14753	noun.event	chattering
 14756	14756	verb.cognition	know
 14768	14768	verb.stative	am
@@ -3776,17 +3764,16 @@ start_token	end_token	supersense_category	text
 14813	14813	verb.motion	fall
 14816	14816	verb.contact	biting
 14818	14818	noun.body	hands
-14823	14823	verb.stative	be
 14830	14830	verb.communication	call
 14833	14833	noun.person	slave
 14838	14838	verb.communication	pray
 14843	14843	noun.state	slavery
-14844	14844	verb.social	revel
+14844	14845	verb.social	revel in
 14850	14850	verb.cognition	know
 14855	14855	verb.contact	kill
 14863	14863	verb.emotion	love
 14867	14867	verb.stative	am
-14876	14876	verb.cognition	feel
+14876	14876	verb.emotion	feel
 14882	14882	verb.contact	devour
 14887	14887	verb.body	laughing
 14891	14891	noun.communication	No
@@ -3794,7 +3781,7 @@ start_token	end_token	supersense_category	text
 14899	14899	verb.communication	retorted
 14904	14904	verb.communication	order
 14910	14910	verb.stative	be
-14915	14915	verb.stative	stopped
+14915	14915	verb.motion	stopped
 14921	14921	noun.feeling	anger
 14930	14930	verb.stative	been
 14933	14933	noun.person	woman
@@ -3917,7 +3904,7 @@ start_token	end_token	supersense_category	text
 15416	15416	verb.stative	is
 15418	15418	noun.person	despot
 15423	15423	verb.emotion	loves
-15425	15425	verb.body	torture
+15425	15425	verb.consumption	torture
 15432	15432	verb.emotion	love
 15439	15439	verb.cognition	remember
 15443	15443	noun.time	moment
@@ -3950,7 +3937,7 @@ start_token	end_token	supersense_category	text
 15534	15534	noun.location	Shlangenberg
 15539	15539	verb.social	done
 15546	15546	verb.communication	bidden
-15549	15549	noun.communication	jest
+15549	15549	noun.feeling	jest
 15554	15554	noun.feeling	contempt
 15558	15558	noun.body	spit
 15561	15561	noun.body	face
@@ -3986,7 +3973,7 @@ start_token	end_token	supersense_category	text
 15700	15700	noun.person	man
 15704	15704	verb.contact	kill
 15715	15715	verb.communication	wish
-15720	15720	noun.person	Frenchman
+15720	15720	noun.location	Frenchman
 15726	15726	verb.communication	ask
 15728	15728	noun.communication	questions
 15730	15730	verb.possession	return
@@ -4040,7 +4027,6 @@ start_token	end_token	supersense_category	text
 15952	15952	verb.social	do
 15954	15954	noun.act	deeds
 15961	15961	verb.cognition	think
-15965	15965	verb.motion	going
 15967	15967	verb.social	let
 15973	15973	verb.communication	bid
 15980	15980	verb.social	renounce
@@ -4190,8 +4176,8 @@ start_token	end_token	supersense_category	text
 16584	16584	verb.communication	insult
 16586	16586	noun.person	woman
 16595	16595	verb.possession	given
-16597	16597	noun.communication	sound
-16598	16598	noun.event	thrashing
+16597	16597	noun.attribute	sound
+16598	16598	noun.act	thrashing
 16601	16601	noun.act	doing
 16604	16604	noun.person	I
 16605	16606	verb.motion	turned away
@@ -4309,7 +4295,7 @@ start_token	end_token	supersense_category	text
 17037	17037	verb.stative	been
 17039	17039	noun.attribute	look
 17042	17042	verb.contact	stood
-17043	17043	verb.stative	confronting
+17043	17043	verb.motion	confronting
 17049	17049	noun.time	evening
 17052	17052	verb.emotion	loved
 17058	17058	noun.communication	tale
@@ -4511,7 +4497,7 @@ start_token	end_token	supersense_category	text
 17796	17796	noun.artifact	piece
 17798	17798	noun.feeling	idiocy
 17802	17802	verb.communication	said
-17805	17806	verb.motion	came level
+17805	17805	verb.motion	came
 17817	17817	verb.social	take
 17819	17819	noun.phenomenon	consequences
 17823	17823	verb.communication	replied
@@ -4523,6 +4509,7 @@ start_token	end_token	supersense_category	text
 17845	17845	noun.time	evening
 17846	17846	verb.motion	walking
 17849	17849	noun.location	park
+17851	17851	noun.person	Thence
 17853	17853	verb.motion	passed
 17856	17856	noun.group	forest
 17859	17860	verb.motion	walked on
@@ -4538,7 +4525,7 @@ start_token	end_token	supersense_category	text
 17903	17904	verb.motion	return home
 17906	17906	verb.possession	find
 17908	17908	noun.communication	summons
-17909	17909	verb.cognition	awaiting
+17909	17909	verb.stative	awaiting
 17913	17913	noun.person	General
 17916	17916	noun.group	party
 17917	17917	verb.stative	occupied
@@ -4554,19 +4541,20 @@ start_token	end_token	supersense_category	text
 17949	17949	verb.stative	adjoining
 17954	17954	noun.person	General
 17956	17956	noun.artifact	study
+17959	17959	verb.stative	was
 17964	17964	verb.perception	awaiting
 17968	17968	verb.contact	stood
 17969	17969	verb.contact	posed
 17973	17973	noun.cognition	attitude
 17976	17976	noun.act	writing
 17978	17978	noun.artifact	table
-17980	17980	verb.contact	Lolling
+17980	17980	verb.change	Lolling
 17983	17983	noun.artifact	divan
 17986	17986	verb.stative	was
 17987	17988	noun.person	De Griers
 17993	17993	noun.person	sir
 17997	17997	noun.person	General
-17998	17998	verb.communication	began
+17998	17998	verb.change	began
 18003	18003	verb.communication	ask
 18007	18007	verb.stative	is
 18011	18011	verb.motion	gone
@@ -4620,10 +4608,9 @@ start_token	end_token	supersense_category	text
 18216	18216	noun.animal	worm
 18221	18221	verb.contact	crushed
 18224	18224	noun.body	foot
-18231	18231	verb.possession	possess
+18231	18231	verb.stative	possess
 18233	18233	noun.state	measure
-18235	18236	noun.attribute	self -
-18237	18237	noun.cognition	respect
+18235	18237	noun.attribute	self - respect
 18245	18245	noun.event	occasion
 18247	18248	verb.body	took off
 18250	18250	noun.artifact	hat
@@ -4632,31 +4619,29 @@ start_token	end_token	supersense_category	text
 18263	18263	verb.communication	said
 18266	18266	noun.person	Madame
 18279	18279	noun.person	Baron
-18280	18280	verb.motion	turned
+18280	18281	verb.motion	turned round
 18284	18284	verb.communication	said
 18285	18285	noun.person	Hein
-18290	18290	verb.emotion	felt
 18293	18293	verb.communication	ejaculate
 18295	18295	noun.communication	answer
 18301	18301	verb.communication	shouted
 18307	18307	noun.event	time
 18311	18311	noun.communication	tone
 18316	18316	noun.event	time
-18320	18320	verb.change	prolonging
+18320	18320	noun.act	prolonging
 18323	18323	noun.communication	words
 18327	18327	verb.stative	was
 18337	18337	verb.communication	confess
 18341	18341	noun.communication	explanation
 18342	18342	verb.possession	gave
 18345	18345	noun.feeling	pleasure
-18348	18348	verb.cognition	felt
+18348	18348	verb.emotion	felt
 18351	18351	noun.feeling	desire
 18353	18353	verb.contact	overlay
 18355	18355	noun.event	incident
 18360	18360	noun.attribute	measure
 18362	18362	noun.attribute	grossness
-18369	18369	verb.motion	proceeded
-18372	18372	noun.quantity	more
+18369	18369	verb.stative	proceeded
 18375	18375	noun.feeling	gusto
 18378	18378	noun.act	proceeding
 18379	18379	verb.change	increase
@@ -4682,14 +4667,13 @@ start_token	end_token	supersense_category	text
 18455	18455	verb.communication	confess
 18458	18458	verb.stative	was
 18462	18462	verb.social	make
-18464	18464	noun.communication	secret
-18467	18467	noun.cognition	fact
+18467	18467	noun.communication	fact
 18477	18477	verb.communication	grant
 18481	18481	noun.state	behaviour
 18485	18485	verb.communication	called
 18489	18489	noun.act	tomfoolery
 18499	18499	verb.stative	was
-18504	18504	verb.communication	let
+18504	18504	verb.social	let
 18506	18506	verb.communication	tell
 18510	18510	verb.stative	am
 18515	18515	noun.act	conduct
@@ -4703,6 +4687,7 @@ start_token	end_token	supersense_category	text
 18550	18550	noun.time	weeks
 18554	18554	verb.perception	feeling
 18563	18563	verb.communication	say
+18567	18567	verb.stative	been
 18577	18577	noun.state	condition
 18584	18584	verb.possession	lost
 18585	18585	noun.relation	control
@@ -4711,14 +4696,13 @@ start_token	end_token	supersense_category	text
 18601	18601	verb.cognition	pick
 18603	18603	noun.communication	quarrel
 18606	18608	noun.person	Monsieur le Marquise
-18615	18615	noun.state	circumstances
+18615	18615	noun.communication	circumstances
 18618	18618	verb.possession	had
 18620	18620	noun.cognition	choice
 18623	18623	verb.communication	answer
 18633	18633	verb.perception	showing
 18634	18634	noun.communication	signs
-18636	18636	noun.state	ill
-18638	18638	noun.state	health
+18636	18638	noun.state	ill - health
 18642	18643	noun.person	Baroness Burmergelm
 18645	18645	verb.cognition	take
 18647	18647	noun.state	circumstance
@@ -4730,19 +4714,19 @@ start_token	end_token	supersense_category	text
 18665	18665	verb.social	make
 18667	18667	noun.act	amends
 18672	18672	verb.cognition	know
-18676	18676	verb.communication	doubt
+18676	18676	verb.cognition	doubt
 18691	18691	verb.cognition	know
 18694	18694	noun.state	circumstance
 18695	18695	verb.stative	is
 18703	18703	verb.change	begun
-18706	18706	verb.body	abused
-18709	18710	noun.time	legal world
+18706	18706	verb.emotion	abused
+18710	18710	noun.group	world
 18714	18714	noun.person	advocates
 18717	18717	noun.act	cases
 18719	18720	verb.social	taken to
 18721	18721	verb.communication	justifying
 18723	18723	noun.person	clients
-18726	18726	noun.communication	ground
+18726	18726	noun.cognition	ground
 18731	18731	noun.time	moment
 18734	18734	noun.act	crime
 18739	18739	noun.person	clients
@@ -4753,8 +4737,7 @@ start_token	end_token	supersense_category	text
 18760	18760	noun.person	client
 18761	18761	verb.social	committed
 18763	18763	noun.act	murder
-18765	18765	verb.stative	is
-18770	18770	verb.perception	has
+18770	18770	verb.possession	has
 18772	18772	noun.cognition	recollection
 18775	18775	verb.social	committed
 18779	18779	noun.person	doctors
@@ -4763,7 +4746,7 @@ start_token	end_token	supersense_category	text
 18785	18785	verb.communication	affirming
 18789	18789	verb.stative	is
 18792	18792	noun.state	malady
-18799	18799	verb.change	arise
+18799	18799	verb.stative	arise
 18801	18801	noun.cognition	delusions
 18803	18803	verb.communication	make
 18805	18805	noun.person	man
@@ -4777,15 +4760,17 @@ start_token	end_token	supersense_category	text
 18828	18828	verb.stative	are
 18829	18829	noun.person	members
 18833	18833	noun.group	generation
-18838	18839	noun.person	Prussian Junkers
+18838	18838	noun.person	Prussian
+18839	18839	noun.person	Junkers
 18841	18841	noun.person	landowners
 18847	18847	noun.act	process
-18853	18853	noun.cognition	world
+18853	18853	noun.group	world
 18855	18855	verb.stative	be
 18862	18862	verb.stative	are
 18867	18867	verb.communication	accept
 18870	18870	noun.communication	explanation
-18877	18877	noun.communication	opinion
+18873	18873	verb.stative	is
+18877	18877	noun.cognition	opinion
 18881	18881	noun.person	General
 18887	18887	noun.person	sir
 18891	18891	verb.communication	thundered
@@ -4798,6 +4783,7 @@ start_token	end_token	supersense_category	text
 18924	18924	noun.body	eyes
 18927	18927	noun.person	Baron
 18929	18929	noun.person	Baroness
+18930	18930	verb.stative	will
 18931	18931	verb.stative	be
 18935	18935	noun.communication	intercourse
 18943	18943	verb.change	confined
@@ -4811,14 +4797,16 @@ start_token	end_token	supersense_category	text
 18970	18970	noun.relation	part
 18973	18973	noun.group	household
 18976	18976	noun.person	Baron
-18977	18977	verb.social	approached
+18977	18977	verb.communication	approached
+18981	18981	noun.location	Casino
 18984	18984	verb.communication	demanded
 18988	18988	noun.feeling	satisfaction
 18992	18992	verb.cognition	understand
 18998	18998	verb.stative	is
+19002	19002	verb.possession	entailed
 19012	19012	noun.person	sir
-19016	19016	verb.cognition	entailed
-19020	19020	noun.cognition	fact
+19016	19016	verb.communication	entailed
+19020	19020	noun.communication	fact
 19024	19024	verb.social	forced
 19026	19026	verb.social	sue
 19030	19030	noun.person	Baron
@@ -4865,7 +4853,6 @@ start_token	end_token	supersense_category	text
 19192	19192	noun.person	landlord
 19195	19195	verb.communication	explain
 19200	19200	noun.time	tomorrow
-19206	19206	verb.stative	be
 19210	19210	noun.artifact	hotel
 19211	19211	noun.possession	expenses
 19215	19215	verb.possession	have
@@ -4969,7 +4956,7 @@ start_token	end_token	supersense_category	text
 19576	19576	noun.cognition	fact
 19579	19579	noun.cognition	matter
 19580	19580	verb.stative	lies
-19589	19589	verb.communication	put
+19589	19589	verb.contact	put
 19591	19591	noun.act	slight
 19595	19595	verb.communication	referring
 19599	19599	noun.person	person
@@ -4978,7 +4965,7 @@ start_token	end_token	supersense_category	text
 19611	19611	noun.act	conduct
 19616	19616	verb.change	happened
 19620	19620	verb.communication	foreseen
-19623	19623	noun.person	General
+19622	19623	noun.person	The General
 19625	19625	verb.cognition	hearing
 19630	19630	noun.feeling	outrage
 19632	19632	verb.communication	showed
@@ -4997,6 +4984,7 @@ start_token	end_token	supersense_category	text
 19687	19687	verb.possession	have
 19688	19688	noun.group	police
 19689	19689	noun.group	authorities
+19695	19695	noun.cognition	respect
 19698	19698	noun.attribute	rank
 19705	19705	noun.person	Baron
 19710	19710	noun.person	sir
@@ -5019,8 +5007,8 @@ start_token	end_token	supersense_category	text
 19781	19781	verb.communication	arrest
 19783	19783	noun.person	man
 19785	19785	verb.competition	brawling
-19789	19789	verb.social	brawled
-19797	19797	verb.cognition	begun
+19789	19789	verb.competition	brawled
+19797	19797	verb.communication	begun
 19799	19799	noun.communication	explanations
 19802	19802	noun.person	Baron
 19806	19806	verb.stative	are
@@ -5038,12 +5026,13 @@ start_token	end_token	supersense_category	text
 19848	19848	noun.act	guardianship
 19851	19851	noun.person	person
 19853	19853	verb.stative	is
-19856	19856	verb.consumption	exercise
+19856	19856	verb.possession	exercise
 19857	19857	noun.relation	control
 19861	19861	noun.cognition	will
 19864	19864	verb.stative	is
 19869	19869	verb.social	disturb
 19871	19871	verb.emotion	alarm
+19877	19877	noun.person	God
 19879	19879	noun.attribute	sake
 19881	19882	noun.person	Alexis Ivanovitch
 19885	19885	verb.contact	put
@@ -5064,7 +5053,6 @@ start_token	end_token	supersense_category	text
 19952	19952	verb.motion	move
 19955	19955	noun.attribute	care
 19961	19961	noun.cognition	care
-19966	19966	verb.stative	be
 19977	19977	verb.motion	leave
 19979	19979	noun.location	place
 19982	19982	verb.stative	be
@@ -5234,6 +5222,7 @@ start_token	end_token	supersense_category	text
 20638	20638	verb.motion	quit
 20640	20640	noun.artifact	hotel
 20648	20648	verb.possession	had
+20652	20652	verb.stative	left
 20659	20659	noun.communication	yes
 20666	20666	noun.possession	riches
 20667	20667	verb.cognition	awaited
@@ -5316,7 +5305,7 @@ start_token	end_token	supersense_category	text
 20992	20992	verb.stative	be
 21004	21004	noun.cognition	fancy
 21006	21006	verb.cognition	assumes
-21011	21011	noun.attribute	vein
+21011	21011	noun.communication	vein
 21015	21015	noun.motive	reason
 21019	21019	verb.creation	compounded
 21024	21024	noun.attribute	forms
@@ -5451,7 +5440,7 @@ start_token	end_token	supersense_category	text
 21535	21535	noun.person	Frenchman
 21538	21538	verb.consumption	labouring
 21541	21541	noun.state	delusion
-21553	21553	verb.social	expelled
+21553	21553	verb.competition	expelled
 21556	21556	noun.person	Baron
 21558	21558	noun.state	presence
 21567	21567	verb.perception	listened
@@ -5461,8 +5450,9 @@ start_token	end_token	supersense_category	text
 21587	21587	verb.social	visiting
 21593	21593	verb.cognition	see
 21597	21597	verb.cognition	intended
-21599	21599	verb.social	go
+21599	21599	verb.motion	go
 21602	21602	noun.cognition	affair
+21605	21606	noun.communication	Good heavens
 21609	21609	verb.communication	cried
 21610	21611	noun.person	de Griers
 21614	21614	verb.cognition	Seeing
@@ -5476,7 +5466,7 @@ start_token	end_token	supersense_category	text
 21643	21643	verb.change	began
 21645	21645	noun.communication	explanations
 21649	21649	noun.person	Frenchman
-21651	21651	verb.perception	fidgeted
+21651	21651	verb.body	fidgeted
 21653	21653	verb.motion	rolled
 21655	21655	noun.body	head
 21659	21659	verb.perception	listened
@@ -5499,8 +5489,7 @@ start_token	end_token	supersense_category	text
 21721	21721	noun.person	servant
 21724	21724	noun.person	General
 21735	21735	verb.possession	lost
-21738	21738	noun.act	post
-21745	21745	noun.cognition	place
+21738	21738	noun.location	post
 21747	21747	verb.body	treated
 21751	21751	noun.person	person
 21761	21761	verb.communication	answer
@@ -5509,6 +5498,7 @@ start_token	end_token	supersense_category	text
 21777	21777	verb.communication	said
 21780	21780	verb.emotion	felt
 21787	21787	verb.cognition	comprehending
+21792	21792	noun.act	differences
 21794	21794	noun.time	years
 21798	21798	noun.state	status
 21809	21809	verb.body	smiling
@@ -5526,7 +5516,7 @@ start_token	end_token	supersense_category	text
 21849	21849	verb.communication	beg
 21851	21851	noun.person	Baron
 21855	21855	noun.person	Baroness
-21857	21857	noun.communication	pardon
+21857	21857	noun.act	pardon
 21869	21869	verb.emotion	feeling
 21876	21876	verb.stative	been
 21880	21880	noun.state	condition
@@ -5548,13 +5538,13 @@ start_token	end_token	supersense_category	text
 21950	21950	noun.feeling	regret
 21955	21955	noun.person	Baron
 21961	21961	noun.person	lady
-21965	21965	noun.communication	reason
+21965	21965	noun.motive	reason
 21969	21969	noun.attribute	probability
 21974	21974	noun.person	Baroness
 21978	21978	noun.cognition	world
 21983	21983	verb.creation	imagine
-21987	21987	verb.social	doing
-21992	21992	verb.cognition	hoped
+21987	21987	verb.creation	doing
+21992	21992	verb.emotion	hoped
 21996	21996	noun.act	action
 21999	21999	verb.possession	recover
 22001	22001	noun.possession	post
@@ -5572,6 +5562,7 @@ start_token	end_token	supersense_category	text
 22048	22048	verb.communication	insult
 22053	22053	noun.person	Baron
 22055	22055	verb.social	done
+22065	22065	noun.cognition	part
 22069	22069	verb.cognition	feel
 22072	22072	verb.communication	express
 22081	22081	noun.attribute	reserve
@@ -5603,13 +5594,13 @@ start_token	end_token	supersense_category	text
 22170	22170	verb.emotion	annoy
 22172	22172	noun.person	General
 22178	22178	verb.possession	have
-22183	22183	noun.state	end
+22183	22183	noun.cognition	end
 22185	22185	noun.cognition	view
 22195	22195	verb.communication	pardon
-22201	22202	noun.person	cher Marquis
+22200	22202	noun.person	mon cher Marquis
 22205	22205	verb.communication	tell
 22213	22213	verb.stative	do
-22220	22220	noun.person	General
+22219	22220	noun.person	The General
 22227	22227	noun.person	General
 22230	22230	noun.time	night
 22232	22232	verb.communication	said
@@ -5640,16 +5631,16 @@ start_token	end_token	supersense_category	text
 22336	22336	noun.person	General
 22337	22337	verb.stative	is
 22343	22343	noun.person	lady
-22348	22348	verb.stative	be
 22351	22351	verb.social	marry
 22355	22355	verb.motion	leaves
-22358	22358	verb.creation	Imagine
+22358	22358	verb.cognition	Imagine
 22364	22364	noun.state	scene
 22366	22366	noun.communication	scandal
 22368	22368	verb.stative	entail
 22377	22377	verb.cognition	see
 22380	22380	noun.state	marriage
 22381	22381	noun.cognition	scheme
+22382	22382	noun.state	need
 22385	22385	verb.change	affected
 22387	22387	noun.communication	scenes
 22389	22389	noun.communication	scandals
@@ -5684,7 +5675,6 @@ start_token	end_token	supersense_category	text
 22520	22520	noun.act	business
 22521	22521	noun.communication	transactions
 22523	22523	verb.communication	arrange
-22534	22534	noun.person	madame
 22536	22536	noun.person	mother
 22539	22540	noun.person	De Griers
 22541	22541	verb.communication	shot
@@ -5728,7 +5718,6 @@ start_token	end_token	supersense_category	text
 22702	22702	verb.stative	matter
 22715	22715	verb.communication	said
 22723	22723	noun.communication	tone
-22726	22726	verb.cognition	Seeing
 22729	22729	noun.act	solicitations
 22731	22731	verb.possession	had
 22733	22733	noun.phenomenon	effect
@@ -5753,6 +5742,7 @@ start_token	end_token	supersense_category	text
 22801	22801	verb.social	do
 22803	22803	noun.act	things
 22806	22806	verb.social	try
+22807	22807	verb.social	doing
 22811	22811	verb.cognition	see
 22816	22816	verb.stative	be
 22822	22822	noun.communication	reason
@@ -5777,7 +5767,7 @@ start_token	end_token	supersense_category	text
 22889	22891	noun.person	Monsieur de Griers
 22894	22894	noun.act	thing
 22897	22897	verb.social	done
-22901	22901	noun.act	trim
+22901	22901	noun.state	trim
 22904	22904	verb.communication	imagine
 22911	22911	verb.change	start
 22913	22914	noun.person	Mr. Astley
@@ -5817,7 +5807,6 @@ start_token	end_token	supersense_category	text
 23046	23046	verb.cognition	take
 23048	23048	noun.communication	refusal
 23052	23052	noun.act	affront
-23058	23058	verb.cognition	know
 23062	23062	noun.person	English
 23063	23063	verb.stative	are
 23068	23068	verb.communication	introduce
@@ -5877,7 +5866,7 @@ start_token	end_token	supersense_category	text
 23273	23273	noun.communication	words
 23277	23277	noun.person	person
 23279	23279	verb.cognition	Read
-23287	23287	verb.cognition	take
+23287	23287	verb.possession	take
 23291	23291	noun.communication	answer
 23295	23295	verb.communication	saying
 23298	23298	verb.change	took
@@ -6082,7 +6071,6 @@ start_token	end_token	supersense_category	text
 24173	24173	verb.perception	had
 24176	24176	verb.social	do
 24179	24179	noun.person	Whither
-24182	24182	verb.social	bound
 24185	24185	verb.emotion	like
 24191	24191	verb.motion	coming
 24193	24193	verb.possession	pay
@@ -6169,7 +6157,6 @@ start_token	end_token	supersense_category	text
 24518	24518	noun.communication	subject
 24521	24521	verb.cognition	found
 24524	24524	noun.feeling	pleasure
-24526	24526	verb.social	do
 24532	24532	verb.stative	was
 24535	24535	noun.event	occasion
 24540	24540	verb.communication	referred
@@ -6236,7 +6223,7 @@ start_token	end_token	supersense_category	text
 24773	24773	verb.communication	admit
 24778	24778	verb.stative	is
 24781	24781	noun.communication	question
-24784	24785	noun.person	Whereupon I
+24784	24784	noun.person	Whereupon
 24786	24786	verb.communication	related
 24792	24792	noun.event	incident
 24795	24795	noun.time	days
@@ -6313,7 +6300,7 @@ start_token	end_token	supersense_category	text
 25095	25095	noun.communication	letter
 25101	25101	verb.cognition	know
 25107	25107	verb.communication	cried
-25110	25110	verb.communication	fixed
+25110	25110	verb.contact	fixed
 25111	25112	noun.person	Mr. Astley
 25115	25115	noun.act	gaze
 25119	25119	verb.cognition	believe
@@ -6321,7 +6308,7 @@ start_token	end_token	supersense_category	text
 25126	25126	noun.communication	story
 25133	25133	noun.person	Mlle
 25135	25135	noun.person	Polina
-25142	25142	verb.communication	gave
+25142	25142	verb.possession	gave
 25146	25146	noun.act	stare
 25150	25150	noun.body	eyes
 25151	25151	verb.perception	look
@@ -6396,7 +6383,8 @@ start_token	end_token	supersense_category	text
 25447	25447	noun.motive	reason
 25450	25450	verb.communication	assign
 25453	25453	noun.person	General
-25454	25455	verb.social	taking fright
+25454	25454	verb.possession	taking
+25455	25455	noun.feeling	fright
 25458	25458	noun.attribute	way
 25464	25464	noun.act	clowning
 25466	25466	verb.communication	led
@@ -6716,8 +6704,6 @@ start_token	end_token	supersense_category	text
 26597	26597	noun.artifact	resources
 26602	26602	verb.motion	staking
 26604	26604	verb.possession	losing
-26607	26607	noun.quantity	louis
-26608	26608	noun.substance	d
 26611	26611	verb.communication	chanced
 26613	26613	verb.perception	look
 26618	26618	verb.perception	saw
@@ -6864,7 +6850,7 @@ start_token	end_token	supersense_category	text
 27139	27139	noun.time	yesterday
 27141	27141	verb.perception	saw
 27143	27143	noun.person	Frenchwoman
-27144	27144	verb.competition	riding
+27144	27144	verb.motion	riding
 27150	27151	noun.person	De Griers
 27155	27155	noun.person	General
 27157	27157	verb.motion	careering
@@ -6912,7 +6898,7 @@ start_token	end_token	supersense_category	text
 27306	27306	verb.social	bring
 27312	27312	noun.person	Frenchman
 27317	27317	verb.cognition	consents
-27321	27321	verb.social	seen
+27321	27321	verb.perception	seen
 27325	27325	noun.person	Mlle
 27327	27327	noun.person	Blanche
 27331	27331	verb.stative	be
@@ -6932,6 +6918,7 @@ start_token	end_token	supersense_category	text
 27384	27384	verb.stative	was
 27386	27386	verb.communication	launched
 27390	27390	noun.person	Baron
+27393	27393	noun.person	devil
 27394	27394	verb.cognition	take
 27400	27400	verb.possession	left
 27402	27402	noun.cognition	choice
@@ -6963,7 +6950,6 @@ start_token	end_token	supersense_category	text
 27497	27497	verb.communication	mean
 27500	27500	noun.act	abandonment
 27506	27506	verb.stative	remain
-27510	27510	verb.stative	be
 27513	27513	verb.competition	defend
 27515	27515	noun.attribute	interests
 27522	27522	verb.social	save
@@ -6971,13 +6957,14 @@ start_token	end_token	supersense_category	text
 27527	27527	noun.possession	property
 27529	27529	noun.communication	Yes
 27531	27531	noun.communication	yes
+27534	27534	verb.stative	is
 27548	27548	verb.cognition	understand
 27557	27557	noun.person	General
 27559	27559	noun.person	mother
 27567	27567	verb.communication	asked
 27568	27569	noun.person	Mr. Astley
 27574	27575	noun.person	old woman
-27577	27577	noun.location	Moscow
+27577	27577	noun.person	Moscow
 27579	27579	verb.communication	declines
 27581	27581	verb.change	die
 27590	27590	verb.cognition	expecting
@@ -6989,7 +6976,7 @@ start_token	end_token	supersense_category	text
 27609	27609	verb.stative	centre
 27614	27614	verb.stative	is
 27616	27616	noun.communication	question
-27618	27618	noun.possession	succession
+27618	27618	noun.act	succession
 27620	27620	verb.social	Let
 27624	27624	verb.change	settled
 27628	27628	noun.person	General
@@ -7007,6 +6994,7 @@ start_token	end_token	supersense_category	text
 27673	27673	verb.cognition	think
 27677	27677	verb.stative	waiting
 27686	27686	verb.cognition	know
+27688	27688	noun.quantity	nothing
 27692	27692	verb.communication	asserted
 27693	27694	noun.person	Mr. Astley
 27708	27708	verb.communication	shouted
@@ -7016,12 +7004,12 @@ start_token	end_token	supersense_category	text
 27723	27723	noun.communication	will
 27727	27727	noun.communication	reason
 27730	27730	verb.possession	awards
-27731	27731	noun.quantity	Mlle
+27731	27731	noun.person	Mlle
 27733	27733	noun.person	Polina
 27735	27735	noun.possession	dowry
 27742	27742	noun.possession	money
 27744	27744	verb.possession	received
-27748	27748	verb.contact	throw
+27748	27748	verb.body	throw
 27752	27752	noun.person	Frenchman
 27754	27754	noun.body	neck
 27757	27757	noun.person	women
@@ -7032,10 +7020,13 @@ start_token	end_token	supersense_category	text
 27773	27773	verb.stative	concerned
 27776	27776	noun.person	Polina
 27777	27777	verb.stative	is
+27780	27780	verb.stative	is
 27782	27782	verb.motion	fall
 27783	27783	noun.body	head
 27785	27785	noun.body	ears
-27796	27797	verb.cognition	Look at
+27790	27790	verb.stative	is
+27794	27794	noun.cognition	opinion
+27796	27796	verb.perception	Look
 27803	27803	verb.contact	sitting
 27807	27807	verb.contact	plunged
 27809	27809	noun.cognition	thought
@@ -7052,8 +7043,9 @@ start_token	end_token	supersense_category	text
 27848	27848	verb.communication	shouting
 27853	27853	verb.perception	heard
 27856	27856	verb.communication	calling
-27858	27858	noun.communication	Russian
+27858	27858	noun.location	Russian
 27860	27861	noun.person	Alexis Ivanovitch
+27864	27864	verb.stative	was
 27866	27866	noun.person	woman
 27868	27868	noun.attribute	voice
 27870	27870	verb.perception	Listen
@@ -7063,18 +7055,16 @@ start_token	end_token	supersense_category	text
 27885	27885	verb.motion	left
 27887	27887	noun.artifact	caf
 27893	27893	verb.perception	noticing
-27897	27897	verb.social	done
 27907	27907	verb.perception	hear
 27909	27909	noun.person	woman
 27911	27911	noun.attribute	voice
 27912	27912	verb.communication	calling
 27919	27919	verb.cognition	know
-27922	27922	noun.Tops	someone
 27924	27924	verb.communication	calling
 27927	27927	noun.communication	Russian
 27934	27934	verb.cognition	see
 27937	27937	noun.communication	cries
-27938	27938	verb.motion	come
+27938	27938	verb.change	come
 27941	27941	verb.motion	come
 27944	27944	noun.person	lady
 27950	27950	verb.contact	sitting
@@ -7103,13 +7093,12 @@ start_token	end_token	supersense_category	text
 28047	28047	noun.artifact	verandah
 28052	28052	verb.motion	reached
 28054	28054	noun.artifact	portico
-28060	28060	verb.contact	setting
-28061	28061	noun.body	foot
+28060	28061	verb.motion	setting foot
 28064	28064	noun.location	space
 28070	28070	noun.body	hands
 28071	28071	verb.motion	fell
 28074	28074	noun.body	sides
-28077	28077	noun.feeling	astonishment
+28077	28077	noun.attribute	astonishment
 28081	28081	noun.body	feet
 28082	28082	verb.contact	glued
 28086	28086	noun.artifact	pavement
@@ -7129,26 +7118,27 @@ start_token	end_token	supersense_category	text
 28125	28125	verb.stative	headed
 28128	28128	noun.person	landlord
 28131	28131	noun.person	functionary
-28134	28135	verb.motion	run out
+28134	28135	verb.contact	run out
 28137	28137	verb.motion	meet
 28139	28139	noun.person	visitor
 28141	28141	verb.motion	arrived
 28145	28145	noun.state	stir
 28147	28147	noun.state	din
-28149	28149	verb.social	attended
+28149	28149	verb.stative	attended
 28153	28153	noun.group	retinue
-28156	28156	verb.motion	accompanied
+28156	28156	verb.stative	accompanied
 28161	28161	noun.group	pile
 28163	28163	noun.artifact	trunks
-28165	28165	noun.artifact	portmanteaux
+28165	28165	noun.substance	portmanteaux
 28170	28170	noun.state	tier
 28173	28173	noun.artifact	verandah
 28176	28176	verb.communication	say
-28180	28180	verb.motion	sitting
+28180	28180	verb.stative	sitting
 28183	28183	noun.person	grandmother
 28189	28189	verb.stative	was
 28202	28202	noun.time	years
-28205	28207	noun.person	Antonida Vassilievna Tarassevitcha
+28205	28205	noun.person	Antonida
+28206	28207	noun.person	Vassilievna Tarassevitcha
 28209	28209	noun.person	landowner
 28213	28213	noun.person	dame
 28216	28216	noun.person	Moscow
@@ -7156,7 +7146,7 @@ start_token	end_token	supersense_category	text
 28224	28224	verb.communication	caused
 28227	28227	noun.communication	telegrams
 28230	28231	verb.communication	sent off
-28233	28233	verb.possession	received
+28233	28233	verb.cognition	received
 28237	28237	verb.change	dying
 28241	28241	verb.change	dying
 28248	28248	noun.person	person
@@ -7167,7 +7157,7 @@ start_token	end_token	supersense_category	text
 28265	28265	verb.motion	walk
 28269	28269	verb.motion	arrived
 28274	28274	noun.artifact	armchair
-28277	28277	noun.communication	mode
+28277	28277	noun.attribute	mode
 28279	28279	noun.communication	conveyance
 28284	28284	noun.time	years
 28313	28313	verb.perception	looked
@@ -7193,30 +7183,30 @@ start_token	end_token	supersense_category	text
 28403	28403	verb.cognition	thought
 28405	28405	verb.perception	see
 28408	28408	noun.time	grave
-28410	28410	verb.creation	making
-28412	28412	noun.communication	will
+28410	28410	verb.social	making
+28412	28412	noun.cognition	will
 28416	28416	verb.cognition	thought
-28424	28424	verb.stative	outlive
+28424	28424	verb.cognition	outlive
 28433	28433	noun.artifact	hotel
 28435	28436	noun.person	Good Lord
 28442	28442	verb.stative	become
 28452	28452	verb.change	happen
 28455	28455	noun.person	General
-28459	28459	verb.change	turn
+28459	28459	verb.motion	turn
 28461	28461	noun.location	place
-28469	28469	noun.person	sir
+28468	28469	noun.person	good sir
 28473	28474	noun.person	old woman
 28475	28475	verb.communication	continued
-28479	28479	noun.attribute	voice
+28479	28479	noun.communication	voice
 28485	28485	verb.contact	standing
 28493	28493	noun.body	eyes
 28495	28495	verb.motion	falling
 28499	28499	noun.body	head
 28504	28504	verb.motion	come
 28506	28506	verb.communication	say
-28520	28520	verb.contact	shake
+28520	28520	verb.motion	shake
 28521	28521	noun.body	hands
-28527	28527	verb.cognition	recognise
+28527	28527	verb.perception	recognise
 28532	28532	noun.person	Potapitch
 28536	28536	verb.communication	cried
 28540	28540	noun.person	servant
@@ -7227,22 +7217,21 @@ start_token	end_token	supersense_category	text
 28557	28557	noun.body	head
 28560	28560	verb.stative	was
 28562	28562	noun.person	chamberlain
-28565	28565	verb.motion	accompanied
+28565	28565	verb.stative	accompanied
 28569	28569	noun.act	journeys
 28574	28574	verb.cognition	think
 28576	28577	noun.person	Alexis Ivanovitch
-28580	28580	verb.social	recognise
+28580	28580	verb.possession	recognise
 28585	28585	verb.contact	buried
 28596	28596	verb.communication	sending
 28597	28597	noun.group	hosts
 28599	28599	noun.communication	telegrams
 28601	28601	verb.cognition	know
 28604	28604	verb.stative	were
-28615	28615	verb.cognition	heard
+28615	28615	verb.perception	heard
 28618	28618	noun.communication	story
 28621	28621	verb.stative	am
 28631	28631	verb.cognition	see
-28635	28635	verb.communication	Pardon
 28638	28639	noun.person	Antonida Vassilievna
 28643	28643	verb.communication	replied
 28648	28648	verb.change	recovered
@@ -7251,17 +7240,16 @@ start_token	end_token	supersense_category	text
 28658	28658	verb.possession	have
 28660	28660	noun.motive	reason
 28662	28662	verb.emotion	wish
-28670	28670	verb.emotion	astonished
 28672	28672	verb.perception	see
 28679	28679	verb.stative	be
 28682	28682	verb.cognition	seeing
 28697	28697	verb.motion	got
 28700	28700	noun.artifact	chair
 28703	28703	verb.motion	came
-28705	28705	noun.artifact	Things
+28705	28705	noun.cognition	Things
 28706	28706	verb.stative	are
 28711	28711	noun.artifact	train
-28720	28720	verb.perception	chatter
+28720	28720	verb.communication	chatter
 28728	28728	noun.act	walk
 28732	28732	noun.communication	Yes
 28740	28740	noun.location	Casino
@@ -7278,7 +7266,7 @@ start_token	end_token	supersense_category	text
 28800	28800	noun.communication	Yes
 28812	28812	verb.perception	observe
 28814	28814	noun.person	convenances
-28817	28818	verb.possession	keep up
+28817	28818	verb.social	keep up
 28819	28819	noun.act	appearances
 28822	28822	noun.cognition	things
 28824	28824	verb.possession	give
@@ -7289,7 +7277,7 @@ start_token	end_token	supersense_category	text
 28841	28841	noun.person	gentlefolks
 28851	28851	noun.group	people
 28853	28853	verb.communication	cut
-28858	28858	noun.location	Prascovia
+28858	28858	noun.person	Prascovia
 28864	28864	noun.communication	Yes
 28866	28867	noun.person	Polina Alexandrovna
 28868	28868	verb.stative	is
@@ -7297,10 +7285,11 @@ start_token	end_token	supersense_category	text
 28881	28881	verb.motion	go
 28883	28884	verb.contact	look for
 28888	28888	verb.communication	Tell
-28892	28892	noun.artifact	way
+28892	28892	noun.act	way
 28895	28895	noun.artifact	rooms
 28901	28901	verb.emotion	like
 28902	28902	verb.stative	being
+28907	28907	noun.communication	Yes
 28910	28910	verb.communication	thank
 28913	28914	noun.person	Antonida Vassilievna
 28921	28921	noun.person	Potapitch
@@ -7312,14 +7301,14 @@ start_token	end_token	supersense_category	text
 28937	28937	noun.artifact	suite
 28939	28939	noun.artifact	rooms
 28955	28955	noun.artifact	luggage
-28956	28957	verb.possession	taken up
+28956	28956	verb.possession	taken
 28965	28965	verb.possession	tumbling
-28974	28974	verb.contact	tearing
 28978	28978	noun.person	scullions
 28980	28980	noun.person	fellows
 28981	28981	verb.stative	are
+28984	28984	verb.stative	is
 28991	28991	verb.communication	added
-28997	28998	noun.person	Mr. Astley
+28996	28998	noun.person	A Mr. Astley
 29002	29002	verb.communication	replied
 29007	29007	verb.stative	is
 29008	29009	noun.person	Mr. Astley
@@ -7340,7 +7329,7 @@ start_token	end_token	supersense_category	text
 29074	29074	verb.contact	lodging
 29077	29077	noun.person	Madame
 29083	29083	noun.artifact	chair
-29086	29086	noun.body	lacqueys
+29086	29086	noun.artifact	lacqueys
 29090	29090	verb.motion	preceded
 29095	29095	noun.artifact	staircase
 29098	29098	noun.act	progress
@@ -7354,8 +7343,8 @@ start_token	end_token	supersense_category	text
 29121	29121	verb.possession	had
 29123	29123	noun.state	reputation
 29125	29125	verb.stative	being
-29140	29140	noun.artifact	spa
-29145	29145	noun.shape	turn
+29140	29140	noun.location	spa
+29145	29145	noun.event	turn
 29148	29148	noun.artifact	staircase
 29152	29152	noun.artifact	corridors
 29154	29154	verb.perception	encountered
@@ -7367,7 +7356,7 @@ start_token	end_token	supersense_category	text
 29177	29177	noun.person	newcomer
 29178	29178	verb.stative	was
 29183	29183	noun.communication	questions
-29185	29185	verb.cognition	returned
+29185	29185	verb.communication	returned
 29188	29188	noun.communication	answer
 29193	29194	noun.person	old lady
 29195	29195	verb.stative	was
@@ -7379,18 +7368,17 @@ start_token	end_token	supersense_category	text
 29219	29219	noun.artifact	suite
 29225	29225	noun.time	week
 29229	29229	verb.social	tenanted
-29232	29236	noun.person	Grande Duchesse de N. Meanwhile
+29233	29236	noun.person	Duchesse de N. Meanwhile
 29238	29238	noun.communication	cause
-29241	29241	noun.cognition	sensation
+29241	29241	noun.feeling	sensation
 29243	29243	noun.person	Grandmother
 29246	29246	verb.motion	borne
 29250	29250	noun.artifact	armchair
 29253	29253	noun.person	person
 29256	29256	verb.motion	met
-29258	29258	verb.cognition	scanned
+29258	29258	verb.motion	scanned
 29262	29262	noun.cognition	eye
 29268	29268	verb.communication	interrogating
-29276	29276	noun.location	top
 29279	29279	noun.communication	voice
 29282	29282	verb.stative	was
 29285	29285	noun.body	figure
@@ -7405,14 +7393,14 @@ start_token	end_token	supersense_category	text
 29319	29319	verb.stative	was
 29324	29324	noun.substance	board
 29330	29331	verb.motion	lean back
-29334	29334	noun.body	seat
+29334	29334	noun.location	seat
 29341	29341	noun.body	head
 29348	29348	noun.body	features
-29350	29350	verb.change	remained
+29350	29350	verb.stative	remained
 29355	29355	verb.perception	glanced
 29363	29363	noun.cognition	sort
 29365	29365	noun.attribute	way
-29368	29368	noun.body	looks
+29368	29368	noun.attribute	looks
 29370	29370	noun.act	gestures
 29373	29373	verb.stative	were
 29379	29379	verb.motion	reached
@@ -7441,7 +7429,6 @@ start_token	end_token	supersense_category	text
 29460	29460	noun.person	Mlle
 29462	29462	noun.person	Blanche
 29465	29465	verb.communication	said
-29467	29467	noun.quantity	much
 29469	29470	noun.person	Mr. Astley
 29476	29476	noun.person	creature
 29477	29477	verb.stative	is
@@ -7457,11 +7444,13 @@ start_token	end_token	supersense_category	text
 29509	29509	noun.cognition	thought
 29510	29510	verb.communication	inspire
 29514	29514	verb.motion	marched
+29520	29520	noun.act	fashions
 29523	29523	noun.group	party
-29525	29525	verb.stative	lodging
+29525	29525	verb.motion	lodging
 29529	29529	noun.artifact	floor
 29532	29532	verb.contact	knocking
 29535	29535	noun.artifact	door
+29540	29540	noun.attribute	way
 29541	29541	verb.communication	announcing
 29543	29543	noun.state	presence
 29546	29546	verb.contact	threw
@@ -7481,16 +7470,16 @@ start_token	end_token	supersense_category	text
 29592	29592	verb.perception	seemed
 29595	29595	noun.act	outing
 29598	29598	noun.cognition	sort
-29603	29603	noun.relation	portion
+29603	29603	noun.possession	portion
 29606	29606	noun.group	party
 29609	29609	verb.motion	drive
 29611	29611	noun.artifact	carriages
 29616	29616	verb.motion	ride
 29618	29618	noun.animal	horseback
-29620	29620	verb.motion	accompanied
-29626	29626	noun.person	acquaintances
+29620	29620	verb.stative	accompanied
+29626	29626	noun.group	acquaintances
 29630	29630	verb.creation	planned
-29632	29633	noun.person	The General
+29633	29633	noun.person	General
 29634	29634	verb.stative	was
 29639	29639	noun.person	Polina
 29642	29642	noun.person	children
@@ -7499,11 +7488,11 @@ start_token	end_token	supersense_category	text
 29652	29652	noun.person	Mlle
 29654	29654	noun.person	Blanche
 29659	29659	noun.act	riding
-29661	29661	noun.act	habit
+29661	29661	noun.artifact	habit
 29665	29665	noun.person	mother
 29669	29669	noun.person	Prince
 29674	29674	noun.person	German
-29677	29677	verb.cognition	beheld
+29677	29677	verb.communication	beheld
 29685	29685	noun.location	midst
 29688	29688	noun.cognition	assembly
 29690	29690	noun.person	lacqueys
@@ -7513,18 +7502,19 @@ start_token	end_token	supersense_category	text
 29698	29698	verb.contact	set
 29703	29703	noun.quantity	paces
 29706	29706	noun.person	General
-29708	29709	noun.communication	Good heavens
+29709	29709	noun.location	heavens
 29714	29714	verb.cognition	forget
 29716	29716	noun.act	spectacle
 29718	29718	verb.stative	ensued
 29723	29723	noun.act	entry
 29726	29726	noun.person	General
-29729	29730	verb.competition	holding forth
+29729	29730	verb.motion	holding forth
 29733	29733	noun.group	company
 29736	29737	noun.person	De Griers
 29746	29746	verb.communication	mention
 29755	29755	noun.time	days
-29757	29759	noun.person	Mlle . Blanche
+29757	29757	noun.person	Mlle
+29759	29759	noun.person	Blanche
 29761	29762	noun.person	De Griers
 29765	29765	verb.creation	making
 29767	29768	noun.quantity	great deal
@@ -7537,14 +7527,14 @@ start_token	end_token	supersense_category	text
 29807	29807	noun.person	Grandmother
 29808	29808	verb.change	appear
 29811	29811	noun.person	General
-29812	29813	verb.motion	stopped dead
+29812	29812	verb.motion	stopped
 29819	29819	noun.communication	word
 29824	29824	noun.body	jaw
 29825	29825	verb.motion	dropping
 29827	29827	verb.perception	stared
 29831	29832	noun.person	old lady
 29834	29834	noun.body	eyes
-29836	29836	verb.stative	starting
+29836	29837	verb.change	starting out
 29840	29840	noun.body	head
 29844	29844	noun.attribute	expression
 29852	29852	verb.perception	seen
@@ -7574,6 +7564,7 @@ start_token	end_token	supersense_category	text
 29928	29928	verb.perception	stared
 29932	29932	noun.person	Grandmother
 29935	29935	noun.body	eyebrows
+29936	29936	verb.motion	raised
 29939	29939	noun.body	lips
 29940	29940	verb.contact	parted
 29943	29943	noun.person	Prince
@@ -7585,29 +7576,28 @@ start_token	end_token	supersense_category	text
 29957	29957	verb.perception	looked
 29962	29962	verb.cognition	surprised
 29970	29970	verb.change	turned
-29975	29975	noun.communication	sheet
-29979	29979	verb.change	reddened
+29975	29975	noun.artifact	sheet
+29979	29979	verb.body	reddened
 29982	29982	noun.body	temples
 29986	29986	noun.person	Grandmother
 29988	29988	noun.event	arrival
 29989	29989	verb.perception	seemed
 29991	29991	verb.stative	be
 29993	29993	noun.event	catastrophe
-30003	30003	verb.motion	stood
+30003	30003	verb.contact	stood
 30004	30004	verb.perception	looking
 30007	30007	noun.person	Grandmother
 30010	30010	noun.group	company
 30017	30018	noun.person	Mr. Astley
-30023	30023	verb.change	remained
+30023	30023	verb.stative	remained
 30026	30026	noun.location	background
 30029	30029	verb.perception	gazed
 30035	30035	noun.location	scene
-30042	30042	verb.stative	am
 30047	30047	noun.communication	telegram
 30053	30053	noun.person	Grandmother
-30056	30056	verb.communication	ejaculated
+30056	30056	verb.creation	ejaculated
 30059	30059	verb.communication	dissipate
-30061	30061	noun.attribute	silence
+30061	30061	noun.state	silence
 30069	30069	verb.communication	expecting
 30074	30075	noun.person	Antonida Vassilievna
 30080	30080	noun.person	mother
@@ -7621,17 +7611,18 @@ start_token	end_token	supersense_category	text
 30115	30115	noun.time	seconds
 30120	30120	verb.body	had
 30122	30122	noun.act	stroke
+30130	30130	verb.communication	_
 30136	30136	verb.communication	exclaimed
 30143	30144	verb.motion	got into
 30146	30146	noun.artifact	train
 30148	30148	verb.motion	came
 30153	30153	verb.stative	is
 30155	30155	noun.artifact	railway
-30156	30157	verb.communication	meant for
+30156	30156	verb.communication	meant
 30161	30161	verb.cognition	thought
-30165	30166	verb.contact	turned up
+30165	30166	verb.possession	turned up
 30168	30168	noun.body	toes
-30170	30170	verb.cognition	left
+30170	30170	verb.possession	left
 30172	30172	noun.possession	property
 30175	30175	noun.group	lot
 30182	30182	verb.cognition	know
@@ -7640,11 +7631,11 @@ start_token	end_token	supersense_category	text
 30198	30198	verb.stative	cost
 30202	30202	noun.possession	sum
 30206	30206	verb.cognition	think
-30209	30209	noun.substance	telegrams
-30212	30212	verb.contact	sent
+30209	30209	noun.communication	telegrams
+30212	30212	verb.possession	sent
 30216	30216	noun.quantity	nothing
-30221	30222	verb.motion	picked up
-30224	30224	noun.artifact	heels
+30221	30222	verb.contact	picked up
+30224	30224	noun.body	heels
 30227	30227	verb.motion	came
 30231	30231	verb.stative	is
 30233	30233	noun.person	Frenchman
@@ -7653,13 +7644,15 @@ start_token	end_token	supersense_category	text
 30246	30246	noun.person	madame
 30249	30249	verb.communication	assented
 30250	30251	noun.person	De Griers
-30268	30268	noun.event	miracle
+30274	30274	noun.event	surprise
+30275	30275	noun.person	charmante
 30282	30282	noun.person	Charmante
 30287	30287	verb.cognition	know
 30291	30291	noun.person	mountebank
 30295	30295	verb.cognition	trust
 30306	30306	verb.communication	indicated
 30309	30309	noun.body	finger
+30314	30314	verb.stative	is
 30321	30322	verb.communication	went on
 30324	30324	verb.motion	turning
 30326	30326	noun.person	Mlle
@@ -7676,6 +7669,7 @@ start_token	end_token	supersense_category	text
 30362	30362	verb.stative	is
 30364	30364	noun.person	woman
 30369	30369	noun.person	Mlle
+30372	30372	noun.person	Cominges
 30376	30376	verb.communication	said
 30381	30381	verb.stative	is
 30383	30383	noun.person	mother
@@ -7685,7 +7679,7 @@ start_token	end_token	supersense_category	text
 30401	30401	noun.person	daughter
 30405	30405	verb.communication	asked
 30407	30408	noun.person	old lady
-30413	30413	noun.communication	semblance
+30413	30413	noun.attribute	semblance
 30415	30415	noun.event	ceremony
 30418	30418	noun.communication	No
 30422	30422	verb.communication	replied
@@ -7715,7 +7709,7 @@ start_token	end_token	supersense_category	text
 30497	30497	noun.person	Bonjour
 30502	30502	verb.communication	said
 30503	30503	noun.person	Madame
-30507	30507	noun.attribute	brusquerie
+30507	30507	noun.communication	brusquerie
 30510	30510	noun.person	Bonjour
 30512	30512	noun.person	madame
 30515	30515	verb.communication	replied
@@ -7727,13 +7721,13 @@ start_token	end_token	supersense_category	text
 30535	30535	verb.social	endeavoured
 30537	30537	verb.communication	express
 30541	30541	noun.body	face
-30543	30543	noun.communication	figure
+30543	30543	noun.body	figure
 30547	30547	noun.feeling	surprise
 30551	30551	noun.state	behaviour
 30554	30554	noun.cognition	part
 30557	30557	noun.person	Grandmother
 30562	30562	noun.person	woman
-30563	30564	verb.body	sticks out
+30563	30563	verb.perception	sticks
 30566	30566	noun.body	eyes
 30572	30572	verb.contact	mows
 30574	30574	noun.food	minces
@@ -7745,7 +7739,6 @@ start_token	end_token	supersense_category	text
 30592	30592	verb.communication	continued
 30597	30598	verb.social	taken up
 30600	30600	noun.artifact	abode
-30605	30606	verb.motion	going to
 30607	30607	verb.stative	be
 30612	30612	noun.person	neighbour
 30618	30618	verb.perception	hear
@@ -7753,17 +7746,16 @@ start_token	end_token	supersense_category	text
 30630	30630	noun.person	mother
 30632	30632	verb.cognition	believe
 30636	30636	verb.communication	say
-30639	30639	verb.stative	am
 30641	30641	verb.emotion	delighted
 30644	30644	verb.communication	returned
 30646	30646	noun.person	General
 30655	30655	noun.state	extent
-30657	30657	verb.possession	recovered
+30657	30657	verb.body	recovered
 30659	30659	noun.cognition	senses
 30666	30666	noun.event	occasion
 30667	30667	verb.change	arose
 30671	30671	verb.communication	speak
-30673	30673	noun.attribute	fluency
+30673	30673	noun.communication	fluency
 30675	30675	noun.attribute	gravity
 30680	30680	noun.attribute	effect
 30683	30683	verb.cognition	set
@@ -7776,16 +7768,17 @@ start_token	end_token	supersense_category	text
 30709	30709	noun.state	indisposition
 30713	30713	verb.perception	received
 30716	30716	noun.communication	telegrams
+30724	30724	noun.person	Fibs
 30726	30726	noun.person	fibs
 30729	30729	verb.communication	interrupted
 30731	30731	noun.person	Grandmother
-30742	30742	verb.motion	come
+30742	30742	verb.change	come
 30744	30744	verb.cognition	decide
 30747	30747	noun.act	journey
 30750	30750	verb.communication	continued
 30752	30752	noun.person	General
-30756	30756	noun.communication	voice
-30759	30759	verb.motion	hurried
+30756	30756	noun.attribute	voice
+30759	30759	verb.social	hurried
 30761	30761	verb.perception	overlook
 30763	30764	noun.person	old lady
 30767	30767	noun.communication	remark
@@ -7815,42 +7808,42 @@ start_token	end_token	supersense_category	text
 30878	30878	noun.act	journey
 30881	30881	verb.communication	ask
 30896	30896	verb.social	done
-30904	30904	verb.motion	going
-30906	30906	noun.communication	ecstasies
+30901	30901	verb.stative	is
+30904	30905	verb.motion	going into
+30906	30906	noun.act	ecstasies
 30912	30912	verb.creation	do
 30914	30914	noun.location	Prascovia
 30921	30921	verb.social	doing
-30928	30928	verb.stative	are
 30933	30933	noun.person	Grandmother
 30936	30936	verb.communication	replied
 30937	30937	noun.person	Polina
 30941	30941	verb.motion	approached
-30944	30944	noun.person	lady
+30943	30944	noun.person	old lady
 30952	30952	noun.act	journey
 30959	30959	noun.communication	question
 30965	30965	verb.communication	asked
 30971	30971	verb.cognition	hear
 30977	30977	verb.change	happened
-30980	30980	verb.body	lay
+30980	30980	verb.contact	lay
 30982	30982	verb.body	lay
-30986	30986	verb.change	doctored
-30988	30988	verb.change	doctored
+30986	30986	verb.body	doctored
+30988	30988	verb.social	doctored
 30994	30994	verb.motion	drove
 30996	30996	noun.person	physicians
 31001	31002	verb.communication	called in
 31004	31004	noun.person	apothecary
 31006	31006	noun.person	Nicolai
 31009	31009	verb.body	cured
-31012	31012	noun.person	woman
-31015	31015	noun.state	malady
+31011	31012	noun.person	old woman
+31015	31015	noun.communication	malady
 31020	31020	verb.body	cured
 31026	31026	noun.artifact	hayseed
 31031	31031	verb.creation	did
 31034	31035	noun.quantity	great deal
 31037	31037	noun.attribute	good
 31043	31043	noun.time	day
-31045	31046	verb.change	broke into
-31048	31048	noun.state	sweat
+31045	31046	verb.body	broke into
+31048	31048	noun.body	sweat
 31051	31051	verb.stative	was
 31054	31054	verb.motion	leave
 31056	31056	noun.artifact	bed
@@ -7861,14 +7854,14 @@ start_token	end_token	supersense_category	text
 31069	31069	noun.artifact	spectacles
 31072	31072	verb.communication	told
 31078	31078	verb.motion	go
-31082	31082	verb.possession	take
+31082	31082	verb.social	take
 31084	31084	noun.act	course
 31087	31087	noun.object	waters
 31090	31090	noun.state	indisposition
-31093	31094	verb.motion	pass away
-31102	31102	verb.cognition	thought
+31093	31094	verb.change	pass away
+31102	31103	verb.cognition	thought to
 31109	31109	verb.contact	got
-31110	31110	noun.cognition	things
+31110	31110	noun.artifact	things
 31117	31117	noun.time	day
 31120	31120	noun.time	Friday
 31122	31123	verb.motion	set out
@@ -7889,7 +7882,7 @@ start_token	end_token	supersense_category	text
 31175	31175	noun.artifact	room
 31184	31184	verb.possession	get
 31186	31186	noun.possession	money
-31191	31192	noun.person	good sir
+31192	31192	noun.person	sir
 31195	31195	verb.cognition	thought
 31202	31202	verb.possession	mortgaged
 31205	31205	noun.person	Frenchman
@@ -7901,9 +7894,8 @@ start_token	end_token	supersense_category	text
 31240	31240	noun.person	mother
 31243	31243	verb.communication	said
 31245	31245	noun.person	General
-31248	31248	noun.feeling	confusion
+31248	31248	noun.cognition	confusion
 31254	31254	verb.stative	am
-31256	31256	verb.cognition	surprised
 31262	31262	verb.consumption	need
 31265	31265	noun.relation	control
 31268	31268	noun.possession	finances
@@ -7911,47 +7903,42 @@ start_token	end_token	supersense_category	text
 31276	31276	verb.stative	exceed
 31278	31278	noun.possession	income
 31287	31287	verb.stative	exceed
-31290	31290	noun.person	Fie
-31296	31296	verb.contact	robbing
+31296	31296	verb.possession	robbing
 31298	31298	noun.person	children
-31302	31302	noun.person	kopeck
 31306	31306	noun.person	guardian
 31314	31314	verb.communication	said
 31316	31316	noun.person	General
-31319	31319	verb.cognition	taken
 31328	31328	verb.communication	said
 31333	31333	verb.cognition	know
 31340	31340	verb.cognition	know
 31355	31355	verb.motion	drop
 31357	31357	noun.artifact	roulette
-31365	31365	verb.possession	whistle
+31365	31365	verb.contact	whistle
 31368	31368	noun.possession	property
-31373	31373	verb.change	made
+31373	31373	verb.creation	made
 31376	31376	noun.cognition	impression
 31379	31379	noun.person	General
-31383	31383	verb.body	choked
+31383	31383	verb.communication	choked
 31385	31385	noun.feeling	fury
-31395	31395	verb.body	play
+31395	31395	verb.social	play
 31404	31404	noun.act	position
 31409	31409	verb.communication	saying
 31413	31413	noun.person	mother
 31418	31418	verb.stative	be
-31423	31423	noun.communication	Rubbish
 31425	31425	noun.communication	rubbish
 31429	31429	verb.communication	retorted
 31433	31433	noun.communication	truth
 31434	31434	verb.stative	is
 31442	31443	verb.possession	got away
-31446	31446	noun.artifact	roulette
 31451	31451	verb.communication	telling
 31452	31452	noun.communication	lies
 31456	31456	noun.time	day
 31458	31458	verb.communication	mean
 31460	31460	verb.motion	go
-31462	31462	verb.communication	see
-31466	31466	noun.artifact	roulette
+31462	31463	verb.communication	see for
+31466	31466	noun.substance	roulette
 31467	31467	verb.stative	is
-31470	31470	noun.person	Prascovia
+31470	31470	noun.location	Prascovia
 31472	31472	verb.communication	tell
 31479	31479	verb.perception	seen
 31486	31487	noun.person	Alexis Ivanovitch
@@ -7970,17 +7957,18 @@ start_token	end_token	supersense_category	text
 31539	31539	verb.stative	is
 31543	31543	noun.group	forest
 31550	31550	noun.object	mountain
-31553	31553	noun.location	summit
+31553	31553	noun.object	summit
 31557	31557	verb.stative	is
 31559	31559	noun.location	place
 31560	31561	verb.contact	fenced off
-31567	31567	verb.perception	get
+31567	31567	verb.possession	get
 31571	31571	noun.act	view
 31577	31577	noun.artifact	chair
 31579	31579	verb.motion	carried
 31582	31582	noun.object	mountain
 31591	31591	verb.possession	find
 31592	31592	noun.person	bearers
+31595	31595	noun.cognition	purpose
 31599	31599	verb.communication	interposed
 31603	31603	noun.time	moment
 31604	31604	noun.person	Theodosia
@@ -7990,24 +7978,24 @@ start_token	end_token	supersense_category	text
 31615	31615	noun.person	General
 31617	31617	noun.person	children
 31620	31620	noun.communication	No
+31627	31627	verb.emotion	want
 31629	31629	verb.perception	see
 31633	31633	verb.communication	said
 31635	31635	noun.person	Grandmother
 31639	31639	verb.emotion	hate
-31640	31640	verb.body	kissing
+31640	31640	verb.contact	kissing
 31641	31641	noun.person	children
 31645	31645	noun.body	noses
 31653	31654	verb.motion	getting on
 31656	31656	noun.person	Theodosia
 31661	31661	verb.stative	am
-31665	31665	noun.communication	thank
+31665	31666	noun.communication	thank you
 31668	31668	noun.person	Madame
 31671	31671	verb.communication	replied
 31673	31673	noun.person	nursemaid
 31678	31678	verb.stative	is
-31680	31680	noun.person	ladyship
+31680	31680	noun.communication	ladyship
 31685	31685	verb.emotion	feeling
-31687	31687	verb.emotion	anxious
 31693	31693	noun.communication	Yes
 31696	31696	verb.cognition	know
 31700	31700	noun.person	soul
@@ -8073,7 +8061,7 @@ start_token	end_token	supersense_category	text
 31926	31926	verb.communication	added
 31928	31929	noun.person	Mr. Astley
 31934	31934	verb.social	try
-31937	31937	verb.communication	bore
+31937	31937	verb.emotion	bore
 31942	31942	noun.person	Polina
 31944	31944	verb.communication	translate
 31950	31950	verb.stative	staying
@@ -8086,7 +8074,6 @@ start_token	end_token	supersense_category	text
 31975	31975	noun.body	finger
 31977	31977	noun.person	Astley
 31978	31978	verb.perception	looked
-31981	31981	verb.perception	receiving
 31983	31983	noun.communication	invitation
 31988	31989	noun.person	old lady
 31990	31990	verb.cognition	scanned
@@ -8101,10 +8088,9 @@ start_token	end_token	supersense_category	text
 32022	32022	noun.person	girl
 32027	32027	noun.group	lot
 32030	32030	verb.possession	have
-32032	32032	noun.cognition	character
+32032	32032	noun.attribute	character
 32038	32038	verb.possession	have
 32039	32039	noun.attribute	character
-32041	32041	verb.motion	Turn
 32046	32046	verb.stative	is
 32049	32049	noun.body	hair
 32053	32053	verb.body	wearing
@@ -8118,22 +8104,22 @@ start_token	end_token	supersense_category	text
 32091	32093	verb.social	fallen in love
 32099	32099	verb.stative	been
 32101	32101	noun.person	man
-32108	32108	verb.social	married
 32111	32111	verb.stative	is
 32112	32112	noun.time	time
 32117	32117	verb.motion	going
-32120	32120	verb.emotion	want
 32122	32122	verb.motion	walk
 32129	32129	verb.motion	ride
 32136	32137	noun.state	bad temper
 32141	32141	verb.communication	added
 32144	32144	noun.person	General
+32147	32147	noun.communication	No
 32152	32152	verb.communication	rejoined
 32156	32156	noun.person	General
 32161	32161	verb.cognition	understand
 32165	32167	noun.time	time of life
 32179	32180	noun.person	De Griers
 32181	32181	verb.communication	whispered
+32188	32188	verb.emotion	want
 32190	32190	verb.perception	look
 32197	32198	noun.person	old lady
 32199	32199	verb.communication	added
@@ -8141,22 +8127,20 @@ start_token	end_token	supersense_category	text
 32206	32206	verb.possession	lend
 32208	32209	noun.person	Alexis Ivanovitch
 32212	32212	noun.cognition	purpose
-32219	32219	verb.emotion	like
 32227	32227	noun.person	Polina
 32229	32231	noun.person	Monsieur de Griers
 32237	32237	verb.emotion	hope
-32239	32239	verb.perception	have
+32239	32239	verb.possession	have
 32241	32241	noun.feeling	pleasure
 32243	32243	verb.motion	escorting
 32248	32248	noun.person	Mais
 32250	32250	noun.person	madame
+32253	32253	noun.attribute	sera
 32258	32259	noun.person	De Griers
 32260	32260	verb.communication	commented
 32264	32264	noun.communication	smile
-32267	32267	noun.person	Plaisir
 32273	32274	verb.cognition	look upon
 32279	32279	noun.person	fool
-32281	32281	noun.person	monsieur
 32286	32286	verb.communication	remarked
 32289	32289	noun.person	General
 32297	32297	verb.social	let
@@ -8164,7 +8148,7 @@ start_token	end_token	supersense_category	text
 32303	32303	noun.possession	money
 32307	32307	verb.stative	be
 32311	32311	noun.artifact	rooms
-32315	32315	verb.social	see
+32315	32315	verb.communication	see
 32318	32318	verb.stative	are
 32324	32324	verb.perception	look
 32329	32329	verb.motion	Lift
@@ -8181,7 +8165,6 @@ start_token	end_token	supersense_category	text
 32365	32365	noun.artifact	cudgel
 32368	32369	noun.person	De Griers
 32370	32370	verb.perception	seeming
-32373	32373	verb.motion	plunged
 32375	32375	noun.cognition	thought
 32380	32380	verb.cognition	left
 32383	32383	noun.person	Mlle
@@ -8191,7 +8174,7 @@ start_token	end_token	supersense_category	text
 32395	32395	noun.relation	rest
 32399	32399	noun.person	Prince
 32402	32402	noun.body	wake
-32406	32407	noun.person	German savant
+32407	32407	noun.person	savant
 32409	32411	noun.person	Madame de Cominges
 32414	32414	verb.motion	leave
 32416	32416	noun.person	General
@@ -8222,7 +8205,7 @@ start_token	end_token	supersense_category	text
 32503	32503	verb.social	overreached
 32508	32508	verb.communication	assigned
 32511	32511	noun.artifact	suite
-32512	32513	verb.stative	consisting of
+32512	32512	verb.stative	consisting
 32517	32517	noun.artifact	rooms
 32520	32520	noun.artifact	bathroom
 32522	32523	noun.artifact	servants quarters
@@ -8369,7 +8352,7 @@ start_token	end_token	supersense_category	text
 33094	33094	verb.cognition	promise
 33096	33096	verb.social	make
 33097	33097	noun.communication	inquiries
-33101	33101	noun.animal	donkeys
+33101	33101	noun.person	donkeys
 33103	33103	noun.group	people
 33104	33104	verb.stative	are
 33108	33108	verb.communication	commented
@@ -8411,7 +8394,7 @@ start_token	end_token	supersense_category	text
 33251	33251	noun.person	pupils
 33256	33256	noun.time	tomorrow
 33261	33261	verb.stative	be
-33264	33264	noun.group	General
+33264	33264	noun.person	General
 33266	33266	noun.act	service
 33270	33270	verb.communication	replied
 33275	33275	verb.stative	living
@@ -8434,7 +8417,6 @@ start_token	end_token	supersense_category	text
 33334	33334	noun.communication	accent
 33342	33342	noun.communication	Yes
 33346	33346	noun.act	action
-33349	33349	noun.cognition	part
 33351	33351	noun.person	Baron
 33352	33352	verb.cognition	held
 33354	33354	verb.stative	be
@@ -8524,7 +8506,8 @@ start_token	end_token	supersense_category	text
 33689	33689	noun.act	duels
 33699	33699	noun.person	men
 33700	33700	verb.stative	are
-33702	33702	noun.person	cocks
+33701	33701	verb.competition	crowing
+33702	33702	noun.animal	cocks
 33706	33706	verb.stative	is
 33709	33709	verb.communication	quarrel
 33718	33718	verb.cognition	perceive
@@ -8532,12 +8515,11 @@ start_token	end_token	supersense_category	text
 33722	33722	noun.person	blockhead
 33724	33724	noun.person	man
 33729	33729	verb.cognition	know
-33732	33732	verb.possession	carry
+33732	33732	verb.contact	carry
 33734	33734	noun.possession	breeding
 33736	33736	verb.motion	Lift
 33740	33740	noun.person	Potapitch
 33742	33742	verb.cognition	see
-33748	33748	verb.possession	have
 33752	33752	noun.person	bearers
 33755	33755	verb.motion	Go
 33757	33758	verb.communication	arrange for
@@ -8595,13 +8577,14 @@ start_token	end_token	supersense_category	text
 33986	33986	verb.motion	walk
 33993	33994	noun.person	Alexis Ivanovitch
 34000	34000	noun.person	mother
+34004	34004	verb.perception	have
 34008	34008	verb.cognition	rested
 34011	34011	noun.act	journey
 34015	34015	noun.person	General
 34016	34016	verb.communication	inquired
 34019	34019	noun.communication	solicitude
 34025	34025	noun.motive	reason
-34030	34030	verb.communication	divine
+34030	34030	verb.creation	divine
 34033	34033	verb.perception	seemed
 34036	34036	verb.change	growing
 34045	34045	noun.group	party
@@ -8619,6 +8602,7 @@ start_token	end_token	supersense_category	text
 34079	34079	noun.group	Casino
 34088	34088	verb.social	perpetrate
 34090	34090	noun.feeling	eccentricities
+34094	34094	noun.group	public
 34101	34101	noun.communication	initiative
 34104	34104	verb.communication	offered
 34106	34106	verb.communication	escort
@@ -8660,7 +8644,6 @@ start_token	end_token	supersense_category	text
 34267	34267	verb.communication	admit
 34269	34269	noun.person	Potapitch
 34272	34272	noun.group	Casino
-34276	34276	verb.communication	Rubbish
 34280	34280	verb.stative	is
 34282	34282	noun.person	servant
 34287	34287	noun.motive	reason
@@ -8746,7 +8729,6 @@ start_token	end_token	supersense_category	text
 34632	34632	noun.person	General
 34633	34633	verb.perception	had
 34636	34636	noun.feeling	fear
-34639	34639	noun.group	Casino
 34646	34646	noun.person	person
 34649	34649	verb.possession	lost
 34651	34651	noun.act	use
@@ -8851,7 +8833,7 @@ start_token	end_token	supersense_category	text
 35023	35023	noun.location	Avenue
 35028	35029	verb.motion	turned back
 35031	35031	verb.motion	left
-35036	35036	noun.group	Casino
+35034	35036	noun.location	Into the Casino
 35038	35038	verb.motion	marched
 35040	35040	noun.feeling	triumph
 35048	35048	noun.person	person
@@ -8957,7 +8939,7 @@ start_token	end_token	supersense_category	text
 35373	35373	noun.group	row
 35374	35374	noun.Tops	individuals
 35376	35377	verb.motion	dart forward
-35379	35379	verb.social	stake
+35379	35379	noun.act	stake
 35389	35389	noun.time	minutes
 35390	35390	verb.motion	pass
 35393	35393	noun.state	scene
@@ -9119,14 +9101,14 @@ start_token	end_token	supersense_category	text
 35944	35944	noun.time	years
 35950	35950	verb.motion	walk
 35952	35952	verb.emotion	desired
-35954	35954	verb.social	play
+35954	35954	noun.act	play
 35955	35955	verb.stative	was
 35959	35959	noun.Tops	phenomenon
 35963	35963	verb.stative	pressed
 35967	35967	noun.artifact	table
 35970	35970	verb.stative	ranged
 35974	35974	noun.person	Grandmother
-35976	35976	noun.location	side
+35976	35976	noun.body	side
 35979	35979	noun.person	Martha
 35981	35981	noun.person	Potapitch
 35982	35982	verb.change	remained
@@ -9145,7 +9127,7 @@ start_token	end_token	supersense_category	text
 36034	36034	noun.communication	whisper
 36040	36040	noun.communication	questions
 36044	36044	verb.stative	was
-36054	36054	noun.act	favour
+36054	36054	noun.attribute	favour
 36060	36060	noun.person	man
 36063	36063	verb.contact	plunging
 36068	36068	verb.competition	won
@@ -9155,7 +9137,8 @@ start_token	end_token	supersense_category	text
 36088	36088	noun.artifact	table
 36091	36091	noun.group	heap
 36093	36093	noun.possession	gold
-36095	36097	noun.possession	bank - notes
+36095	36095	noun.possession	bank
+36097	36097	noun.possession	notes
 36100	36100	noun.body	eyes
 36102	36102	verb.perception	flashing
 36106	36106	noun.body	hands
@@ -9188,21 +9171,21 @@ start_token	end_token	supersense_category	text
 36200	36200	noun.possession	winnings
 36201	36201	verb.stative	being
 36204	36204	verb.social	let
-36206	36206	verb.competition	stake
+36206	36206	verb.social	stake
 36213	36213	noun.body	hand
 36215	36215	verb.contact	grasp
 36220	36220	verb.contact	stood
 36222	36222	noun.person	Pole
 36225	36225	noun.state	state
-36232	36232	noun.feeling	agitation
+36232	36232	noun.state	agitation
 36242	36242	noun.possession	largesse
 36244	36244	verb.stative	kept
 36245	36245	verb.communication	whispering
 36252	36252	verb.communication	telling
 36256	36256	verb.social	stake
 36259	36259	verb.communication	advising
-36261	36261	verb.communication	directing
-36263	36263	noun.act	play
+36261	36261	verb.social	directing
+36263	36263	noun.communication	play
 36271	36271	noun.person	player
 36272	36272	verb.possession	throw
 36275	36275	noun.act	glance
@@ -9232,7 +9215,7 @@ start_token	end_token	supersense_category	text
 36367	36367	noun.feeling	excitement
 36372	36372	noun.person	Potapitch
 36376	36376	verb.communication	continued
-36379	36379	verb.contact	Send
+36379	36379	verb.social	Send
 36380	36380	noun.person	Potapitch
 36382	36383	verb.communication	speak to
 36392	36392	verb.communication	tell
@@ -9242,6 +9225,8 @@ start_token	end_token	supersense_category	text
 36415	36415	noun.cognition	notion
 36417	36417	noun.person	Potapitch
 36418	36418	verb.stative	is
+36420	36420	noun.person	Sortez
+36422	36422	noun.cognition	sortez
 36426	36426	verb.communication	shouted
 36429	36430	noun.person	young man
 36438	36438	noun.location	direction
@@ -9249,8 +9234,8 @@ start_token	end_token	supersense_category	text
 36443	36443	noun.body	ear
 36446	36446	noun.communication	shouting
 36448	36448	verb.communication	allowed
-36453	36453	verb.communication	speaking
-36459	36459	verb.social	disturbed
+36453	36453	noun.communication	speaking
+36459	36459	verb.communication	disturbed
 36461	36461	noun.act	calculations
 36464	36464	noun.person	players
 36468	36468	verb.stative	lead
@@ -9280,17 +9265,16 @@ start_token	end_token	supersense_category	text
 36565	36565	verb.stative	been
 36568	36568	noun.person	relative
 36571	36571	noun.person	person
-36574	36574	verb.cognition	took
+36574	36574	verb.social	took
 36578	36579	verb.stative	act as
 36581	36581	noun.person	foil
 36585	36585	verb.cognition	know
 36590	36590	verb.perception	noticed
 36595	36595	noun.event	occasions
 36602	36602	verb.motion	entered
-36604	36604	noun.group	Casino
 36612	36612	verb.motion	departed
 36614	36614	noun.quantity	two
-36616	36616	verb.competition	playing
+36616	36616	verb.social	playing
 36620	36620	noun.time	hour
 36622	36622	verb.stative	Being
 36628	36628	noun.person	attendants
@@ -9304,7 +9288,7 @@ start_token	end_token	supersense_category	text
 36654	36654	noun.artifact	pocket
 36656	36656	verb.change	begin
 36664	36664	noun.act	calculation
-36667	36667	verb.social	stake
+36667	36667	verb.possession	stake
 36670	36671	verb.contact	mark down
 36673	36673	noun.quantity	figures
 36678	36678	noun.communication	paper
@@ -9318,6 +9302,7 @@ start_token	end_token	supersense_category	text
 36706	36706	noun.possession	coins
 36710	36710	verb.possession	lost
 36712	36712	verb.competition	won
+36713	36713	noun.quantity	one
 36720	36720	noun.quantity	francs
 36722	36722	noun.time	day
 36732	36732	verb.motion	depart
@@ -9348,7 +9333,7 @@ start_token	end_token	supersense_category	text
 36840	36840	verb.communication	explain
 36842	36842	noun.communication	meaning
 36846	36846	noun.cognition	combinations
-36849	36849	noun.act	rouge
+36849	36849	noun.substance	rouge
 36856	36856	noun.quantity	pair
 36858	36858	noun.person	impair
 36874	36874	noun.cognition	values
@@ -9362,6 +9347,7 @@ start_token	end_token	supersense_category	text
 36890	36890	noun.communication	questions
 36893	36893	noun.attribute	forms
 36896	36896	verb.contact	laid
+36899	36899	noun.artifact	thing
 36907	36907	noun.cognition	example
 36910	36910	noun.cognition	system
 36912	36912	noun.possession	stakes
@@ -9382,12 +9368,12 @@ start_token	end_token	supersense_category	text
 36956	36957	verb.communication	call out
 36958	36958	noun.quantity	zero
 36964	36964	verb.stative	keep
-36965	36966	verb.possession	raking in
+36965	36965	verb.possession	raking
 36969	36969	noun.possession	money
 36971	36971	verb.stative	is
 36974	36974	noun.artifact	table
 36977	36977	verb.cognition	think
-36981	36981	verb.contact	grab
+36981	36981	verb.possession	grab
 36984	36984	noun.group	pile
 36991	36991	verb.communication	mean
 36996	36996	verb.stative	is
@@ -9425,7 +9411,7 @@ start_token	end_token	supersense_category	text
 37124	37124	noun.state	chances
 37127	37127	noun.event	occurrence
 37128	37128	verb.stative	is
-37135	37135	noun.communication	Rubbish
+37135	37135	noun.person	Rubbish
 37137	37137	noun.person	Potapitch
 37139	37139	noun.location	Potapitch
 37141	37141	verb.motion	Come
@@ -9434,29 +9420,31 @@ start_token	end_token	supersense_category	text
 37154	37155	noun.person	old lady
 37156	37157	verb.contact	took out
 37160	37160	noun.artifact	pocket
+37164	37164	verb.contact	clasped
 37165	37165	noun.artifact	purse
 37168	37168	verb.contact	extracted
 37171	37171	noun.attribute	depths
 37175	37175	noun.quantity	g
-37176	37176	noun.substance	lden
 37177	37177	noun.artifact	piece
 37180	37180	verb.motion	Go
-37185	37185	verb.social	stake
+37185	37185	verb.possession	stake
+37188	37188	noun.quantity	zero
 37194	37194	noun.person	Madame
+37196	37196	noun.quantity	zero
+37197	37197	verb.possession	has
 37200	37200	noun.time	moment
 37201	37202	verb.change	turned up
 37206	37206	verb.communication	remonstrated
 37222	37222	verb.stative	Wait
-37230	37230	verb.perception	have
+37230	37230	verb.possession	have
 37233	37233	noun.state	chance
-37239	37239	noun.possession	Stake
 37245	37245	verb.communication	Pardon
 37249	37249	noun.quantity	zero
 37252	37253	verb.change	turn up
-37257	37257	verb.communication	say
 37265	37265	verb.cognition	staked
 37266	37266	noun.quantity	thousands
 37272	37272	verb.change	happens
+37279	37279	noun.substance	rubbish
 37282	37282	verb.emotion	fears
 37284	37284	noun.animal	wolf
 37287	37287	verb.motion	enter
@@ -9466,17 +9454,17 @@ start_token	end_token	supersense_category	text
 37306	37306	noun.quantity	g
 37307	37308	noun.artifact	lden piece
 37311	37311	verb.possession	lose
-37316	37317	verb.communication	put down
+37316	37317	verb.contact	put down
 37322	37322	noun.person	Grandmother
 37325	37325	verb.change	remain
 37329	37329	noun.artifact	chair
 37338	37338	noun.artifact	ball
 37341	37341	verb.motion	leapt
-37344	37344	noun.object	notches
-37349	37349	verb.motion	revolving
+37344	37344	noun.artifact	notches
 37350	37350	noun.artifact	wheel
 37358	37358	noun.quantity	g
-37359	37360	noun.artifact	lden piece
+37359	37359	noun.substance	lden
+37360	37360	noun.artifact	piece
 37361	37361	verb.motion	followed
 37364	37364	noun.quantity	two
 37369	37369	noun.person	Grandmother
@@ -9488,7 +9476,6 @@ start_token	end_token	supersense_category	text
 37391	37391	noun.person	croupier
 37392	37393	verb.communication	cried out
 37396	37396	noun.person	Trente
-37398	37398	noun.quantity	six
 37405	37405	noun.person	zero
 37409	37409	verb.perception	listen
 37414	37414	verb.communication	fumed
@@ -9496,7 +9483,7 @@ start_token	end_token	supersense_category	text
 37424	37424	noun.quantity	zero
 37426	37427	verb.change	turn up
 37432	37432	verb.consumption	breathe
-37435	37435	verb.perception	see
+37435	37435	verb.cognition	see
 37439	37439	verb.cognition	believe
 37443	37443	noun.person	croupier
 37444	37444	verb.stative	is
@@ -9504,7 +9491,7 @@ start_token	end_token	supersense_category	text
 37451	37452	verb.motion	turning up
 37454	37455	noun.person	Alexis Ivanovitch
 37457	37457	verb.social	stake
-37460	37460	noun.artifact	pieces
+37460	37460	noun.quantity	pieces
 37462	37462	noun.event	time
 37465	37465	noun.time	moment
 37467	37467	verb.stative	cease
@@ -9513,14 +9500,14 @@ start_token	end_token	supersense_category	text
 37476	37477	verb.motion	turning up
 37482	37482	verb.possession	get
 37483	37483	noun.quantity	nothing
-37492	37492	noun.possession	Stake
-37494	37494	noun.possession	stake
+37494	37494	noun.artifact	stake
 37497	37497	verb.stative	is
 37502	37502	noun.possession	money
 37505	37506	noun.person	Accordingly I
 37507	37507	verb.contact	staked
 37511	37511	noun.quantity	g
-37512	37513	noun.artifact	lden pieces
+37512	37512	noun.substance	lden
+37513	37513	noun.artifact	pieces
 37516	37516	noun.artifact	ball
 37517	37517	verb.motion	went
 37521	37521	noun.artifact	wheel
@@ -9531,16 +9518,15 @@ start_token	end_token	supersense_category	text
 37534	37534	verb.contact	sat
 37541	37541	noun.body	hand
 37543	37543	verb.contact	clutched
-37548	37548	noun.person	Zero
+37548	37548	noun.location	Zero
 37551	37551	verb.communication	called
 37553	37553	noun.person	croupier
-37562	37562	verb.creation	see
 37565	37565	verb.communication	cried
 37567	37568	noun.person	old lady
 37572	37572	verb.motion	turned
-37574	37574	verb.motion	faced
-37577	37577	verb.contact	wreathed
-37579	37579	noun.communication	smiles
+37574	37574	noun.body	faced
+37577	37577	verb.body	wreathed
+37579	37579	noun.feeling	smiles
 37583	37583	verb.communication	told
 37588	37588	verb.stative	was
 37590	37591	noun.person	Lord God
@@ -9549,22 +9535,23 @@ start_token	end_token	supersense_category	text
 37601	37601	noun.possession	coins
 37610	37610	verb.possession	receive
 37616	37616	verb.possession	pay
-37622	37622	noun.person	Potapitch
+37622	37622	noun.location	Potapitch
 37624	37624	noun.person	Martha
-37632	37632	verb.stative	become
+37627	37627	verb.stative	are
+37632	37632	verb.change	become
 37635	37635	noun.group	party
-37637	37637	noun.location	Potapitch
-37639	37639	noun.location	Potapitch
+37637	37637	noun.person	Potapitch
+37639	37639	noun.person	Potapitch
 37645	37645	noun.person	Madame
 37649	37649	verb.communication	whispered
 37652	37652	noun.person	Potapitch
 37653	37653	verb.stative	is
 37659	37659	verb.communication	decline
-37661	37661	verb.social	admit
+37661	37661	verb.communication	admit
 37665	37665	noun.artifact	rooms
-37672	37673	verb.possession	paid out
+37672	37672	verb.possession	paid
 37675	37675	noun.possession	money
-37677	37677	noun.artifact	Pray
+37677	37677	noun.act	Pray
 37678	37678	verb.possession	take
 37683	37683	noun.person	croupiers
 37685	37686	verb.creation	making up
@@ -9584,8 +9571,9 @@ start_token	end_token	supersense_category	text
 37721	37722	noun.person	old lady
 37725	37725	noun.possession	money
 37727	37727	noun.artifact	shovel
+37730	37730	noun.communication	Faites
 37734	37734	noun.person	messieurs
-37736	37736	noun.person	Faites
+37736	37736	verb.creation	Faites
 37740	37740	noun.person	messieurs
 37748	37748	verb.communication	proclaimed
 37750	37750	noun.person	croupier
@@ -9599,11 +9587,10 @@ start_token	end_token	supersense_category	text
 37779	37779	verb.motion	spin
 37782	37782	noun.possession	Stake
 37784	37784	noun.possession	stake
-37788	37788	noun.person	Grandmother
+37787	37788	noun.person	The Grandmother
 37789	37789	verb.stative	was
 37793	37793	noun.state	fever
 37798	37799	verb.contact	hang back
-37801	37801	verb.stative	Be
 37806	37806	verb.perception	seemed
 37812	37812	verb.contact	nudged
 37825	37825	verb.social	stake
@@ -9619,12 +9606,12 @@ start_token	end_token	supersense_category	text
 37860	37860	noun.artifact	pieces
 37865	37865	verb.perception	miss
 37869	37869	verb.social	stake
-37871	37871	noun.artifact	pieces
+37871	37871	noun.communication	pieces
 37878	37878	verb.cognition	Think
 37880	37880	noun.time	moment
 37882	37882	noun.person	Madame
 37885	37885	noun.quantity	zero
-37888	37889	verb.change	turn up
+37888	37889	verb.motion	turn up
 37893	37893	noun.act	rounds
 37898	37898	verb.communication	assure
 37903	37903	verb.possession	lose
@@ -9638,13 +9625,14 @@ start_token	end_token	supersense_category	text
 37940	37941	noun.person	old lady
 37943	37943	verb.body	shaking
 37945	37945	noun.feeling	excitement
-37950	37950	noun.cognition	rules
-37953	37953	verb.social	allow
+37950	37950	noun.communication	rules
+37953	37953	verb.communication	allow
 37958	37958	noun.quantity	g
 37959	37959	noun.substance	lden
+37961	37961	verb.communication	staked
 37963	37963	noun.quantity	zero
 37966	37966	noun.time	time
-37973	37973	verb.communication	allow
+37973	37973	verb.social	allow
 37977	37977	verb.stative	are
 37980	37980	noun.person	Monsieur
 37986	37986	verb.motion	nudged
@@ -9652,8 +9640,7 @@ start_token	end_token	supersense_category	text
 37991	37991	verb.contact	sitting
 37997	37997	verb.change	preparing
 37999	37999	verb.motion	spin
-38001	38001	noun.substance	combien
-38004	38004	noun.substance	Douze
+38004	38004	noun.person	Douze
 38006	38006	noun.person	Douze
 38010	38010	verb.communication	hastened
 38012	38012	verb.communication	translate
@@ -9665,16 +9652,15 @@ start_token	end_token	supersense_category	text
 38032	38032	verb.stative	exceed
 38035	38035	noun.quantity	florins
 38038	38038	verb.stative	is
-38040	38040	noun.communication	regulation
 38046	38046	verb.stative	is
 38047	38047	noun.quantity	nothing
-38054	38054	verb.competition	risk
+38054	38054	verb.social	risk
 38068	38068	noun.person	croupier
 38069	38069	verb.communication	called
 38072	38072	noun.artifact	wheel
 38073	38073	verb.motion	revolved
 38076	38076	verb.motion	stopped
-38082	38082	verb.competition	lost
+38082	38082	verb.possession	lost
 38091	38091	noun.possession	Stake
 38095	38095	verb.communication	shouted
 38097	38098	noun.person	old lady
@@ -9690,7 +9676,7 @@ start_token	end_token	supersense_category	text
 38127	38127	noun.artifact	wheel
 38128	38128	verb.motion	whirled
 38135	38135	noun.person	Grandmother
-38137	38137	verb.perception	quaking
+38137	38137	verb.motion	quaking
 38140	38140	verb.perception	watched
 38142	38142	noun.event	revolutions
 38148	38148	verb.cognition	think
@@ -9701,14 +9687,15 @@ start_token	end_token	supersense_category	text
 38165	38165	verb.perception	stared
 38169	38169	noun.feeling	astonishment
 38174	38174	noun.cognition	assurance
+38176	38176	noun.state	winning
 38178	38178	verb.perception	shining
 38181	38181	noun.body	face
 38184	38184	verb.perception	looked
+38188	38188	noun.quantity	zero
 38193	38193	verb.communication	called
 38199	38199	noun.artifact	ball
-38200	38200	verb.motion	dropped
+38200	38201	verb.motion	dropped off
 38206	38206	noun.artifact	notches
-38209	38209	noun.location	Zero
 38212	38212	verb.communication	cried
 38214	38214	noun.person	croupier
 38222	38222	verb.communication	screamed
@@ -9744,10 +9731,10 @@ start_token	end_token	supersense_category	text
 38335	38335	noun.event	times
 38345	38345	noun.person	players
 38348	38348	verb.communication	recording
-38350	38350	noun.communication	coups
+38350	38350	noun.act	coups
+38354	38354	verb.communication	moved
 38356	38356	verb.communication	remark
 38360	38360	noun.time	days
-38362	38362	noun.quantity	zero
 38365	38366	verb.motion	turned up
 38372	38372	noun.person	Grandmother
 38380	38380	verb.possession	won
@@ -9764,7 +9751,8 @@ start_token	end_token	supersense_category	text
 38419	38419	verb.possession	paid
 38422	38422	noun.possession	gold
 38426	38426	noun.relation	remainder
-38428	38429	noun.possession	bank notes
+38428	38428	noun.possession	bank
+38429	38429	noun.communication	notes
 38432	38432	noun.event	time
 38434	38435	noun.person	old lady
 38438	38439	verb.communication	call for
@@ -10098,14 +10086,14 @@ start_token	end_token	supersense_category	text
 39683	39683	noun.person	fool
 39686	39686	verb.communication	exclaimed
 39688	39688	noun.person	Grandmother
-39690	39690	verb.communication	waving
+39690	39690	verb.motion	waving
 39692	39692	noun.body	hand
 39701	39701	verb.stative	am
 39708	39708	verb.consumption	lunched
 39711	39711	verb.motion	return
 39714	39714	noun.location	place
 39721	39721	verb.communication	cried
-39728	39728	verb.competition	play
+39728	39728	verb.body	play
 39739	39739	verb.cognition	suppose
 39743	39743	verb.communication	retorted
 39751	39751	verb.contact	sit
@@ -10182,7 +10170,8 @@ start_token	end_token	supersense_category	text
 40034	40034	noun.group	gentry
 40036	40037	verb.motion	come from
 40041	40041	verb.cognition	thought
-40047	40049	noun.person	Mother of God
+40047	40047	noun.person	Mother
+40049	40049	noun.person	God
 40051	40051	verb.social	help
 40053	40053	noun.person	mistress
 40060	40060	verb.communication	prayed
@@ -10204,7 +10193,7 @@ start_token	end_token	supersense_category	text
 40122	40123	noun.person	Alexis Ivanovitch
 40126	40126	verb.communication	said
 40128	40129	noun.person	old lady
-40133	40133	noun.food	luncheon
+40133	40133	noun.time	luncheon
 40141	40141	noun.quantity	four
 40144	40144	verb.change	get
 40147	40148	verb.motion	go out
@@ -10294,7 +10283,7 @@ start_token	end_token	supersense_category	text
 40444	40444	verb.cognition	understand
 40447	40447	verb.stative	lacked
 40449	40449	noun.cognition	art
-40451	40451	verb.emotion	pleasing
+40451	40451	noun.act	pleasing
 40458	40458	noun.person	Grandmother
 40461	40461	verb.creation	performed
 40464	40464	noun.act	feat
@@ -10525,9 +10514,8 @@ start_token	end_token	supersense_category	text
 41336	41337	verb.contact	search for
 41338	41338	noun.person	Astley
 41342	41342	noun.artifact	hotel
-41348	41348	noun.location	Casino
 41352	41352	verb.motion	went
-41354	41354	noun.group	round
+41354	41354	noun.location	round
 41357	41357	noun.artifact	salons
 41369	41369	noun.state	despair
 41379	41380	verb.contact	ran across
@@ -10544,7 +10532,7 @@ start_token	end_token	supersense_category	text
 41416	41417	verb.perception	look at
 41423	41423	verb.cognition	suspected
 41426	41426	verb.stative	was
-41429	41429	noun.cognition	purpose
+41429	41429	noun.attribute	purpose
 41432	41432	verb.motion	restarted
 41434	41434	noun.animal	horse
 41439	41439	noun.feeling	jealousy
@@ -10839,7 +10827,7 @@ start_token	end_token	supersense_category	text
 42599	42599	verb.cognition	meant
 42601	42601	verb.social	do
 42604	42604	verb.communication	beg
-42606	42606	verb.communication	beseech
+42606	42606	verb.emotion	beseech
 42610	42610	verb.contact	kiss
 42612	42612	noun.artifact	hem
 42615	42615	noun.artifact	garment
@@ -11054,7 +11042,7 @@ start_token	end_token	supersense_category	text
 43361	43361	verb.social	do
 43367	43368	verb.motion	turned up
 43372	43372	verb.motion	missed
-43378	43378	verb.possession	got
+43378	43378	verb.change	got
 43381	43381	noun.quantity	g
 43382	43382	noun.quantity	lden
 43388	43388	verb.creation	see
@@ -11166,7 +11154,7 @@ start_token	end_token	supersense_category	text
 43832	43833	verb.motion	going to
 43838	43838	verb.motion	leave
 43842	43842	noun.person	fool
-43848	43848	verb.change	stay
+43848	43848	verb.motion	stay
 43852	43852	verb.stative	is
 43857	43857	verb.stative	was
 43859	43859	noun.person	fool
@@ -11182,9 +11170,9 @@ start_token	end_token	supersense_category	text
 43904	43904	verb.social	staked
 43909	43909	verb.social	stake
 43917	43917	verb.social	Stake
-43919	43920	noun.quantity	four thousand
 43921	43921	noun.quantity	g
 43922	43922	noun.quantity	lden
+43925	43925	noun.attribute	red
 43927	43927	verb.possession	Take
 43929	43929	noun.possession	banknote
 43931	43931	verb.social	do
@@ -11194,33 +11182,32 @@ start_token	end_token	supersense_category	text
 43952	43952	verb.communication	whispered
 43957	43957	noun.Tops	quantity
 43959	43959	noun.possession	money
-43968	43968	verb.communication	rest
+43968	43968	verb.social	rest
 43972	43972	verb.possession	won
 43975	43975	noun.possession	losses
-43977	43977	noun.possession	Stake
-43981	43981	verb.social	staked
-43985	43985	verb.possession	lost
+43977	43977	noun.person	Stake
+43981	43981	verb.competition	staked
+43985	43985	verb.competition	lost
 43988	43988	verb.social	Stake
 43991	43991	verb.possession	stake
 43997	43997	noun.act	stroke
 44005	44005	noun.person	Madame
-44009	44009	noun.communication	stake
+44009	44009	noun.possession	stake
 44011	44011	verb.stative	is
 44014	44014	noun.quantity	g
-44015	44015	noun.substance	lden
+44015	44015	noun.quantity	lden
 44023	44023	verb.social	stake
 44024	44025	noun.quantity	four thousand
 44029	44029	noun.event	time
 44031	44031	verb.competition	won
 44035	44035	noun.person	Grandmother
 44036	44036	verb.body	recovered
-44043	44043	verb.perception	see
 44050	44050	verb.communication	exclaimed
 44053	44053	verb.contact	nudged
-44057	44057	verb.social	Stake
+44057	44057	verb.possession	Stake
 44059	44060	noun.quantity	four thousand
 44068	44068	verb.possession	lost
-44077	44077	verb.possession	lost
+44077	44077	verb.competition	lost
 44080	44080	noun.person	Madame
 44085	44086	noun.artifact	g lden
 44087	44087	verb.stative	are
@@ -11238,7 +11225,7 @@ start_token	end_token	supersense_category	text
 44139	44139	verb.possession	lost
 44141	44141	noun.cognition	thought
 44150	44150	verb.communication	mean
-44152	44152	verb.communication	rest
+44152	44152	verb.body	rest
 44156	44156	verb.social	staked
 44158	44159	noun.quantity	four thousand
 44165	44165	verb.possession	have
@@ -11268,10 +11255,11 @@ start_token	end_token	supersense_category	text
 44258	44258	noun.act	transaction
 44261	44261	verb.emotion	frighten
 44264	44264	noun.person	Jew
+44268	44268	noun.person	Rubbish
 44271	44271	verb.stative	am
 44276	44276	verb.possession	retrieve
 44278	44278	noun.possession	losses
-44280	44280	verb.possession	Take
+44280	44280	verb.cognition	Take
 44285	44285	verb.communication	call
 44287	44287	noun.person	fools
 44289	44289	noun.person	bearers
@@ -11283,10 +11271,11 @@ start_token	end_token	supersense_category	text
 44307	44307	noun.act	appearance
 44310	44310	verb.motion	left
 44312	44312	noun.location	Casino
+44317	44317	verb.motion	hurry
 44320	44320	verb.communication	commanded
 44322	44322	noun.person	Grandmother
 44325	44325	verb.perception	Show
-44329	44329	noun.location	way
+44329	44329	noun.artifact	way
 44332	44332	noun.possession	money
 44345	44345	noun.quantity	steps
 44347	44347	noun.person	Madame
@@ -11383,8 +11372,7 @@ start_token	end_token	supersense_category	text
 44684	44685	noun.person	Du lait
 44693	44693	noun.cognition	idyll
 44696	44696	noun.cognition	ideal
-44699	44699	noun.person	Parisian
-44700	44700	verb.cognition	bourgeois
+44700	44700	noun.person	bourgeois
 44703	44703	noun.cognition	outlook
 44707	44707	noun.attribute	nature
 44720	44720	noun.food	milk
@@ -11406,7 +11394,7 @@ start_token	end_token	supersense_category	text
 44778	44778	verb.stative	is
 44780	44780	noun.person	moneychanger
 44782	44782	noun.artifact	office
-44786	44786	verb.social	entered
+44786	44786	verb.motion	entered
 44788	44788	verb.change	get
 44790	44790	noun.artifact	securities
 44791	44791	verb.change	changed
@@ -11449,7 +11437,7 @@ start_token	end_token	supersense_category	text
 44918	44918	noun.person	clerks
 44921	44921	noun.person	thieves
 44925	44925	noun.person	clerk
-44926	44926	verb.social	consented
+44926	44926	verb.communication	consented
 44928	44929	verb.change	come out
 44932	44932	verb.cognition	perceived
 44937	44937	verb.communication	asked
@@ -11460,9 +11448,9 @@ start_token	end_token	supersense_category	text
 44954	44954	verb.change	began
 44956	44956	verb.communication	upbraid
 44964	44964	noun.attribute	vehemence
-44969	44969	noun.attribute	usuriousness
+44969	44969	noun.feeling	usuriousness
 44973	44973	verb.possession	bargain
-44978	44978	noun.substance	mixture
+44978	44978	noun.group	mixture
 44980	44980	noun.communication	Russian
 44982	44982	noun.communication	French
 44985	44985	noun.communication	German
@@ -11474,16 +11462,15 @@ start_token	end_token	supersense_category	text
 45006	45006	noun.body	head
 45010	45010	noun.person	Grandmother
 45016	45016	verb.perception	gazed
-45019	45019	noun.cognition	curiosity
+45019	45019	noun.feeling	curiosity
 45022	45022	verb.stative	bordered
 45024	45024	noun.attribute	rudeness
 45032	45032	verb.body	smiled
-45035	45035	verb.communication	Pray
 45036	45036	verb.cognition	recollect
 45040	45040	verb.communication	cried
 45042	45043	noun.person	old lady
 45049	45049	noun.possession	money
-45050	45050	verb.consumption	choke
+45050	45050	verb.change	choke
 45053	45054	noun.person	Alexis Ivanovitch
 45056	45056	verb.communication	tell
 45062	45062	verb.change	repair
@@ -11502,13 +11489,13 @@ start_token	end_token	supersense_category	text
 45111	45111	verb.possession	took
 45114	45114	noun.communication	statement
 45116	45116	noun.possession	accounts
-45119	45119	verb.communication	carried
+45119	45119	verb.possession	carried
 45124	45124	noun.person	Grandmother
 45133	45133	verb.communication	said
 45137	45137	verb.stative	am
 45139	45139	noun.person	accountant
 45141	45141	verb.social	Let
-45143	45143	verb.motion	hurry
+45143	45144	verb.motion	hurry away
 45146	45146	verb.motion	hurry
 45152	45152	verb.communication	waved
 45154	45154	noun.substance	paper
@@ -11521,13 +11508,13 @@ start_token	end_token	supersense_category	text
 45189	45189	noun.location	Casino
 45192	45192	noun.event	time
 45194	45194	verb.social	did
-45199	45199	verb.social	persuade
+45199	45199	verb.communication	persuade
 45201	45202	noun.person	old lady
 45204	45204	verb.social	stake
 45209	45209	verb.communication	saying
 45212	45212	noun.act	turn
 45214	45214	verb.change	come
-45217	45217	noun.phenomenon	chances
+45217	45217	noun.state	chances
 45221	45221	verb.stative	be
 45225	45225	verb.social	stake
 45226	45226	noun.quantity	more
@@ -11538,31 +11525,33 @@ start_token	end_token	supersense_category	text
 45246	45246	noun.quantity	nothing
 45248	45248	verb.social	stop
 45254	45254	verb.change	begun
-45259	45259	noun.communication	prelude
+45259	45259	noun.act	prelude
 45261	45261	verb.competition	won
 45262	45262	noun.possession	stakes
-45269	45270	noun.artifact	g lden
+45269	45269	noun.quantity	g
+45270	45270	noun.artifact	lden
 45275	45275	verb.stative	are
 45279	45279	verb.communication	said
-45282	45282	verb.contact	nudged
+45282	45282	verb.motion	nudged
 45286	45286	verb.cognition	See
-45290	45290	verb.possession	won
+45290	45290	verb.competition	won
 45295	45295	verb.stative	be
 45298	45298	noun.time	while
 45300	45300	verb.social	stake
+45306	45306	noun.quantity	hundred
 45311	45311	verb.possession	win
-45313	45314	noun.quantity	four thousand
 45322	45322	verb.stative	was
 45324	45324	noun.act	fault
 45328	45328	noun.act	fault
-45334	45335	verb.communication	put out
+45332	45332	verb.emotion	felt
+45334	45335	verb.contact	put out
 45338	45338	verb.perception	watched
 45340	45340	verb.creation	play
 45344	45344	verb.cognition	decided
 45346	45346	verb.emotion	hold
 45352	45352	verb.possession	give
 45356	45356	noun.communication	advice
-45359	45360	noun.person	De Griers
+45358	45360	noun.person	Suddenly De Griers
 45361	45361	verb.change	appeared
 45364	45364	noun.location	scene
 45367	45367	verb.perception	seemed
@@ -11573,6 +11562,7 @@ start_token	end_token	supersense_category	text
 45387	45387	noun.person	Blanche
 45389	45389	verb.motion	withdrawn
 45394	45394	noun.relation	rest
+45398	45398	verb.creation	engaged
 45400	45400	noun.feeling	flirting
 45403	45403	noun.person	Prince
 45407	45407	noun.person	General
@@ -11580,22 +11570,21 @@ start_token	end_token	supersense_category	text
 45418	45418	verb.stative	was
 45422	45422	noun.feeling	agony
 45424	45424	noun.feeling	vexation
-45427	45427	noun.person	Mlle
+45426	45427	noun.person	But Mlle
 45429	45429	verb.stative	was
 45433	45433	verb.perception	look
-45435	45435	noun.attribute	way
 45439	45439	verb.social	did
 45443	45443	verb.emotion	attract
 45445	45445	noun.cognition	notice
 45447	45448	noun.person	Poor General
 45453	45453	noun.body	face
-45454	45454	verb.change	blanched
-45456	45456	verb.change	reddened
+45454	45454	verb.body	blanched
+45456	45456	verb.body	reddened
 45461	45461	verb.body	trembling
-45465	45465	noun.attribute	extent
+45465	45465	noun.state	extent
 45470	45470	verb.perception	follow
-45472	45473	noun.person	old lady
-45475	45475	noun.act	play
+45473	45473	noun.person	lady
+45475	45475	noun.communication	play
 45479	45479	noun.person	Mlle
 45483	45483	noun.person	Prince
 45484	45484	verb.motion	took
@@ -11611,7 +11600,7 @@ start_token	end_token	supersense_category	text
 45512	45512	verb.communication	whisper
 45515	45515	noun.person	Grandmother
 45517	45517	noun.body	ear
-45521	45521	noun.possession	stake
+45521	45521	noun.artifact	stake
 45524	45524	verb.competition	win
 45531	45531	verb.stative	is
 45536	45536	verb.communication	added
@@ -11621,34 +11610,34 @@ start_token	end_token	supersense_category	text
 45546	45546	noun.communication	no
 45555	45555	verb.communication	asked
 45557	45557	noun.person	Grandmother
-45559	45559	verb.motion	turning
+45559	45560	verb.motion	turning round
 45563	45563	verb.perception	Show
 45569	45569	verb.social	do
 45572	45574	noun.person	Instantly De Griers
-45575	45575	verb.change	burst
+45575	45576	verb.communication	burst into
 45578	45578	noun.communication	babble
+45580	45580	noun.communication	French
 45583	45583	verb.communication	advised
 45585	45585	verb.motion	jumped
 45588	45588	verb.communication	declared
-45593	45593	noun.event	chances
+45593	45593	noun.state	chances
 45597	45597	verb.stative	waited
 45601	45601	verb.change	started
 45603	45603	verb.creation	make
 45604	45604	noun.cognition	calculations
-45606	45606	noun.cognition	figures
+45606	45606	noun.communication	figures
 45611	45611	verb.communication	addressed
 45616	45616	noun.act	capacity
 45618	45618	noun.person	translator
-45619	45619	verb.perception	tapping
+45619	45619	verb.social	tapping
 45621	45621	noun.artifact	table
-45623	45623	noun.time	while
 45626	45626	noun.body	finger
 45629	45629	verb.communication	pointing
 45637	45637	verb.contact	seized
 45639	45639	noun.artifact	pencil
 45642	45642	verb.change	began
 45644	45644	verb.cognition	reckon
-45645	45645	noun.possession	sums
+45645	45645	noun.communication	sums
 45647	45647	noun.substance	paper
 45651	45651	verb.consumption	exhausted
 45653	45653	noun.person	Grandmother
@@ -11660,10 +11649,11 @@ start_token	end_token	supersense_category	text
 45678	45678	verb.communication	saying
 45679	45679	noun.person	Madame
 45681	45681	noun.person	Madame
-45684	45684	verb.perception	haven
+45684	45684	verb.possession	haven
 45688	45688	noun.cognition	notion
 45693	45693	verb.social	done
 45700	45700	verb.communication	say
+45704	45704	noun.person	Mais
 45706	45706	noun.person	Madame
 45709	45709	verb.communication	cooed
 45710	45711	noun.person	De Griers
@@ -11673,15 +11663,17 @@ start_token	end_token	supersense_category	text
 45730	45730	verb.communication	advises
 45734	45734	noun.person	Grandmother
 45735	45735	verb.communication	said
-45744	45744	verb.cognition	see
+45744	45744	verb.creation	see
 45750	45750	verb.cognition	see
 45756	45756	noun.possession	stake
 45760	45760	verb.competition	win
 45769	45770	noun.person	De Grier
 45773	45773	noun.cognition	object
+45774	45774	verb.stative	was
 45776	45776	verb.emotion	distract
 45778	45779	noun.person	old lady
 45781	45781	verb.contact	staking
+45782	45782	noun.possession	large
 45783	45783	noun.possession	sums
 45789	45789	verb.communication	suggested
 45795	45795	verb.social	stake
@@ -11692,7 +11684,8 @@ start_token	end_token	supersense_category	text
 45814	45814	verb.possession	staked
 45816	45816	noun.quantity	ten
 45818	45818	noun.quantity	g
-45819	45820	noun.artifact	lden piece
+45819	45819	noun.quantity	lden
+45820	45820	noun.artifact	piece
 45824	45824	noun.communication	numbers
 45828	45828	noun.quantity	twenty
 45832	45832	noun.quantity	ten
@@ -11703,6 +11696,8 @@ start_token	end_token	supersense_category	text
 45841	45841	noun.communication	numbers
 45843	45843	noun.group	groups
 45854	45854	noun.quantity	twenty
+45856	45856	noun.quantity	four
+45860	45860	verb.possession	staked
 45861	45861	verb.stative	amounted
 45864	45864	noun.quantity	g
 45865	45865	noun.quantity	lden
@@ -11735,11 +11730,12 @@ start_token	end_token	supersense_category	text
 45960	45960	noun.time	time
 45965	45965	verb.emotion	feeling
 45969	45969	verb.perception	seen
-45972	45972	noun.group	company
+45972	45972	noun.state	company
 45977	45977	verb.stative	proved
 45980	45980	noun.state	straw
 45983	45983	noun.time	hour
 45987	45987	verb.possession	lost
+45990	45990	noun.body	hand
 45996	45996	verb.communication	cried
 45998	45998	noun.person	Grandmother
 46004	46005	verb.motion	turned into
@@ -11762,10 +11758,10 @@ start_token	end_token	supersense_category	text
 46064	46064	verb.possession	gave
 46065	46065	noun.communication	orders
 46068	46068	noun.artifact	luggage
+46070	46070	verb.stative	be
 46071	46071	verb.contact	packed
 46075	46075	verb.stative	are
 46081	46081	verb.communication	announced
-46085	46085	noun.person	whither
 46087	46087	noun.person	Madame
 46090	46090	verb.communication	inquired
 46091	46091	noun.person	Martha
@@ -11774,30 +11770,30 @@ start_token	end_token	supersense_category	text
 46103	46103	verb.social	Let
 46105	46105	noun.animal	cricket
 46106	46106	verb.contact	stick
-46113	46113	verb.change	have
+46111	46111	noun.person	Potapitch
+46113	46113	verb.possession	have
 46115	46115	verb.contact	packed
 46120	46120	verb.motion	returning
 46122	46122	noun.location	Moscow
 46128	46129	verb.possession	fooled away
-46132	46132	noun.artifact	roubles
+46132	46132	noun.quantity	roubles
 46140	46140	noun.communication	form
 46143	46143	verb.communication	Mind
-46146	46146	noun.cognition	business
-46152	46152	noun.time	roubles
+46146	46146	noun.act	business
+46152	46152	noun.person	roubles
 46155	46155	noun.person	mistress
-46158	46158	noun.person	God
 46162	46162	noun.person	Potapitch
 46163	46163	verb.body	spat
 46166	46166	noun.body	hands
-46169	46169	verb.communication	show
+46169	46169	verb.cognition	show
 46172	46172	verb.stative	was
-46175	46175	verb.consumption	serve
+46175	46175	verb.social	serve
 46179	46179	noun.attribute	way
 46188	46188	noun.person	fool
 46193	46193	verb.change	begin
 46196	46196	noun.act	weeping
 46198	46198	noun.act	wailing
-46200	46200	verb.stative	Be
+46204	46204	verb.contact	pack
 46208	46208	verb.motion	run
 46212	46212	verb.possession	get
 46214	46214	noun.artifact	hotel
@@ -11811,12 +11807,13 @@ start_token	end_token	supersense_category	text
 46238	46238	noun.state	agitation
 46243	46243	verb.stative	is
 46245	46245	noun.time	time
+46253	46253	noun.quantity	eight
 46265	46266	noun.person	Alexis Ivanovitch
 46269	46269	verb.possession	have
 46272	46272	noun.person	kopeck
-46273	46273	verb.motion	left
 46276	46276	verb.possession	have
-46280	46281	noun.possession	bank notes
+46280	46280	noun.possession	bank
+46281	46281	noun.communication	notes
 46284	46284	verb.motion	run
 46287	46287	noun.artifact	office
 46289	46289	verb.possession	get
@@ -11840,7 +11837,7 @@ start_token	end_token	supersense_category	text
 46338	46338	noun.person	conspirators
 46340	46340	noun.feeling	consternation
 46345	46345	noun.possession	losses
-46347	46347	verb.social	done
+46347	46347	verb.creation	done
 46351	46351	verb.communication	said
 46357	46357	noun.act	departure
 46359	46359	verb.possession	save
@@ -11856,7 +11853,7 @@ start_token	end_token	supersense_category	text
 46391	46391	verb.stative	was
 46398	46398	verb.social	elope
 46401	46401	noun.person	Prince
-46410	46410	verb.motion	gathered
+46410	46410	verb.contact	gathered
 46412	46412	verb.social	endeavouring
 46414	46414	verb.emotion	calm
 46416	46416	verb.communication	dissuade
@@ -11872,7 +11869,7 @@ start_token	end_token	supersense_category	text
 46444	46444	noun.person	rascals
 46449	46449	verb.communication	shouting
 46453	46453	verb.possession	have
-46455	46455	noun.act	affairs
+46455	46455	noun.cognition	affairs
 46473	46473	verb.communication	indicated
 46474	46475	noun.person	De Griers
 46477	46477	verb.motion	come
@@ -11882,7 +11879,7 @@ start_token	end_token	supersense_category	text
 46495	46495	verb.motion	turned
 46497	46497	noun.person	Mlle
 46499	46499	noun.person	Blanche
-46501	46501	noun.state	want
+46501	46501	verb.emotion	want
 46515	46515	noun.location	Diantre
 46518	46518	verb.communication	muttered
 46519	46519	noun.person	Mlle
@@ -11894,7 +11891,7 @@ start_token	end_token	supersense_category	text
 46543	46543	noun.artifact	room
 46544	46544	verb.communication	crying
 46547	46547	noun.person	General
-46554	46555	noun.person	Elle vivra
+46554	46554	noun.person	Elle
 46565	46566	verb.cognition	counting upon
 46568	46568	noun.event	death
 46574	46574	verb.communication	fumed
@@ -11903,7 +11900,7 @@ start_token	end_token	supersense_category	text
 46584	46584	verb.change	Clear
 46589	46589	noun.artifact	room
 46591	46592	noun.person	Alexis Ivanovitch
-46595	46595	noun.group	business
+46595	46595	noun.act	business
 46596	46596	verb.stative	is
 46604	46604	verb.stative	is
 46609	46609	noun.possession	money
@@ -11915,6 +11912,7 @@ start_token	end_token	supersense_category	text
 46630	46630	verb.motion	withdrew
 46633	46634	noun.person	De Griers
 46639	46639	verb.communication	Call
+46640	46640	noun.person	Prascovia
 46643	46643	verb.communication	commanded
 46645	46645	noun.person	Grandmother
 46650	46650	noun.time	minutes
@@ -11929,6 +11927,7 @@ start_token	end_token	supersense_category	text
 46676	46676	noun.time	day
 46680	46680	noun.body	face
 46681	46681	verb.perception	looked
+46687	46687	noun.location	Prascovia
 46690	46690	verb.communication	began
 46692	46692	noun.person	Grandmother
 46695	46695	verb.stative	is
@@ -11937,7 +11936,7 @@ start_token	end_token	supersense_category	text
 46710	46710	noun.person	fool
 46713	46713	noun.person	stepfather
 46719	46719	verb.social	marry
-46722	46722	noun.animal	whirligig
+46722	46722	noun.artifact	whirligig
 46725	46725	noun.person	Frenchwoman
 46727	46727	noun.person	actress
 46733	46733	verb.communication	Tell
@@ -11947,6 +11946,7 @@ start_token	end_token	supersense_category	text
 46754	46754	verb.communication	replied
 46755	46755	noun.person	Polina
 46760	46760	noun.person	Mlle
+46762	46762	noun.person	Blanche
 46764	46764	noun.communication	account
 46770	46770	verb.perception	appear
 46772	46772	verb.cognition	think
@@ -11959,9 +11959,9 @@ start_token	end_token	supersense_category	text
 46801	46801	noun.state	situation
 46805	46805	verb.cognition	thought
 46808	46808	verb.possession	get
-46818	46819	verb.cognition	looked upon
+46818	46819	verb.perception	looked upon
 46826	46826	noun.person	fellow
-46831	46831	noun.cognition	airs
+46831	46831	noun.attribute	airs
 46834	46834	noun.communication	fact
 46837	46837	verb.stative	being
 46839	46839	noun.person	general
@@ -11983,23 +11983,21 @@ start_token	end_token	supersense_category	text
 46898	46898	verb.stative	is
 46900	46900	noun.communication	name
 46904	46905	noun.person	De Cominges
-46909	46910	verb.creation	dream of
+46909	46909	verb.creation	dream
 46911	46911	verb.possession	accepting
 46913	46913	noun.person	General
 46917	46917	noun.body	teeth
 46925	46925	verb.stative	be
-46927	46927	noun.cognition	lacquey
 46933	46933	verb.communication	say
 46935	46935	verb.possession	possesses
 46937	46937	noun.group	pile
 46939	46939	noun.possession	money
 46942	46942	verb.possession	lends
 46945	46945	noun.possession	interest
-46948	46948	verb.creation	makes
-46951	46951	noun.possession	thing
+46948	46948	verb.change	makes
+46951	46951	noun.state	thing
 46959	46959	verb.stative	is
 46965	46965	noun.location	Prascovia
-46969	46969	verb.stative	am
 46973	46973	verb.stative	was
 46979	46979	verb.communication	sent
 46981	46981	noun.communication	telegrams
@@ -12012,14 +12010,14 @@ start_token	end_token	supersense_category	text
 47007	47007	noun.attribute	nature
 47010	47010	verb.stative	are
 47012	47012	noun.person	wasp
-47015	47015	verb.perception	sting
-47019	47019	verb.perception	touches
+47015	47015	verb.emotion	sting
+47019	47019	verb.motion	touches
 47024	47024	noun.cognition	heart
 47025	47025	verb.stative	is
 47032	47032	verb.emotion	loved
 47034	47034	noun.person	mother
 47036	47036	noun.person	Katerina
-47042	47042	verb.change	leave
+47042	47042	verb.cognition	leave
 47047	47048	verb.motion	come away
 47057	47057	verb.cognition	know
 47061	47061	verb.change	become
@@ -12043,7 +12041,7 @@ start_token	end_token	supersense_category	text
 47127	47127	verb.social	occupy
 47130	47130	noun.artifact	floor
 47135	47135	verb.emotion	liked
-47138	47139	verb.social	keep away
+47138	47138	verb.stative	keep
 47143	47143	noun.time	weeks
 47148	47148	verb.motion	come
 47162	47162	verb.social	let
@@ -12077,7 +12075,7 @@ start_token	end_token	supersense_category	text
 47281	47281	noun.substance	waters
 47283	47283	noun.person	Grandmamma
 47287	47287	verb.motion	came
-47290	47290	verb.possession	take
+47290	47291	verb.social	take the
 47292	47292	noun.substance	waters
 47299	47299	noun.substance	waters
 47303	47303	verb.emotion	anger
@@ -12094,16 +12092,15 @@ start_token	end_token	supersense_category	text
 47358	47358	verb.possession	offered
 47366	47366	noun.state	extent
 47369	47369	verb.cognition	guessed
-47371	47371	noun.cognition	position
+47371	47371	noun.state	position
 47383	47383	noun.state	extent
-47387	47387	verb.stative	be
 47393	47393	verb.motion	come
 47395	47395	verb.stative	live
 47406	47406	verb.stative	are
 47408	47408	noun.motive	reasons
 47414	47417	verb.cognition	make up my mind
 47424	47424	verb.social	let
-47431	47431	noun.quantity	couple
+47426	47426	verb.possession	have
 47433	47433	noun.time	weeks
 47435	47435	verb.cognition	decide
 47441	47441	verb.communication	mean
@@ -12112,43 +12109,43 @@ start_token	end_token	supersense_category	text
 47453	47453	verb.communication	mean
 47459	47459	verb.motion	come
 47465	47465	noun.event	events
-47471	47471	verb.cognition	leave
+47471	47471	verb.motion	leave
 47474	47474	noun.person	brother
 47476	47476	noun.person	sister
 47486	47486	verb.motion	leave
-47491	47491	verb.cognition	abandoned
+47491	47491	verb.social	abandoned
 47497	47497	noun.person	Grandmamma
 47501	47501	verb.possession	take
 47517	47517	verb.motion	come
-47523	47523	verb.social	do
+47523	47523	verb.creation	do
 47528	47528	verb.social	serve
 47534	47534	verb.communication	said
 47537	47537	noun.attribute	earnestness
 47552	47552	verb.motion	come
-47558	47558	verb.change	make
+47558	47558	verb.creation	make
 47560	47560	noun.state	fuss
 47568	47568	noun.person	Polina
 47574	47574	verb.emotion	fussed
 47576	47576	verb.body	wept
 47581	47582	noun.person	Great Foster
-47584	47584	noun.person	Father[3
-47587	47587	verb.creation	find
+47587	47587	verb.possession	find
 47591	47591	noun.person	chicks
 47593	47593	noun.location	place
 47598	47598	verb.motion	coming
 47601	47601	noun.person	children
+47604	47604	verb.perception	see
 47607	47607	noun.location	Prascovia
 47610	47610	verb.emotion	wish
 47615	47615	noun.quantity	nothing
 47622	47622	verb.creation	divined
-47624	47624	noun.motive	reason
+47624	47624	noun.communication	reason
 47629	47629	verb.motion	come
 47634	47634	verb.cognition	know
-47637	47637	noun.person	Prascovia
+47637	47637	noun.location	Prascovia
 47640	47640	noun.person	Frenchman
-47643	47643	verb.motion	bring
+47643	47643	verb.contact	bring
 47648	47648	noun.cognition	sort
-47654	47654	verb.change	Translated
+47654	47654	verb.creation	Translated
 47657	47658	noun.person	Great Poulterer
 47660	47660	noun.person	Polina
 47661	47661	verb.body	coloured
@@ -12166,16 +12163,15 @@ start_token	end_token	supersense_category	text
 47724	47724	verb.communication	slur
 47730	47731	verb.social	take care
 47734	47734	noun.state	harm
-47735	47735	verb.social	befalls
+47735	47735	verb.stative	befalls
 47744	47744	verb.stative	are
 47746	47746	noun.person	girl
 47748	47748	noun.cognition	sense
 47752	47752	verb.stative	am
-47757	47757	verb.perception	regard
+47757	47757	verb.cognition	regard
 47762	47762	noun.attribute	light
 47765	47765	noun.relation	rest
-47774	47774	verb.motion	leave
-47777	47779	noun.communication	Good - bye
+47774	47774	verb.cognition	leave
 47784	47784	verb.social	let
 47786	47786	verb.stative	stay
 47794	47794	verb.communication	said
@@ -12183,13 +12179,13 @@ start_token	end_token	supersense_category	text
 47798	47798	noun.communication	No
 47801	47801	verb.communication	replied
 47812	47812	verb.emotion	bother
-47822	47822	verb.body	tired
+47822	47822	verb.consumption	tired
 47829	47829	noun.person	Polina
 47830	47830	verb.social	tried
 47832	47832	verb.contact	kiss
 47834	47834	noun.person	Grandmother
 47836	47836	noun.body	hand
-47839	47840	noun.person	old lady
+47840	47840	noun.person	lady
 47841	47841	verb.possession	withdrew
 47846	47846	verb.contact	kissed
 47848	47848	noun.person	girl
@@ -12205,6 +12201,7 @@ start_token	end_token	supersense_category	text
 47887	47887	noun.artifact	train
 47888	47888	verb.creation	starts
 47891	47891	noun.time	hour
+47893	47893	noun.time	time
 47897	47897	verb.cognition	think
 47901	47901	verb.stative	be
 47906	47906	verb.possession	Take
@@ -12229,7 +12226,7 @@ start_token	end_token	supersense_category	text
 47985	47985	verb.social	see
 47991	47991	verb.possession	give
 47994	47994	noun.communication	recommendation
-47998	47998	noun.person	Potapitch
+47998	47998	noun.location	Potapitch
 48000	48000	verb.change	get
 48001	48001	noun.cognition	things
 48006	48006	verb.motion	ascended
@@ -12247,28 +12244,27 @@ start_token	end_token	supersense_category	text
 48043	48043	noun.time	time
 48046	48046	noun.cognition	consideration
 48050	48050	noun.time	morrow
-48053	48053	verb.perception	have
+48053	48053	verb.consumption	have
 48055	48055	noun.communication	talk
 48057	48057	noun.person	Polina
+48061	48062	noun.person	The Frenchman
 48067	48067	verb.stative	was
-48074	48074	verb.stative	be
 48077	48077	noun.person	Polina
 48079	48080	noun.person	De Griers
 48084	48084	noun.group	combination
 48089	48089	verb.stative	was
-48095	48096	verb.motion	leapt up
+48095	48096	verb.competition	leapt up
 48099	48099	noun.cognition	idea
-48101	48101	verb.contact	seeking
+48101	48101	verb.possession	seeking
 48102	48102	noun.person	Astley
 48104	48104	verb.communication	forcing
 48107	48107	verb.communication	speak
-48111	48111	verb.stative	be
+48113	48113	noun.cognition	doubt
 48116	48116	verb.cognition	knew
 48122	48122	noun.person	Astley
 48127	48127	verb.stative	was
 48129	48129	noun.state	problem
 48133	48133	verb.cognition	solve
-48137	48137	verb.change	came
 48139	48139	noun.event	knock
 48142	48142	noun.artifact	door
 48146	48146	verb.contact	opened
@@ -12278,7 +12274,7 @@ start_token	end_token	supersense_category	text
 48155	48155	noun.person	Sir
 48159	48159	verb.communication	said
 48163	48163	noun.person	mistress
-48165	48166	verb.communication	asking for
+48165	48165	verb.communication	asking
 48177	48177	verb.motion	departing
 48184	48184	noun.artifact	train
 48185	48185	verb.motion	leaves
@@ -12286,45 +12282,44 @@ start_token	end_token	supersense_category	text
 48189	48189	noun.time	time
 48194	48194	verb.stative	is
 48197	48197	noun.person	sir
-48202	48202	verb.body	rest
+48202	48202	verb.stative	rest
 48204	48204	verb.motion	Come
 48207	48207	noun.person	sir
 48211	48211	verb.change	delay
 48215	48215	verb.motion	ran
-48220	48221	noun.person	The Grandmother
+48221	48221	noun.person	Grandmother
 48225	48226	verb.motion	carried out
 48229	48229	noun.artifact	rooms
 48232	48232	noun.artifact	corridor
 48236	48236	noun.body	hands
 48238	48238	verb.contact	held
-48240	48240	noun.group	roll
+48240	48240	noun.communication	roll
 48242	48242	noun.group	bank
-48244	48244	noun.possession	notes
+48244	48244	noun.communication	notes
 48247	48248	noun.person	Alexis Ivanovitch
 48252	48252	verb.communication	cried
 48255	48255	verb.motion	walk
-48262	48263	verb.motion	set out
+48262	48263	verb.change	set out
 48271	48271	noun.person	Madame
 48278	48278	verb.body	rest
 48282	48282	verb.possession	retrieved
 48284	48284	noun.possession	losses
-48286	48286	verb.stative	March
+48286	48286	verb.communication	March
 48291	48291	verb.communication	ask
 48294	48294	noun.communication	questions
 48296	48296	noun.communication	Play
 48297	48297	verb.stative	continues
 48299	48299	noun.time	midnight
 48308	48308	noun.time	moment
-48310	48310	verb.stative	stood
-48312	48312	verb.contact	stood
+48310	48310	verb.motion	stood
+48312	48312	verb.stative	stood
 48315	48315	noun.cognition	thought
 48325	48328	verb.cognition	made up my mind
-48333	48333	noun.act	leave
+48333	48333	noun.artifact	leave
 48335	48335	noun.person	Madame
 48339	48339	verb.communication	said
-48345	48346	verb.motion	go with
+48345	48345	verb.motion	go
 48358	48358	verb.communication	mean
-48370	48370	noun.quantity	nothing
 48374	48374	verb.communication	Pardon
 48379	48379	verb.possession	have
 48380	48380	noun.quantity	nothing
@@ -12333,31 +12328,33 @@ start_token	end_token	supersense_category	text
 48394	48394	verb.cognition	intend
 48397	48397	verb.perception	witness
 48400	48401	verb.social	join in
-48403	48403	noun.communication	play
+48403	48403	noun.act	play
 48407	48407	verb.communication	beg
 48409	48409	verb.possession	return
-48414	48414	noun.quantity	g
+48414	48414	noun.possession	g
+48415	48415	noun.quantity	lden
+48417	48417	noun.communication	Farewell
 48420	48420	verb.contact	Laying
 48422	48422	noun.possession	money
 48426	48426	noun.artifact	table
 48429	48429	noun.person	Grandmother
 48431	48431	noun.artifact	chair
 48435	48435	verb.motion	passing
-48438	48438	verb.communication	bowed
+48438	48438	verb.motion	bowed
 48440	48440	verb.motion	withdrew
 48444	48444	noun.attribute	folly
 48448	48448	noun.person	Grandmother
 48449	48449	verb.communication	shouted
 48461	48461	verb.motion	come
 48466	48466	verb.possession	find
-48468	48468	noun.act	way
-48471	48471	noun.person	Potapitch
+48468	48468	noun.location	way
+48471	48471	noun.location	Potapitch
 48475	48475	verb.motion	come
 48479	48480	verb.motion	Lift up
 48482	48482	noun.artifact	chair
 48485	48485	verb.motion	carry
 48491	48491	verb.social	failed
-48493	48493	verb.possession	find
+48493	48493	verb.communication	find
 48494	48495	noun.person	Mr. Astley
 48498	48498	verb.motion	returned
 48502	48502	verb.stative	was
@@ -12372,18 +12369,18 @@ start_token	end_token	supersense_category	text
 48527	48527	verb.possession	lost
 48530	48530	noun.possession	money
 48536	48536	noun.time	day
+48540	48540	verb.possession	got
 48543	48543	noun.substance	paper
 48544	48544	noun.possession	securities
 48546	48546	noun.possession	sum
 48547	48547	verb.stative	amounting
 48552	48552	noun.quantity	roubles
 48556	48556	verb.social	did
-48559	48559	noun.cognition	direction
-48562	48563	noun.person	Pole whom
+48559	48559	noun.act	direction
+48562	48562	noun.person	Pole
 48566	48566	noun.time	afternoon
-48570	48570	verb.change	dowered
+48570	48570	verb.contact	dowered
 48575	48575	noun.quantity	g
-48576	48576	noun.artifact	lden
 48577	48577	noun.artifact	pieces
 48582	48582	noun.act	arrival
 48585	48585	noun.location	scene
@@ -12400,14 +12397,14 @@ start_token	end_token	supersense_category	text
 48627	48627	verb.cognition	knew
 48629	48630	noun.communication	Russian language
 48636	48636	verb.communication	speak
-48638	48638	noun.group	mixture
+48638	48638	noun.substance	mixture
 48642	48642	noun.communication	dialects
 48647	48647	noun.group	pair
 48648	48648	verb.stative	were
 48651	48651	verb.cognition	understand
 48657	48658	noun.person	old lady
 48660	48660	verb.change	ceased
-48662	48662	verb.social	abuse
+48662	48662	verb.emotion	abuse
 48668	48668	noun.attribute	manner
 48672	48672	verb.cognition	compare
 48682	48682	noun.event	events
@@ -12418,6 +12415,7 @@ start_token	end_token	supersense_category	text
 48702	48702	verb.social	treated
 48706	48706	noun.person	gentleman
 48712	48712	verb.possession	robbed
+48714	48714	noun.location	right
 48721	48721	verb.perception	see
 48725	48725	noun.body	eyes
 48729	48729	verb.cognition	caught
@@ -12426,7 +12424,7 @@ start_token	end_token	supersense_category	text
 48744	48744	verb.contact	pulled
 48746	48746	noun.body	hair
 48751	48751	noun.person	bystanders
-48752	48753	verb.change	burst out
+48752	48752	verb.change	burst
 48754	48754	verb.body	laughing
 48758	48758	verb.possession	lost
 48765	48765	verb.communication	say
@@ -12436,7 +12434,7 @@ start_token	end_token	supersense_category	text
 48786	48786	verb.communication	asking
 48789	48789	noun.substance	water
 48791	48791	verb.communication	saying
-48793	48793	noun.act	prayers
+48793	48793	noun.communication	prayers
 48796	48797	verb.motion	went to
 48798	48798	noun.artifact	bed
 48803	48803	verb.stative	was
@@ -12459,19 +12457,21 @@ start_token	end_token	supersense_category	text
 48873	48873	noun.plant	blossom
 48878	48878	noun.attribute	view
 48880	48880	verb.perception	look
-48889	48889	verb.social	do
+48889	48889	verb.creation	do
+48891	48891	verb.motion	go
 48892	48892	verb.motion	travelling
 48895	48895	noun.person	Alack
+48900	48900	noun.person	XIII
 48903	48903	noun.time	month
 48905	48905	verb.motion	passed
 48909	48909	verb.communication	touched
 48911	48911	noun.communication	notes
 48912	48912	noun.communication	notes
 48915	48915	verb.change	began
-48918	48918	noun.attribute	influence
+48918	48918	noun.cognition	influence
 48920	48920	noun.cognition	impressions
 48928	48928	noun.state	crisis
-48932	48932	verb.perception	felt
+48932	48932	verb.cognition	felt
 48935	48935	verb.motion	approaching
 48938	48938	verb.change	arrived
 48943	48943	noun.cognition	form
@@ -12489,7 +12489,7 @@ start_token	end_token	supersense_category	text
 49005	49005	noun.event	whirlpool
 49007	49007	noun.event	events
 49013	49013	noun.time	time
-49016	49016	verb.stative	was
+49017	49017	verb.contact	revolving
 49023	49023	noun.cognition	feature
 49026	49026	verb.stative	is
 49028	49028	noun.Tops	relation
@@ -12503,7 +12503,7 @@ start_token	end_token	supersense_category	text
 49059	49059	verb.stative	is
 49073	49073	verb.cognition	thought
 49080	49080	verb.stative	become
-49088	49088	verb.cognition	fancy
+49088	49088	verb.emotion	fancy
 49092	49092	verb.stative	be
 49099	49099	verb.contact	sitting
 49102	49102	noun.artifact	madhouse
@@ -12539,36 +12539,34 @@ start_token	end_token	supersense_category	text
 49210	49210	noun.act	influence
 49213	49213	noun.attribute	moods
 49218	49218	noun.cognition	recollections
-49221	49221	noun.event	tempest
-49224	49224	verb.motion	drew
+49221	49221	noun.state	tempest
+49224	49224	verb.emotion	drew
 49228	49228	noun.event	vortex
 49232	49232	verb.creation	cast
 49240	49240	verb.perception	seem
-49244	49244	verb.contact	caught
-49247	49247	noun.object	vortex
+49247	49247	noun.phenomenon	vortex
 49253	49253	noun.phenomenon	tempest
 49254	49254	verb.perception	seems
 49259	49259	verb.contact	gathering
 49265	49265	verb.motion	passes
 49270	49270	verb.contact	wrapping
-49274	49274	noun.body	folds
+49274	49274	noun.shape	folds
 49279	49279	verb.possession	lost
 49281	49281	noun.cognition	sense
 49283	49283	noun.state	order
 49285	49285	noun.state	reality
 49288	49288	verb.stative	continue
+49289	49289	verb.motion	whirling
 49291	49291	verb.motion	whirling
 49293	49293	verb.perception	whirling
-49300	49300	verb.stative	be
-49304	49304	verb.stative	be
 49307	49307	verb.social	stop
-49310	49310	verb.social	revolving
+49310	49310	verb.contact	revolving
 49315	49315	verb.social	succeed
 49317	49317	verb.creation	rendering
 49321	49321	noun.communication	account
 49325	49325	verb.change	happened
 49328	49328	noun.time	month
-49335	49335	verb.contact	drawn
+49334	49334	verb.emotion	feel
 49338	49338	noun.artifact	pen
 49345	49345	noun.time	evening
 49348	49348	verb.possession	had
@@ -12580,6 +12578,7 @@ start_token	end_token	supersense_category	text
 49372	49372	noun.artifact	works
 49374	49377	noun.person	M. Paul de Kock
 49381	49381	verb.cognition	read
+49383	49383	noun.communication	German
 49384	49384	noun.communication	translations
 49385	49385	verb.possession	obtained
 49390	49390	noun.artifact	library
@@ -12607,13 +12606,13 @@ start_token	end_token	supersense_category	text
 49476	49476	verb.contact	touch
 49478	49478	noun.cognition	vision
 49486	49486	verb.change	dissolve
-49488	49488	noun.state	smoke
+49488	49488	noun.communication	smoke
 49502	49502	verb.stative	is
 49511	49511	verb.stative	be
-49515	49515	noun.communication	recollections
+49515	49515	noun.cognition	recollections
 49518	49518	noun.time	years
 49522	49522	verb.social	let
-49524	49524	verb.communication	write
+49524	49525	verb.creation	write of
 49537	49537	noun.communication	form
 49541	49541	noun.cognition	impressions
 49543	49543	verb.communication	warrant
@@ -12626,7 +12625,7 @@ start_token	end_token	supersense_category	text
 49563	49563	noun.artifact	g
 49564	49564	noun.person	lden
 49567	49567	verb.possession	possessed
-49569	49569	noun.act	Things
+49569	49569	noun.cognition	Things
 49571	49571	verb.communication	bound
 49573	49573	verb.change	happen
 49577	49577	noun.person	persons
@@ -12637,6 +12636,7 @@ start_token	end_token	supersense_category	text
 49594	49594	noun.attribute	rapidity
 49599	49599	noun.artifact	sledge
 49600	49600	verb.motion	descends
+49602	49602	noun.artifact	toboggan
 49604	49604	noun.artifact	slide
 49607	49607	noun.time	day
 49613	49613	noun.time	evening
@@ -12647,37 +12647,38 @@ start_token	end_token	supersense_category	text
 49635	49635	noun.communication	report
 49639	49639	noun.time	day
 49640	49640	noun.person	Potapitch
-49641	49641	verb.change	remained
+49641	49641	verb.stative	remained
 49643	49643	noun.act	attendance
 49649	49649	noun.person	Poles
-49651	49651	verb.social	directed
+49651	49651	verb.communication	directed
 49653	49653	noun.communication	play
 49655	49655	verb.change	changed
-49662	49662	noun.time	beginning
+49662	49662	noun.event	beginning
 49664	49664	verb.social	dismissed
 49666	49666	noun.person	Pole
 49670	49670	noun.time	day
 49672	49672	noun.person	Pole
 49674	49674	noun.body	hair
 49677	49677	verb.contact	pulled
-49679	49680	verb.social	took to
+49679	49679	verb.possession	took
 49688	49688	verb.stative	proved
-49696	49696	verb.communication	incurred
+49696	49696	verb.stative	incurred
 49697	49697	noun.act	dismissal
+49699	49699	noun.feeling	favour
 49703	49703	noun.person	Pole
 49709	49709	noun.time	time
 49712	49712	noun.state	unemployment
-49716	49716	verb.contact	hovered
+49716	49716	verb.motion	hovered
 49719	49719	noun.person	Grandmother
 49721	49721	noun.artifact	chair
-49728	49728	verb.contact	obtruded
+49728	49728	verb.stative	obtruded
 49730	49730	noun.body	head
 49733	49733	noun.body	shoulder
 49738	49739	noun.person	old lady
 49740	49740	verb.change	became
 49746	49746	noun.person	Pole
 49749	49749	verb.cognition	dismissed
-49751	49751	verb.social	imitated
+49751	49751	verb.cognition	imitated
 49753	49753	noun.person	predecessor
 49755	49755	verb.communication	declining
 49757	49758	verb.motion	go away
@@ -12690,19 +12691,20 @@ start_token	end_token	supersense_category	text
 49784	49785	noun.location	vantage points
 49787	49787	noun.group	pair
 49788	49788	verb.social	quarrelled
-49790	49790	verb.competition	abused
+49790	49790	verb.communication	abused
 49793	49793	verb.stative	concerning
 49795	49795	noun.possession	stakes
 49797	49797	noun.act	rounds
 49800	49800	verb.communication	exchanged
 49802	49802	noun.communication	epithet
+49808	49808	noun.person	Polish
 49809	49809	noun.communication	terms
-49811	49811	noun.act	endearment
+49811	49811	noun.communication	endearment
 49816	49816	verb.creation	effected
 49819	49819	noun.act	reconciliation
-49823	49823	verb.possession	tossing
+49823	49823	verb.motion	tossing
 49825	49825	noun.possession	money
-49829	49829	verb.creation	played
+49829	49829	verb.social	played
 49841	49841	verb.possession	staked
 49842	49842	noun.possession	money
 49846	49846	noun.location	side
@@ -12718,7 +12720,7 @@ start_token	end_token	supersense_category	text
 49886	49886	verb.communication	weeping
 49890	49890	verb.communication	forced
 49892	49892	verb.communication	appeal
-49895	49895	noun.location	head
+49895	49895	noun.person	head
 49896	49896	noun.person	croupier
 49898	49898	noun.possession	protection
 49902	49902	verb.change	have
@@ -12797,7 +12799,7 @@ start_token	end_token	supersense_category	text
 50146	50146	noun.group	authorities
 50149	50149	noun.location	Casino
 50150	50150	verb.perception	showed
-50153	50153	noun.cognition	attention
+50153	50153	noun.act	attention
 50158	50158	noun.state	fame
 50159	50159	verb.motion	spreading
 50162	50162	noun.location	town
@@ -12816,36 +12818,33 @@ start_token	end_token	supersense_category	text
 50226	50226	noun.person	Grandmother
 50227	50227	verb.social	effected
 50231	50231	noun.quantity	little
-50236	50236	verb.change	arrived
+50236	50236	verb.motion	arrived
 50238	50238	verb.social	take
 50240	50240	noun.person	countrymen
-50242	50242	noun.act	place
 50246	50246	noun.person	Pole
 50248	50248	noun.person	man
 50251	50251	verb.communication	speak
 50252	50252	noun.communication	Russian
 50256	50256	verb.body	dressed
-50257	50257	verb.stative	like
 50259	50259	noun.person	gentleman
 50264	50264	noun.attribute	fashion
 50268	50268	verb.body	sported
-50271	50271	noun.artifact	moustache
+50271	50271	noun.body	moustache
 50278	50279	noun.person	old lady
-50282	50282	verb.change	took
-50285	50285	noun.person	hand
+50285	50285	noun.act	hand
 50288	50288	noun.person	bystanders
 50294	50294	verb.possession	offered
 50299	50299	noun.person	servant
-50304	50305	noun.person	entertainer _
+50304	50304	noun.person	entertainer
 50309	50309	noun.event	round
-50312	50313	verb.communication	turn to
+50312	50313	verb.cognition	turn to
 50315	50316	noun.person	old lady
 50319	50319	verb.communication	swear
 50321	50321	noun.communication	oaths
 50324	50324	noun.phenomenon	effect
 50327	50327	verb.stative	was
 50331	50331	noun.person	gentleman
-50333	50333	noun.person	honour
+50333	50333	noun.state	honour
 50337	50337	verb.emotion	scorn
 50339	50339	verb.possession	take
 50344	50344	noun.possession	money
@@ -12858,7 +12857,7 @@ start_token	end_token	supersense_category	text
 50372	50372	verb.competition	win
 50375	50375	noun.attribute	behalf
 50380	50380	verb.cognition	felt
-50386	50388	verb.possession	get rid of
+50386	50387	verb.possession	get rid
 50392	50392	noun.time	hour
 50396	50396	noun.person	Poles
 50402	50402	noun.time	day
@@ -12871,20 +12870,20 @@ start_token	end_token	supersense_category	text
 50422	50422	verb.communication	renewed
 50424	50424	noun.communication	offers
 50426	50426	noun.act	service
-50434	50434	verb.motion	sent
+50434	50434	verb.communication	sent
 50436	50436	noun.communication	messages
 50440	50440	noun.person	Potapitch
 50448	50448	noun.person	rascals
-50451	50451	verb.communication	said
 50453	50453	noun.person	gentleman
-50458	50458	verb.communication	passed
+50455	50455	noun.person	honour
+50458	50458	verb.stative	passed
 50460	50460	noun.communication	wink
 50468	50468	verb.contact	put
 50472	50472	noun.body	hands
 50478	50478	noun.person	Grandmother
 50482	50482	verb.consumption	lunched
 50488	50488	noun.time	moment
-50489	50489	verb.cognition	left
+50489	50489	verb.motion	left
 50491	50491	noun.artifact	chair
 50496	50496	noun.person	Poles
 50497	50497	verb.motion	ran
@@ -13373,7 +13372,7 @@ start_token	end_token	supersense_category	text
 52316	52316	verb.social	invited
 52320	52320	verb.communication	speak
 52329	52329	verb.social	done
-52333	52333	noun.attribute	wantonness
+52333	52333	noun.feeling	wantonness
 52338	52338	verb.cognition	knew
 52341	52341	verb.communication	remarked
 52349	52349	verb.perception	listening
@@ -13403,11 +13402,10 @@ start_token	end_token	supersense_category	text
 52448	52448	verb.communication	said
 52453	52453	verb.consumption	need
 52463	52463	verb.communication	spoken
-52465	52465	noun.communication	jest
+52465	52465	noun.feeling	jest
 52469	52469	verb.possession	had
 52471	52471	noun.communication	secret
 52474	52474	noun.cognition	kind
-52477	52477	verb.stative	be
 52484	52484	verb.communication	said
 52487	52487	noun.person	Grandmother
 52489	52489	verb.emotion	stabbed
@@ -13643,13 +13641,13 @@ start_token	end_token	supersense_category	text
 53379	53380	noun.person	De Griers
 53383	53383	noun.person	General
 53384	53384	verb.social	made
-53386	53386	noun.communication	gesture
+53386	53386	noun.act	gesture
 53388	53388	noun.state	despair
 53393	53394	verb.motion	gone away
 53398	53398	verb.communication	said
 53405	53405	verb.possession	possess
 53407	53407	verb.possession	mortgaged
-53412	53412	verb.contact	stand
+53412	53412	verb.change	stand
 53413	53413	verb.contact	stripped
 53416	53416	noun.body	skin
 53421	53421	noun.possession	money
@@ -13657,7 +13655,7 @@ start_token	end_token	supersense_category	text
 53427	53427	noun.location	Paris
 53430	53430	verb.cognition	know
 53435	53435	noun.quantity	francs
-53437	53437	verb.cognition	left
+53437	53437	verb.possession	left
 53442	53442	noun.possession	sum
 53446	53447	verb.motion	go on
 53453	53453	verb.stative	regards
@@ -13703,7 +13701,6 @@ start_token	end_token	supersense_category	text
 53601	53601	noun.quantity	Nothing
 53604	53604	verb.social	done
 53608	53608	noun.person	man
-53610	53610	noun.quantity	Yet
 53612	53612	verb.change	leave
 53615	53615	verb.stative	was
 53621	53621	verb.change	happen
@@ -13719,7 +13716,7 @@ start_token	end_token	supersense_category	text
 53660	53660	noun.person	fellow
 53665	53665	verb.communication	promised
 53667	53667	verb.stative	remain
-53670	53672	noun.act	look - out
+53672	53672	noun.location	out
 53677	53677	verb.motion	left
 53679	53679	noun.person	General
 53682	53682	noun.person	Potapitch
@@ -13728,14 +13725,14 @@ start_token	end_token	supersense_category	text
 53690	53690	noun.person	Grandmother
 53693	53693	verb.stative	was
 53702	53702	verb.motion	returned
-53705	53705	noun.location	Casino
+53705	53705	noun.artifact	Casino
 53708	53708	verb.possession	losing
 53712	53712	verb.possession	possessed
-53715	53715	verb.creation	found
+53715	53715	verb.perception	found
 53717	53717	verb.contact	sitting
 53720	53720	noun.artifact	chair
-53727	53728	noun.person	Presently Martha
-53729	53729	verb.consumption	brought
+53728	53728	noun.person	Martha
+53729	53729	verb.possession	brought
 53733	53733	noun.quantity	cup
 53735	53735	noun.food	tea
 53737	53737	verb.communication	forced
@@ -13839,6 +13836,7 @@ start_token	end_token	supersense_category	text
 54120	54121	verb.cognition	look upon
 54126	54126	noun.person	blockhead
 54129	54129	verb.perception	consider
+54132	54132	noun.person	simpleton
 54135	54135	verb.stative	be
 54144	54144	verb.stative	is
 54149	54149	noun.person	God
@@ -14126,7 +14124,7 @@ start_token	end_token	supersense_category	text
 55154	55154	verb.possession	recover
 55160	55160	verb.possession	lost
 55163	55163	verb.social	suing
-55167	55167	noun.act	fashion
+55167	55167	noun.attribute	fashion
 55170	55170	verb.cognition	trust
 55177	55177	noun.cognition	matters
 55179	55179	verb.stative	stand
@@ -14260,7 +14258,6 @@ start_token	end_token	supersense_category	text
 55682	55682	verb.body	smiled
 55694	55694	verb.communication	said
 55700	55700	verb.communication	tell
-55703	55703	verb.stative	be
 55709	55709	verb.communication	return
 55712	55714	noun.possession	fifty thousand francs
 55721	55721	verb.stative	be
@@ -14438,7 +14435,6 @@ start_token	end_token	supersense_category	text
 56423	56423	noun.event	end
 56431	56431	noun.food	roulette
 56433	56433	verb.contact	drawing
-56436	56436	noun.cognition	close
 56439	56439	noun.body	head
 56440	56440	noun.person	croupier
 56442	56442	verb.communication	called
@@ -14456,7 +14452,8 @@ start_token	end_token	supersense_category	text
 56500	56500	noun.group	crowd
 56503	56503	verb.stative	was
 56510	56510	verb.possession	obtained
-56511	56512	noun.state	standing room
+56511	56511	verb.contact	standing
+56512	56512	noun.attribute	room
 56515	56515	noun.group	ring
 56517	56517	noun.person	gamblers
 56529	56529	noun.artifact	cloth
@@ -14588,7 +14585,7 @@ start_token	end_token	supersense_category	text
 56993	56993	verb.possession	staked
 57000	57000	noun.communication	numbers
 57012	57012	noun.cognition	sort
-57014	57014	verb.cognition	reckoning
+57014	57014	noun.cognition	reckoning
 57018	57018	noun.act	doing
 57021	57021	verb.stative	followed
 57023	57023	noun.time	moment
@@ -14699,7 +14696,7 @@ start_token	end_token	supersense_category	text
 57429	57429	noun.artifact	table
 57433	57433	noun.artifact	salon
 57437	57437	noun.act	game
-57439	57439	noun.shape	roulette
+57439	57439	noun.object	roulette
 57445	57445	noun.group	crowd
 57446	57446	verb.motion	followed
 57450	57450	noun.body	body
@@ -14752,12 +14749,10 @@ start_token	end_token	supersense_category	text
 57629	57629	noun.event	din
 57631	57631	noun.communication	talking
 57633	57633	noun.communication	laughter
-57636	57636	noun.person	Bravo
-57638	57638	noun.communication	bravo
 57641	57641	verb.stative	was
 57644	57644	noun.communication	shout
 57648	57648	noun.group	people
-57650	57650	verb.contact	clapped
+57650	57650	verb.body	clapped
 57652	57652	noun.body	hands
 57656	57656	verb.contact	raked
 57660	57660	noun.quantity	florins
@@ -14859,7 +14854,6 @@ start_token	end_token	supersense_category	text
 58001	58001	noun.cognition	thought
 58003	58003	noun.person	Polina
 58006	58006	verb.perception	seemed
-58009	58009	verb.stative	be
 58014	58014	noun.feeling	pleasure
 58016	58016	verb.consumption	seizing
 58018	58019	verb.possession	raking in
@@ -14880,6 +14874,7 @@ start_token	end_token	supersense_category	text
 58066	58066	noun.act	gaming
 58069	58069	noun.state	circumstance
 58070	58070	verb.stative	is
+58074	58074	noun.state	luck
 58075	58075	verb.cognition	attaches
 58082	58082	noun.attribute	red
 58087	58087	verb.change	leave
@@ -14994,7 +14989,7 @@ start_token	end_token	supersense_category	text
 58527	58527	verb.communication	smiled
 58529	58529	verb.perception	see
 58532	58532	noun.body	pockets
-58535	58535	noun.state	gait
+58535	58535	noun.attribute	gait
 58539	58539	noun.attribute	weight
 58543	58543	verb.stative	carrying
 58546	58546	verb.stative	amounted
@@ -15014,6 +15009,7 @@ start_token	end_token	supersense_category	text
 58593	58593	verb.stative	are
 58597	58597	noun.person	fellow
 58601	58601	verb.communication	said
+58605	58605	verb.communication	mind
 58607	58607	verb.motion	depart
 58609	58609	noun.time	tomorrow
 58622	58622	verb.possession	lose
@@ -15104,7 +15100,7 @@ start_token	end_token	supersense_category	text
 58962	58962	noun.location	home
 58964	58964	verb.motion	Running
 58968	58968	noun.artifact	room
-58971	58971	verb.contact	flung
+58971	58972	verb.contact	flung open
 58974	58974	noun.artifact	door
 58978	58978	noun.person	Polina
 58979	58979	verb.stative	was
@@ -15212,7 +15208,7 @@ start_token	end_token	supersense_category	text
 59345	59345	noun.quantity	more
 59347	59347	verb.possession	Take
 59352	59352	verb.contact	throw
-59355	59356	noun.location	De Griers
+59355	59356	noun.person	De Griers
 59357	59357	noun.attribute	face
 59361	59361	verb.possession	returned
 59363	59363	noun.communication	answer
@@ -15234,7 +15230,7 @@ start_token	end_token	supersense_category	text
 59425	59425	noun.communication	laughter
 59426	59426	verb.stative	was
 59431	59431	noun.feeling	merriment
-59437	59437	verb.emotion	indulged
+59437	59437	verb.perception	indulged
 59441	59441	noun.feeling	merriment
 59444	59445	verb.change	broken forth
 59449	59449	noun.event	time
@@ -15261,7 +15257,7 @@ start_token	end_token	supersense_category	text
 59553	59553	noun.act	glance
 59559	59559	verb.social	seeking
 59561	59561	verb.communication	probe
-59565	59565	noun.attribute	depths
+59565	59565	noun.shape	depths
 59570	59570	verb.possession	giving
 59578	59578	verb.communication	remarked
 59581	59581	noun.communication	smile
@@ -15275,7 +15271,7 @@ start_token	end_token	supersense_category	text
 59617	59618	noun.person	De Griers
 59626	59626	verb.communication	cried
 59629	59629	noun.body	eyes
-59631	59631	verb.perception	flashing
+59631	59631	verb.change	flashing
 59638	59638	verb.emotion	hate
 59648	59648	verb.emotion	hate
 59653	59653	verb.emotion	love
@@ -15306,7 +15302,7 @@ start_token	end_token	supersense_category	text
 59749	59749	verb.contact	kissed
 59751	59751	noun.body	hands
 59753	59753	noun.body	feet
-59756	59756	verb.contact	fell
+59756	59756	verb.motion	fell
 59759	59759	noun.body	knees
 59766	59766	noun.state	fit
 59767	59768	verb.possession	passed away
@@ -15413,17 +15409,18 @@ start_token	end_token	supersense_category	text
 60199	60199	noun.time	moment
 60204	60204	verb.contact	standing
 60207	60207	noun.artifact	window
+60210	60210	noun.communication	Yes
 60215	60215	verb.stative	is
 60220	60220	verb.communication	said
 60223	60223	verb.contact	Open
 60225	60225	noun.artifact	window
-60228	60228	verb.communication	see
+60228	60228	verb.cognition	see
 60231	60231	verb.stative	is
 60236	60236	verb.motion	pushed
 60240	60240	noun.location	direction
 60248	60248	verb.social	make
 60250	60250	noun.act	movement
-60252	60252	verb.social	obey
+60252	60252	verb.emotion	obey
 60254	60254	noun.communication	behest
 60257	60257	verb.change	burst
 60259	60259	noun.communication	laughter
@@ -15434,7 +15431,6 @@ start_token	end_token	supersense_category	text
 60288	60288	noun.cognition	thought
 60290	60290	verb.change	recurred
 60293	60293	noun.cognition	recollection
-60299	60299	verb.stative	be
 60304	60304	verb.social	try
 60306	60306	verb.competition	overtake
 60307	60307	noun.person	Grandmamma
@@ -15443,7 +15439,7 @@ start_token	end_token	supersense_category	text
 60316	60316	noun.location	Berlin
 60320	60320	verb.cognition	think
 60326	60326	verb.communication	say
-60331	60331	verb.contact	caught
+60331	60331	verb.cognition	caught
 60337	60337	noun.body	eyes
 60339	60339	verb.change	lit
 60348	60349	noun.person	Mr. Astley
@@ -15522,6 +15518,7 @@ start_token	end_token	supersense_category	text
 60641	60641	verb.perception	heard
 60646	60646	noun.body	head
 60647	60647	verb.stative	was
+60650	60650	noun.event	whirl
 60662	60662	noun.time	morning
 60665	60665	verb.body	awoke
 60667	60667	noun.time	Daylight
@@ -15547,7 +15544,7 @@ start_token	end_token	supersense_category	text
 60728	60728	verb.contact	take
 60729	60729	noun.person	Polina
 60731	60731	noun.body	hand
-60735	60735	verb.contact	pushed
+60735	60735	verb.motion	pushed
 60741	60741	verb.motion	leapt
 60744	60744	noun.artifact	sofa
 60747	60747	noun.time	dawn
@@ -15577,7 +15574,7 @@ start_token	end_token	supersense_category	text
 60819	60819	verb.change	came
 60822	60822	noun.cognition	thought
 60827	60827	verb.change	happen
-60835	60835	verb.change	end
+60835	60835	verb.stative	end
 60838	60838	noun.person	Polina
 60839	60839	verb.motion	rose
 60842	60842	noun.artifact	window
@@ -15591,7 +15588,6 @@ start_token	end_token	supersense_category	text
 60864	60864	verb.perception	quivered
 60866	60866	noun.feeling	anger
 60875	60875	verb.possession	hand
-60880	60880	noun.quantity	thousand
 60881	60881	noun.possession	francs
 60885	60885	noun.person	Polina
 60888	60888	verb.communication	say
@@ -15602,10 +15598,10 @@ start_token	end_token	supersense_category	text
 60920	60920	verb.communication	promised
 60926	60926	noun.artifact	table
 60931	60931	noun.time	night
-60935	60935	verb.communication	counted
+60935	60935	verb.cognition	counted
 60937	60937	noun.possession	money
 60941	60941	verb.stative	lying
-60943	60943	noun.group	packet
+60943	60943	noun.artifact	packet
 60948	60948	noun.quantity	florins
 60951	60951	verb.possession	handed
 60958	60958	noun.quantity	francs
@@ -15630,7 +15626,7 @@ start_token	end_token	supersense_category	text
 61033	61033	noun.group	bank
 61035	61035	noun.possession	notes
 61038	61038	noun.time	instant
-61041	61041	noun.act	deed
+61041	61041	noun.communication	deed
 61043	61043	verb.social	done
 61045	61045	verb.motion	rushed
 61048	61048	noun.artifact	room
@@ -15768,7 +15764,7 @@ start_token	end_token	supersense_category	text
 61540	61543	noun.group	H tel d Angleterre
 61546	61546	noun.communication	words
 61548	61548	noun.communication	hints
-61550	61550	verb.change	fall
+61550	61550	verb.motion	fall
 61553	61553	verb.cognition	see
 61556	61556	noun.communication	fact
 61558	61558	noun.person	Polina
@@ -15799,15 +15795,14 @@ start_token	end_token	supersense_category	text
 61628	61628	verb.communication	forbid
 61630	61630	noun.person	son
 61632	61632	noun.state	marriage
-61634	61634	noun.person	Mlle
-61636	61637	noun.person	de Cominges
+61634	61637	noun.person	Mlle . de Cominges
 61643	61643	verb.contact	cut
 61648	61648	noun.cognition	will
-61652	61652	verb.social	disobey
+61652	61652	verb.communication	disobey
 61661	61661	verb.communication	disobeyed
 61666	61666	verb.possession	squandered
 61669	61669	noun.possession	money
-61671	61671	noun.location	roulette
+61671	61671	noun.artifact	roulette
 61676	61676	verb.possession	have
 61677	61677	noun.quantity	nothing
 61678	61678	noun.quantity	more
@@ -15835,13 +15830,14 @@ start_token	end_token	supersense_category	text
 61747	61747	verb.social	do
 61750	61750	noun.act	business
 61753	61754	verb.motion	set off
-61760	61763	noun.group	H tel d Angleterre
+61760	61763	noun.person	H tel d Angleterre
 61768	61768	verb.stative	was
 61771	61772	noun.person	Mr. Astley
 61774	61774	verb.possession	receive
 61775	61775	noun.person	visitors
 61783	61783	verb.cognition	learnt
 61786	61786	verb.stative	was
+61787	61788	noun.person	_ I
 61789	61789	verb.cognition	_
 61792	61792	verb.motion	arrived
 61795	61796	verb.change	came out
@@ -15849,9 +15845,8 @@ start_token	end_token	supersense_category	text
 61801	61801	verb.social	meet
 61805	61805	verb.contact	stood
 61806	61806	verb.perception	looking
-61813	61813	noun.substance	steel
 61816	61816	noun.body	eyes
-61819	61819	verb.stative	waited
+61819	61819	verb.cognition	waited
 61821	61821	verb.perception	hear
 61826	61826	verb.communication	say
 61829	61829	verb.communication	inquired
@@ -15874,6 +15869,7 @@ start_token	end_token	supersense_category	text
 61912	61912	verb.communication	allowed
 61917	61917	verb.stative	is
 61925	61925	verb.communication	remarked
+61930	61930	noun.communication	Yes
 61933	61933	verb.possession	have
 61936	61936	verb.stative	was
 61939	61939	verb.communication	told
@@ -16280,7 +16276,6 @@ start_token	end_token	supersense_category	text
 63660	63660	noun.cognition	habit
 63662	63662	verb.motion	staking
 63667	63667	noun.artifact	card
-63672	63672	verb.stative	be
 63676	63676	verb.social	failed
 63678	63678	verb.possession	win
 63680	63680	noun.possession	stake
@@ -16429,14 +16424,13 @@ start_token	end_token	supersense_category	text
 64293	64293	verb.change	come
 64299	64299	verb.perception	saw
 64300	64300	noun.quantity	nothing
-64303	64304	noun.quantity	hundred thousand
-64305	64305	noun.quantity	francs
+64304	64304	noun.quantity	thousand
+64305	64305	noun.possession	francs
 64310	64310	noun.artifact	purse
 64314	64314	verb.perception	inspected
 64318	64318	verb.social	managed
 64320	64320	verb.communication	amass
 64327	64327	noun.quantity	francs
-64330	64330	noun.time	time
 64336	64336	noun.possession	sum
 64339	64339	verb.communication	reach
 64342	64342	noun.possession	figure
@@ -16447,10 +16441,10 @@ start_token	end_token	supersense_category	text
 64364	64364	noun.attribute	simplicity
 64369	64369	verb.communication	disputed
 64371	64371	noun.communication	point
-64377	64378	verb.change	fitted out
+64377	64378	verb.cognition	fitted out
 64380	64380	noun.artifact	flat
 64385	64385	noun.possession	money
-64388	64388	noun.communication	fact
+64388	64388	noun.cognition	fact
 64391	64391	verb.social	prevent
 64394	64394	verb.communication	saying
 64401	64401	verb.perception	showing
@@ -16477,7 +16471,7 @@ start_token	end_token	supersense_category	text
 64468	64469	noun.person	Cl opatre
 64472	64472	verb.stative	were
 64473	64473	noun.person	women
-64478	64478	noun.quantity	number
+64478	64478	noun.attribute	number
 64481	64481	noun.person	liaisons
 64488	64488	noun.event	cases
 64492	64493	noun.attribute	good looks
@@ -16499,7 +16493,7 @@ start_token	end_token	supersense_category	text
 64542	64542	noun.artifact	tailcoats
 64546	64546	noun.artifact	gloves
 64549	64549	verb.perception	displayed
-64552	64552	noun.Tops	aggregate
+64552	64552	noun.state	aggregate
 64554	64554	noun.feeling	conceit
 64556	64556	noun.communication	gasconade
 64559	64559	verb.stative	be
@@ -16521,7 +16515,7 @@ start_token	end_token	supersense_category	text
 64639	64639	noun.cognition	notion
 64642	64642	verb.possession	spend
 64650	64650	verb.motion	return
-64653	64653	noun.person	tutoring
+64653	64653	noun.act	tutoring
 64658	64658	verb.cognition	know
 64662	64662	noun.location	post
 64665	64665	verb.cognition	know
@@ -16529,15 +16523,14 @@ start_token	end_token	supersense_category	text
 64676	64676	verb.perception	had
 64680	64680	noun.act	recourse
 64682	64682	noun.food	champagne
-64687	64687	verb.body	felt
-64688	64688	verb.emotion	depressed
+64687	64687	verb.emotion	felt
 64690	64690	verb.emotion	bored
 64695	64695	noun.communication	fact
 64699	64699	verb.stative	living
 64705	64705	noun.state	milieu
 64708	64708	noun.state	milieu
 64711	64711	noun.artifact	sou
-64713	64713	verb.communication	counted
+64713	64713	verb.perception	counted
 64720	64720	noun.time	weeks
 64723	64723	verb.stative	elapsed
 64726	64726	verb.cognition	perceived
@@ -16665,7 +16658,6 @@ start_token	end_token	supersense_category	text
 65213	65213	verb.cognition	hear
 65218	65218	noun.cognition	matter
 65224	65224	verb.stative	are
-65235	65235	verb.stative	be
 65238	65238	verb.stative	are
 65241	65241	verb.consumption	provide
 65246	65246	verb.consumption	need
@@ -16692,6 +16684,7 @@ start_token	end_token	supersense_category	text
 65339	65339	noun.person	man
 65341	65341	verb.stative	are
 65345	65345	verb.communication	exclaimed
+65352	65352	noun.attribute	esprit
 65356	65356	noun.person	Sais
 65366	65366	verb.stative	are
 65368	65368	noun.person	tutor
@@ -16705,7 +16698,6 @@ start_token	end_token	supersense_category	text
 65426	65426	verb.perception	have
 65429	65429	noun.feeling	contempt
 65431	65431	noun.possession	money
-65443	65444	noun.person	dis donc
 65452	65453	verb.motion	go to
 65454	65454	noun.location	Homburg
 65457	65457	verb.possession	win
@@ -16722,12 +16714,10 @@ start_token	end_token	supersense_category	text
 65513	65513	verb.stative	are
 65516	65516	verb.communication	mean
 65518	65518	verb.emotion	love
-65527	65527	verb.stative	be
 65533	65533	verb.cognition	see
 65538	65538	verb.emotion	loved
 65554	65554	verb.cognition	chose
 65572	65572	verb.stative	been
-65582	65582	noun.person	fille
 65587	65587	verb.stative	lie
 65591	65591	verb.communication	interrupted
 65597	65597	verb.perception	see
@@ -16752,6 +16742,7 @@ start_token	end_token	supersense_category	text
 65694	65694	verb.perception	hear
 65699	65699	verb.communication	say
 65708	65708	verb.stative	be
+65711	65711	noun.person	Mais
 65752	65752	noun.event	time
 65755	65755	verb.perception	seemed
 65757	65757	verb.communication	attach
@@ -16908,7 +16899,7 @@ start_token	end_token	supersense_category	text
 66361	66361	noun.person	General
 66362	66362	verb.possession	had
 66365	66365	noun.act	fault
-66367	66367	verb.perception	find
+66367	66367	verb.communication	find
 66370	66370	noun.communication	truth
 66376	66377	verb.cognition	counted upon
 66379	66379	noun.communication	programme
@@ -17038,7 +17029,7 @@ start_token	end_token	supersense_category	text
 66852	66852	verb.body	laughing
 66855	66855	noun.communication	laugh
 66858	66858	verb.motion	approached
-66860	66860	verb.contact	pet
+66860	66860	verb.emotion	pet
 66866	66866	verb.contact	kiss
 66872	66872	noun.act	reward
 66875	66875	verb.possession	received
@@ -17278,7 +17269,6 @@ start_token	end_token	supersense_category	text
 67781	67781	noun.artifact	theatre
 67786	67786	verb.communication	exclaimed
 67791	67791	noun.person	children
-67795	67795	noun.person	sir
 67799	67799	verb.stative	are
 67802	67802	noun.person	children
 67811	67811	verb.cognition	chanced
@@ -17386,6 +17376,7 @@ start_token	end_token	supersense_category	text
 68218	68218	noun.communication	name
 68227	68227	verb.change	get
 68229	68229	verb.social	punished
+68231	68231	verb.stative	Isn
 68243	68243	verb.social	Marry
 68257	68257	noun.state	marriage
 68258	68258	verb.stative	was
@@ -17546,7 +17537,7 @@ start_token	end_token	supersense_category	text
 68957	68957	verb.cognition	learnt
 68961	68961	verb.stative	be
 68965	68965	noun.time	day
-68969	68969	noun.act	business
+68969	68969	noun.group	business
 68974	68974	verb.cognition	know
 68983	68984	verb.motion	go to
 68985	68985	noun.location	Homburg
@@ -17561,7 +17552,7 @@ start_token	end_token	supersense_category	text
 69018	69018	noun.location	Homburg
 69019	69019	verb.stative	is
 69023	69023	noun.communication	play
-69025	69026	verb.change	carried on
+69025	69026	verb.stative	carried on
 69030	69030	verb.stative	is
 69032	69032	noun.time	year
 69035	69035	noun.time	months
@@ -17583,8 +17574,7 @@ start_token	end_token	supersense_category	text
 69108	69108	verb.stative	be
 69115	69115	noun.cognition	heart
 69120	69120	noun.attribute	measure
-69122	69122	noun.cognition	self
-69124	69124	noun.cognition	confidence
+69122	69124	noun.cognition	self - confidence
 69127	69127	noun.feeling	hope
 69131	69131	noun.time	time
 69135	69135	noun.cognition	doubts
@@ -17597,7 +17587,6 @@ start_token	end_token	supersense_category	text
 69163	69163	noun.person	beggar
 69167	69167	verb.stative	is
 69169	69169	noun.person	beggar
-69172	69172	noun.communication	fig
 69174	69174	noun.communication	beggary
 69178	69178	verb.change	ruined
 69181	69181	verb.stative	is
@@ -17609,7 +17598,6 @@ start_token	end_token	supersense_category	text
 69209	69209	verb.cognition	read
 69216	69216	noun.time	moment
 69220	69220	verb.stative	be
-69225	69225	noun.communication	moral
 69233	69233	noun.person	persons
 69239	69239	noun.feeling	pride
 69241	69241	verb.stative	are
@@ -17816,7 +17804,7 @@ start_token	end_token	supersense_category	text
 69947	69947	noun.attribute	manque
 69953	69953	verb.perception	gazed
 69956	69958	noun.artifact	gaming - table
-69963	69964	noun.substance	louis d
+69963	69963	noun.object	louis
 69969	69969	noun.quantity	g
 69970	69970	noun.substance	lden
 69971	69971	noun.artifact	pieces
@@ -17962,6 +17950,7 @@ start_token	end_token	supersense_category	text
 70448	70448	verb.perception	seeming
 70451	70451	noun.time	while
 70454	70454	verb.stative	be
+70458	70458	verb.change	stiffening
 70462	70462	verb.change	growing
 70470	70470	noun.state	mire
 70475	70475	verb.cognition	conclude
@@ -18135,10 +18124,10 @@ start_token	end_token	supersense_category	text
 71163	71163	noun.state	abasement
 71165	71165	noun.state	friendship
 71167	71167	verb.social	founded
-71170	71170	noun.cognition	thinking
+71170	71170	verb.cognition	thinking
 71171	71171	noun.person	persons
 71172	71172	verb.cognition	know
-71175	71175	noun.communication	truth
+71175	71175	noun.cognition	truth
 71182	71182	noun.event	occasion
 71185	71185	verb.communication	assure
 71193	71193	verb.perception	see
@@ -18146,7 +18135,6 @@ start_token	end_token	supersense_category	text
 71203	71203	verb.communication	Tell
 71211	71212	verb.possession	give up
 71213	71213	noun.act	gambling
-71217	71217	verb.communication	Damn
 71219	71219	noun.act	gambling
 71227	71229	verb.possession	given it up
 71240	71240	verb.possession	losing
@@ -18157,9 +18145,8 @@ start_token	end_token	supersense_category	text
 71258	71258	verb.stative	stand
 71263	71263	verb.communication	said
 71267	71267	noun.state	despair
-71274	71274	verb.possession	Have
 71278	71278	noun.state	employment
-71280	71280	noun.act	gambling
+71280	71280	verb.possession	gambling
 71284	71284	noun.communication	No
 71290	71290	noun.person	Astley
 71291	71291	verb.communication	gave
@@ -18203,8 +18190,8 @@ start_token	end_token	supersense_category	text
 71424	71424	noun.person	subsistence
 71427	71427	verb.stative	rise
 71429	71429	noun.group	pair
-71431	71431	verb.communication	impair
-71432	71432	noun.attribute	rouge
+71431	71431	verb.cognition	impair
+71432	71432	noun.person	rouge
 71434	71434	noun.attribute	noir
 71439	71439	noun.communication	numbers
 71449	71450	noun.person	Mr. Astley
@@ -18433,7 +18420,6 @@ start_token	end_token	supersense_category	text
 72343	72344	verb.cognition	look upon
 72345	72345	noun.person	Racine
 72355	72355	noun.Tops	individual
-72359	72359	verb.stative	be
 72362	72362	verb.cognition	read
 72369	72369	verb.cognition	think
 72380	72380	noun.communication	respects
@@ -18599,6 +18585,7 @@ start_token	end_token	supersense_category	text
 72929	72929	noun.food	sugar
 72930	72930	noun.person	refiner
 72932	72933	noun.person	Mr. Astley
+72941	72941	noun.communication	Yes
 72944	72945	verb.stative	belong to
 72950	72950	noun.group	firm
 72952	72954	noun.group	Lovell and Co.
@@ -18733,6 +18720,7 @@ start_token	end_token	supersense_category	text
 73507	73507	verb.possession	gamble
 73511	73512	verb.social	Take care
 73515	73515	noun.possession	coins
+73518	73518	noun.communication	farewell
 73524	73525	verb.social	take care
 73534	73535	noun.person	Mr. Astley
 73542	73542	verb.communication	said
@@ -18887,7 +18875,7 @@ start_token	end_token	supersense_category	text
 74179	74179	noun.cognition	heart
 74181	74181	verb.social	failed
 74187	74187	verb.change	shrunk
-74189	74190	verb.communication	making up
+74189	74190	verb.creation	making up
 74192	74192	noun.cognition	mind
 74197	74197	noun.time	tomorrow
 74201	74201	verb.change	ended

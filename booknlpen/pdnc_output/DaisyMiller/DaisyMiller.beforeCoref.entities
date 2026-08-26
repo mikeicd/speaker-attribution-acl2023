@@ -21,12 +21,13 @@
 177,182,NOM_FAC,One of the hotels at Vevey
 179,182,NOM_FAC,the hotels at Vevey
 182,182,PROP_GPE,Vevey
+195,199,NOM_GPE,many of its upstart neighbors
 197,197,PRON_FAC,its
 197,199,NOM_PER,its upstart neighbors
 211,212,NOM_GPE,this region
 220,221,NOM_PER,American travelers
 234,234,PROP_GPE,Vevey
-244,247,NOM_LOC,an American watering place
+244,247,NOM_GPE,an American watering place
 263,263,PROP_GPE,Newport
 265,265,PROP_GPE,Saratoga
 275,279,NOM_PER,""" stylish "" young girls"
@@ -55,7 +56,7 @@
 499,499,PRON_PER,him
 502,502,PRON_PER,He
 506,506,PROP_GPE,Geneva
-511,513,NOM_VEH,the little steamer
+511,513,NOM_PER,the little steamer
 517,517,PRON_PER,his
 517,518,NOM_PER,his aunt
 524,525,NOM_FAC,the hotel
@@ -108,7 +109,7 @@
 733,733,NOM_GPE,there
 735,736,NOM_PER,a boy
 739,739,PRON_PER,he
-745,745,NOM_FAC,there
+745,745,NOM_GPE,there
 752,752,PRON_PER,his
 763,763,PRON_PER,he
 776,776,PRON_PER,him
@@ -296,7 +297,7 @@
 1873,1875,NOM_PER,a young man
 1883,1886,NOM_PER,a young unmarried lady
 1897,1897,PROP_GPE,Vevey
-1905,1908,NOM_PER,these?--a pretty American girl
+1905,1918,NOM_PER,these?--a pretty American girl coming and standing in front of you in a garden
 1915,1915,PRON_PER,you
 1917,1918,NOM_FAC,a garden
 1920,1923,NOM_PER,This pretty American girl
@@ -447,7 +448,7 @@
 2791,2791,PRON_PER,She
 2793,2793,PRON_PER,him
 2794,2794,PRON_PER,she
-2798,2798,PROP_GPE,York
+2797,2798,PROP_GPE,New York
 2800,2800,PRON_PER,you
 2807,2807,PROP_PER,Winterbourne
 2811,2811,PRON_PER,her
@@ -595,7 +596,7 @@
 3378,3378,PRON_PER,He
 3389,3389,PROP_PER,Winterbourne
 3392,3392,PRON_PER,he
-3399,3399,PROP_PER,Mother
+3399,3399,NOM_PER,Mother
 3404,3407,NOM_PER,a teacher for him
 3407,3407,PRON_PER,him
 3411,3411,PRON_PER,we
@@ -641,6 +642,7 @@
 3645,3645,PRON_PER,her
 3652,3652,PRON_PER,her
 3652,3653,NOM_PER,her mother
+3655,3655,NOM_PER,brother
 3658,3658,PROP_GPE,Europe
 3666,3673,NOM_FAC,the various hotels at which they had stopped
 3671,3671,PRON_PER,they
@@ -672,7 +674,6 @@
 3798,3798,PRON_PER,she
 3807,3807,PRON_PER,She
 3812,3813,NOM_PER,intimate friends
-3817,3817,NOM_FAC,there
 3825,3825,PRON_PER,she
 3835,3835,PROP_GPE,Paris
 3838,3838,PRON_PER,she
@@ -708,6 +709,7 @@
 4013,4014,PROP_GPE,New York
 4019,4020,PROP_GPE,New York
 4021,4021,PRON_PER,I
+4025,4025,NOM_PER,society
 4029,4029,PRON_PER,I
 4034,4034,PRON_PER,me
 4042,4042,NOM_PER,gentlemen
@@ -716,7 +718,7 @@
 4052,4056,NOM_PER,more friends in New York
 4055,4056,PROP_GPE,New York
 4059,4059,PROP_GPE,Schenectady
-4061,4063,NOM_PER,more gentleman friends
+4062,4063,NOM_PER,gentleman friends
 4066,4069,NOM_PER,more young lady friends
 4073,4073,PRON_PER,she
 4079,4079,PRON_PER,She
@@ -778,7 +780,7 @@
 4417,4419,PROP_PER,Miss Daisy Miller
 4430,4430,NOM_PER,husbands
 4434,4435,NOM_PER,great coquettes
-4437,4440,NOM_PER,"dangerous , terrible women"
+4437,4453,NOM_PER,"dangerous , terrible women , with whom one s relations were liable to take a serious turn"
 4444,4453,NOM_PER,one s relations were liable to take a serious turn
 4456,4458,NOM_PER,this young girl
 4461,4462,NOM_PER,a coquette
@@ -859,7 +861,6 @@
 4843,4843,PRON_PER,him
 4846,4846,PRON_PER,we
 4861,4861,PRON_PER,we
-4866,4866,NOM_FAC,there
 4870,4871,PROP_PER,Miss Miller
 4875,4878,NOM_FAC,the Chateau de Chillon
 4878,4878,PROP_GPE,Chillon
@@ -926,14 +927,13 @@
 5164,5164,PRON_PER,we
 5168,5169,NOM_FAC,the castle
 5172,5172,PROP_PER,Winterbourne
-5180,5180,PROP_PER,"possible--""we"
 5185,5187,PROP_PER,Miss Daisy Miller
 5189,5189,PRON_PER,himself
 5200,5200,PRON_PER,he
 5204,5204,PRON_PER,he
 5208,5210,NOM_PER,the young lady
 5215,5215,PRON_PER,he
-5230,5234,NOM_PER,"another person , presumably Eugenio"
+5230,5231,NOM_PER,another person
 5234,5234,PROP_PER,Eugenio
 5238,5257,NOM_PER,"A tall , handsome man , with superb whiskers , wearing a velvet morning coat and a brilliant watch chain"
 5260,5261,PROP_PER,Miss Miller
@@ -1094,7 +1094,6 @@
 6057,6057,PRON_PER,They
 6063,6064,PROP_PER,Mrs. Costello
 6068,6068,PRON_PER,They
-6073,6073,PROP_PER,Americans
 6075,6075,NOM_PER,one
 6090,6090,PRON_PER,you
 6094,6094,PRON_PER,them
@@ -1224,7 +1223,7 @@
 6726,6726,PRON_PER,his
 6726,6727,NOM_PER,his aunt
 6731,6731,PRON_PER,she
-6733,6768,NOM_PER,"the sort of young lady who expects a man , sooner or later , to carry her off ? "" "" I haven t the least idea what such young ladies expect a man to do"
+6733,6750,NOM_PER,"the sort of young lady who expects a man , sooner or later , to carry her off"
 6740,6741,NOM_PER,a man
 6749,6749,PRON_PER,her
 6754,6754,PRON_PER,I
@@ -1232,7 +1231,7 @@
 6765,6766,NOM_PER,a man
 6771,6771,PRON_PER,I
 6775,6775,PRON_PER,you
-6781,6791,NOM_PER,"little American girls that are uncultivated , as you call them"
+6781,6786,NOM_PER,little American girls that are uncultivated
 6789,6789,PRON_PER,you
 6791,6791,PRON_PER,them
 6793,6793,PRON_PER,You
@@ -1266,6 +1265,7 @@
 6925,6925,PRON_PER,I
 6927,6929,NOM_PER,an old woman
 6932,6932,PRON_PER,I
+6939,6939,PROP_PER,Heaven
 6950,6950,PRON_PER,they
 6956,6960,NOM_PER,the young girls in America
 6960,6960,PROP_GPE,America
@@ -1274,7 +1274,6 @@
 6973,6973,PRON_PER,I
 6978,6978,PRON_PER,my
 6978,6979,NOM_PER,my granddaughters
-6981,6981,PRON_PER,them
 6984,6984,PRON_PER,she
 6999,6999,PROP_PER,Winterbourne
 7005,7005,PRON_PER,his
@@ -1516,7 +1515,6 @@
 8285,8285,PRON_PER,her
 8286,8286,PRON_PER,she
 8291,8291,PRON_PER,She
-8295,8295,NOM_FAC,here
 8297,8297,PRON_PER,she
 8299,8299,PRON_PER,you
 8309,8309,PROP_PER,Winterbourne
@@ -1557,7 +1555,6 @@
 8469,8469,PRON_PER,you
 8472,8472,PRON_PER,my
 8477,8477,PRON_PER,he
-8486,8486,NOM_PER,dear
 8488,8488,PRON_PER,I
 8497,8497,PRON_PER,his
 8497,8498,NOM_PER,his companion
@@ -1568,7 +1565,7 @@
 8537,8538,NOM_LOC,the lake
 8541,8541,PRON_PER,her
 8544,8544,PRON_PER,them
-8547,8547,PROP_PER,Mother
+8547,8547,NOM_PER,Mother
 8551,8553,NOM_PER,the young girl
 8562,8564,NOM_PER,the elder lady
 8569,8570,PROP_PER,Mr. Winterbourne
@@ -1678,7 +1675,6 @@
 9149,9150,NOM_FAC,that castle
 9154,9156,NOM_PER,the young girl
 9159,9159,PRON_PER,I
-9162,9162,NOM_FAC,there
 9164,9165,PROP_PER,Mr. Winterbourne
 9176,9176,PROP_PER,Daisy
 9176,9178,NOM_PER,Daisy s mamma
@@ -1730,7 +1726,6 @@
 9446,9446,PRON_PER,we
 9452,9452,PRON_PER,we
 9455,9455,PROP_GPE,Italy
-9466,9466,NOM_FAC,there
 9470,9471,PROP_PER,Mrs. Miller
 9482,9482,PRON_PER,we
 9487,9489,NOM_FAC,the principal ones
@@ -1909,6 +1904,7 @@
 10450,10450,PROP_PER,Winterbourne
 10454,10454,PROP_PER,mademoiselle
 10462,10462,PROP_PER,Eugenio
+10462,10465,NOM_PER,Eugenio of Mrs. Miller
 10464,10465,PROP_PER,Mrs. Miller
 10473,10474,NOM_PER,this gentleman
 10478,10478,PROP_PER,Daisy
@@ -1949,7 +1945,7 @@
 10669,10669,PRON_PER,I
 10675,10675,PRON_PER,you
 10679,10679,PRON_PER,she
-10690,10692,PROP_PER,the privileged Eugenio
+10690,10692,NOM_PER,the privileged Eugenio
 10694,10696,NOM_PER,the two ladies
 10699,10700,NOM_FAC,the house
 10702,10702,PROP_PER,Winterbourne
@@ -2060,6 +2056,7 @@
 11262,11262,PRON_PER,he
 11267,11267,PRON_PER,her
 11270,11270,PRON_PER,Her
+11276,11276,NOM_PER,metaphysicians
 11298,11298,PRON_PER,you
 11304,11304,PRON_PER,she
 11309,11309,PRON_PER,her
@@ -2092,11 +2089,13 @@
 11461,11461,PROP_PER,Daisy
 11464,11466,NOM_FAC,the vaulted chambers
 11469,11469,PRON_PER,her
+11490,11491,NOM_FAC,the oubliettes
 11504,11504,PROP_PER,Winterbourne
 11506,11506,PRON_PER,her
 11508,11509,NOM_GPE,the place
 11512,11512,PRON_PER,he
 11515,11515,PRON_PER,she
+11520,11521,NOM_FAC,feudal antiquities
 11528,11528,PROP_PER,Chillon
 11535,11535,PRON_PER,her
 11537,11537,PRON_PER,They
@@ -2116,7 +2115,7 @@
 11624,11624,PRON_PER,she
 11632,11632,PRON_PER,She
 11639,11643,NOM_FAC,the rugged embrasures of Chillon
-11643,11643,PROP_PER,Chillon
+11643,11643,PROP_GPE,Chillon
 11646,11646,PROP_PER,Winterbourne
 11650,11650,PRON_PER,himself
 11652,11652,PRON_PER,his
@@ -2176,7 +2175,6 @@
 11985,11985,PROP_PER,Daisy
 11988,11988,PRON_PER,I
 11990,11990,PRON_PER,you
-12007,12007,PROP_PER,"Winterbourne--""just"
 12019,12021,NOM_PER,the young girl
 12024,12024,PRON_PER,I
 12030,12030,PRON_PER,I
@@ -2280,7 +2278,7 @@
 12581,12589,NOM_PER,the young person whom you wanted me to know
 12585,12585,PRON_PER,you
 12587,12587,PRON_PER,me
-12592,12607,NOM_PER,"PART II Winterbourne , who had returned to Geneva the day after his excursion to Chillon"
+12592,12607,PROP_PER,"PART II Winterbourne , who had returned to Geneva the day after his excursion to Chillon"
 12600,12600,PROP_GPE,Geneva
 12604,12604,PRON_PER,his
 12607,12607,PROP_GPE,Chillon
@@ -2299,7 +2297,7 @@
 12670,12671,NOM_PER,several acquaintances
 12674,12675,NOM_PER,the courier
 12683,12685,NOM_PER,The young lady
-12694,12711,NOM_PER,"some third - rate Italians , with whom she rackets about in a way that makes much talk"
+12694,12698,NOM_PER,some third - rate Italians
 12702,12702,PRON_PER,she
 12714,12714,PRON_PER,me
 12719,12719,PROP_PER,Cherbuliez
@@ -2322,7 +2320,6 @@
 12823,12824,NOM_PER,a man
 12827,12827,NOM_PER,everyone
 12829,12829,NOM_PER,Men
-12845,12845,NOM_FAC,here
 12851,12851,PROP_PER,Winterbourne
 12855,12856,NOM_PER,The girl
 12861,12861,PRON_PER,her
@@ -2379,7 +2376,7 @@
 13179,13179,PRON_PER,She
 13181,13184,NOM_PER,a very accomplished woman
 13187,13187,PRON_PER,she
-13190,13192,PROP_FAC,the Via Gregoriana
+13190,13192,NOM_FAC,the Via Gregoriana
 13194,13194,PROP_PER,Winterbourne
 13196,13196,PRON_PER,her
 13198,13206,NOM_FAC,a little crimson drawing room on a third floor
@@ -2570,7 +2567,7 @@
 14109,14109,PRON_PER,We
 14112,14113,NOM_VEH,that ship
 14115,14115,PROP_PER,Randolph
-14121,14123,NOM_GPE,the City of
+14121,14124,NOM_GPE,the City of Richmond
 14124,14124,PROP_GPE,Richmond
 14130,14135,NOM_LOC,the best place I ve seen
 14133,14133,PRON_PER,I
@@ -2627,11 +2624,11 @@
 14435,14435,PROP_PER,Daisy
 14438,14438,PRON_PER,You
 14444,14444,PRON_PER,You
+14448,14448,NOM_GPE,there
 14450,14450,PRON_PER,I
 14452,14452,PRON_PER,you
 14456,14456,PRON_PER,My
 14456,14459,NOM_PER,My dearest young lady
-14458,14459,NOM_PER,young lady
 14463,14463,PROP_PER,Winterbourne
 14470,14470,PRON_PER,I
 14476,14476,PROP_GPE,Rome
@@ -2696,7 +2693,7 @@
 14769,14769,PRON_PER,her
 14774,14775,PROP_PER,Mrs. Walker
 14781,14781,PRON_PER,she
-14787,14787,PROP_PER,Winterbourne
+14787,14787,PROP_GPE,Winterbourne
 14790,14790,PRON_PER,I
 14796,14797,PROP_PER,Mr. Giovanelli
 14800,14800,PRON_PER,she
@@ -2713,7 +2710,7 @@
 14840,14840,PRON_PER,He
 14844,14844,PROP_PER,Italians
 14847,14847,PRON_PER,he
-14851,14852,PROP_PER,some Americans
+14851,14852,NOM_PER,some Americans
 14854,14854,PRON_PER,He
 14860,14860,PROP_PER,Americans
 14862,14862,PRON_PER,He
@@ -2747,7 +2744,7 @@
 15012,15013,NOM_PER,my dear
 15017,15018,PROP_PER,Mrs. Walker
 15023,15023,PRON_PER,I
-15027,15028,PROP_PER,Mrs. Miller
+15026,15028,PROP_PER,subjoined Mrs. Miller
 15031,15031,PRON_PER,You
 15040,15040,PRON_PER,you
 15045,15046,PROP_PER,Dr. Davis
@@ -2755,7 +2752,7 @@
 15053,15053,PRON_PER,her
 15057,15057,PRON_PER,she
 15062,15062,PROP_PER,Randolph
-15064,15065,NOM_ORG,The company
+15064,15065,NOM_PER,The company
 15069,15069,PRON_PER,its
 15072,15072,PROP_PER,Daisy
 15076,15076,PRON_PER,her
@@ -2783,7 +2780,7 @@
 15177,15177,PRON_PER,she
 15182,15182,PRON_PER,she
 15192,15193,PROP_PER,Mr. Giovanelli
-15195,15197,PROP_PER,the beautiful Giovanelli
+15195,15197,NOM_PER,the beautiful Giovanelli
 15201,15201,PRON_PER,My
 15201,15204,NOM_PER,My dear young friend
 15208,15209,PROP_PER,Mrs. Walker
@@ -2812,7 +2809,6 @@
 15334,15335,NOM_PER,her mother
 15341,15341,PROP_PER,Winterbourne
 15343,15344,PROP_PER,Mrs. Miller
-15343,15346,NOM_VEH,Mrs. Miller s carriage
 15351,15362,NOM_PER,the ornamental courier whose acquaintance he had made at Vevey seated within
 15356,15356,PRON_PER,he
 15360,15360,PROP_GPE,Vevey
@@ -2918,7 +2914,7 @@
 15927,15927,PRON_PER,her
 15927,15928,NOM_FAC,her rooms
 15935,15935,PRON_PER,they
-15941,15943,PROP_FAC,the Pincian Gardens
+15941,15943,NOM_FAC,the Pincian Gardens
 15945,15946,PROP_PER,Miss Miller
 15951,15952,PROP_PER,Mr. Giovanelli
 15957,15957,PRON_PER,We
@@ -3077,7 +3073,6 @@
 16856,16862,NOM_PER,a perfectly well - conducted young lady
 16864,16864,PRON_PER,she
 16884,16884,PRON_PER,her
-16897,16897,NOM_PER,romancers
 16904,16904,PRON_PER,she
 16913,16913,PRON_PER,him
 16916,16916,PRON_PER,him
@@ -3091,8 +3086,7 @@
 16973,16975,NOM_PER,her two cavaliers
 16991,16991,PROP_PER,Winterbourne
 16998,16999,PROP_PER,Mr. Giovanelli
-17002,17006,NOM_VEH,a carriage that had detached
-17007,17007,PRON_VEH,itself
+17002,17003,NOM_VEH,a carriage
 17009,17011,NOM_VEH,the revolving train
 17015,17016,NOM_FAC,the path
 17022,17022,PROP_PER,Winterbourne
@@ -3134,7 +3128,7 @@
 17212,17212,PRON_PER,I
 17214,17215,NOM_VEH,the carriage
 17219,17219,PRON_PER,my
-17224,17224,NOM_FAC,here
+17231,17231,PROP_PER,Heaven
 17232,17232,PRON_PER,I
 17235,17235,PRON_PER,you
 17241,17241,PRON_PER,you
@@ -3191,6 +3185,7 @@
 17522,17528,NOM_PER,the gentlemen on either side of her
 17528,17528,PRON_PER,her
 17536,17537,NOM_PER,dear child
+17545,17545,NOM_FAC,here
 17549,17550,PROP_PER,Mrs. Walker
 17555,17555,PRON_PER,her
 17559,17559,PRON_PER,her
@@ -3216,7 +3211,7 @@
 17653,17653,PRON_PER,I
 17663,17663,PRON_PER,You
 17672,17672,PRON_PER,You
-17677,17679,PROP_PER,dear Miss Miller
+17678,17679,PROP_PER,Miss Miller
 17687,17687,PROP_PER,Daisy
 17690,17691,PROP_PER,Mrs. Walker
 17702,17702,PRON_PER,you
@@ -3226,10 +3221,8 @@
 17716,17716,PRON_PER,you
 17719,17719,PROP_PER,Daisy
 17721,17721,PRON_PER,her
-17726,17734,NOM_PER,one of the gentlemen beside her to the other
 17728,17731,NOM_PER,the gentlemen beside her
 17731,17731,PRON_PER,her
-17733,17734,NOM_PER,the other
 17736,17737,PROP_PER,Mr. Giovanelli
 17746,17746,PRON_PER,his
 17753,17753,PROP_PER,Winterbourne
@@ -3288,6 +3281,7 @@
 18058,18058,PRON_PER,I
 18064,18064,PRON_PER,you
 18067,18067,PRON_PER,me
+18070,18070,PROP_PER,Goodbye
 18072,18072,PRON_PER,I
 18074,18074,PRON_PER,you
 18085,18086,PROP_PER,Mr. Giovanelli
@@ -3337,7 +3331,7 @@
 18290,18290,PRON_PER,you
 18293,18293,PRON_PER,he
 18298,18299,NOM_VEH,the vehicle
-18306,18306,NOM_VEH,carriages
+18303,18306,NOM_PER,the throng of carriages
 18315,18315,PRON_PER,his
 18315,18316,NOM_PER,his companion
 18320,18320,PRON_PER,I
@@ -3373,7 +3367,7 @@
 18508,18509,NOM_FAC,their hotel
 18510,18510,NOM_PER,everyone
 18514,18514,PRON_PER,her
-18523,18525,NOM_PER,all the servants
+18524,18525,NOM_PER,the servants
 18527,18528,NOM_PER,a gentleman
 18533,18534,PROP_PER,Miss Miller
 18538,18539,NOM_PER,The servants
@@ -3388,7 +3382,7 @@
 18595,18595,PROP_GPE,Vevey
 18610,18610,PRON_PER,her
 18617,18617,PRON_PER,you
-18621,18622,NOM_GPE,the place
+18621,18622,NOM_FAC,the place
 18625,18625,PROP_PER,Winterbourne
 18633,18633,PRON_PER,he
 18637,18637,PRON_PER,I
@@ -3432,10 +3426,10 @@
 18807,18807,PRON_PER,you
 18816,18816,PRON_PER,you
 18822,18823,NOM_VEH,The carriage
+18826,18837,NOM_FAC,that part of the Pincian Garden that overhangs the wall of Rome
 18829,18831,PROP_FAC,the Pincian Garden
-18834,18837,NOM_LOC,the wall of Rome
 18837,18837,PROP_GPE,Rome
-18840,18843,NOM_FAC,the beautiful Villa Borghese
+18840,18843,PROP_FAC,the beautiful Villa Borghese
 18845,18845,PRON_FAC,It
 18870,18871,NOM_PER,a gentleman
 18873,18874,NOM_PER,a lady
@@ -3465,7 +3459,7 @@
 18969,18969,PRON_PER,they
 18976,18976,PRON_PER,they
 18983,18993,NOM_FAC,the great flat - topped pine clusters of the Villa Borghese
-18991,18993,NOM_FAC,the Villa Borghese
+18991,18993,PROP_FAC,the Villa Borghese
 18996,18996,PROP_PER,Giovanelli
 18998,18998,PRON_PER,himself
 19030,19030,PROP_PER,Daisy
@@ -3507,7 +3501,7 @@
 19210,19210,PROP_PER,Winterbourne
 19213,19214,NOM_PER,the guests
 19216,19217,PROP_PER,Mrs. Walker
-19219,19270,NOM_PER,"one of those American ladies who , while residing abroad , make a point , in their own phrase , of studying European society , and she had on this occasion collected several specimens of her diversely born fellow mortals to serve , as it were , as textbooks . When Winterbourne"
+19219,19267,NOM_PER,"one of those American ladies who , while residing abroad , make a point , in their own phrase , of studying European society , and she had on this occasion collected several specimens of her diversely born fellow mortals to serve , as it were , as textbooks"
 19221,19242,NOM_PER,"those American ladies who , while residing abroad , make a point , in their own phrase , of studying European society"
 19235,19235,PRON_PER,their
 19245,19245,PRON_PER,she
@@ -3526,7 +3520,7 @@
 19319,19319,PROP_PER,Winterbourne
 19325,19325,PRON_PER,You
 19328,19328,PRON_PER,I
-19337,19338,PROP_PER,Mrs. Miller
+19336,19338,PROP_PER,poor Mrs. Miller
 19341,19341,PRON_PER,I
 19346,19346,PRON_PER,I
 19359,19359,PRON_PER,I
@@ -3543,6 +3537,7 @@
 19407,19408,NOM_PER,your daughter
 19412,19412,PRON_PER,us
 19414,19414,PRON_PER,her
+19414,19415,NOM_PER,her society
 19419,19420,PROP_PER,Mrs. Walker
 19426,19426,PROP_PER,Daisy
 19433,19434,PROP_PER,Mrs. Miller
@@ -3554,6 +3549,7 @@
 19476,19479,NOM_PER,a friend of hers
 19480,19480,NOM_FAC,there
 19482,19483,NOM_PER,that gentleman
+19485,19486,NOM_PER,the Italian
 19489,19489,PRON_PER,she
 19494,19494,PRON_PER,They
 19506,19506,PRON_PER,they
@@ -3625,7 +3621,6 @@
 19846,19846,PRON_PER,she
 19855,19855,PRON_PER,her
 19862,19862,PRON_PER,her
-19868,19868,NOM_PER,anyone
 19869,19869,PRON_PER,I
 19873,19873,PRON_PER,she
 19877,19877,PRON_PER,I
@@ -3641,7 +3636,7 @@
 19917,19917,PRON_PER,he
 19919,19919,PRON_PER,his
 19923,19923,PRON_PER,his
-19932,19938,NOM_PER,a handsome Italian at an evening party
+19932,19934,NOM_PER,a handsome Italian
 19940,19940,PRON_PER,He
 19950,19951,PROP_PER,Mrs. Walker
 19955,19955,PRON_PER,she
@@ -3694,12 +3689,12 @@
 20235,20235,PRON_PER,her
 20245,20245,PRON_PER,he
 20249,20249,PRON_PER,her
-20253,20254,PROP_FAC,The Pincio
+20253,20254,NOM_PER,The Pincio
 20257,20258,NOM_FAC,the streets
 20263,20263,PRON_PER,I
 20270,20275,NOM_PER,a young lady of this country
 20274,20275,NOM_GPE,this country
-20277,20282,NOM_PER,The young ladies of this country
+20277,20280,NOM_PER,The young ladies of
 20281,20282,NOM_GPE,this country
 20294,20294,PRON_PER,I
 20298,20298,PRON_PER,I
@@ -3759,10 +3754,8 @@
 20576,20576,PROP_PER,Daisy
 20584,20584,PROP_PER,Winterbourne
 20588,20588,PRON_PER,you
-20591,20591,NOM_PER,natives
 20592,20592,PRON_PER,you
 20599,20600,NOM_GPE,the place
-20613,20613,NOM_FAC,here
 20617,20617,PRON_PER,you
 20619,20619,PRON_PER,yourself
 20623,20624,PROP_PER,Mr. Giovanelli
@@ -3790,7 +3783,6 @@
 20749,20749,PRON_PER,her
 20755,20755,PRON_PER,she
 20765,20765,PRON_PER,him
-20770,20772,NOM_PER,little American flirts
 20778,20779,NOM_LOC,the world
 20782,20783,PROP_PER,Mr. Giovanelli
 20789,20789,PRON_PER,she
@@ -3911,6 +3903,7 @@
 21459,21459,PRON_PER,He
 21467,21467,PRON_PER,she
 21470,21470,PRON_PER,him
+21471,21477,NOM_PER,a girl who would never be jealous
 21494,21494,PRON_PER,I
 21501,21507,NOM_PER,the women who had hitherto interested him
 21507,21507,PRON_PER,him
@@ -3966,7 +3959,6 @@
 21782,21783,PROP_PER,Miss Baker
 21786,21787,PROP_PER,Miss Chandler
 21792,21792,PRON_PER,her
-21794,21794,PROP_PER,Miller
 21798,21802,NOM_PER,that little barber s block
 21807,21807,PRON_PER,you
 21814,21814,PROP_PER,Winterbourne
@@ -3998,7 +3990,6 @@
 21959,21959,PRON_PER,him
 21961,21961,PRON_PER,he
 21968,21969,NOM_PER,the courier
-21973,21974,NOM_PER,the courier
 21978,21978,PRON_PER,him
 21982,21982,PRON_PER,he
 21986,21988,NOM_PER,the young lady
@@ -4082,22 +4073,21 @@
 22434,22434,PROP_PER,Winterbourne
 22439,22441,PROP_FAC,St. Peter s
 22445,22452,NOM_PER,A dozen of the American colonists in Rome
-22448,22452,NOM_PER,the American colonists in Rome
+22448,22450,NOM_PER,the American colonists
 22452,22452,PROP_GPE,Rome
 22457,22458,PROP_PER,Mrs. Costello
-22468,22475,NOM_FAC,the base of one of the great pilasters
+22471,22475,NOM_FAC,one of the great pilasters
 22473,22475,NOM_FAC,the great pilasters
 22490,22492,NOM_FAC,the adjacent choir
 22498,22499,PROP_PER,Mrs. Costello
 22501,22501,PRON_PER,her
 22501,22502,NOM_PER,her friends
-22513,22514,PROP_PER,Miss Miller
+22511,22514,PROP_PER,poor little Miss Miller
 22523,22523,PROP_PER,Winterbourne
 22529,22529,PRON_PER,he
 22542,22543,NOM_FAC,the church
 22545,22545,PRON_PER,he
 22547,22547,PROP_PER,Daisy
-22547,22571,NOM_PER,"Daisy , who had emerged before him , get into an open cab with her accomplice and roll away through the cynical streets of Rome"
 22553,22553,PRON_PER,him
 22557,22559,NOM_VEH,an open cab
 22561,22561,PRON_PER,her
@@ -4115,7 +4105,6 @@
 22636,22636,PRON_PER,He
 22647,22648,PROP_PER,Mrs. Miller
 22650,22650,PRON_PER,He
-22655,22656,NOM_FAC,the Corso
 22657,22658,NOM_PER,a friend
 22660,22683,NOM_PER,"a tourist like himself , who had just come out of the Doria Palace , where he had been walking through the beautiful gallery"
 22663,22663,PRON_PER,himself
@@ -4124,7 +4113,8 @@
 22681,22683,NOM_FAC,the beautiful gallery
 22685,22685,PRON_PER,His
 22685,22686,NOM_PER,His friend
-22696,22699,PROP_PER,Innocent X by Velasquez
+22696,22697,PROP_PER,Innocent X
+22699,22699,PROP_PER,Velasquez
 22708,22709,NOM_FAC,the palace
 22726,22726,PRON_PER,I
 22739,22750,NOM_PER,that pretty American girl whom you pointed out to me last week
@@ -4134,12 +4124,12 @@
 22760,22760,PRON_PER,his
 22760,22761,NOM_PER,his friend
 22764,22767,NOM_PER,the pretty American girl
-22776,22789,NOM_PER,a companion in the secluded nook in which the great papal portrait was enshrined
+22776,22777,NOM_PER,a companion
 22779,22789,NOM_FAC,the secluded nook in which the great papal portrait was enshrined
 22794,22794,PRON_PER,her
 22794,22795,NOM_PER,her companion
 22799,22799,PROP_PER,Winterbourne
-22802,22810,NOM_PER,A little Italian with a bouquet in his buttonhole
+22802,22804,NOM_PER,A little Italian
 22809,22809,PRON_PER,his
 22812,22813,NOM_PER,The girl
 22819,22819,PRON_PER,I
@@ -4241,6 +4231,7 @@
 23281,23281,PROP_PER,Daisy
 23293,23293,PRON_PER,her
 23298,23304,NOM_PER,a young person of the reckless class
+23312,23312,NOM_PER,one
 23319,23319,PROP_PER,Daisy
 23328,23328,PROP_PER,Winterbourne
 23341,23341,PRON_PER,I
@@ -4264,7 +4255,7 @@
 23445,23446,PROP_PER,the Caesars
 23466,23467,PROP_LOC,the Palatine
 23474,23474,PROP_PER,Daisy
-23483,23498,NOM_FAC,those great mounds of ruin that are embanked with mossy marble and paved with monumental inscriptions
+23481,23498,NOM_FAC,one of those great mounds of ruin that are embanked with mossy marble and paved with monumental inscriptions
 23503,23503,PRON_PER,him
 23505,23505,PROP_GPE,Rome
 23515,23515,PRON_PER,He
@@ -4433,13 +4424,12 @@
 24375,24375,PRON_PER,them
 24380,24380,PRON_PER,he
 24385,24391,NOM_FAC,a beautiful villa on the Caelian Hill
-24389,24391,NOM_FAC,the Caelian Hill
+24389,24391,NOM_LOC,the Caelian Hill
 24399,24399,PRON_PER,his
 24399,24401,NOM_VEH,his hired vehicle
 24409,24409,PRON_PER,he
 24411,24411,PRON_PER,himself
-24416,24416,NOM_FAC,home
-24421,24421,PROP_GPE,Constantine
+24416,24421,NOM_FAC,home beneath the Arch of Constantine
 24424,24430,NOM_FAC,the vaguely lighted monuments of the Forum
 24429,24430,PROP_FAC,the Forum
 24442,24442,PRON_PER,her
@@ -4448,29 +4438,31 @@
 24471,24472,NOM_FAC,the villa
 24481,24481,PROP_PER,Winterbourne
 24483,24488,NOM_LOC,the dusky circle of the Colosseum
-24487,24488,NOM_FAC,the Colosseum
+24487,24488,PROP_FAC,the Colosseum
 24493,24493,PRON_PER,him
 24496,24500,NOM_PER,a lover of the picturesque
 24518,24518,PRON_PER,He
+24524,24546,NOM_FAC,"one of the empty arches , near which , as he observed , an open carriage -- one of the little Roman streetcabs"
 24534,24534,PRON_PER,he
 24537,24539,NOM_VEH,an open carriage
+24543,24546,NOM_FAC,the little Roman streetcabs
 24552,24552,PRON_PER,he
 24561,24563,NOM_FAC,the great structure
 24568,24572,NOM_FAC,the clear and silent arena
 24574,24575,NOM_FAC,The place
 24580,24580,PRON_PER,him
+24584,24590,NOM_FAC,One - half of the gigantic circus
 24588,24590,NOM_FAC,the gigantic circus
+24596,24597,NOM_PER,the other
 24606,24606,PRON_PER,he
-24608,24608,NOM_FAC,there
 24609,24609,PRON_PER,he
 24613,24613,PROP_PER,Byron
 24621,24621,PROP_PER,Manfred
 24626,24626,PRON_PER,he
 24629,24629,PRON_PER,his
 24631,24631,PRON_PER,he
-24638,24639,NOM_FAC,the Colosseum
+24638,24639,PROP_LOC,the Colosseum
 24643,24644,NOM_PER,the poets
-24646,24646,PRON_PER,they
 24650,24651,NOM_PER,the doctors
 24677,24677,PROP_PER,Winterbourne
 24683,24684,NOM_FAC,the arena
@@ -4538,8 +4530,9 @@
 25095,25095,PROP_PER,Giovanelli
 25097,25097,PRON_PER,his
 25100,25100,PROP_PER,Winterbourne
-25119,25131,NOM_PER,a delicate young girl lounging away the evening in this nest of malaria
+25119,25122,NOM_PER,a delicate young girl
 25135,25135,PRON_PER,she
+25137,25140,NOM_PER,a clever little reprobate
 25147,25147,PRON_PER,her
 25157,25157,PRON_PER,you
 25159,25159,NOM_FAC,here
@@ -4551,6 +4544,7 @@
 25204,25204,PRON_PER,I
 25210,25210,PROP_PER,Winterbourne
 25214,25214,PRON_PER,you
+25218,25218,PROP_PER,Roman
 25227,25227,NOM_PER,people
 25231,25231,PRON_PER,I
 25235,25235,PRON_PER,he
@@ -4578,7 +4572,6 @@
 25355,25355,PRON_PER,I
 25363,25363,PRON_PER,I
 25367,25367,PRON_PER,I
-25372,25373,PROP_LOC,the Colosseum
 25377,25377,PRON_PER,I
 25384,25384,NOM_FAC,home
 25389,25389,PRON_PER,we
@@ -4603,7 +4596,7 @@
 25492,25492,PRON_PER,she
 25500,25500,PROP_PER,Winterbourne
 25504,25504,PROP_PER,Daisy
-25510,25511,NOM_GPE,the place
+25510,25511,NOM_FAC,the place
 25516,25516,PRON_PER,I
 25525,25525,PRON_PER,she
 25539,25539,PROP_PER,Winterbourne
@@ -4629,7 +4622,7 @@
 25656,25658,NOM_PER,the young girl
 25664,25664,PRON_PER,him
 25673,25673,PRON_PER,she
-25681,25681,PROP_PER,Giovanelli
+25680,25681,PROP_PER,But Giovanelli
 25683,25683,PRON_PER,her
 25692,25692,PRON_PER,he
 25697,25697,PRON_PER,we
@@ -4708,7 +4701,6 @@
 26153,26153,PRON_PER,her
 26159,26159,PRON_PER,himself
 26161,26161,PRON_PER,she
-26169,26171,NOM_PER,a monstrous goose
 26174,26174,PROP_PER,Daisy
 26177,26177,PRON_PER,you
 26183,26183,PRON_PER,she
@@ -4796,12 +4788,10 @@
 26578,26578,PROP_PER,Winterbourne
 26581,26581,PRON_PER,him
 26585,26585,PRON_PER,his
-26596,26598,NOM_PER,The most innocent
 26601,26601,PROP_PER,Winterbourne
 26613,26613,PRON_PER,he
 26618,26618,PRON_PER,you
 26620,26620,PRON_PER,her
-26622,26624,NOM_LOC,that fatal place
 26627,26628,PROP_PER,Mr. Giovanelli
 26635,26635,PRON_PER,He
 26645,26645,PRON_PER,he
@@ -4835,7 +4825,7 @@
 26782,26783,PROP_PER,Mrs. Costello
 26785,26785,PROP_GPE,Vevey
 26787,26788,PROP_PER,Mrs. Costello
-26792,26792,PROP_GPE,Vevey
+26792,26792,PROP_PER,Vevey
 26797,26797,PROP_PER,Winterbourne
 26802,26803,PROP_PER,Daisy Miller
 26805,26805,PRON_PER,her

@@ -21,7 +21,7 @@
 190,190,PRON_PER,He
 196,196,PRON_PER,his
 196,198,NOM_FAC,his own cottage
-202,213,NOM_FAC,the fourth one from the main building and next to the last
+202,208,NOM_FAC,the fourth one from the main building
 206,208,NOM_FAC,the main building
 216,216,PRON_PER,himself
 225,225,PRON_PER,he
@@ -77,13 +77,12 @@
 602,602,PRON_PER,his
 616,617,NOM_LOC,the beach
 619,619,PRON_PER,He
-635,639,NOM_LOC,the stretch of yellow camomile
 641,642,NOM_LOC,The gulf
 664,664,PRON_FAC,its
 670,670,PRON_PER,his
 670,671,NOM_PER,his wife
 673,674,PROP_PER,Mrs. Pontellier
-677,679,PROP_PER,young Robert Lebrun
+678,679,PROP_PER,Robert Lebrun
 682,682,PRON_PER,they
 684,685,NOM_FAC,the cottage
 687,688,NOM_PER,the two
@@ -161,7 +160,7 @@
 1124,1124,PRON_PER,he
 1133,1133,PRON_PER,he
 1144,1144,PRON_PER,he
-1148,1149,PROP_FAC,Klein 's
+1148,1148,PROP_PER,Klein
 1159,1159,PRON_PER,He
 1166,1166,PRON_PER,she
 1178,1178,PRON_PER,him
@@ -231,7 +230,7 @@
 1600,1600,NOM_GPE,there
 1603,1603,PRON_PER,he
 1607,1607,PRON_PER,his
-1611,1627,NOM_FAC,"a mercantile house in New Orleans , where an equal familiarity with English , French and Spanish"
+1611,1616,NOM_FAC,a mercantile house in New Orleans
 1615,1616,PROP_GPE,New Orleans
 1629,1629,PRON_PER,him
 1634,1635,NOM_PER,a clerk
@@ -267,6 +266,7 @@
 1780,1781,NOM_LOC,the East
 1787,1787,PRON_PER,herself
 1792,1792,PROP_PER,Robert
+1803,1803,NOM_PER,girls
 1804,1805,NOM_PER,the sisters
 1809,1810,NOM_PER,the father
 1817,1818,NOM_PER,the mother
@@ -280,8 +280,9 @@
 1867,1867,PROP_PER,Robert
 1869,1869,PRON_PER,he
 1876,1886,NOM_PER,a good many New Orleans club men over at Klein 's
-1879,1886,NOM_PER,New Orleans club men over at Klein 's
-1885,1886,PROP_FAC,Klein 's
+1879,1882,NOM_PER,New Orleans club men
+1885,1885,PROP_PER,Klein
+1885,1886,NOM_FAC,Klein 's
 1889,1890,PROP_PER,Mrs. Pontellier
 1892,1892,PRON_PER,him
 1895,1895,PRON_PER,her
@@ -352,7 +353,6 @@
 2285,2285,PRON_PER,her
 2289,2290,NOM_PER,the children
 2296,2297,NOM_PER,a mother
-2296,2303,NOM_FAC,a mother 's place to look after children
 2303,2303,NOM_PER,children
 2311,2311,PRON_PER,He
 2312,2312,PRON_PER,himself
@@ -385,6 +385,7 @@
 2468,2469,NOM_PER,her husband
 2474,2474,PRON_PER,she
 2476,2476,PRON_PER,her
+2485,2485,NOM_PER,mules
 2497,2498,NOM_FAC,the porch
 2501,2501,PRON_PER,she
 2523,2524,NOM_FAC,The cottages
@@ -407,7 +408,6 @@
 2682,2682,PRON_PER,She
 2688,2688,PRON_PER,she
 2701,2701,PRON_PER,her
-2705,2705,PRON_PER,They
 2717,2717,PRON_PER,her
 2717,2718,NOM_PER,her husband
 2749,2749,PRON_PER,her
@@ -423,9 +423,9 @@
 2832,2832,PRON_PER,her
 2835,2835,PRON_PER,her
 2843,2843,PRON_PER,her
+2847,2852,NOM_PER,"The little stinging , buzzing imps"
 2862,2862,PRON_PER,her
 2875,2876,PROP_PER,Mr. Pontellier
-2884,2885,NOM_LOC,the rockaway
 2890,2890,PRON_PER,him
 2892,2893,NOM_VEH,the steamer
 2895,2896,NOM_FAC,the wharf
@@ -435,7 +435,7 @@
 2905,2906,NOM_FAC,his business
 2909,2909,PRON_PER,they
 2913,2913,PRON_PER,him
-2916,2917,NOM_FAC,the Island
+2916,2917,NOM_LOC,the Island
 2923,2923,PRON_PER,He
 2926,2926,PRON_PER,his
 2940,2940,PRON_PER,He
@@ -472,17 +472,18 @@
 3105,3106,NOM_PER,His wife
 3112,3113,NOM_PER,the boys
 3117,3117,PRON_PER,he
-3120,3122,NOM_FAC,the old rockaway
+3120,3126,NOM_FAC,the old rockaway down the sandy road
 3124,3126,NOM_FAC,the sandy road
 3136,3137,PROP_PER,Mrs. Pontellier
 3139,3140,PROP_GPE,New Orleans
 3145,3145,PRON_PER,her
 3145,3146,NOM_PER,her husband
+3148,3148,PRON_PER,It
 3185,3186,PROP_PER,Mrs. Pontellier
 3199,3199,PRON_PER,she
 3209,3209,NOM_FAC,home
 3221,3224,NOM_FAC,the dining - room
-3233,3234,NOM_PER,the ladies
+3233,3245,NOM_PER,"the ladies , selecting with dainty and discriminating fingers and a little greedily"
 3250,3251,PROP_PER,Mr. Pontellier
 3253,3258,NOM_PER,the best husband in the world
 3257,3258,NOM_LOC,the world
@@ -514,6 +515,8 @@
 3396,3396,PRON_PER,their
 3412,3416,NOM_PER,the other mother - tots
 3418,3420,NOM_PER,The quadroon nurse
+3425,3442,NOM_PER,"a huge encumbrance , only good to button up waists and panties and to brush and part hair"
+3452,3452,NOM_PER,society
 3464,3465,PROP_PER,Mrs. Pontellier
 3468,3471,NOM_PER,a mother - woman
 3473,3476,NOM_PER,The mother - women
@@ -521,13 +524,14 @@
 3491,3491,PRON_PER,them
 3509,3509,PRON_PER,their
 3513,3513,PRON_PER,They
-3515,3567,NOM_PER,"women who idolized their children , worshiped their husbands , and esteemed it a holy privilege to efface themselves as individuals and grow wings as ministering angels . Many of them were delicious in the role ; one of them was the embodiment of every womanly grace and charm . If her husband"
+3515,3541,NOM_PER,"women who idolized their children , worshiped their husbands , and esteemed it a holy privilege to efface themselves as individuals and grow wings as ministering angels"
 3518,3518,PRON_PER,their
 3518,3519,NOM_PER,their children
 3522,3522,PRON_PER,their
 3522,3523,NOM_PER,their husbands
 3533,3533,PRON_PER,themselves
-3535,3541,NOM_PER,individuals and grow wings as ministering angels
+3535,3535,NOM_PER,individuals
+3540,3541,NOM_PER,ministering angels
 3543,3545,NOM_PER,Many of them
 3545,3545,PRON_PER,them
 3554,3554,PRON_PER,them
@@ -535,16 +539,14 @@
 3566,3567,NOM_PER,her husband
 3571,3571,PRON_PER,her
 3573,3573,PRON_PER,he
-3575,3583,NOM_PER,"a brute , deserving of death by slow torture"
+3575,3576,NOM_PER,a brute
 3585,3585,PRON_PER,Her
-3589,3590,PROP_PER,le Ratignolle
 3598,3598,PRON_PER,her
 3610,3614,NOM_PER,the bygone heroine of romance
 3616,3621,NOM_PER,the fair lady of our dreams
 3620,3620,PRON_PER,our
 3630,3630,PRON_PER,her
 3633,3633,PRON_PER,her
-3675,3675,NOM_PER,one
 3692,3692,PRON_PER,She
 3719,3719,NOM_PER,One
 3724,3724,PRON_PER,her
@@ -566,7 +568,7 @@
 3838,3838,PRON_PER,she
 3853,3853,PRON_PER,She
 3862,3863,PROP_PER,Mrs. Pontellier
-3875,3876,NOM_PER,a baby
+3875,3878,NOM_PER,a baby 's body
 3925,3926,PROP_PER,Mrs. Pontellier
 3939,3939,PRON_PER,her
 3939,3940,NOM_PER,her children
@@ -601,7 +603,7 @@
 4169,4169,PROP_PER,Robert
 4173,4173,PRON_PER,her
 4177,4177,PRON_PER,he
-4180,4195,NOM_PER,a lady who had subsisted upon nougat during the entire but seeing the color mount into
+4180,4197,NOM_PER,a lady who had subsisted upon nougat during the entire but seeing the color mount into Mrs. Pontellier
 4196,4197,PROP_PER,Mrs. Pontellier
 4200,4200,PRON_PER,he
 4202,4202,PRON_PER,himself
@@ -610,11 +612,10 @@
 4215,4216,NOM_PER,a Creole
 4222,4222,NOM_FAC,home
 4224,4227,NOM_PER,the society of Creoles
-4227,4227,PROP_PER,Creoles
 4232,4232,PRON_PER,she
 4238,4238,PRON_PER,them
 4243,4243,NOM_PER,Creoles
-4247,4248,PROP_FAC,Lebrun 's
+4247,4247,PROP_PER,Lebrun
 4250,4250,PRON_PER,They
 4253,4254,NOM_PER,each other
 4259,4269,NOM_PER,"one large family , among whom existed the most amicable relations"
@@ -628,7 +629,6 @@
 4327,4328,PROP_PER,Edna Pontellier
 4334,4334,PRON_PER,she
 4336,4337,PROP_PER,Madame Ratignolle
-4340,4342,PROP_PER,old Monsieur Farival
 4349,4349,PRON_PER,her
 4359,4359,PRON_PER,She
 4368,4368,PRON_PER,she
@@ -641,9 +641,8 @@
 4417,4417,PRON_PER,her
 4423,4423,PRON_PER,she
 4430,4430,PRON_PER,She
-4445,4446,NOM_PER,the others
+4443,4446,NOM_PER,none of the others
 4473,4474,PROP_PER,Mrs. Pontellier
-4488,4488,PROP_PER,V
 4489,4489,PRON_PER,They
 4491,4493,NOM_PER,a congenial group
 4499,4500,PROP_PER,Madame Ratignolle
@@ -661,6 +660,7 @@
 4597,4598,PROP_GPE,Grand Isle
 4601,4601,PRON_PER,himself
 4602,4610,NOM_PER,the devoted attendant of some fair dame or damsel
+4606,4610,NOM_PER,some fair dame or damsel
 4615,4617,NOM_PER,a young girl
 4620,4621,NOM_PER,a widow
 4630,4633,NOM_PER,some interesting married woman
@@ -806,9 +806,7 @@
 5720,5721,NOM_PER,the doctor
 5724,5724,PRON_PER,her
 5735,5735,PRON_PER,you
-5741,5741,PROP_PER,Robert
-5741,5744,NOM_PER,Robert of Mrs. Pontellier
-5743,5744,PROP_PER,Mrs. Pontellier
+5741,5744,PROP_PER,Robert of Mrs. Pontellier
 5763,5763,PRON_PER,she
 5773,5773,PRON_PER,I
 5777,5777,PRON_PER,I
@@ -846,7 +844,7 @@
 6051,6057,NOM_PER,a young woman of twenty - eight
 6062,6064,NOM_PER,the Holy Ghost
 6071,6072,NOM_PER,any woman
-6081,6082,NOM_LOC,a world
+6081,6083,NOM_LOC,a world especially
 6100,6100,PRON_PER,us
 6118,6119,NOM_LOC,the sea
 6157,6158,NOM_LOC,the sea
@@ -865,7 +863,7 @@
 6278,6278,PRON_PER,their
 6283,6283,PRON_PER,her
 6296,6298,PROP_PER,Ad le Ratignolle
-6305,6306,NOM_PER,the Creole
+6305,6306,PROP_PER,the Creole
 6310,6310,PRON_PER,her
 6313,6313,PROP_PER,Edna
 6325,6326,NOM_PER,the woman
@@ -888,7 +886,7 @@
 6468,6468,PRON_FAC,it
 6471,6475,NOM_FAC,"a long , sandy path"
 6486,6486,PRON_FAC,it
-6498,6501,NOM_LOC,acres of yellow camomile
+6498,6501,NOM_FAC,acres of yellow camomile
 6512,6513,NOM_FAC,vegetable gardens
 6518,6525,NOM_FAC,small plantations of orange or lemon trees intervening
 6538,6539,NOM_PER,The women
@@ -898,7 +896,6 @@
 6566,6566,PRON_PER,you
 6571,6571,PRON_PER,her
 6606,6610,NOM_PER,A casual and indiscriminating observer
-6622,6623,NOM_PER,the figure
 6631,6631,PRON_PER,he
 6653,6654,PROP_PER,Edna Pontellier
 6657,6658,NOM_PER,the crowd
@@ -922,10 +919,10 @@
 6827,6828,NOM_FAC,Each house
 6831,6832,NOM_FAC,two compartments
 6835,6836,NOM_PER,each family
-6835,6839,NOM_PER,each family at Lebrun 's
 6838,6839,PROP_FAC,Lebrun 's
 6841,6863,NOM_FAC,"a compartment for itself , fitted out with all the essential paraphernalia of the bath and whatever other conveniences the owners might desire"
 6844,6844,PRON_FAC,itself
+6854,6855,NOM_FAC,the bath
 6860,6861,NOM_PER,the owners
 6865,6867,NOM_PER,The two women
 6874,6874,PRON_PER,they
@@ -933,8 +930,8 @@
 6891,6892,NOM_LOC,the water
 6894,6895,PROP_PER,The Pontellier
 6897,6897,PROP_PER,Ratignolle
-6897,6898,NOM_FAC,Ratignolle compartments
-6900,6905,NOM_FAC,one another under the same roof
+6900,6901,NOM_PER,one another
+6903,6905,NOM_FAC,the same roof
 6907,6908,PROP_PER,Mrs. Pontellier
 6912,6912,PRON_PER,her
 6923,6923,PRON_PER,her
@@ -955,6 +952,7 @@
 7012,7012,PRON_PER,herself
 7017,7017,PRON_PER,she
 7023,7023,PRON_PER,her
+7023,7024,NOM_PER,her person
 7032,7032,PROP_PER,Edna
 7034,7034,PRON_PER,her
 7038,7038,PRON_PER,her
@@ -976,22 +974,20 @@
 7180,7182,NOM_PER,Two young lovers
 7185,7185,PRON_PER,their
 7190,7191,NOM_PER,the children
-7190,7193,NOM_FAC,the children 's tent
+7190,7199,NOM_FAC,"the children 's tent , which they had found unoccupied"
 7196,7196,PRON_PER,they
 7201,7202,PROP_PER,Edna Pontellier
 7205,7205,PRON_PER,her
 7212,7212,PRON_PER,them
 7216,7217,NOM_LOC,the sea
-7248,7250,NOM_VEH,A lateen sail
 7254,7258,NOM_LOC,the direction of Cat Island
-7257,7258,PROP_LOC,Cat Island
+7257,7258,PROP_GPE,Cat Island
 7261,7264,NOM_PER,others to the south
 7279,7279,PRON_PER,you
 7284,7319,NOM_PER,"Ad le of her companion , whose countenance she had been watching with a little amused attention , arrested by the absorbed expression which seemed to have seized and fixed every feature into a statuesque repose"
 7287,7287,PRON_PER,her
 7287,7288,NOM_PER,her companion
 7292,7292,PRON_PER,she
-7293,7319,NOM_PER,"had been watching with a little amused attention , arrested by the absorbed expression which seemed to have seized and fixed every feature into a statuesque repose"
 7326,7327,PROP_PER,Mrs. Pontellier
 7345,7345,PRON_PER,me
 7350,7350,PRON_PER,we
@@ -1008,6 +1004,7 @@
 7429,7429,PRON_PER,I
 7432,7432,PRON_PER,you
 7462,7462,PROP_PER,Edna
+7472,7473,NOM_LOC,the water
 7492,7492,PRON_PER,I
 7506,7506,PRON_PER,my
 7509,7509,PRON_PER,me
@@ -1015,7 +1012,7 @@
 7523,7523,PROP_GPE,Kentucky
 7526,7534,NOM_LOC,a meadow that seemed as big as the ocean
 7533,7534,NOM_LOC,the ocean
-7536,7539,NOM_PER,the very little girl
+7536,7550,NOM_PER,"the very little girl walking through the grass , which was higher than her waist"
 7549,7549,PRON_PER,her
 7552,7552,PRON_PER,She
 7555,7555,PRON_PER,her
@@ -1068,7 +1065,7 @@
 7949,7949,PROP_PER,Edna
 7952,7952,PRON_PER,she
 7955,7955,PRON_PER,herself
-7958,7959,PROP_PER,the Creole
+7958,7959,NOM_PER,the Creole
 7964,7964,PRON_PER,She
 7979,7979,PRON_PER,herself
 7984,7984,PRON_PER,She
@@ -1090,7 +1087,7 @@
 8074,8074,PRON_PER,She
 8081,8081,PRON_PER,her
 8095,8095,PRON_PER,Her
-8095,8098,NOM_PER,Her most intimate friend
+8095,8100,NOM_PER,Her most intimate friend at school
 8100,8100,NOM_FAC,school
 8118,8118,PROP_PER,Edna
 8127,8127,PRON_PER,her
@@ -1109,7 +1106,6 @@
 8208,8208,PRON_PER,She
 8212,8212,PRON_PER,his
 8215,8215,PRON_PER,he
-8217,8217,NOM_FAC,there
 8221,8221,PRON_PER,her
 8224,8224,PRON_PER,his
 8231,8231,PROP_PER,Napoleon
@@ -1117,7 +1113,7 @@
 8253,8253,PRON_PER,her
 8259,8259,PRON_PER,her
 8265,8275,NOM_PER,a young gentleman who visited a lady on a neighboring plantation
-8270,8271,NOM_PER,a lady
+8270,8275,NOM_PER,a lady on a neighboring plantation
 8273,8275,NOM_FAC,a neighboring plantation
 8280,8280,PRON_PER,they
 8283,8283,PROP_GPE,Mississippi
@@ -1182,7 +1178,7 @@
 8665,8666,NOM_PER,the tragedian
 8671,8671,PRON_PER,her
 8673,8674,NOM_LOC,this world
-8677,8685,NOM_PER,the devoted wife of a man who worshiped her
+8677,8716,NOM_PER,"the devoted wife of a man who worshiped her , she felt she would take her place with a certain dignity in the world of reality , closing the portals forever behind her upon the realm of romance and dreams"
 8681,8685,NOM_PER,a man who worshiped her
 8685,8685,PRON_PER,her
 8687,8687,PRON_PER,she
@@ -1211,7 +1207,6 @@
 8817,8817,PRON_PER,they
 8825,8825,PRON_PER,their
 8825,8826,NOM_PER,their grandmother
-8827,8827,PROP_PER,Pontellier
 8829,8829,PROP_GPE,Iberville
 8834,8834,PRON_PER,their
 8839,8839,PRON_PER,she
@@ -1244,7 +1239,7 @@
 9006,9007,PROP_PER,Madame Ratignolle
 9006,9010,NOM_PER,Madame Ratignolle 's little girl
 9012,9012,PRON_PER,his
-9017,9019,NOM_PER,other children beside
+9017,9018,NOM_PER,other children
 9022,9025,NOM_PER,two nurse - maids
 9033,9034,NOM_PER,The women
 9043,9043,PRON_PER,their
@@ -1298,7 +1293,6 @@
 9316,9316,PRON_PER,his
 9316,9317,NOM_PER,his companion
 9322,9322,PRON_PER,She
-9324,9327,NOM_PER,not one of us
 9327,9327,PRON_PER,us
 9329,9329,PRON_PER,she
 9333,9333,PRON_PER,us
@@ -1340,10 +1334,11 @@
 9517,9517,PRON_PER,your
 9520,9523,NOM_PER,any married women here
 9534,9534,PRON_PER,you
-9538,9564,NOM_PER,"the gentleman we all know you to be , and you would be unfit to associate with the wives and daughters of the people who trust you"
+9538,9541,NOM_PER,the gentleman we all
 9540,9540,PRON_PER,we
 9543,9543,PRON_PER,you
 9548,9548,PRON_PER,you
+9555,9564,NOM_PER,the wives and daughters of the people who trust you
 9560,9564,NOM_PER,the people who trust you
 9564,9564,PRON_PER,you
 9567,9568,PROP_PER,Madame Ratignolle
@@ -1363,7 +1358,7 @@
 9676,9676,PRON_PER,you
 9678,9680,PROP_PER,Alc e Arobin
 9685,9686,NOM_PER,the consul
-9685,9688,NOM_PER,the consul 's wife
+9685,9690,NOM_PER,the consul 's wife at Biloxi
 9690,9690,PROP_GPE,Biloxi
 9694,9694,PRON_PER,he
 9699,9701,PROP_PER,Alc e Arobin
@@ -1485,6 +1480,7 @@
 10503,10504,PROP_PER,Madame Lebrun
 10515,10515,PROP_PER,Victor
 10517,10519,NOM_PER,the younger son
+10525,10528,PROP_PER,te mont e _
 10540,10543,NOM_PER,no ax could break
 10547,10547,PRON_PER,you
 10551,10551,PRON_PER,I
@@ -1638,6 +1634,7 @@
 11856,11856,PRON_PER,she
 11866,11867,NOM_FAC,the hall
 11873,11874,PROP_LOC,the Gulf
+11901,11905,NOM_LOC,"the distant , restless water"
 11909,11909,PRON_PER,you
 11913,11914,PROP_PER,Mademoiselle Reisz
 11919,11919,PROP_PER,Robert
@@ -2147,6 +2144,7 @@
 15345,15345,PRON_PER,she
 15352,15352,PRON_PER,she
 15359,15359,PRON_PER,she
+15364,15364,PROP_PER,L
 15372,15372,PRON_PER,she
 15376,15376,PRON_PER,I
 15383,15383,PRON_PER,I
@@ -2309,6 +2307,7 @@
 16460,16460,PROP_PER,Mariequita
 16472,16472,PRON_PER,he
 16477,16489,NOM_PER,"old Monsieur Farival , who considered himself the better sailor of the two"
+16478,16479,PROP_PER,Monsieur Farival
 16483,16483,PRON_PER,himself
 16484,16489,NOM_PER,the better sailor of the two
 16488,16489,NOM_PER,the two
@@ -2361,7 +2360,6 @@
 16713,16713,PRON_PER,his
 16713,16714,NOM_VEH,his boat
 16724,16724,PRON_PER,she
-16736,16738,NOM_PER,those two married
 16743,16744,NOM_PER,each other
 16754,16754,PROP_PER,Robert
 16763,16763,PROP_PER,Mariequita
@@ -2381,6 +2379,7 @@
 16873,16873,PROP_PER,Edna
 16877,16877,PRON_PER,she
 16888,16888,PRON_PER,her
+16902,16904,NOM_PER,the mystic spirit
 16909,16909,PRON_PER,her
 16914,16914,PRON_PER,she
 16918,16918,PRON_PER,her
@@ -2390,6 +2389,7 @@
 16931,16931,PROP_PER,Mariequita
 16933,16934,NOM_PER,The girl
 16938,16938,PRON_PER,her
+16942,16942,PRON_PER,They
 16949,16949,PRON_PER,She
 16959,16959,PRON_PER,herself
 16964,16964,PRON_PER,us
@@ -2424,13 +2424,11 @@
 17146,17146,PROP_PER,Beaudelet
 17148,17149,NOM_PER,any one
 17152,17152,PRON_PER,you
-17155,17156,NOM_LOC,the pirogue
 17167,17167,PRON_PER,I
 17170,17170,PRON_PER,you
-17174,17175,NOM_FAC,the pirogue
+17174,17175,NOM_LOC,the pirogue
 17182,17182,PRON_PER,your
 17188,17188,PRON_PER,you
-17190,17193,NOM_LOC,which of these islands
 17192,17193,NOM_LOC,these islands
 17199,17199,PRON_PER,you
 17201,17203,NOM_LOC,the very spot
@@ -2447,7 +2445,6 @@
 17308,17308,PRON_PER,They
 17314,17323,NOM_FAC,the quaint little Gothic church of Our Lady of Lourdes
 17320,17323,PROP_FAC,Our Lady of Lourdes
-17323,17323,PROP_GPE,Lourdes
 17324,17336,NOM_GPE,", gleaming all brown and yellow with paint in the sun 's glare"
 17338,17339,PROP_PER,Only Beaudelet
 17345,17345,PRON_PER,his
@@ -2466,7 +2463,7 @@
 17430,17431,NOM_FAC,the church
 17438,17438,PRON_PER,She
 17443,17443,PROP_PER,Robert
-17451,17453,PROP_FAC,Old Monsieur Farival
+17452,17453,PROP_PER,Monsieur Farival
 17466,17466,PROP_PER,Robert
 17469,17470,PROP_PER,Mrs. Pontellier
 17472,17472,PRON_PER,he
@@ -2495,8 +2492,7 @@
 17615,17615,PRON_PER,her
 17628,17629,NOM_LOC,the sea
 17637,17641,NOM_LOC,the salt - water pools
-17643,17659,NOM_FAC,"The long line of little gray , weather - beaten houses nestled peacefully among the orange trees"
-17653,17659,NOM_FAC,houses nestled peacefully among the orange trees
+17647,17659,NOM_FAC,"little gray , weather - beaten houses nestled peacefully among the orange trees"
 17666,17666,PROP_PER,God
 17670,17674,NOM_LOC,"that low , drowsy island"
 17676,17676,PROP_PER,Edna
@@ -2529,7 +2525,6 @@
 17860,17862,NOM_FAC,The whole place
 17881,17881,NOM_PER,one
 17888,17902,NOM_FAC,a small side room which looked out across a narrow grass plot toward the shed
-17896,17899,NOM_FAC,a narrow grass plot
 17901,17902,NOM_FAC,the shed
 17907,17912,NOM_VEH,a disabled boat lying keel upward
 17914,17915,PROP_PER,Madame Antoine
@@ -2555,6 +2550,7 @@
 18024,18024,PRON_PER,She
 18027,18027,PRON_PER,her
 18033,18033,PRON_PER,herself
+18053,18071,NOM_FAC,"a strange , quaint bed , with its sweet country odor of laurel lingering about the sheets and mattress"
 18060,18060,PRON_FAC,its
 18073,18073,PRON_PER,She
 18075,18075,PRON_PER,her
@@ -2603,7 +2599,7 @@
 18423,18423,PROP_PER,Tonie
 18428,18428,PRON_PER,him
 18430,18430,PRON_PER,She
-18436,18440,NOM_PER,the rest of the party
+18439,18440,NOM_PER,the party
 18442,18442,PRON_PER,She
 18446,18446,PRON_PER,him
 18452,18452,PRON_PER,she
@@ -2649,7 +2645,6 @@
 18750,18750,PRON_PER,her
 18754,18754,PRON_PER,You
 18762,18762,PRON_PER,I
-18765,18765,NOM_FAC,here
 18768,18768,PRON_PER,your
 18776,18776,PRON_PER,I
 18781,18782,NOM_FAC,the shed
@@ -2729,7 +2724,6 @@
 19295,19295,PRON_PER,them
 19300,19300,PRON_PER,her
 19302,19302,PRON_PER,she
-19305,19311,NOM_LOC,the _ Ch ni re Caminada _
 19321,19321,PRON_PER,her
 19323,19323,PRON_PER,she
 19330,19331,NOM_LOC,the island
@@ -2741,7 +2735,6 @@
 19373,19373,PROP_PER,Robert
 19376,19376,PROP_PER,Tonie
 19376,19378,NOM_VEH,Tonie 's boat
-19381,19384,NOM_VEH,the red lateen sail
 19404,19405,NOM_VEH,phantom ships
 19411,19411,PROP_PER,XIV
 19412,19414,NOM_PER,The youngest boy
@@ -2830,7 +2823,7 @@
 19886,19886,PRON_PER,she
 19894,19895,PROP_PER,the Ratignolles
 19900,19901,PROP_PER,Madame Lebrun
-19903,19917,NOM_PER,a group whose animated voices reached her as they sat in conversation before the house
+19903,19907,NOM_PER,a group whose animated voices
 19909,19909,PRON_PER,her
 19911,19911,PRON_PER,they
 19916,19917,NOM_FAC,the house
@@ -2844,7 +2837,6 @@
 19958,19958,PRON_PER,she
 19959,19959,PRON_PER,herself
 19960,19960,PRON_PER,her
-19969,19971,NOM_PER,the other self
 19974,19974,PRON_PER,she
 19988,19988,PRON_PER,herself
 19993,19993,PRON_PER,her
@@ -2992,7 +2984,7 @@
 20795,20804,NOM_PER,the gentleman whom he intended to join at Vera Cruz
 20798,20798,PRON_PER,he
 20803,20804,PROP_GPE,Vera Cruz
-20807,20811,NOM_VEH,such and such a steamer
+20810,20811,NOM_VEH,a steamer
 20815,20816,PROP_GPE,New Orleans
 20823,20823,PROP_PER,Beaudelet
 20828,20828,PRON_PER,his
@@ -3034,12 +3026,14 @@
 21089,21089,PRON_PER,she
 21104,21105,PROP_PER,Madame Ratignolle
 21108,21108,PROP_PER,Robert
+21116,21117,NOM_PER,the Mexicans
 21121,21121,PRON_PER,she
 21125,21127,NOM_PER,a treacherous people
 21133,21133,PRON_PER,She
 21135,21135,PRON_PER,she
 21137,21137,PRON_PER,them
 21143,21143,PRON_PER,them
+21145,21146,NOM_PER,a race
 21148,21148,PRON_PER,She
 21153,21154,NOM_PER,one Mexican
 21165,21165,PRON_PER,she
@@ -3085,6 +3079,7 @@
 21390,21390,PRON_PER,she
 21404,21404,PRON_PER,her
 21408,21408,PRON_PER,She
+21424,21437,NOM_PER,"the quadroon , who was in the adjoining room putting the children to bed"
 21430,21432,NOM_FAC,the adjoining room
 21434,21435,NOM_PER,the children
 21439,21439,PRON_PER,She
@@ -3160,7 +3155,7 @@
 21938,21939,PROP_PER,Madame Ratignolle
 21941,21941,PROP_PER,Edna
 21969,21969,PROP_GPE,Mexico
-21971,21972,PROP_PER,the Mexicans
+21971,21972,NOM_PER,the Mexicans
 21976,21976,PROP_PER,Robert
 21981,21981,PRON_PER,his
 21989,21989,PRON_PER,you
@@ -3184,7 +3179,6 @@
 22131,22131,PRON_PER,you
 22157,22157,NOM_PER,men
 22161,22161,PRON_PER,I
-22165,22170,NOM_PER,one to speak otherwise of fanning
 22175,22175,PRON_PER,you
 22185,22185,PRON_PER,I
 22218,22218,PRON_PER,I
@@ -3228,7 +3222,7 @@
 22453,22453,PRON_PER,him
 22458,22458,PRON_PER,me
 22460,22460,PRON_PER,you
-22462,22462,NOM_GPE,there
+22462,22462,NOM_FAC,there
 22466,22466,PRON_PER,you
 22468,22468,PROP_PER,Robert
 22471,22471,PRON_PER,she
@@ -3240,7 +3234,6 @@
 22505,22505,PRON_PER,you
 22517,22517,PRON_PER,He
 22524,22525,NOM_PER,the people
-22524,22529,NOM_PER,the people over at the house
 22528,22529,NOM_FAC,the house
 22532,22532,PRON_PER,he
 22540,22540,PROP_PER,Beaudelet
@@ -3261,7 +3254,7 @@
 22629,22629,PRON_PER,she
 22636,22636,PRON_PER,she
 22641,22642,NOM_PER,a child
-22645,22650,NOM_PER,a girl in her earliest teens
+22645,22646,NOM_PER,a girl
 22648,22648,PRON_PER,her
 22655,22657,NOM_PER,a young woman
 22685,22685,PRON_PER,her
@@ -3289,7 +3282,6 @@
 22801,22801,PRON_PER,she
 22811,22811,PRON_PER,their
 22814,22815,PROP_GPE,Grand Isle
-22818,22818,PRON_FAC,its
 22821,22821,PRON_PER,she
 22824,22824,PRON_PER,she
 22836,22836,PRON_PER,her
@@ -3402,7 +3394,7 @@
 23549,23549,PRON_PER,he
 23570,23570,PRON_PER,his
 23574,23575,PROP_PER,Mr. Pontellier
-23580,23582,NOM_PER,a young fellow
+23580,23586,NOM_PER,a young fellow about to seek fortune
 23590,23594,NOM_GPE,"a strange , queer country"
 23596,23596,PROP_PER,Edna
 23598,23598,PRON_PER,her
@@ -3424,7 +3416,6 @@
 23687,23688,NOM_PER,her husband
 23701,23701,PRON_PER,She
 23704,23704,PRON_PER,her
-23717,23717,PRON_PER,themselves
 23719,23719,PRON_PER,They
 23731,23731,PRON_PER,her
 23734,23734,PRON_PER,her
@@ -3462,7 +3453,7 @@
 23878,23878,PRON_PER,you
 23886,23886,PRON_PER,you
 23894,23895,PROP_PER,Madame Ratignolle
-23901,23910,NOM_PER,a woman who would give her life for her children
+23901,23940,NOM_PER,"a woman who would give her life for her children could do no more than that your Bible tells you so . I 'm sure I could n't do more than that . "" "" Oh , yes you could"
 23906,23906,PRON_PER,her
 23909,23909,PRON_PER,her
 23909,23910,NOM_PER,her children
@@ -3474,6 +3465,7 @@
 23944,23944,PROP_PER,Edna
 23946,23946,PRON_PER,She
 23951,23952,PROP_PER,Mademoiselle Reisz
+23957,23958,NOM_PER,that lady
 23961,23961,PRON_PER,her
 23963,23964,NOM_LOC,the beach
 23967,23967,PRON_PER,her
@@ -3508,7 +3500,6 @@
 24167,24167,PRON_PER,They
 24169,24169,PRON_PER,her
 24174,24175,PROP_PER,Madame Lebrun
-24174,24177,NOM_FAC,Madame Lebrun 's table
 24183,24192,NOM_PER,no one save so impertinent a woman as Madame Lebrun
 24191,24192,PROP_PER,Madame Lebrun
 24200,24200,NOM_PER,people
@@ -3530,6 +3521,7 @@
 24280,24280,PROP_PER,Victor
 24283,24283,PRON_PER,She
 24286,24286,PRON_PER,him
+24288,24292,NOM_PER,the worthless creature he is
 24291,24291,PRON_PER,he
 24294,24294,PRON_PER,She
 24296,24296,PRON_PER,him
@@ -3547,7 +3539,6 @@
 24348,24348,PRON_PER,I
 24352,24352,PRON_PER,him
 24356,24356,PRON_PER,him
-24360,24369,NOM_PER,the only Lebrun who is worth a pinch of salt
 24371,24371,PRON_PER,He
 24375,24375,PRON_PER,me
 24378,24379,NOM_GPE,the city
@@ -3588,8 +3579,7 @@
 24566,24566,PROP_PER,Mariequita
 24568,24568,PRON_PER,I
 24574,24574,PRON_PER,she
-24576,24578,NOM_PER,a sly one
-24581,24583,NOM_PER,a bad one
+24576,24583,NOM_PER,"a sly one , and a bad one"
 24585,24586,NOM_PER,that Mariequita
 24589,24589,PROP_PER,Edna
 24593,24594,PROP_PER,Mademoiselle Reisz
@@ -3637,7 +3627,7 @@
 24872,24873,NOM_FAC,The house
 24891,24892,NOM_FAC,the yard
 24910,24911,PROP_GPE,South Louisiana
-24977,24986,NOM_PER,many women whose husbands were less generous than Mr. Pontellier
+24977,24980,NOM_PER,many women whose husbands
 24985,24986,PROP_PER,Mr. Pontellier
 24988,24989,PROP_PER,Mr. Pontellier
 24996,24996,PRON_PER,his
@@ -3650,12 +3640,12 @@
 25052,25052,PRON_PER,his
 25052,25054,NOM_PER,his household gods
 25061,25062,PROP_PER,Mrs. Pontellier
-25072,25082,NOM_PER,callers women who came in carriages or in the street cars
+25072,25093,NOM_PER,"callers women who came in carriages or in the street cars , or walked when the air was soft and distance permitted"
 25077,25077,NOM_VEH,carriages
 25080,25082,NOM_VEH,the street cars
 25095,25115,NOM_PER,"A light - colored mulatto boy , in dress coat and bearing a diminutive silver tray for the reception of cards"
 25118,25118,PRON_PER,them
-25120,25121,NOM_PER,A maid
+25120,25126,NOM_PER,"A maid , in white fluted cap"
 25129,25130,NOM_PER,the callers
 25139,25139,PRON_PER,they
 25143,25144,PROP_PER,Mrs. Pontellier
@@ -3673,7 +3663,6 @@
 25212,25213,PROP_PER,Mr. Pontellier
 25215,25215,PRON_PER,his
 25215,25216,NOM_FAC,his home
-25216,25216,NOM_FAC,home
 25248,25248,PRON_PER,He
 25250,25250,PRON_PER,his
 25250,25251,NOM_PER,his wife
@@ -3683,6 +3672,7 @@
 25270,25270,PRON_PER,They
 25275,25276,NOM_PER,The boys
 25286,25286,PRON_PER,their
+25303,25304,NOM_PER,the quadroon
 25313,25314,PROP_PER,Mrs. Pontellier
 25318,25318,PRON_PER,her
 25324,25324,PRON_PER,she
@@ -3695,6 +3685,7 @@
 25373,25373,PRON_PER,he
 25376,25376,PRON_PER,He
 25378,25378,PRON_PER,his
+25400,25402,NOM_PER,a good many
 25406,25406,PROP_PER,Edna
 25411,25411,PRON_PER,her
 25418,25418,PRON_PER,I
@@ -3753,7 +3744,6 @@
 25742,25742,PRON_PER,his
 25742,25743,NOM_PER,his wife
 25742,25745,NOM_PER,his wife 's callers
-25750,25750,PRON_PER,them
 25756,25756,PRON_PER,he
 25760,25762,PROP_PER,The Misses Delasidas
 25765,25765,PRON_PER,I
@@ -3801,6 +3791,7 @@
 26037,26037,PRON_PER,his
 26044,26044,PRON_PER,You
 26048,26049,NOM_PER,the cook
+26051,26052,NOM_PER,a treasure
 26056,26056,PROP_PER,Edna
 26062,26062,PRON_PER,she
 26065,26065,PRON_PER,she
@@ -3829,6 +3820,7 @@
 26180,26180,PRON_PER,his
 26190,26191,NOM_FAC,the house
 26193,26193,PRON_PER,She
+26201,26201,PRON_PER,They
 26205,26205,PRON_PER,her
 26214,26214,PRON_PER,she
 26224,26224,PRON_PER,her
@@ -3860,6 +3852,7 @@
 26420,26420,PRON_PER,herself
 26431,26431,PRON_PER,her
 26443,26443,PRON_PER,her
+26455,26455,PRON_PER,They
 26469,26469,PRON_PER,She
 26473,26474,NOM_FAC,the room
 26483,26483,PRON_FAC,its
@@ -4004,7 +3997,6 @@
 27416,27417,PROP_PER,The Ratignolles
 27424,27424,PROP_PER,Edna
 27424,27426,NOM_FAC,Edna 's home
-27429,27434,NOM_FAC,the corner of a side street
 27432,27434,NOM_FAC,a side street
 27437,27438,PROP_PER,Monsieur Ratignolle
 27442,27451,NOM_FAC,a drug store which enjoyed a steady and prosperous trade
@@ -4012,10 +4004,10 @@
 27453,27454,NOM_PER,His father
 27461,27461,PRON_PER,him
 27464,27465,PROP_PER,Monsieur Ratignolle
-27469,27470,NOM_PER,the community
+27469,27470,NOM_GPE,the community
 27481,27481,PRON_PER,His
 27481,27482,NOM_PER,His family
-27485,27486,NOM_FAC,commodious apartments
+27485,27489,NOM_FAC,commodious apartments over the store
 27488,27489,NOM_FAC,the store
 27498,27503,NOM_FAC,the _ porte coch re _
 27509,27509,PROP_PER,Edna
@@ -4026,7 +4018,7 @@
 27542,27542,PRON_PER,their
 27542,27543,NOM_PER,their friends
 27564,27570,NOM_PER,a friend who played upon the cello
-27572,27572,PROP_PER,One
+27572,27572,NOM_PER,One
 27574,27574,PRON_PER,his
 27578,27578,PRON_PER,his
 27584,27601,NOM_PER,some who sang and a number who performed upon the piano with various degrees of taste and agility
@@ -4035,7 +4027,6 @@
 27627,27627,PROP_PER,Edna
 27629,27629,PRON_PER,her
 27629,27630,NOM_PER,her friend
-27642,27643,NOM_FAC,the laundry
 27645,27645,PRON_PER,She
 27649,27649,PRON_PER,her
 27653,27653,PROP_PER,Edna
@@ -4046,7 +4037,7 @@
 27686,27686,PROP_PER,Edna
 27692,27692,PRON_PER,her
 27695,27695,PRON_PER,she
-27697,27707,NOM_PER,"a young black woman , whom she instructed , in French"
+27697,27700,NOM_PER,a young black woman
 27703,27703,PRON_PER,she
 27719,27719,PRON_PER,she
 27721,27721,PRON_PER,her
@@ -4056,6 +4047,7 @@
 27771,27771,PROP_PER,Edna
 27775,27775,PRON_PER,she
 27777,27777,PRON_PER,her
+27779,27783,NOM_FAC,the front of the house
 27782,27783,NOM_FAC,the house
 27786,27787,NOM_FAC,the salon
 27809,27810,PROP_PER,Madame Ratignolle
@@ -4072,7 +4064,6 @@
 27887,27887,PRON_PER,I
 27891,27891,PRON_PER,I
 27900,27900,PRON_PER,you
-27903,27903,PRON_PER,them
 27906,27906,PRON_PER,you
 27921,27921,PRON_PER,I
 27928,27928,PROP_PER,Laidpore
@@ -4163,7 +4154,6 @@
 28601,28601,PRON_PER,She
 28604,28604,PRON_PER,her
 28607,28607,NOM_FAC,home
-28616,28621,NOM_PER,those who had called upon her
 28621,28621,PRON_PER,her
 28623,28623,PRON_PER,She
 28630,28630,PRON_PER,her
@@ -4188,6 +4178,7 @@
 28725,28725,PRON_PER,She
 28739,28739,PRON_PER,me
 28744,28751,NOM_PER,a woman at the head of a household
+28750,28751,NOM_PER,a household
 28754,28756,NOM_PER,the mother of
 28757,28757,NOM_PER,children
 28775,28775,PRON_PER,her
@@ -4272,7 +4263,7 @@
 29294,29294,PRON_PER,She
 29301,29304,NOM_LOC,strange and unfamiliar places
 29306,29306,PRON_PER,She
-29309,29313,NOM_FAC,"a sunny , sleepy corner"
+29309,29318,NOM_LOC,"a sunny , sleepy corner , fashioned to dream in"
 29321,29321,PRON_PER,she
 29338,29338,PRON_PER,she
 29342,29342,PRON_PER,she
@@ -4302,6 +4293,7 @@
 29530,29530,PROP_PER,Edna
 29533,29534,NOM_FAC,the house
 29538,29550,NOM_PER,a respectable family of mulattoes who had _ chambres garnies _ to let
+29545,29550,NOM_PER,_ chambres garnies _ to let
 29552,29552,PRON_PER,They
 29556,29556,NOM_FAC,there
 29566,29568,PROP_PER,a Mademoiselle Reisz
@@ -4344,6 +4336,7 @@
 29733,29733,PRON_PER,she
 29741,29741,PRON_PER,her
 29743,29744,PROP_PER,Madame Lebrun
+29747,29753,NOM_PER,the one most likely to do so
 29755,29755,PRON_PER,She
 29762,29763,PROP_PER,Madame Ratignolle
 29773,29774,NOM_PER,the musician
@@ -4366,7 +4359,6 @@
 29895,29896,NOM_FAC,the street
 29900,29900,PROP_PER,Edna
 29905,29907,NOM_FAC,this side garden
-29913,29914,NOM_FAC,the banquette
 29923,29923,PROP_PER,Victor
 29929,29929,PRON_PER,her
 29931,29933,NOM_PER,A black woman
@@ -4399,7 +4391,7 @@
 30067,30067,PRON_PER,she
 30081,30081,PRON_PER,her
 30086,30087,NOM_FAC,the garden
-30090,30090,PROP_PER,Victor
+30089,30090,PROP_PER,Whereupon Victor
 30117,30117,PROP_PER,Edna
 30129,30130,NOM_PER,the woman
 30132,30132,PRON_PER,her
@@ -4472,7 +4464,7 @@
 30525,30525,PRON_PER,she
 30533,30533,PRON_PER,she
 30536,30536,NOM_FAC,there
-30541,30544,PROP_PER,that dear Mr. Pontellier
+30543,30544,PROP_PER,Mr. Pontellier
 30548,30550,NOM_PER,those sweet children
 30553,30554,PROP_PER,Mrs. Pontellier
 30562,30562,PROP_PER,Victor
@@ -4512,7 +4504,7 @@
 30746,30746,PRON_PER,him
 30754,30754,PRON_PER,He
 30762,30762,PRON_PER,he
-30778,30779,PROP_PER,Vera Cruz
+30778,30779,PROP_GPE,Vera Cruz
 30784,30787,NOM_GPE,the City of Mexico
 30787,30787,PROP_GPE,Mexico
 30789,30789,PRON_PER,He
@@ -4521,7 +4513,8 @@
 30814,30814,PRON_PER,he
 30818,30819,PROP_GPE,New Orleans
 30830,30830,PRON_PER,He
-30833,30836,NOM_GPE,the City of Mexico
+30833,30835,NOM_GPE,the City of
+30836,30836,PROP_GPE,Mexico
 30838,30839,NOM_FAC,the buildings
 30841,30842,NOM_PER,the people
 30844,30844,PRON_PER,their
@@ -4554,6 +4547,7 @@
 30975,30976,PROP_PER,Mademoiselle Reisz
 30988,30988,PROP_PER,Victor
 30990,30990,PRON_PER,her
+30993,30994,NOM_FAC,the banquette
 30997,30997,PRON_PER,her
 31004,31004,PRON_PER,her
 31006,31006,PRON_PER,he
@@ -4581,14 +4575,15 @@
 31119,31119,NOM_PER,callers
 31127,31127,PRON_PER,her
 31127,31130,NOM_FAC,her little front room
+31132,31132,PRON_FAC,They
 31155,31155,PRON_PER,They
 31159,31160,NOM_FAC,the room
 31184,31184,PRON_PER,them
 31187,31187,PRON_PER,her
 31195,31196,NOM_LOC,the river
 31201,31201,NOM_VEH,ships
+31203,31209,NOM_FAC,the big chimneys of the Mississippi steamers
 31207,31209,NOM_VEH,the Mississippi steamers
-31208,31208,PROP_GPE,Mississippi
 31215,31216,NOM_FAC,the apartment
 31219,31221,NOM_FAC,the next room
 31222,31222,PRON_PER,she
@@ -4598,10 +4593,8 @@
 31247,31249,NOM_FAC,the neighboring restaurant
 31256,31256,PRON_PER,she
 31260,31260,PRON_PER,her
-31263,31266,NOM_FAC,a rare old buffet
 31279,31279,PROP_PER,Edna
 31282,31283,PROP_PER,Mademoiselle Reisz
-31282,31286,NOM_FAC,Mademoiselle Reisz 's front room
 31291,31291,PRON_PER,she
 31293,31298,NOM_PER,that person standing beside the window
 31305,31308,NOM_PER,an old prunella gaiter
@@ -4700,6 +4693,7 @@
 31911,31912,PROP_PER,Mrs. Pontellier
 31916,31916,PRON_PER,you
 31920,31920,PRON_PER,her
+31924,31924,PROP_PER,Chopin
 31927,31927,PRON_PER,my
 31930,31930,PRON_PER,I
 31943,31943,PRON_PER,you
@@ -4707,6 +4701,7 @@
 31955,31955,PRON_PER,her
 31964,31964,PRON_PER,he
 31966,31966,PRON_PER,we
+31970,31971,NOM_PER,each other
 31978,31978,PRON_PER,me
 31992,31992,PRON_PER,you
 32003,32003,PRON_PER,me
@@ -4734,10 +4729,9 @@
 32140,32140,PRON_PER,your
 32143,32143,PRON_PER,your
 32148,32149,NOM_PER,an artist
-32153,32153,NOM_PER,one
-32166,32166,NOM_PER,one
 32178,32179,NOM_PER,the artist
 32190,32190,PRON_PER,you
+32193,32195,NOM_PER,the courageous soul
 32206,32208,NOM_PER,The brave soul
 32220,32220,PRON_PER,me
 32226,32226,PRON_PER,me
@@ -4762,8 +4756,8 @@
 32419,32419,PROP_PER,Isolde
 32440,32442,NOM_FAC,the little room
 32468,32469,NOM_FAC,the room
-32479,32480,NOM_FAC,the housetops
 32482,32486,NOM_LOC,the crescent of the river
+32485,32486,NOM_LOC,the river
 32498,32498,PROP_PER,Edna
 32504,32504,PRON_PER,she
 32510,32511,PROP_GPE,Grand Isle
@@ -4807,8 +4801,8 @@
 32739,32740,NOM_FAC,His house
 32746,32747,NOM_FAC,the street
 32753,32755,NOM_FAC,a delightful garden
-32759,32759,PRON_FAC,it
 32765,32767,NOM_PER,the old gentleman
+32765,32770,NOM_FAC,the old gentleman 's study window
 32772,32772,PRON_PER,He
 32774,32776,NOM_PER,a great reader
 32778,32778,PRON_PER,He
@@ -4821,7 +4815,7 @@
 32833,32833,PRON_PER,He
 32861,32861,PRON_PER,their
 32867,32867,PRON_PER,I
-32872,32872,NOM_PER,Doctor
+32872,32872,PROP_PER,Doctor
 32874,32874,PRON_PER,You
 32877,32877,PRON_PER,I
 32883,32895,NOM_PER,that old Creole race of Pontelliers that dry up and finally blow away
@@ -4909,10 +4903,10 @@
 33321,33321,PRON_PER,She
 33324,33324,PRON_PER,her
 33327,33327,NOM_FAC,home
+33332,33334,NOM_PER,all her acquaintances
 33333,33333,PRON_PER,her
-33333,33334,NOM_PER,her acquaintances
 33341,33341,PRON_PER,herself
-33345,33348,NOM_FAC,the street - cars
+33345,33348,NOM_VEH,the street - cars
 33355,33355,PRON_PER,I
 33357,33357,PRON_PER,you
 33358,33358,PRON_PER,she
@@ -4951,6 +4945,7 @@
 33554,33554,PRON_PER,her
 33558,33558,PRON_PER,She
 33566,33566,PRON_PER,She
+33578,33578,NOM_LOC,earth
 33583,33584,NOM_PER,a woman
 33588,33588,PRON_PER,her
 33588,33589,NOM_PER,her husband
@@ -5006,11 +5001,10 @@
 33891,33891,PRON_PER,I
 33895,33896,PROP_GPE,New York
 33902,33902,PRON_PER,I
-33915,33916,NOM_FAC,the field
 33927,33927,PRON_PER,We
 33930,33930,PRON_PER,you
 33936,33936,PRON_PER,you
-33940,33940,PROP_PER,Doctor
+33940,33940,NOM_PER,Doctor
 33943,33943,PRON_PER,he
 33949,33949,PRON_PER,I
 33951,33951,PRON_PER,you
@@ -5030,6 +5024,7 @@
 34018,34018,PROP_PER,Edna
 34028,34028,PRON_PER,she
 34037,34037,PRON_PER,her
+34038,34038,NOM_FAC,here
 34043,34043,PRON_PER,her
 34050,34050,PRON_PER,I
 34052,34052,PRON_PER,you
@@ -5094,7 +5089,6 @@
 34469,34469,PRON_PER,him
 34473,34473,PRON_PER,he
 34476,34476,PRON_PER,he
-34480,34483,NOM_PER,all of his daughters
 34482,34482,PRON_PER,his
 34482,34483,NOM_PER,his daughters
 34495,34495,PRON_PER,their
@@ -5122,7 +5116,7 @@
 34609,34609,PRON_PER,her
 34614,34614,PROP_PER,Mademoiselle
 34621,34621,PRON_PER,they
-34630,34632,NOM_FAC,the Ratignolles '
+34630,34632,PROP_FAC,the Ratignolles '
 34634,34634,PROP_PER,Monsieur
 34636,34637,PROP_PER,Madame Ratignolle
 34641,34642,NOM_PER,the Colonel
@@ -5157,6 +5151,7 @@
 34816,34816,PRON_PER,her
 34823,34823,PRON_PER,her
 34825,34826,PROP_PER,Mr. Pontellier
+34830,34835,NOM_FAC,these _ soir es musicales _
 34837,34837,PRON_PER,He
 34839,34839,PRON_PER,them
 34849,34850,NOM_FAC,the club
@@ -5207,6 +5202,7 @@
 35057,35057,PRON_PER,her
 35062,35062,PRON_PER,She
 35066,35067,NOM_PER,a servant
+35069,35072,NOM_PER,one of the children
 35071,35072,NOM_PER,the children
 35077,35077,PRON_PER,him
 35079,35079,PRON_PER,she
@@ -5217,7 +5213,6 @@
 35105,35106,NOM_PER,The Colonel
 35121,35121,PRON_PER,him
 35127,35127,PRON_PER,He
-35129,35134,NOM_PER,an expert at concocting strong drinks
 35136,35136,PRON_PER,He
 35144,35144,PRON_PER,he
 35154,35154,PRON_PER,he
@@ -5234,12 +5229,10 @@
 35206,35206,PRON_PER,She
 35208,35208,PRON_PER,her
 35208,35209,NOM_PER,her father
-35213,35215,NOM_FAC,the race course
 35218,35218,PRON_PER,their
 35221,35221,PRON_PER,they
 35223,35223,PRON_PER,themselves
 35237,35237,PRON_PER,their
-35242,35243,NOM_FAC,the track
 35245,35246,NOM_PER,The Doctor
 35255,35255,PRON_PER,He
 35263,35263,PRON_PER,he
@@ -5266,7 +5259,7 @@
 35399,35400,PROP_PER,Mr. Pontellier
 35401,35401,PRON_PER,himself
 35423,35423,PRON_PER,he
-35428,35434,NOM_FAC,that blue - grass farm in Kentucky
+35428,35434,NOM_LOC,that blue - grass farm in Kentucky
 35434,35434,PROP_GPE,Kentucky
 35436,35436,PRON_PER,He
 35460,35460,PRON_PER,his
@@ -5293,8 +5286,8 @@
 35616,35616,PRON_PER,his
 35620,35620,PRON_PER,he
 35627,35629,NOM_PER,some friendly darky
-35642,35645,NOM_LOC,the woods and fields
-35650,35651,PROP_PER,The Colonel
+35642,35643,NOM_LOC,the woods
+35650,35663,NOM_PER,"The Colonel , with little sense of humor and of the fitness of things"
 35678,35678,PRON_PER,he
 35693,35694,NOM_PER,the Doctor
 35697,35697,PRON_PER,his
@@ -5321,6 +5314,7 @@
 35867,35869,NOM_PER,those who listened
 35871,35871,PRON_PER,They
 35882,35882,PRON_PER,they
+35889,35890,NOM_LOC,the pirogue
 35911,35915,NOM_LOC,the salt - water pools
 35917,35917,PRON_PER,they
 35923,35934,NOM_PER,"the lovers , pale , close together , rapt in oblivious forgetfulness"
@@ -5346,7 +5340,7 @@
 36074,36074,PRON_PER,himself
 36076,36076,PRON_PER,he
 36080,36080,PRON_PER,I
-36089,36089,PROP_PER,Arobin
+36087,36089,PROP_PER,Alc e Arobin
 36093,36093,PROP_PER,Edna
 36095,36095,PRON_PER,her
 36095,36096,NOM_PER,her father
@@ -5360,7 +5354,7 @@
 36136,36137,PROP_PER,Doctor Mandelet
 36143,36143,PRON_PER,her
 36146,36146,PRON_PER,she
-36149,36150,PROP_PER,The Colonel
+36149,36150,NOM_PER,The Colonel
 36152,36152,PRON_PER,his
 36152,36153,NOM_PER,his daughter
 36155,36155,PRON_PER,her
@@ -5426,7 +5420,6 @@
 36483,36483,PRON_PER,him
 36484,36484,PRON_PER,her
 36484,36488,NOM_PER,"her dear , good friend"
-36487,36488,NOM_PER,good friend
 36491,36491,PRON_PER,she
 36495,36495,PRON_PER,she
 36506,36506,PRON_PER,him
@@ -5452,6 +5445,7 @@
 36601,36604,NOM_PER,children of the pavement
 36607,36607,PRON_PER,she
 36614,36614,PRON_PER,them
+36616,36617,NOM_FAC,a space
 36619,36619,PRON_PER,She
 36621,36621,PRON_PER,them
 36624,36625,NOM_LOC,the country
@@ -5460,7 +5454,6 @@
 36631,36631,PRON_GPE,its
 36634,36634,PRON_LOC,its
 36635,36635,NOM_LOC,woods
-36637,36637,PRON_LOC,its
 36643,36644,NOM_PER,the young
 36646,36646,PRON_PER,She
 36648,36648,PRON_PER,them
@@ -5481,9 +5474,8 @@
 36751,36752,NOM_FAC,the house
 36773,36774,NOM_PER,new acquaintances
 36776,36776,PRON_PER,she
-36778,36778,PRON_PER,them
 36786,36786,PRON_PER,herself
-36788,36788,NOM_FAC,home
+36788,36790,NOM_FAC,home among them
 36792,36794,NOM_FAC,The garden walks
 36799,36799,PROP_PER,Edna
 36802,36803,NOM_PER,the maid
@@ -5523,6 +5515,7 @@
 37034,37035,NOM_PER,The cook
 37039,37039,PRON_PER,her
 37069,37069,PRON_PER,she
+37082,37086,NOM_FAC,a comfortable _ peignoir _
 37088,37088,PRON_PER,She
 37094,37094,PROP_PER,L
 37097,37098,NOM_PER,the children
@@ -5570,6 +5563,7 @@
 37376,37376,PRON_PER,her
 37397,37397,PRON_PER,she
 37409,37409,PRON_PER,her
+37409,37410,NOM_PER,her youth
 37414,37414,PRON_PER,her
 37416,37416,PRON_PER,She
 37426,37428,PROP_PER,Alc e Arobin
@@ -5580,12 +5574,15 @@
 37443,37444,PROP_PER,Mrs. Highcamp
 37446,37470,NOM_PER,"a worldly but unaffected , intelligent , slim , tall blonde woman in the forties , with an indifferent manner and blue eyes that stared"
 37472,37472,PRON_PER,She
-37474,37475,NOM_PER,a daughter
+37474,37490,NOM_PER,a daughter who served her as a pretext for cultivating the society of young men of fashion
 37478,37478,PRON_PER,her
 37487,37490,NOM_PER,young men of fashion
 37492,37494,PROP_PER,Alc e Arobin
+37496,37498,NOM_PER,one of them
 37498,37498,PRON_PER,them
 37500,37500,PRON_PER,He
+37506,37508,NOM_FAC,the race course
+37510,37511,NOM_FAC,the opera
 37513,37515,NOM_FAC,the fashionable clubs
 37523,37523,PRON_PER,his
 37535,37540,NOM_PER,any one who looked into them
@@ -5619,7 +5616,7 @@
 37702,37702,PROP_PER,Arobin
 37708,37709,PROP_PER,Mrs. Highcamp
 37713,37715,NOM_PER,The race horse
-37717,37724,NOM_PER,a friend and intimate associate of her childhood
+37717,37718,NOM_PER,a friend
 37723,37723,PRON_PER,her
 37729,37730,NOM_FAC,the stables
 37741,37741,PRON_PER,her
@@ -5637,6 +5634,7 @@
 37808,37808,NOM_PER,People
 37810,37810,PRON_PER,their
 37815,37815,PRON_PER,her
+37818,37820,NOM_PER,more than one
 37826,37826,PRON_PER,her
 37843,37843,PROP_PER,Arobin
 37851,37851,PRON_PER,him
@@ -5657,7 +5655,7 @@
 37951,37952,NOM_PER,The girl
 37959,37959,PRON_PER,her
 37971,37972,PROP_PER,Mr. Highcamp
-37974,37980,NOM_PER,"a plain , bald - headed man"
+37974,37986,NOM_PER,"a plain , bald - headed man , who only talked under compulsion"
 37988,37988,PRON_PER,He
 37992,37993,PROP_PER,Mrs. Highcamp
 38002,38002,PRON_PER,her
@@ -5670,6 +5668,7 @@
 38034,38036,NOM_PER,the younger people
 38039,38044,NOM_FAC,the drawing - room near by
 38048,38049,PROP_PER,Miss Highcamp
+38054,38054,PROP_PER,Grieg
 38059,38059,PRON_PER,She
 38066,38067,NOM_PER,the composer
 38073,38073,PRON_PER,his
@@ -5736,12 +5735,12 @@
 38437,38438,NOM_PER,his wife
 38442,38444,PROP_PER,Alc e Arobin
 38447,38447,PRON_PER,they
-38449,38452,NOM_VEH,an Esplanade Street car
+38449,38452,NOM_FAC,an Esplanade Street car
 38467,38467,PRON_PER,I
 38479,38481,PROP_PER,Alc e Arobin
 38485,38485,PROP_PER,Edna
 38487,38487,PRON_PER,his
-38487,38488,NOM_VEH,his drag
+38487,38488,NOM_FAC,his drag
 38490,38491,PROP_PER,Mrs. Highcamp
 38495,38495,PRON_PER,him
 38497,38497,PRON_PER,He
@@ -5761,7 +5760,6 @@
 38560,38560,PROP_PER,Edna
 38567,38567,PRON_PER,she
 38572,38572,PRON_PER,She
-38584,38594,NOM_PER,any of the fashionable acquaintances from whom she had withdrawn herself
 38586,38594,NOM_PER,the fashionable acquaintances from whom she had withdrawn herself
 38591,38591,PRON_PER,she
 38594,38594,PRON_PER,herself
@@ -5826,6 +5824,7 @@
 38946,38946,PRON_PER,He
 38950,38950,PRON_PER,her
 38956,38956,PRON_PER,his
+38959,38963,NOM_PER,"the old , vanishing self"
 38965,38965,PRON_PER,her
 38970,38970,PRON_PER,her
 38974,38974,PRON_PER,He
@@ -5924,7 +5923,7 @@
 39491,39491,PRON_PER,she
 39493,39493,PRON_PER,her
 39500,39500,PRON_PER,She
-39504,39511,NOM_PER,a woman who in a moment of passion
+39504,39533,NOM_PER,"a woman who in a moment of passion is betrayed into an act of infidelity , and realizes the significance of the act without being wholly awakened from its glamour"
 39541,39541,PRON_PER,her
 39547,39547,PRON_PER,he
 39551,39551,PRON_PER,She
@@ -6013,7 +6012,7 @@
 40092,40093,NOM_FAC,The room
 40099,40099,PROP_PER,Edna
 40101,40101,PRON_PER,she
-40104,40114,NOM_PER,"A bust of Beethoven , covered with a hood of dust"
+40107,40107,PROP_PER,Beethoven
 40118,40118,PRON_PER,her
 40133,40133,PROP_PER,Mademoiselle
 40137,40137,PRON_PER,her
@@ -6062,7 +6061,6 @@
 40421,40429,NOM_FAC,a little four - room house around the corner
 40431,40431,PRON_FAC,It
 40442,40442,PRON_PER,I
-40447,40447,PRON_FAC,it
 40452,40452,PRON_PER,I
 40457,40459,NOM_FAC,that big house
 40461,40461,PRON_FAC,It
@@ -6082,7 +6080,6 @@
 40532,40532,PROP_PER,Edna
 40540,40540,PRON_PER,herself
 40543,40544,NOM_FAC,The house
-40551,40551,PRON_FAC,it
 40555,40555,PRON_PER,mine
 40565,40565,PRON_PER,They
 40567,40567,PRON_PER,your
@@ -6102,7 +6099,6 @@
 40626,40626,PRON_PER,me
 40628,40628,NOM_PER,driblets
 40630,40630,PRON_PER,I
-40638,40639,NOM_LOC,the races
 40642,40642,PRON_PER,I
 40647,40647,PRON_PER,my
 40650,40650,PROP_PER,Laidpore
@@ -6155,6 +6151,7 @@
 40915,40917,NOM_FAC,the old house
 40920,40920,PROP_PER,Edna
 40924,40924,PRON_PER,You
+40930,40930,PRON_FAC,it
 40932,40932,PROP_PER,Mademoiselle
 40934,40934,PRON_PER,I
 40937,40937,PRON_PER,you
@@ -6242,14 +6239,15 @@
 41487,41487,PRON_PER,me
 41488,41488,PRON_PER,he
 41493,41496,NOM_PER,some _ grand esprit
-41499,41508,NOM_PER,a man with lofty aims and ability to reach them
+41499,41507,NOM_PER,a man with lofty aims and ability to reach
+41508,41508,PRON_PER,them
 41510,41523,NOM_PER,one who stood high enough to attract the notice of his fellow - men
 41520,41520,PRON_PER,his
 41520,41523,NOM_PER,his fellow - men
 41528,41528,PRON_PER,me
 41530,41530,PRON_PER,I
 41536,41536,PRON_PER,I
-41540,41544,NOM_PER,a man of ordinary caliber
+41540,41548,NOM_PER,a man of ordinary caliber worthy of my devotion
 41547,41547,PRON_PER,my
 41555,41555,PRON_PER,you
 41564,41564,PRON_PER,me
@@ -6271,7 +6269,7 @@
 41651,41651,PRON_PER,my
 41654,41662,NOM_PER,"this musician , whose fame is on every tongue"
 41667,41668,NOM_PER,This financier
-41672,41673,NOM_LOC,the world
+41672,41676,NOM_LOC,the world 's money markets
 41681,41681,PRON_PER,You
 41685,41685,PRON_PER,me
 41693,41693,PRON_PER,you
@@ -6320,7 +6318,7 @@
 41982,41983,NOM_PER,her husband
 41986,41986,PRON_PER,him
 41988,41988,PRON_PER,her
-41996,42001,NOM_FAC,the little house around the block
+41996,41998,NOM_FAC,the little house
 42000,42001,NOM_FAC,the block
 42014,42014,PRON_PER,he
 42030,42030,PRON_PER,her
@@ -6331,7 +6329,6 @@
 42061,42061,PRON_PER,I
 42064,42064,PRON_PER,you
 42072,42072,PROP_PER,Edna
-42083,42087,NOM_FAC,the lounge before the fire
 42092,42092,PRON_PER,you
 42094,42096,NOM_PER,the weather prophet
 42099,42099,PRON_PER,us
@@ -6340,7 +6337,6 @@
 42124,42124,PRON_PER,You
 42128,42128,PRON_PER,me
 42131,42131,PRON_PER,I
-42133,42133,NOM_FAC,here
 42137,42137,PRON_PER,you
 42140,42140,PRON_PER,He
 42144,42144,PRON_PER,her
@@ -6354,6 +6350,7 @@
 42192,42192,PRON_PER,she
 42196,42196,PRON_PER,I
 42201,42201,PRON_PER,myself
+42214,42215,NOM_PER,a woman
 42216,42216,PRON_PER,I
 42223,42223,PRON_PER,I
 42233,42233,PRON_PER,I
@@ -6425,7 +6422,6 @@
 42621,42621,PRON_PER,your
 42630,42630,PRON_PER,you
 42640,42640,PRON_PER,I
-42644,42644,PRON_PER,they
 42650,42650,PRON_PER,they
 42655,42655,PRON_PER,me
 42658,42658,PRON_PER,She
@@ -6462,6 +6458,7 @@
 42853,42853,PRON_PER,She
 42863,42863,PRON_PER,her
 42867,42867,PRON_PER,her
+42878,42885,NOM_PER,that monster made up of beauty and brutality
 42894,42894,PRON_PER,her
 42921,42921,PRON_PER,her
 42936,42936,PRON_PER,her
@@ -6483,6 +6480,7 @@
 43025,43027,NOM_FAC,her new abode
 43030,43030,PRON_PER,her
 43034,43034,PRON_FAC,it
+43037,43041,NOM_FAC,the precincts of her home
 43040,43040,PRON_PER,her
 43040,43041,NOM_FAC,her home
 43042,43042,PRON_PER,she
@@ -6624,22 +6622,22 @@
 43975,43975,PRON_PER,him
 43988,43988,PROP_PER,Edna
 44016,44018,NOM_PER,the guests invited
+44020,44025,NOM_PER,few and were selected with discrimination
 44027,44027,PRON_PER,She
 44035,44035,PRON_PER,themselves
 44037,44037,PRON_PER,her
 44047,44048,PROP_PER,Madame Ratignolle
 44064,44065,PROP_PER,Madame Lebrun
-44095,44095,PROP_PER,Mr.
-44097,44098,PROP_PER,Mrs. Merriman
+44095,44098,PROP_PER,Mr. and Mrs. Merriman
 44100,44108,NOM_PER,"a pretty , vivacious little woman in the thirties"
 44110,44110,PRON_PER,her
 44110,44111,NOM_PER,her husband
-44113,44115,NOM_PER,a jovial fellow
+44113,44122,NOM_PER,"a jovial fellow , something of a shallow - pate"
 44130,44131,NOM_PER,other people
 44139,44139,PRON_PER,himself
 44143,44144,PROP_PER,Mrs. Highcamp
 44147,44147,PRON_PER,them
-44154,44156,PROP_PER,Alc e Arobin
+44156,44156,PROP_PER,Arobin
 44159,44160,PROP_PER,Mademoiselle Reisz
 44166,44166,PROP_PER,Edna
 44169,44169,PRON_PER,her
@@ -6684,7 +6682,6 @@
 44488,44489,NOM_PER,small children
 44503,44503,PROP_PER,Edna
 44507,44508,PROP_PER,Miss Mayblunt
-44511,44511,PROP_PER,lorgnette
 44527,44527,PROP_PER,Edna
 44536,44536,PRON_PER,her
 44553,44553,PRON_PER,my
@@ -6727,13 +6724,13 @@
 44825,44825,PROP_PER,Arobin
 44827,44827,PRON_PER,he
 44831,44847,NOM_PER,"the gentleman of that name who formed one of the firm of Laitner and Arobin , lawyers"
-44840,44847,NOM_PER,"the firm of Laitner and Arobin , lawyers"
+44840,44847,NOM_FAC,"the firm of Laitner and Arobin , lawyers"
 44843,44843,PROP_PER,Laitner
 44845,44845,PROP_PER,Arobin
 44847,44847,NOM_PER,lawyers
 44849,44851,NOM_PER,The young man
 44854,44854,PROP_PER,Laitner
-44856,44881,NOM_PER,"a warm personal friend , who permitted Arobin 's name to decorate the firm 's letterheads and to appear upon a shingle that graced Perdido Street"
+44856,44859,NOM_PER,a warm personal friend
 44863,44863,PROP_PER,Arobin
 44868,44869,NOM_ORG,the firm
 44880,44881,PROP_FAC,Perdido Street
@@ -6758,7 +6755,7 @@
 45032,45032,PRON_PER,him
 45034,45037,NOM_PER,a man from Waco
 45037,45037,PROP_GPE,Waco
-45042,45045,NOM_FAC,the St. Charles Hotel
+45042,45045,PROP_FAC,the St. Charles Hotel
 45048,45049,PROP_PER,Mr. Merriman
 45059,45059,PRON_PER,his
 45059,45060,NOM_PER,his wife
@@ -6795,6 +6792,7 @@
 45291,45291,PRON_PER,her
 45301,45301,PRON_PER,her
 45309,45309,PRON_PER,her
+45321,45321,NOM_PER,one
 45333,45333,PRON_PER,her
 45337,45337,PRON_PER,her
 45341,45341,PRON_PER,she
@@ -6815,6 +6813,7 @@
 45460,45460,PRON_PER,her
 45493,45494,NOM_PER,these people
 45501,45502,PROP_PER,Monsieur Ratignolle
+45504,45510,NOM_PER,the first to break the pleasant charm
 45515,45515,PRON_PER,he
 45517,45517,PRON_PER,himself
 45519,45520,PROP_PER,Madame Ratignolle
@@ -6853,7 +6852,6 @@
 45718,45718,PRON_PER,him
 45726,45726,PRON_PER,His
 45736,45736,PRON_PER,his
-45747,45747,PROP_PER,Sapristi
 45752,45752,PROP_PER,Arobin
 45755,45756,PROP_PER,Mrs. Highcamp
 45767,45767,PRON_PER,She
@@ -6872,6 +6870,7 @@
 45879,45879,PRON_PER,herself
 45885,45885,PRON_PER,she
 45888,45888,PRON_PER,him
+45897,45897,PROP_PER,Desire
 45911,45911,PROP_PER,Gouvernail
 45914,45914,PRON_PER,his
 45923,45923,PROP_PER,Victor
@@ -6945,14 +6944,13 @@
 46336,46337,NOM_FAC,the room
 46342,46342,PROP_PER,Victor
 46344,46344,PRON_PER,you
-46351,46352,PROP_PER,Mrs. Highcamp
+46350,46352,PROP_PER,Give Mrs. Highcamp
 46353,46353,PRON_PER,her
 46357,46358,PROP_PER,Mrs. Highcamp
 46364,46364,PRON_PER,him
 46366,46366,PRON_PER,her
 46370,46371,PROP_PER,Miss Mayblunt
 46373,46374,PROP_PER,Mr. Gouvernail
-46389,46389,PROP_PER,Mr.
 46391,46392,PROP_PER,Mrs. Merriman
 46404,46404,PROP_PER,Victor
 46406,46407,PROP_PER,Mrs. Highcamp
@@ -6973,7 +6971,6 @@
 46482,46486,NOM_FAC,"the broad , beautiful street"
 46491,46491,PROP_PER,Edna
 46491,46494,NOM_PER,Edna 's disbanding guests
-46494,46494,NOM_PER,guests
 46514,46514,PROP_PER,Arobin
 46520,46520,PROP_PER,Edna
 46522,46523,NOM_PER,the others
@@ -7031,7 +7028,7 @@
 46889,46890,NOM_PER,no one
 46892,46892,PRON_PER,their
 46896,46899,NOM_FAC,"The "" pigeon house"
-46908,46917,NOM_FAC,a shallow _ parterre _ that had been somewhat neglected
+46908,46912,NOM_FAC,a shallow _ parterre _
 46921,46924,NOM_FAC,a small front porch
 46942,46943,NOM_FAC,the parlor
 46953,46954,NOM_FAC,the yard
@@ -7044,6 +7041,7 @@
 47032,47033,NOM_FAC,the room
 47044,47044,PRON_PER,her
 47046,47046,PROP_PER,Arobin
+47049,47049,PRON_PER,them
 47054,47054,PROP_PER,Celestine
 47058,47058,PROP_PER,Edna
 47062,47062,PRON_PER,Her
@@ -7113,7 +7111,6 @@
 47425,47425,PRON_PER,her
 47425,47426,NOM_FAC,her home
 47430,47430,PRON_PER,her
-47430,47431,NOM_FAC,her residence
 47434,47434,PRON_PER,he
 47437,47437,PRON_PER,her
 47446,47446,PRON_PER,She
@@ -7150,11 +7147,10 @@
 47659,47659,PRON_PER,he
 47664,47664,PRON_PER,his
 47668,47673,NOM_PER,Expert and reliable packers and movers
-47690,47692,NOM_FAC,places of security
 47700,47702,NOM_FAC,the Pontellier house
 47707,47708,NOM_PER,the artisans
+47716,47718,NOM_FAC,a small snuggery
 47734,47735,NOM_FAC,such rooms
-47762,47762,PROP_PER,Mr.
 47764,47765,PROP_PER,Mrs. Pontellier
 47775,47775,PRON_PER,their
 47775,47780,NOM_FAC,their handsome residence on Esplanade Street
@@ -7172,7 +7168,6 @@
 47860,47861,NOM_FAC,a home
 47864,47864,PRON_PER,she
 47865,47865,PRON_PER,herself
-47867,47867,PRON_FAC,it
 47882,47882,PRON_PER,her
 47907,47907,PRON_PER,she
 47911,47911,PRON_PER,herself
@@ -7203,6 +7198,7 @@
 48063,48064,NOM_PER,their mother
 48073,48074,NOM_PER,the mules
 48079,48082,NOM_FAC,the mill behind Gluglu
+48082,48082,PROP_GPE,Gluglu
 48087,48088,NOM_LOC,the lake
 48090,48090,PRON_PER,their
 48090,48091,NOM_PER,their Uncle
@@ -7210,8 +7206,8 @@
 48097,48097,PROP_PER,Lidie
 48107,48107,PRON_PER,their
 48107,48109,NOM_VEH,their express wagon
-48123,48128,NOM_FAC,old lame Susie 's real fire
-48125,48125,PROP_PER,Susie
+48123,48125,PROP_PER,old lame Susie
+48135,48139,NOM_FAC,the banquette on Esplanade Street
 48138,48139,PROP_FAC,Esplanade Street
 48141,48141,PRON_PER,She
 48144,48144,PRON_PER,them
@@ -7239,7 +7235,7 @@
 48274,48274,PRON_PER,they
 48282,48284,NOM_FAC,the little house
 48286,48287,NOM_FAC,the block
-48299,48301,NOM_PER,boys next door
+48298,48301,NOM_PER,any boys next door
 48303,48303,PROP_PER,Raoul
 48315,48317,NOM_PER,girls next door
 48321,48321,PRON_PER,they
@@ -7261,7 +7257,6 @@
 48408,48408,PRON_PER,her
 48412,48412,PRON_PER,their
 48418,48418,PRON_PER,their
-48425,48425,NOM_FAC,homeward
 48426,48426,PRON_PER,their
 48430,48430,PRON_PER,her
 48443,48443,PRON_PER,she
@@ -7290,7 +7285,6 @@
 48601,48605,NOM_PER,a young Italian character study
 48614,48615,NOM_PER,the model
 48627,48627,PRON_PER,her
-48627,48629,NOM_FAC,her modest housekeeping
 48638,48639,PROP_PER,Madame Ratignolle
 48642,48642,PRON_PER,herself
 48651,48651,PRON_PER,she
@@ -7328,7 +7322,6 @@
 48846,48846,PRON_PER,I
 48848,48848,PRON_PER,you
 48855,48855,PRON_PER,you
-48858,48858,NOM_FAC,here
 48864,48864,PRON_PER,you
 48866,48867,NOM_PER,some one
 48872,48872,PRON_PER,you
@@ -7364,7 +7357,6 @@
 49054,49055,PROP_PER,Madame Ratignolle
 49063,49063,PRON_PER,I
 49066,49066,PROP_PER,Arobin
-49070,49071,NOM_PER,some one
 49075,49075,PRON_PER,you
 49084,49084,PROP_PER,Edna
 49088,49088,PRON_PER,You
@@ -7385,7 +7377,6 @@
 49157,49157,PRON_PER,They
 49163,49163,PRON_PER,her
 49176,49177,PROP_PER,Mrs. Merriman
-49176,49178,NOM_FAC,Mrs. Merriman 's
 49180,49180,PRON_PER,She
 49191,49192,PROP_PER,Mr. Merriman
 49194,49195,PROP_PER,Mr. Arobin
@@ -7397,6 +7388,7 @@
 49219,49220,PROP_PER,Mrs. Merriman
 49226,49226,PRON_PER,she
 49230,49231,PROP_PER,Mademoiselle Reisz
+49235,49235,NOM_FAC,there
 49240,49240,PRON_PER,her
 49248,49248,PRON_PER,her
 49254,49259,NOM_FAC,"the shabby , unpretentious little room"
@@ -7487,7 +7479,7 @@
 49834,49834,PRON_PER,I
 49841,49843,NOM_FAC,the old firm
 49853,49853,PRON_PER,me
-49858,49858,NOM_FAC,there
+49858,49858,NOM_GPE,there
 49862,49862,PRON_PER,I
 49870,49871,NOM_PER,The Mexicans
 49879,49879,PRON_PER,he
@@ -7507,7 +7499,7 @@
 49981,49981,PRON_PER,hers
 49985,49985,PRON_PER,his
 49994,49994,PRON_PER,His
-50005,50006,PROP_FAC,Grand Isle
+50005,50006,PROP_GPE,Grand Isle
 50008,50008,PRON_PER,She
 50011,50011,PRON_PER,his
 50015,50015,PRON_PER,he
@@ -7542,7 +7534,6 @@
 50187,50187,PRON_PER,him
 50191,50191,PROP_GPE,Iberville
 50193,50194,NOM_PER,the children
-50200,50200,NOM_GPE,here
 50205,50205,PRON_PER,you
 50212,50212,PRON_PER,I
 50215,50215,PRON_PER,We
@@ -7638,7 +7629,7 @@
 50726,50726,PRON_PER,her
 50729,50729,PRON_PER,his
 50738,50738,PRON_PER,you
-50744,50744,PROP_PER,Robert
+50742,50744,PROP_PER,the old Robert
 50746,50746,PRON_PER,I
 50750,50750,PROP_PER,Celestine
 50753,50753,PRON_PER,She
@@ -7651,9 +7642,7 @@
 50805,50805,PRON_PER,she
 50808,50808,PROP_PER,Robert
 50827,50827,PRON_PER,He
-50837,50839,PROP_PER,Alc e Arobin
 50845,50845,PRON_PER,his
-50848,50848,NOM_FAC,here
 50852,50852,PRON_PER,I
 50859,50859,PRON_PER,his
 50866,50866,PROP_PER,Edna
@@ -7661,7 +7650,6 @@
 50876,50876,PRON_PER,me
 50881,50883,NOM_FAC,the other house
 50885,50885,PRON_PER,I
-50891,50891,NOM_FAC,there
 50893,50893,PRON_PER,I
 50900,50900,PRON_PER,my
 50906,50906,PRON_PER,I
@@ -7684,6 +7672,7 @@
 50995,50996,PROP_PER,Mr. Pontellier
 50999,50999,PRON_PER,he
 51001,51004,NOM_PER,a friend of mine
+51004,51004,PRON_PER,mine
 51006,51006,PRON_PER,I
 51009,51009,PRON_PER,him
 51019,51019,PRON_PER,I
@@ -7700,6 +7689,7 @@
 51084,51089,NOM_FAC,the old fort at Grande Terre
 51088,51089,PROP_GPE,Grande Terre
 51091,51091,PRON_PER,I
+51096,51097,NOM_PER,a machine
 51102,51104,NOM_PER,a lost soul
 51112,51112,PRON_PER,She
 51114,51114,PRON_PER,her
@@ -7709,8 +7699,9 @@
 51143,51143,PRON_PER,he
 51147,51147,PRON_PER,I
 51154,51159,NOM_LOC,the white beach of Grand Isle
-51158,51159,PROP_GPE,Grand Isle
+51158,51159,PROP_LOC,Grand Isle
 51161,51172,NOM_FAC,"the quiet , grassy street of the _ Ch ni re Caminada"
+51167,51172,NOM_FAC,the _ Ch ni re Caminada
 51175,51181,NOM_FAC,the old sunny fort at Grande Terre
 51180,51181,PROP_GPE,Grande Terre
 51183,51183,PRON_PER,I
@@ -7727,8 +7718,8 @@
 51256,51256,PROP_PER,Edna
 51264,51264,PRON_FAC,it
 51281,51282,NOM_FAC,the kitchen
+51300,51305,NOM_FAC,the narrow brick - paved yard
 51314,51314,PRON_PER,them
-51326,51326,NOM_PER,personalities
 51328,51328,PROP_PER,Robert
 51332,51332,PRON_PER,his
 51335,51335,PROP_GPE,Mexico
@@ -7758,7 +7749,6 @@
 51482,51482,PRON_PER,You
 51491,51492,PROP_GPE,Grand Isle
 51495,51495,PRON_PER,we
-51499,51500,NOM_PER,each other
 51509,51509,PRON_PER,I
 51514,51515,PROP_GPE,Grand Isle
 51518,51518,PRON_PER,he
@@ -7801,7 +7791,6 @@
 51746,51746,PRON_PER,you
 51752,51768,NOM_PER,some people who leave impressions not so lasting as the imprint of an oar upon the water
 51773,51773,PRON_PER,she
-51775,51776,NOM_PER,a one
 51785,51785,PRON_PER,me
 51789,51789,PRON_PER,she
 51798,51798,PRON_PER,He
@@ -7828,6 +7817,7 @@
 51920,51920,PRON_PER,I
 51926,51927,PROP_GPE,Vera Cruz
 51929,51929,PRON_PER,I
+51932,51932,NOM_GPE,there
 51942,51942,PRON_PER,they
 51955,51955,PRON_PER,you
 51959,51959,PROP_PER,Edna
@@ -7854,7 +7844,7 @@
 52055,52055,PRON_PER,He
 52059,52059,PROP_PER,Arobin
 52065,52066,NOM_PER,Fine fellow
-52068,52069,PROP_PER,that Lebrun
+52068,52069,NOM_PER,that Lebrun
 52073,52073,PROP_PER,Arobin
 52075,52075,PROP_PER,Robert
 52080,52080,PRON_PER,I
@@ -7964,7 +7954,6 @@
 52698,52698,PRON_PER,herself
 52703,52703,PRON_PER,She
 52711,52711,PROP_PER,Robert
-52711,52713,NOM_FAC,Robert 's reserve
 52725,52725,PRON_PER,he
 52728,52728,PRON_PER,her
 52730,52730,PRON_PER,they
@@ -7973,7 +7962,6 @@
 52748,52748,PRON_PER,She
 52750,52750,PRON_PER,him
 52753,52753,PRON_PER,his
-52753,52754,NOM_FAC,his business
 52758,52758,PRON_PER,She
 52762,52762,PRON_PER,he
 52767,52767,PRON_PER,he
@@ -8046,7 +8034,7 @@
 53147,53147,PROP_PER,Edna
 53155,53155,PRON_PER,She
 53157,53158,NOM_PER,no one
-53160,53179,NOM_PER,"a picture dealer , who asked her if it were true that she was going abroad to study in Paris"
+53160,53162,NOM_PER,a picture dealer
 53166,53166,PRON_PER,her
 53172,53172,PRON_PER,she
 53179,53179,PROP_GPE,Paris
@@ -8076,8 +8064,9 @@
 53316,53316,PRON_PER,him
 53318,53318,PRON_PER,she
 53322,53323,NOM_LOC,the lake
-53326,53328,PROP_FAC,the Shell Road
+53326,53328,NOM_FAC,the Shell Road
 53330,53330,PRON_PER,His
+53330,53331,NOM_VEH,His horses
 53343,53343,PRON_PER,She
 53350,53350,PRON_PER,they
 53366,53368,NOM_FAC,the hard road
@@ -8101,13 +8090,12 @@
 53490,53491,NOM_FAC,a garden
 53494,53495,NOM_FAC,the suburbs
 53497,53511,NOM_FAC,"a small , leafy corner , with a few green tables under the orange trees"
-53513,53515,NOM_PER,An old cat
 53528,53532,NOM_PER,an old _ mulatresse _
 53534,53534,PRON_PER,her
 53539,53539,PRON_PER,her
 53547,53548,NOM_PER,some one
 53559,53559,PRON_PER,She
-53575,53582,NOM_PER,no one who could make such excellent coffee
+53575,53591,NOM_PER,no one who could make such excellent coffee or fry a chicken so golden brown as she
 53591,53591,PRON_PER,she
 53593,53594,NOM_FAC,The place
 53603,53605,NOM_PER,people of fashion
@@ -8127,10 +8115,8 @@
 53719,53719,PRON_PER,she
 53721,53722,NOM_FAC,the place
 53728,53728,PRON_PER,she
-53733,53733,NOM_FAC,there
 53738,53738,PROP_PER,Celestine
 53745,53745,NOM_FAC,home
-53749,53765,NOM_LOC,the last place in the city where she would have expected to meet any one she knew
 53753,53754,NOM_GPE,the city
 53756,53756,PRON_PER,she
 53762,53765,NOM_PER,any one she knew
@@ -8224,6 +8210,7 @@
 54277,54277,PRON_PER,His
 54295,54295,PRON_PER,she
 54299,54299,PRON_PER,I
+54310,54310,PRON_FAC,It
 54321,54321,PRON_PER,you
 54345,54346,NOM_VEH,the car
 54350,54350,PRON_PER,I
@@ -8231,6 +8218,7 @@
 54362,54368,NOM_PER,women who do n't like to walk
 54370,54370,PRON_PER,they
 54383,54383,PRON_PER,we
+54383,54384,NOM_PER,we women
 54384,54384,NOM_PER,women
 54396,54396,PROP_PER,Catiche
 54403,54403,PRON_PER,I
@@ -8252,7 +8240,6 @@
 54529,54529,PRON_PER,I
 54536,54536,PRON_PER,She
 54546,54546,PRON_PER,him
-54552,54552,NOM_PER,friends
 54554,54554,PRON_PER,him
 54559,54559,PRON_PER,his
 54562,54562,PRON_PER,he
@@ -8335,6 +8322,7 @@
 54942,54942,PRON_PER,Her
 54953,54953,PRON_PER,you
 54958,54958,PRON_PER,you
+54960,54960,PROP_PER,L
 54962,54962,PROP_PER,Pontellier
 54962,54964,NOM_PER,Pontellier 's wife
 54966,54966,PRON_PER,I
@@ -8373,9 +8361,8 @@
 55112,55112,PRON_PER,you
 55118,55118,PRON_PER,you
 55123,55123,PRON_PER,I
-55125,55125,PROP_PER,L
-55127,55127,PROP_PER,Pontellier
-55127,55129,NOM_PER,Pontellier 's wife
+55125,55127,PROP_PER,L once Pontellier
+55125,55129,NOM_PER,L once Pontellier 's wife
 55135,55135,PRON_PER,I
 55151,55151,PRON_PER,their
 55151,55152,NOM_PER,their wives
@@ -8383,7 +8370,6 @@
 55166,55166,PRON_PER,we
 55175,55175,PRON_PER,I
 55187,55187,PRON_PER,I
-55189,55189,NOM_FAC,here
 55193,55193,PRON_PER,you
 55195,55195,NOM_FAC,here
 55196,55196,PRON_PER,you
@@ -8475,7 +8461,6 @@
 55613,55614,NOM_PER,each other
 55616,55616,PRON_PER,my
 55616,55617,NOM_PER,my Robert
-55617,55617,PROP_PER,Robert
 55619,55619,PRON_PER,We
 55624,55625,NOM_PER,each other
 55630,55631,NOM_LOC,the world
@@ -8531,6 +8516,7 @@
 55898,55898,PRON_PER,him
 55902,55902,PROP_PER,Edna
 55904,55904,NOM_FAC,upstairs
+55906,55916,NOM_FAC,a private stairway that led from the rear of the store
 55915,55916,NOM_FAC,the store
 55918,55920,NOM_FAC,the apartments above
 55922,55923,NOM_PER,The children
@@ -8591,12 +8577,11 @@
 56322,56322,PRON_PER,her
 56322,56323,NOM_FAC,her room
 56325,56325,PRON_PER,She
-56331,56338,NOM_FAC,a little low couch next to her bed
 56337,56337,PRON_PER,her
+56337,56338,NOM_FAC,her bed
 56340,56341,PROP_PER,Doctor Mandelet
 56346,56347,PROP_PER,Madame Ratignolle
 56351,56351,PRON_PER,He
-56355,56355,PRON_PER,them
 56366,56366,PRON_PER,her
 56372,56372,PRON_PER,He
 56377,56377,PROP_PER,Edna
@@ -8628,6 +8613,7 @@
 56584,56584,PRON_PER,her
 56584,56585,NOM_PER,her friend
 56588,56588,PRON_PER,her
+56596,56597,PROP_PER,Ad le
 56600,56600,PRON_PER,her
 56612,56613,NOM_PER,the children
 56615,56615,PROP_PER,Edna
@@ -8669,8 +8655,8 @@
 56805,56806,PROP_PER,Mrs. Pontellier
 56809,56809,PRON_PER,he
 56818,56818,PRON_PER,you
-56820,56821,PROP_FAC,Ad le
-56832,56840,NOM_PER,a dozen women she might have had with her
+56820,56821,NOM_FAC,Ad le
+56832,56843,NOM_PER,"a dozen women she might have had with her , unimpressionable women"
 56835,56835,PRON_PER,she
 56840,56840,PRON_PER,her
 56842,56843,NOM_PER,unimpressionable women
@@ -8696,7 +8682,6 @@
 57008,57009,NOM_PER,the Doctor
 57012,57012,PRON_PER,her
 57018,57018,NOM_PER,youth
-57038,57038,NOM_PER,mothers
 57056,57056,PRON_PER,we
 57061,57061,PRON_PER,we
 57075,57075,PRON_PER,she
@@ -8704,7 +8689,7 @@
 57137,57137,PRON_PER,me
 57139,57139,PRON_PER,my
 57139,57141,NOM_PER,my dear child
-57145,57146,NOM_PER,the Doctor
+57145,57148,NOM_PER,the Doctor at parting
 57151,57151,PRON_PER,her
 57155,57155,PRON_PER,you
 57158,57158,PRON_PER,me
@@ -8735,7 +8720,7 @@
 57305,57305,PRON_PER,I
 57318,57318,PRON_PER,I
 57323,57323,PRON_PER,I
-57327,57327,PROP_PER,Doctor
+57327,57327,NOM_PER,Doctor
 57335,57335,PRON_PER,me
 57343,57343,PRON_PER,I
 57346,57346,PRON_PER,you
@@ -8806,8 +8791,8 @@
 57729,57729,PRON_PER,She
 57743,57743,PRON_PER,She
 57752,57752,PROP_PER,Celestine
-57766,57766,PROP_PER,Victor
-57782,57785,NOM_FAC,one of the galleries
+57755,57755,NOM_FAC,kitchen
+57765,57766,PROP_PER,XXXIX Victor
 57784,57785,NOM_FAC,the galleries
 57787,57787,PROP_PER,Mariequita
 57793,57793,PRON_PER,her
@@ -8821,7 +8806,6 @@
 57843,57843,PRON_PER,She
 57849,57849,PROP_PER,Victor
 57854,57855,PROP_PER,Mrs. Pontellier
-57854,57856,NOM_FAC,Mrs. Pontellier 's
 57858,57858,PRON_PER,He
 57877,57877,PRON_PER,he
 57889,57889,PROP_PER,Venus
@@ -8839,7 +8823,6 @@
 57978,57978,PRON_PER,him
 57980,57980,PRON_PER,his
 57980,57982,NOM_PER,his fine ladies
-57986,57997,NOM_PER,a dozen men crazy about her at the _ Ch ni re
 57991,57991,PRON_PER,her
 57993,57997,NOM_FAC,the _ Ch ni re
 58011,58012,NOM_PER,married people
@@ -8861,7 +8844,6 @@
 58079,58079,PRON_PER,She
 58081,58081,PRON_PER,her
 58091,58091,PRON_PER,They
-58102,58102,NOM_GPE,city
 58105,58106,PROP_PER,Mrs. Pontellier
 58107,58107,PRON_PER,herself
 58113,58114,NOM_FAC,the house
@@ -8879,7 +8861,7 @@
 58206,58206,PROP_PER,Victor
 58213,58213,PRON_PER,she
 58217,58217,PROP_PER,Beaudelet
-58217,58219,NOM_FAC,Beaudelet 's lugger
+58217,58219,NOM_PER,Beaudelet 's lugger
 58222,58222,PRON_PER,she
 58243,58243,PRON_PER,you
 58246,58246,PRON_PER,I
@@ -8903,7 +8885,7 @@
 58312,58312,PROP_PER,Mariequita
 58316,58316,PROP_PER,Philomel
 58316,58318,NOM_PER,Philomel 's mother
-58331,58332,PROP_PER,Mrs. Pontellier
+58330,58332,PROP_PER,Beholding Mrs. Pontellier
 58334,58334,PRON_PER,her
 58337,58338,NOM_PER,the girl
 58343,58344,NOM_PER,a lovers
@@ -8911,7 +8893,7 @@
 58357,58358,PROP_PER,Mrs. Pontellier
 58373,58373,PRON_PER,her
 58376,58376,PRON_PER,She
-58382,58391,NOM_PER,this woman who gave the most sumptuous dinners in America
+58382,58404,NOM_PER,"this woman who gave the most sumptuous dinners in America , and who had all the men in New Orleans at her feet"
 58391,58391,PROP_GPE,America
 58396,58401,NOM_PER,all the men in New Orleans
 58400,58401,PROP_GPE,New Orleans
@@ -8933,7 +8915,6 @@
 58487,58487,PRON_PER,you
 58490,58490,PRON_PER,I
 58498,58499,NOM_LOC,the beach
-58516,58517,NOM_LOC,The water
 58523,58523,PRON_PER,they
 58538,58538,PRON_PER,I
 58545,58545,PRON_PER,my
@@ -8961,6 +8942,7 @@
 58677,58677,PRON_PER,I
 58681,58682,NOM_FAC,the kitchen
 58686,58686,PRON_PER,I
+58691,58691,PROP_PER,Gimminy
 58693,58693,NOM_PER,Women
 58698,58698,PRON_PER,She
 58702,58702,PRON_PER,me
@@ -8975,7 +8957,6 @@
 58777,58777,PROP_PER,Arobin
 58785,58787,NOM_PER,some one else
 58794,58794,PRON_PER,me
-58801,58801,PROP_PER,L
 58803,58803,PROP_GPE,Pontellier
 58805,58805,PROP_PER,Raoul
 58807,58807,PROP_PER,Etienne
@@ -8992,7 +8973,7 @@
 58850,58850,NOM_GPE,there
 58867,58868,NOM_LOC,the world
 58870,58870,PRON_PER,she
-58875,58884,NOM_PER,no human being whom she wanted near her except Robert
+58875,58882,NOM_PER,no human being whom she wanted near her
 58879,58879,PRON_PER,she
 58882,58882,PRON_PER,her
 58884,58884,PROP_PER,Robert
@@ -9003,6 +8984,7 @@
 58913,58913,PRON_PER,her
 58916,58917,NOM_PER,The children
 58920,58920,PRON_PER,her
+58922,58946,NOM_PER,antagonists who had overcome her ; who had overpowered and sought to drag her into the soul 's slavery for the rest of her days
 58926,58926,PRON_PER,her
 58935,58935,PRON_PER,her
 58945,58945,PRON_PER,her
@@ -9016,7 +8998,6 @@
 58980,58980,PRON_PER,her
 58994,58995,NOM_LOC,the sea
 59020,59022,NOM_LOC,the white beach
-59036,59041,NOM_PER,A bird with a broken wing
 59058,59059,NOM_LOC,the water
 59061,59061,PROP_PER,Edna
 59064,59064,PRON_PER,her
@@ -9032,10 +9013,12 @@
 59142,59142,PRON_PER,her
 59149,59149,PRON_PER,her
 59167,59167,PRON_PER,She
+59170,59174,NOM_PER,some new - born creature
+59177,59177,PRON_PER,its
+59184,59184,PRON_PER,it
 59195,59195,PRON_PER,her
 59204,59204,PRON_PER,her
 59207,59207,PRON_PER,She
-59211,59212,NOM_LOC,The water
 59217,59217,PRON_PER,she
 59221,59222,NOM_LOC,The water
 59227,59227,PRON_PER,she
@@ -9047,8 +9030,9 @@
 59281,59281,PRON_PER,her
 59290,59291,NOM_LOC,the shore
 59293,59293,PRON_PER,She
+59308,59316,NOM_LOC,the blue - grass meadow that she had traversed
 59314,59314,PRON_PER,she
-59318,59330,NOM_PER,"a little child , believing that it had no beginning and no end"
+59318,59320,NOM_PER,a little child
 59332,59332,PRON_PER,Her
 59340,59340,PRON_PER,She
 59343,59343,PROP_PER,L
@@ -9063,7 +9047,7 @@
 59389,59389,PRON_PER,you
 59391,59391,PRON_PER,yourself
 59392,59393,NOM_PER,an artist
-59398,59398,PROP_PER,Madame
+59398,59398,NOM_PER,Madame
 59400,59401,NOM_PER,The artist
 59413,59413,PROP_PER,Exhaustion
 59419,59419,PRON_PER,her

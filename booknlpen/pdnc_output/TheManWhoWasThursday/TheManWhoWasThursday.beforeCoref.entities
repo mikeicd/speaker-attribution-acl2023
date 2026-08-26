@@ -1,5 +1,5 @@
 0,18,NOM_PER,THE MAN WHO WAS THURSDAY A NIGHTMARE To Edmund Clerihew Bentley A cloud was on the mind of men
-8,11,PROP_PER,Edmund Clerihew Bentley A
+8,10,PROP_PER,Edmund Clerihew Bentley
 18,18,NOM_PER,men
 35,35,PRON_PER,we
 37,38,NOM_PER,boys together
@@ -42,6 +42,7 @@
 268,268,PRON_PER,I
 273,273,PRON_PER,we
 276,276,PRON_PER,I
+285,293,NOM_PER,fish - shaped Paumanok some cry of cleaner things
 314,315,NOM_LOC,the world
 338,338,PROP_GPE,Tusitala
 346,346,PRON_PER,Yea
@@ -51,27 +52,26 @@
 380,380,PROP_PER,God
 382,382,PRON_PER,their
 386,386,PROP_PER,God
-388,390,NOM_PER,the good Republic
+388,390,PROP_PER,the good Republic
 397,397,PRON_PER,We
 400,403,NOM_GPE,the City of Mansoul
 407,407,PRON_FAC,it
 413,413,PRON_PER,they
 443,443,PRON_PER,you
 454,457,NOM_PER,colossal gods of shame
-460,460,NOM_PER,men
+460,478,NOM_PER,"men and yet crash , Of what huge devils hid the stars , yet fell at a pistol flash"
 499,499,PRON_PER,you
-501,501,PRON_PER,yea
 511,511,PRON_PER,us
 516,516,PRON_PER,we
 526,527,NOM_FAC,the streets
 536,536,PRON_PER,us
 542,542,PROP_PER,God
-551,551,PRON_PER,Yea
 565,565,PRON_PER,We
 579,579,PRON_PER,I
 587,587,PRON_PER,you
 601,602,PROP_FAC,SAFFRON PARK
-603,607,NOM_GPE,The suburb of Saffron Park
+603,607,NOM_FAC,The suburb of Saffron Park
+606,607,PROP_FAC,Saffron Park
 610,614,NOM_LOC,the sunset side of London
 614,614,PROP_GPE,London
 626,626,PRON_FAC,It
@@ -79,15 +79,16 @@
 644,644,PRON_FAC,its
 650,650,PRON_FAC,It
 656,658,NOM_PER,a speculative builder
-667,667,PRON_PER,its
+667,667,PRON_FAC,its
 673,674,PROP_PER,Queen Anne
 681,683,NOM_PER,the two sovereigns
-687,687,PRON_FAC,It
+687,687,PRON_PER,It
 694,696,NOM_FAC,an artistic colony
-699,699,PRON_GPE,it
+699,699,PRON_FAC,it
 711,711,PRON_FAC,its
-723,723,PRON_FAC,its
-727,729,NOM_GPE,a pleasant place
+715,717,NOM_GPE,an intellectual centre
+723,723,PRON_GPE,its
+727,729,NOM_FAC,a pleasant place
 734,741,NOM_PER,The stranger who looked for the first time
 743,746,NOM_FAC,the quaint red houses
 754,755,NOM_PER,the people
@@ -156,15 +157,17 @@
 1375,1375,PRON_PER,He
 1385,1386,NOM_PER,the angel
 1407,1408,NOM_GPE,that place
-1410,1410,PRON_FAC,its
+1410,1410,PRON_LOC,its
 1414,1414,PRON_LOC,It
 1420,1421,NOM_LOC,the world
 1423,1425,NOM_LOC,All the heaven
 1436,1436,PRON_PER,you
 1525,1526,NOM_LOC,the earth
+1537,1539,NOM_PER,The very empyrean
 1565,1565,PRON_PER,I
 1570,1582,NOM_PER,some inhabitants who may remember the evening if only by that oppressive sky
 1586,1590,NOM_PER,others who may remember it
+1598,1606,NOM_FAC,the place of the second poet of Saffron Park
 1601,1606,NOM_PER,the second poet of Saffron Park
 1605,1606,PROP_FAC,Saffron Park
 1612,1616,NOM_PER,the red - haired revolutionary
@@ -235,8 +238,7 @@
 2047,2048,PROP_PER,Mr. Syme
 2055,2055,PROP_PER,Gregory
 2062,2065,NOM_PER,anyone else attempted paradox
-2070,2078,NOM_PER,all the clerks and navvies in the railway trains
-2071,2072,NOM_PER,the clerks
+2070,2072,NOM_PER,all the clerks
 2076,2078,NOM_VEH,the railway trains
 2091,2091,PRON_PER,I
 2094,2094,PRON_PER,you
@@ -264,7 +266,7 @@
 2205,2205,PRON_PER,they
 2212,2212,PRON_PER,your
 2236,2236,PRON_PER,We
-2242,2250,NOM_PER,man with one wild arrow strikes a distant bird
+2242,2246,NOM_PER,man with one wild arrow
 2258,2262,NOM_PER,man with one wild engine
 2264,2266,NOM_FAC,a distant station
 2275,2276,NOM_VEH,the train
@@ -300,6 +302,7 @@
 2426,2427,PROP_FAC,Sloane Square
 2432,2432,PROP_GPE,Victoria
 2434,2434,PRON_PER,I
+2437,2437,NOM_PER,one
 2448,2448,PRON_PER,I
 2451,2451,NOM_GPE,there
 2452,2452,PRON_PER,I
@@ -315,14 +318,13 @@
 2510,2510,PRON_PER,his
 2528,2528,PRON_PER,he
 2532,2532,PRON_PER,we
-2542,2542,PROP_GPE,Victoria
+2542,2542,PROP_PER,Victoria
 2545,2545,PRON_PER,you
-2548,2548,NOM_FAC,there
 2551,2551,PRON_PER,You
-2553,2553,PROP_PER,Victoria
+2553,2553,PROP_GPE,Victoria
 2556,2558,NOM_FAC,the New Jerusalem
 2560,2560,PRON_PER,We
-2563,2565,NOM_GPE,the New Jerusalem
+2563,2565,NOM_FAC,the New Jerusalem
 2570,2570,PROP_PER,Victoria
 2574,2575,NOM_PER,the poet
 2581,2584,NOM_FAC,the streets of heaven
@@ -348,6 +350,7 @@
 2812,2812,PRON_PER,You
 2816,2816,PRON_PER,me
 2819,2819,PRON_PER,he
+2827,2828,NOM_FAC,this lawn
 2831,2831,PROP_PER,Syme
 2835,2835,PRON_PER,his
 2844,2844,PRON_PER,I
@@ -438,7 +441,7 @@
 3367,3369,NOM_PER,a sincere man
 3375,3375,PRON_PER,his
 3383,3385,NOM_PER,a humble one
-3391,3397,NOM_PER,the humble man who talks too much
+3391,3393,NOM_PER,the humble man
 3399,3401,NOM_PER,the proud man
 3403,3403,PRON_PER,himself
 3407,3407,PRON_PER,He
@@ -477,6 +480,7 @@
 3673,3673,PRON_PER,he
 3718,3718,PRON_PER,him
 3729,3741,NOM_PER,a figure almost as rigid and motionless as the lamp - post itself
+3788,3790,NOM_PER,the poet Gregory
 3790,3790,PROP_PER,Gregory
 3792,3792,PRON_PER,He
 3799,3808,NOM_PER,a masked bravo waiting sword in hand for his foe
@@ -557,15 +561,15 @@
 4361,4361,PRON_PER,me
 4364,4364,PRON_PER,You
 4366,4366,PRON_PER,me
+4367,4376,NOM_PER,a _ fl neur _ who lets fall occasional truths
 4378,4378,PRON_PER,You
 4392,4392,PRON_PER,I
 4397,4397,PROP_PER,Syme
 4399,4399,PRON_PER,his
 4406,4407,NOM_FAC,the road
 4413,4413,PRON_PER,he
-4417,4418,NOM_PER,Good Lord
+4417,4418,PROP_PER,Good Lord
 4421,4422,NOM_FAC,this street
-4426,4429,NOM_PER,these damned Chinese lanterns
 4438,4438,NOM_PER,One
 4456,4456,PRON_PER,I
 4462,4493,NOM_PER,"a man who did n't keep something in the background of his life that was more serious than all this talking something more serious , whether it was religion or only drink"
@@ -584,7 +588,6 @@
 4572,4573,NOM_PER,all Catholics
 4580,4580,PRON_PER,I
 4582,4582,PRON_PER,you
-4587,4587,NOM_PER,gods
 4589,4589,NOM_PER,saints
 4590,4590,PRON_PER,your
 4594,4594,PRON_PER,you
@@ -633,12 +636,10 @@
 4820,4820,PRON_PER,He
 4832,4833,NOM_FAC,the road
 4835,4836,NOM_PER,The two
-4839,4839,PRON_FAC,it
 4843,4843,PROP_PER,Gregory
 4851,4862,NOM_FAC,an obscure public - house on the Chiswick bank of the river
 4857,4862,NOM_LOC,the Chiswick bank of the river
 4864,4865,NOM_VEH,The cab
-4874,4876,NOM_PER,these two fantastics
 4878,4878,PRON_PER,their
 4878,4880,NOM_GPE,their fantastic town
 4888,4889,PROP_PER,GABRIEL SYME
@@ -674,6 +675,7 @@
 5130,5132,PROP_PER,the motionless Syme
 5135,5135,PRON_PER,You
 5141,5141,PRON_PER,His
+5150,5150,PRON_PER,themselves
 5168,5168,PROP_PER,Syme
 5179,5179,PRON_PER,he
 5192,5192,PRON_PER,me
@@ -827,7 +829,7 @@
 6458,6459,NOM_PER,mere rebels
 6461,6461,PRON_PER,themselves
 6463,6469,NOM_PER,The silly sentimentalists of the French Revolution
-6475,6475,PROP_PER,Man
+6475,6475,NOM_PER,Man
 6477,6477,PRON_PER,We
 6481,6481,PRON_PER,we
 6485,6485,PRON_PER,We
@@ -855,7 +857,6 @@
 6615,6615,PRON_PER,yourself
 6621,6622,NOM_FAC,the place
 6625,6625,PRON_PER,I
-6633,6633,NOM_FAC,homelike
 6636,6636,PRON_PER,I
 6647,6647,PRON_PER,yourselves
 6649,6653,NOM_LOC,the bowels of the earth
@@ -893,6 +894,7 @@
 6786,6786,NOM_PER,bishops
 6788,6788,PRON_PER,our
 6795,6803,NOM_PER,the Vampire _ and _ Priests of Prey _
+6802,6802,PROP_GPE,Prey
 6805,6805,PRON_PER,I
 6809,6809,PRON_PER,them
 6811,6811,NOM_PER,bishops
@@ -929,6 +931,7 @@
 6984,6988,NOM_PER,a man calling for wine
 6990,6990,PRON_PER,I
 6995,6996,NOM_PER,the weak
+7011,7011,PRON_PER,majors
 7017,7017,PRON_PER,I
 7024,7024,PRON_PER,I
 7029,7043,NOM_PER,"the President of the Central Anarchist Council , who is the greatest man in Europe"
@@ -952,10 +955,11 @@
 7123,7123,PRON_PER,him
 7127,7127,PROP_PER,Caesar
 7129,7129,PROP_PER,Napoleon
+7133,7133,NOM_PER,children
 7135,7135,PRON_PER,his
 7139,7139,PRON_PER,He
 7155,7155,PRON_PER,he
-7173,7176,NOM_FAC,the Bank of England
+7173,7176,NOM_ORG,the Bank of England
 7176,7176,PROP_GPE,England
 7178,7178,PRON_PER,I
 7181,7181,PRON_PER,him
@@ -1110,7 +1114,7 @@
 8120,8120,PRON_PER,my
 8123,8124,NOM_PER,the anarchists
 8128,8128,PRON_PER,Your
-8133,8135,PROP_PER,the staring Gregory
+8135,8135,PROP_PER,Gregory
 8139,8139,PRON_PER,you
 8150,8150,PROP_PER,Syme
 8153,8153,PRON_PER,I
@@ -1126,7 +1130,6 @@
 8211,8211,PRON_PER,you
 8213,8213,PRON_PER,me
 8220,8220,PRON_PER,they
-8223,8223,NOM_FAC,here
 8231,8231,PROP_PER,Syme
 8235,8235,PRON_PER,his
 8239,8239,PRON_PER,his
@@ -1241,7 +1244,7 @@
 8839,8840,NOM_PER,the anarchists
 8842,8843,NOM_FAC,the room
 8855,8864,NOM_PER,"one little man , with a black beard and glasses"
-8865,8871,NOM_PER,a man somewhat of the type of
+8865,8874,NOM_PER,a man somewhat of the type of Mr. Tim Healy
 8872,8874,PROP_PER,Mr. Tim Healy
 8876,8876,PRON_PER,himself
 8885,8885,PRON_PER,his
@@ -1274,7 +1277,6 @@
 9080,9081,NOM_PER,the group
 9084,9091,NOM_PER,"the awful President , whose name was Sunday"
 9091,9091,PROP_PER,Sunday
-9097,9103,NOM_PER,such irregular ambassadors to such branch meetings
 9099,9099,NOM_PER,ambassadors
 9108,9108,NOM_PER,comrade
 9112,9116,NOM_PER,the man with the papers
@@ -1409,7 +1411,8 @@
 10078,10078,NOM_PER,tradesmen
 10082,10082,PRON_PER,they
 10085,10085,NOM_PER,anarchists
-10087,10093,PROP_FAC,_ Ally Sloper 's Half - Holiday
+10089,10089,PROP_PER,Sloper
+10089,10093,PROP_FAC,Sloper 's Half - Holiday
 10102,10102,PRON_PER,They
 10106,10106,NOM_PER,anarchists
 10108,10108,NOM_PER,anarchists
@@ -1478,6 +1481,7 @@
 10527,10529,NOM_PER,the early Christians
 10538,10538,PRON_PER,their
 10546,10546,PRON_PER,We
+10550,10551,NOM_PER,human flesh
 10558,10558,PROP_PER,Witherspoon
 10566,10567,PROP_PER,Comrade Witherspoon
 10571,10571,PROP_PER,Gregory
@@ -1494,6 +1498,7 @@
 10663,10663,PRON_PER,I
 10666,10670,NOM_PER,the representative of that body
 10679,10679,PRON_PER,us
+10681,10681,NOM_PER,assassins
 10683,10686,NOM_PER,enemies of human society
 10688,10688,PRON_PER,we
 10708,10708,PROP_PER,Gregory
@@ -1525,7 +1530,6 @@
 10910,10910,PRON_PER,we
 10917,10917,PRON_PER,we
 10934,10934,PRON_PER,we
-10942,10945,NOM_FAC,a Sunday School treat
 10948,10948,PRON_PER,we
 10961,10961,NOM_PER,anyone
 10966,10967,PROP_PER,Comrade Gregory
@@ -1534,21 +1538,22 @@
 11003,11004,PROP_PER,Comrade Gregory
 11009,11010,NOM_PER,a curate
 11024,11024,PRON_PER,I
-11027,11028,NOM_PER,a curate
+11027,11032,NOM_PER,a curate ( loud cheers )
 11035,11035,PRON_PER,I
 11048,11057,NOM_PER,The man who is fitted to make a good curate
-11063,11075,NOM_PER,"a resolute , forcible , and efficient Thursday ( hear , hear )"
+11063,11074,NOM_PER,"a resolute , forcible , and efficient Thursday ( hear , hear"
 11079,11080,PROP_PER,Comrade Gregory
 11083,11083,PRON_PER,us
 11093,11093,PRON_PER,we
-11096,11099,NOM_PER,the enemies of society
+11099,11099,NOM_PER,society
 11102,11102,PRON_PER,I
 11105,11105,PRON_PER,we
+11107,11110,NOM_PER,the enemies of society
 11120,11120,PRON_PER,We
 11122,11125,NOM_PER,the enemies of society
-11135,11135,PRON_PER,its
+11130,11133,NOM_PER,the enemy of humanity
+11135,11135,PRON_ORG,its
 11135,11141,NOM_PER,its oldest and its most pitiless enemy
-11138,11138,PRON_PER,its
 11148,11149,PROP_PER,Comrade Gregory
 11152,11152,PRON_PER,us
 11158,11158,PRON_PER,we
@@ -1583,7 +1588,7 @@
 11299,11299,PRON_PER,He
 11307,11307,PRON_PER,his
 11311,11311,PRON_PER,We
-11315,11319,NOM_PER,the Supreme Council of Anarchy
+11315,11328,NOM_PER,"the Supreme Council of Anarchy infected with a maudlin mercy ( hear , hear"
 11348,11348,PRON_PER,I
 11350,11350,PRON_PER,myself
 11352,11353,PROP_PER,Comrade Gregory
@@ -1605,17 +1610,20 @@
 11435,11435,PRON_PER,I
 11441,11441,PROP_PER,Gregory
 11443,11443,PRON_PER,his
+11451,11453,NOM_FAC,the Supreme Council
 11455,11455,PRON_PER,I
 11458,11458,PRON_PER,myself
 11462,11462,PRON_PER,His
 11485,11485,PRON_PER,his
 11510,11510,PRON_PER,he
 11512,11512,PRON_PER,himself
+11521,11521,PROP_PER,Thursday
 11541,11541,PROP_PER,Gregory
 11544,11544,PRON_PER,his
 11550,11550,PRON_PER,his
 11562,11562,PRON_PER,you
 11562,11564,NOM_PER,you blasted madmen
+11564,11564,NOM_PER,madmen
 11567,11567,PRON_PER,he
 11578,11578,PRON_PER,his
 11584,11584,PRON_PER,you
@@ -1624,13 +1632,11 @@
 11604,11604,PROP_PER,Syme
 11615,11615,PRON_PER,I
 11628,11628,PRON_PER,us
-11628,11629,NOM_PER,us murderers
 11629,11629,NOM_PER,murderers
 11631,11631,PRON_PER,I
-11644,11649,NOM_PER,the priest who says these men
-11648,11649,NOM_PER,these men
-11651,11654,NOM_PER,the enemies of religion
-11657,11667,NOM_PER,the judge who says these men are the enemies of law
+11644,11654,NOM_PER,the priest who says these men are the enemies of religion
+11648,11654,NOM_PER,these men are the enemies of religion
+11657,11662,NOM_PER,the judge who says these men
 11661,11662,NOM_PER,these men
 11664,11667,NOM_PER,the enemies of law
 11670,11676,NOM_PER,the fat parliamentarian who says these men
@@ -1741,12 +1747,12 @@
 12381,12386,NOM_PER,a pale wreck of a man
 12389,12390,NOM_PER,the chairman
 12408,12409,PROP_PER,Comrade Syme
-12427,12428,NOM_LOC,the sea
 12441,12443,PROP_PER,Mr. Gabriel Syme
 12446,12449,NOM_ORG,the Secret Police Service
 12459,12466,NOM_VEH,the General Council of the Anarchists of Europe
 12463,12466,NOM_PER,the Anarchists of Europe
 12466,12466,PROP_GPE,Europe
+12468,12468,NOM_PER,Everyone
 12468,12471,NOM_PER,Everyone in the room
 12470,12471,NOM_FAC,the room
 12479,12480,NOM_LOC,the river
@@ -1818,11 +1824,12 @@
 12942,12942,PROP_PER,Syme
 12945,12945,PRON_PER,he
 12956,12957,NOM_VEH,the steamboat
-12967,12970,PROP_PER,A DETECTIVE Gabriel Syme
+12967,12968,NOM_PER,A DETECTIVE
+12969,12970,PROP_PER,Gabriel Syme
 12974,12981,NOM_PER,a detective who pretended to be a poet
 12980,12981,NOM_PER,a poet
 12983,12983,PRON_PER,he
-12991,12992,NOM_PER,a detective
+12986,12992,NOM_PER,a poet who had become a detective
 12996,12996,PRON_PER,his
 13002,13002,PRON_PER,He
 13006,13024,NOM_PER,those who are driven early in life into too conservative an attitude by the bewildering folly of most revolutionists
@@ -1830,11 +1837,11 @@
 13036,13036,PRON_PER,His
 13048,13048,PRON_PER,He
 13051,13054,NOM_PER,a family of cranks
-13058,13061,NOM_PER,all the oldest people
+13058,13066,NOM_PER,all the oldest people had all the newest notions
 13068,13071,NOM_PER,One of his uncles
 13070,13070,PRON_PER,his
 13070,13071,NOM_PER,his uncles
-13080,13080,NOM_PER,another
+13080,13094,NOM_PER,another had made an unsuccessful attempt to walk about with a hat and nothing else
 13096,13096,PRON_PER,His
 13096,13097,NOM_PER,His father
 13105,13105,PRON_PER,his
@@ -1862,12 +1869,10 @@
 13335,13335,PRON_PER,He
 13339,13339,NOM_PER,anarchists
 13344,13344,PRON_PER,us
-13348,13352,NOM_PER,a handful of morbid men
-13351,13352,NOM_PER,morbid men
+13351,13357,NOM_PER,"morbid men , combining ignorance with intellectualism"
 13359,13359,PRON_PER,He
 13361,13361,PRON_PER,them
 13374,13374,PRON_PER,He
-13380,13380,PRON_PER,their
 13396,13396,NOM_PER,men
 13405,13405,PRON_PER,he
 13412,13412,PRON_PER,his
@@ -1875,15 +1880,17 @@
 13421,13424,NOM_PER,no nearer a living
 13427,13427,PRON_PER,he
 13429,13431,NOM_FAC,the Thames embankment
+13444,13444,PROP_PER,Anarchy
 13448,13455,NOM_PER,no anarchist with a bomb in his pocket
 13454,13454,PRON_PER,his
 13462,13462,PRON_PER,he
 13466,13466,PRON_PER,he
-13470,13470,PROP_ORG,Government
+13470,13470,PROP_GPE,Government
 13483,13483,PRON_PER,He
 13494,13494,PRON_PER,He
 13497,13498,NOM_FAC,the Embankment
 13506,13508,NOM_LOC,The red river
+13515,13515,PRON_PER,they
 13518,13518,PRON_PER,his
 13534,13535,NOM_LOC,the river
 13564,13570,NOM_LOC,the vast caverns of a subterranean country
@@ -1893,14 +1900,15 @@
 13591,13591,PRON_PER,he
 13611,13611,PRON_PER,him
 13615,13622,NOM_PER,the early villains in Dickens and Bulwer Lytton
-13621,13622,PROP_FAC,Bulwer Lytton
+13619,13619,PROP_PER,Dickens
+13621,13622,PROP_PER,Bulwer Lytton
 13625,13625,PRON_PER,his
 13647,13651,NOM_FAC,the lawns of Saffron Park
 13650,13651,PROP_FAC,Saffron Park
 13663,13663,PROP_GPE,Soho
 13671,13671,PRON_PER,his
 13677,13677,PRON_PER,he
-13679,13693,NOM_PER,a very satisfactory specimen of the anarchists upon whom he had vowed a holy war
+13679,13703,NOM_PER,a very satisfactory specimen of the anarchists upon whom he had vowed a holy war . Perhaps this was why a policeman on the Embankment
 13684,13693,NOM_PER,the anarchists upon whom he had vowed a holy war
 13688,13688,PRON_PER,he
 13699,13703,NOM_PER,a policeman on the Embankment
@@ -1921,7 +1929,6 @@
 13818,13818,PRON_PER,you
 13823,13823,PRON_PER,You
 13823,13824,NOM_PER,You policemen
-13824,13824,NOM_PER,policemen
 13828,13829,NOM_PER,the poor
 13832,13832,PRON_PER,I
 13835,13835,PRON_PER,you
@@ -1932,14 +1939,14 @@
 13874,13874,PROP_PER,Syme
 13879,13880,NOM_PER,The soldier
 13893,13894,NOM_PER,the policeman
-13900,13901,NOM_ORG,an army
+13900,13901,NOM_PER,an army
 13906,13907,NOM_GPE,a nation
 13911,13912,PROP_PER,Good God
 13914,13916,PROP_ORG,the Board Schools
 13920,13920,PROP_PER,Syme
 13934,13935,NOM_PER,the policeman
 13939,13939,PRON_PER,I
-13947,13949,NOM_ORG,The Board Schools
+13947,13949,PROP_ORG,The Board Schools
 13952,13952,PRON_PER,my
 13957,13957,PRON_PER,I
 13967,13967,PRON_PER,I
@@ -2002,11 +2009,10 @@
 14294,14294,PRON_PER,I
 14297,14297,PRON_PER,you
 14301,14302,NOM_PER,the policeman
-14311,14317,NOM_PER,The head of one of our departments
+14311,14326,NOM_PER,"The head of one of our departments , one of the most celebrated detectives in Europe"
 14316,14316,PRON_PER,our
 14316,14317,NOM_ORG,our departments
 14319,14326,NOM_PER,one of the most celebrated detectives in Europe
-14321,14326,NOM_PER,the most celebrated detectives in Europe
 14326,14326,PROP_GPE,Europe
 14347,14347,PRON_PER,He
 14363,14364,NOM_PER,the Family
@@ -2042,7 +2048,7 @@
 14598,14598,PROP_GPE,Hartlepool
 14609,14609,PRON_PER,our
 14609,14611,NOM_PER,our Mr. Wilks
-14611,14611,PROP_PER,Wilks
+14610,14611,PROP_PER,Mr. Wilks
 14613,14616,NOM_PER,a smart young fellow
 14626,14626,PRON_PER,you
 14631,14631,PROP_PER,Syme
@@ -2058,6 +2064,7 @@
 14696,14696,PRON_PER,my
 14699,14699,PRON_PER,I
 14709,14710,NOM_PER,the ignorant
+14712,14713,NOM_PER,the desperate
 14720,14720,PRON_PER,ours
 14727,14727,PRON_PER,We
 14734,14735,NOM_PER,the uneducated
@@ -2087,7 +2094,7 @@
 14830,14830,PRON_PER,they
 14838,14838,NOM_PER,philosophers
 14844,14844,PRON_PER,they
-14855,14855,PROP_PER,Bigamists
+14855,14855,NOM_PER,Bigamists
 14860,14860,PRON_PER,they
 14876,14876,NOM_PER,philosophers
 14882,14882,PROP_PER,Murderers
@@ -2109,22 +2116,21 @@
 14985,14985,PRON_PER,He
 14996,14998,NOM_PER,a wealthy uncle
 14999,14999,PRON_PER,he
-15005,15006,NOM_LOC,the universe
 15010,15010,PROP_PER,God
 15012,15012,PRON_PER,He
 15014,15015,NOM_PER,a reformer
 15019,15020,NOM_PER,an anarchist
 15022,15022,PRON_PER,He
 15036,15038,NOM_PER,the evil philosopher
-15049,15049,PRON_PER,them
-15053,15055,NOM_LOC,the modern world
+15053,15055,NOM_GPE,the modern world
 15074,15075,NOM_PER,the poor
 15080,15081,NOM_PER,the unfortunate
 15083,15083,PRON_PER,It
 15087,15087,PRON_PER,its
-15095,15099,NOM_PER,powerful traitors in the State
+15095,15096,NOM_PER,powerful traitors
 15098,15099,NOM_GPE,the State
 15101,15105,NOM_PER,powerful heresiarchs in the Church
+15104,15105,NOM_GPE,the Church
 15107,15108,NOM_PER,The moderns
 15110,15110,PRON_PER,we
 15114,15114,NOM_PER,heretics
@@ -2157,25 +2163,26 @@
 15265,15265,NOM_PER,anybody
 15267,15269,NOM_LOC,the modern world
 15273,15275,NOM_PER,lawless little men
+15277,15279,NOM_PER,mad little movements
 15285,15285,PRON_PER,they
 15288,15288,PRON_PER,they
-15297,15298,NOM_PER,each other
 15302,15302,PRON_PER,you
 15305,15305,PRON_PER,their
 15305,15308,NOM_PER,their leading one army
-15307,15308,NOM_PER,one army
+15307,15308,NOM_ORG,one army
 15328,15329,NOM_PER,the constable
 15338,15338,PROP_GPE,Russia
 15341,15341,PROP_GPE,Ireland
-15349,15354,NOM_PER,"oppressed , if mistaken , men"
+15349,15353,NOM_PER,"oppressed , if mistaken ,"
+15354,15354,NOM_PER,men
 15372,15372,PRON_PER,You
-15379,15380,NOM_PER,the laity
-15382,15386,NOM_PER,the inner ring the priesthood
+15379,15386,NOM_PER,the laity and the inner ring the priesthood
 15388,15388,PRON_PER,I
+15395,15397,NOM_PER,the innocent section
 15410,15415,NOM_PER,the main mass of their supporters
 15414,15414,PRON_PER,their
 15414,15415,NOM_PER,their supporters
-15418,15418,NOM_PER,anarchists
+15417,15418,NOM_PER,merely anarchists
 15423,15433,NOM_PER,men who believe that rules and formulas have destroyed human happiness
 15435,15435,PRON_PER,They
 15457,15457,PRON_PER,They
@@ -2193,6 +2200,7 @@
 15536,15537,NOM_PER,these people
 15553,15553,NOM_PER,mankind
 15574,15579,NOM_PER,the men of the inner circle
+15581,15583,NOM_PER,the sacred priesthood
 15585,15585,PRON_PER,They
 15590,15596,NOM_PER,crowds of the happiness of the future
 15600,15603,NOM_PER,mankind freed at last
@@ -2202,7 +2210,6 @@
 15618,15618,PRON_PER,their
 15628,15628,PRON_PER,They
 15634,15634,PRON_PER,they
-15641,15641,NOM_PER,man
 15643,15644,NOM_LOC,this earth
 15658,15658,PRON_PER,they
 15663,15663,PRON_PER,they
@@ -2235,7 +2242,6 @@
 15836,15836,PRON_PER,you
 15840,15840,PRON_PER,him
 15842,15842,PRON_PER,you
-15847,15847,PROP_PER,Telephone
 15851,15851,PROP_PER,Syme
 15861,15862,NOM_PER,the policeman
 15866,15866,PRON_PER,he
@@ -2277,16 +2283,16 @@
 16158,16158,PRON_PER,I
 16175,16175,PRON_PER,I
 16180,16181,NOM_PER,the other
-16183,16183,NOM_PER,martyrs
 16185,16185,PRON_PER,I
 16188,16188,PRON_PER,you
 16201,16202,PROP_PER,Gabriel Syme
 16214,16214,PRON_PER,his
 16224,16224,PRON_PER,he
-16230,16233,NOM_ORG,the New Detective Corps
+16227,16240,NOM_PER,a member of the New Detective Corps for the frustration of the great conspiracy
+16230,16233,NOM_PER,the New Detective Corps
 16247,16247,PRON_PER,his
 16247,16248,NOM_PER,his friend
-16249,16258,NOM_PER,the policeman ( who was professionally inclined to neatness )
+16249,16250,NOM_PER,the policeman
 16260,16260,PRON_PER,he
 16262,16262,PRON_PER,his
 16273,16273,PRON_PER,himself
@@ -2311,22 +2317,21 @@
 16398,16398,PRON_PER,we
 16413,16413,PRON_PER,he
 16415,16415,PRON_PER,himself
-16422,16424,PROP_LOC,the silent Thames
+16422,16424,NOM_FAC,the silent Thames
 16432,16441,NOM_PER,the duly elected Thursday of the Central Council of Anarchists
-16437,16441,NOM_ORG,the Central Council of Anarchists
+16437,16441,NOM_PER,the Central Council of Anarchists
+16441,16441,NOM_PER,Anarchists
 16444,16444,PROP_PER,Syme
-16449,16452,NOM_VEH,the steam - tug
 16453,16453,PRON_PER,he
-16472,16474,NOM_LOC,a new land
+16472,16474,NOM_GPE,a new land
 16482,16484,NOM_LOC,a new planet
 16514,16514,PRON_PER,he
 16516,16518,NOM_FAC,the little tavern
-16591,16593,NOM_LOC,the whole landscape
 16607,16607,PROP_PER,Milton
 16620,16620,PROP_PER,Syme
 16624,16624,PRON_PER,his
 16629,16629,PRON_PER,he
-16633,16644,NOM_LOC,"some other and emptier planet , which circled round some sadder star"
+16633,16637,NOM_LOC,some other and emptier planet
 16649,16649,PRON_PER,he
 16655,16657,NOM_LOC,the moonlit land
 16661,16661,PRON_PER,his
@@ -2340,6 +2345,7 @@
 16780,16784,NOM_PER,some older and simpler figure
 16793,16794,NOM_PER,the adventurer
 16802,16803,PROP_PER,St. George
+16811,16813,NOM_LOC,this inhuman landscape
 16821,16824,NOM_PER,a man really human
 16827,16827,PROP_PER,Syme
 16831,16840,NOM_FAC,"the bright , bleak houses and terraces by the Thames"
@@ -2351,12 +2357,14 @@
 16898,16898,PRON_PER,they
 16900,16900,PROP_GPE,Battersea
 16904,16904,PRON_PER,they
+16911,16911,PROP_GPE,Westminster
+16954,16961,NOM_FAC,a large landing stage rather beyond Charing Cross
 16960,16961,PROP_FAC,Charing Cross
 16963,16968,NOM_FAC,The great stones of the Embankment
 16967,16968,PROP_LOC,the Embankment
 16975,16975,PROP_PER,Syme
 16979,16979,PRON_PER,them
-16981,16981,PRON_PER,They
+16992,16992,PRON_PER,They
 16994,16994,PRON_PER,him
 16997,16997,PRON_PER,he
 17005,17007,NOM_FAC,some Egyptian palace
@@ -2366,7 +2374,6 @@
 17035,17038,NOM_PER,horrible and heathen kings
 17040,17040,PRON_PER,He
 17044,17045,NOM_VEH,the boat
-17055,17064,NOM_PER,"a dark and slender figure , amid the enormous masonry"
 17066,17071,NOM_PER,The two men in the tug
 17073,17073,PRON_PER,her
 17079,17079,NOM_LOC,stream
@@ -2406,6 +2413,7 @@
 17413,17414,NOM_LOC,the river
 17417,17417,PRON_PER,he
 17421,17421,PRON_PER,his
+17426,17426,PROP_PER,Buttons
 17428,17428,PRON_PER,his
 17442,17443,NOM_PER,the man
 17447,17447,PRON_PER,his
@@ -2424,7 +2432,6 @@
 17610,17611,PROP_FAC,Leicester Square
 17614,17614,PRON_PER,he
 17618,17618,PRON_PER,we
-17627,17627,PROP_PER,Sunday
 17636,17636,PRON_PER,you
 17647,17647,PROP_PER,Syme
 17652,17652,PRON_PER,I
@@ -2450,6 +2457,7 @@
 17808,17808,PRON_PER,we
 17811,17813,NOM_FAC,a cell underground
 17817,17817,PRON_PER,your
+17817,17818,NOM_FAC,your branch
 17822,17822,PROP_PER,Sunday
 17824,17824,PRON_PER,us
 17826,17832,NOM_FAC,a private room at an ordinary restaurant
@@ -2479,7 +2487,7 @@
 17933,17934,NOM_PER,his guide
 17937,17937,PRON_PER,They
 17939,17939,PRON_PER,we
-17944,17950,NOM_PER,jolly gentlemen who pretend they are anarchists
+17941,17950,NOM_PER,a lot of jolly gentlemen who pretend they are anarchists
 17948,17948,PRON_PER,they
 17950,17950,NOM_PER,anarchists
 17957,17957,PRON_PER,me
@@ -2496,14 +2504,13 @@
 18024,18026,NOM_FAC,a narrow street
 18034,18035,PROP_FAC,Leicester Square
 18043,18043,PRON_PER,I
-18047,18048,NOM_FAC,this square
-18049,18049,PRON_FAC,itself
+18047,18049,NOM_FAC,this square itself
 18074,18075,NOM_PER,the foreigners
 18077,18084,NOM_PER,the foreigners who gave it the foreign look
 18100,18102,NOM_FAC,the open square
 18115,18116,PROP_LOC,the Alhambra
 18118,18118,PRON_FAC,it
-18127,18129,NOM_FAC,Spanish public place
+18123,18129,NOM_FAC,some French or even Spanish public place
 18136,18136,PROP_PER,Syme
 18144,18144,PRON_PER,he
 18159,18161,NOM_LOC,a new world
@@ -2523,12 +2530,13 @@
 18276,18277,NOM_FAC,the square
 18297,18297,PRON_FAC,it
 18327,18328,NOM_FAC,the street
-18334,18345,NOM_PER,"noisy and talkative men , all dressed in the insolence of fashion"
+18331,18337,NOM_PER,a group of noisy and talkative men
 18358,18358,PRON_PER,their
 18365,18366,NOM_FAC,the square
 18369,18371,NOM_PER,the grave Secretary
 18373,18373,PRON_PER,his
 18378,18378,PROP_PER,Syme
+18381,18384,NOM_PER,this boisterous breakfast party
 18386,18392,NOM_FAC,the secret conclave of the European Dynamiters
 18390,18392,NOM_PER,the European Dynamiters
 18397,18397,PROP_PER,Syme
@@ -2537,7 +2545,6 @@
 18408,18408,PRON_PER,he
 18414,18414,PRON_PER,He
 18433,18434,NOM_FAC,the balcony
-18449,18454,NOM_LOC,a great mountain of a man
 18453,18454,NOM_PER,a man
 18457,18457,PROP_PER,Syme
 18460,18460,PRON_PER,him
@@ -2576,10 +2583,9 @@
 18697,18698,NOM_PER,the gentlemen
 18699,18699,NOM_FAC,upstairs
 18701,18703,NOM_PER,The two men
-18705,18706,NOM_FAC,the stairs
 18710,18710,PROP_PER,Syme
 18717,18726,NOM_PER,the monstrous man who almost filled and broke the balcony
-18728,18737,NOM_PER,the great President of whom the others stood in awe
+18725,18726,NOM_FAC,the balcony
 18733,18734,NOM_PER,the others
 18739,18739,PRON_PER,He
 18752,18752,PROP_PER,Syme
@@ -2587,7 +2593,6 @@
 18789,18789,PRON_PER,he
 18814,18814,PRON_PER,him
 18820,18820,PRON_PER,him
-18829,18834,NOM_FAC,the head - quarters of hell
 18842,18842,PRON_PER,he
 18846,18848,NOM_PER,the great President
 18863,18863,PRON_PER,he
@@ -2623,7 +2628,6 @@
 19089,19089,PRON_PER,He
 19093,19097,NOM_PER,the common or garden Dynamiter
 19099,19099,PRON_PER,He
-19126,19152,NOM_PER,"a head quite unmanageable and quite unmistakable , a bewildering bush of brown hair and beard that almost obscured the eyes like those of a Skye terrier"
 19171,19173,NOM_PER,some Russian serf
 19178,19179,NOM_PER,this figure
 19186,19187,NOM_PER,the President
@@ -2632,7 +2636,6 @@
 19244,19244,PRON_PER,he
 19246,19247,NOM_PER,a Pole
 19255,19255,PRON_PER,he
-19258,19258,PROP_PER,Tuesday
 19260,19260,PRON_PER,His
 19268,19268,PRON_PER,he
 19272,19272,PRON_PER,himself
@@ -2653,6 +2656,7 @@
 19354,19354,PRON_PER,He
 19358,19359,NOM_PER,a gentleman
 19362,19362,PRON_PER,he
+19368,19369,NOM_PER,a soul
 19373,19373,NOM_PER,one
 19375,19375,PRON_PER,He
 19381,19383,NOM_PER,the stage conspirator
@@ -2661,7 +2665,7 @@
 19402,19403,NOM_PER,no one
 19407,19407,PRON_PER,he
 19409,19410,NOM_PER,an anarchist
-19414,19415,NOM_PER,a gentleman
+19414,19425,NOM_PER,a gentleman puts on a top hat and a frock - coat
 19432,19432,PRON_PER,his
 19438,19438,PRON_PER,he
 19446,19447,PROP_PER,Brother Gogol
@@ -2727,10 +2731,12 @@
 19814,19814,PRON_PER,he
 19822,19822,PRON_PER,they
 19826,19844,NOM_PER,"men of fashion and presence would look , with the additional twist given in a false and curved mirror"
+19846,19849,NOM_PER,Only the individual examples
 19858,19858,PROP_PER,Syme
-19858,19861,NOM_PER,Syme 's original cicerone
+19866,19866,PROP_PER,Monday
 19868,19868,PRON_PER,he
 19870,19874,NOM_PER,the Secretary of the Council
+19873,19874,NOM_ORG,the Council
 19877,19877,PRON_PER,his
 19889,19890,NOM_PER,the President
 19900,19900,PROP_PER,Syme
@@ -2741,7 +2747,8 @@
 19952,19952,PRON_PER,him
 19954,19954,PRON_PER,His
 19969,19969,PRON_PER,He
-19975,19976,NOM_GPE,the tribe
+19973,19976,NOM_PER,each of the tribe
+19975,19976,NOM_PER,the tribe
 19978,19979,NOM_PER,each man
 19988,19988,PRON_PER,him
 19990,19990,PROP_PER,Tuesday
@@ -2758,8 +2765,7 @@
 20072,20072,PROP_PER,Syme
 20082,20083,NOM_PER,the man
 20089,20089,PRON_PER,him
-20113,20113,PROP_PER,Byron
-20115,20115,PROP_PER,Poe
+20113,20115,PROP_PER,Byron and Poe
 20123,20123,PRON_PER,his
 20137,20137,PRON_PER,his
 20148,20148,PRON_PER,him
@@ -2780,7 +2786,6 @@
 20278,20281,NOM_PER,a very old man
 20283,20285,PROP_PER,Professor de Worms
 20302,20302,PRON_PER,his
-20306,20306,PRON_FAC,it
 20311,20311,PRON_PER,his
 20314,20314,PRON_PER,he
 20324,20324,PRON_PER,His
@@ -2797,7 +2802,6 @@
 20473,20474,NOM_PER,the man
 20489,20492,NOM_PER,the man called Saturday
 20492,20492,PROP_PER,Saturday
-20494,20501,NOM_PER,the simplest and the most baffling of all
 20503,20503,PRON_PER,He
 20505,20518,NOM_PER,"a short , square man with a dark , square face clean - shaven"
 20520,20528,NOM_PER,a medical practitioner going by the name of Bull
@@ -2814,15 +2818,14 @@
 20658,20660,NOM_PER,the dying Professor
 20666,20668,NOM_PER,the pale Secretary
 20678,20682,NOM_PER,the younger and grosser man
-20683,20683,PRON_PER,they
 20689,20689,PRON_PER,They
 20698,20698,PRON_PER,You
 20703,20703,PRON_PER,his
 20706,20706,PRON_PER,his
 20717,20717,PRON_PER,he
+20726,20727,NOM_PER,the others
 20731,20731,PROP_PER,Syme
 20733,20733,PRON_PER,he
-20736,20742,NOM_PER,the wickedest of all those wicked men
 20740,20742,NOM_PER,those wicked men
 20744,20744,PROP_PER,Syme
 20750,20750,PRON_PER,his
@@ -2834,7 +2837,6 @@
 20798,20798,PRON_PER,he
 20810,20810,PRON_PER,he
 20815,20816,NOM_PER,ordinary men
-20818,20822,NOM_PER,one of whom was old
 20824,20825,NOM_PER,another nervous
 20842,20842,PRON_PER,him
 20845,20846,NOM_PER,Each figure
@@ -2849,7 +2851,8 @@
 20920,20920,PRON_PER,he
 20940,20941,NOM_PER,a spirit
 20946,20946,PRON_PER,he
-20948,20954,NOM_LOC,east to the end of the world
+20950,20954,NOM_LOC,the end of the world
+20953,20954,NOM_LOC,the world
 20955,20955,PRON_PER,he
 21003,21004,NOM_LOC,the earth
 21016,21016,PRON_PER,he
@@ -2859,7 +2862,7 @@
 21075,21075,PRON_PER,they
 21081,21081,NOM_PER,kings
 21087,21088,NOM_PER,the Czar
-21092,21097,NOM_PER,the President of the French Republic
+21092,21099,NOM_PER,the President of the French Republic in Paris
 21095,21097,NOM_GPE,the French Republic
 21099,21099,PROP_GPE,Paris
 21103,21103,PRON_PER,their
@@ -2878,7 +2881,7 @@
 21220,21220,PRON_PER,his
 21224,21224,PRON_PER,his
 21231,21231,PRON_PER,he
-21238,21240,PROP_PER,the French President
+21238,21240,NOM_PER,the French President
 21242,21243,NOM_PER,the Czar
 21245,21245,PRON_PER,he
 21251,21251,PRON_PER,himself
@@ -2908,7 +2911,7 @@
 21412,21413,NOM_PER,a spy
 21415,21415,PRON_PER,He
 21421,21422,NOM_FAC,the balcony
-21426,21427,NOM_PER,a policeman
+21426,21442,NOM_PER,"a policeman , standing abstractedly just beneath , staring at the bright railings and the sunlit trees"
 21448,21448,PRON_PER,him
 21456,21456,PRON_PER,him
 21465,21476,NOM_PER,"these powerful and repulsive men , who were the princes of anarchy"
@@ -2939,7 +2942,8 @@
 21621,21621,PRON_PER,him
 21623,21623,PRON_PER,He
 21634,21634,PRON_PER,his
-21648,21661,NOM_PER,"this great enemy of mankind , whose very intellect was a torture - chamber"
+21648,21652,NOM_PER,this great enemy of mankind
+21652,21652,NOM_PER,mankind
 21664,21664,PRON_PER,he
 21668,21669,NOM_FAC,the square
 21670,21670,PRON_PER,he
@@ -2975,13 +2979,12 @@
 21858,21858,PROP_GPE,England
 21860,21860,PRON_PER,he
 21869,21869,PRON_PER,They
-21871,21880,NOM_PER,a balconyful of gentlemen overlooking a bright and busy square
 21874,21874,NOM_PER,gentlemen
 21876,21880,NOM_FAC,a bright and busy square
 21883,21883,PRON_PER,he
 21889,21889,PRON_PER,them
 21892,21892,PRON_PER,they
-21895,21903,NOM_PER,a boatful of armed pirates overlooking an empty sea
+21898,21899,NOM_PER,armed pirates
 21901,21903,NOM_LOC,an empty sea
 21914,21914,PRON_PER,him
 21920,21920,PRON_PER,him
@@ -2993,7 +2996,6 @@
 21962,21965,NOM_PER,the super - man
 21968,21970,NOM_PER,any such creature
 21974,21974,PRON_PER,he
-21981,21981,PRON_PER,it
 21984,21984,PRON_PER,his
 21997,21997,PRON_PER,He
 22002,22004,NOM_PER,something above man
@@ -3012,7 +3014,7 @@
 22115,22116,NOM_PER,the Secretary
 22122,22122,PRON_PER,he
 22144,22146,NOM_PER,The old Professor
-22160,22161,NOM_PER,this President
+22160,22162,PROP_PER,this President Sunday
 22164,22164,PRON_PER,his
 22172,22172,PRON_PER,he
 22175,22176,NOM_PER,twenty men
@@ -3055,7 +3057,6 @@
 22543,22543,PRON_PER,he
 22562,22563,NOM_PER,the Secretary
 22566,22566,PRON_PER,We
-22581,22581,PROP_PER,Wednesday
 22588,22588,PRON_PER,I
 22591,22591,PRON_PER,we
 22609,22609,PRON_PER,I
@@ -3092,13 +3093,11 @@
 22843,22843,NOM_PER,gentlemen
 22846,22847,NOM_PER,fancy constables
 22851,22859,NOM_PER,the old eccentric who lived in the dark room
-22857,22859,NOM_FAC,the dark room
 22862,22862,PRON_PER,he
 22865,22865,PRON_PER,himself
 22867,22893,NOM_PER,"the ambassador of all these common and kindly people in the street , who every day marched into battle to the music of the barrel - organ"
-22870,22878,NOM_PER,all these common and kindly people in the street
+22870,22893,NOM_PER,"all these common and kindly people in the street , who every day marched into battle to the music of the barrel - organ"
 22877,22878,NOM_FAC,the street
-22879,22893,NOM_PER,", who every day marched into battle to the music of the barrel - organ"
 22904,22904,PRON_PER,him
 22911,22915,NOM_PER,the monstrous men around him
 22915,22915,PRON_PER,him
@@ -3130,7 +3129,7 @@
 23146,23146,PRON_PER,their
 23146,23148,NOM_FAC,their dark room
 23154,23154,PRON_PER,they
-23160,23163,NOM_FAC,The barrel - organ
+23178,23180,NOM_PER,a whole orchestra
 23183,23183,PRON_PER,he
 23208,23209,NOM_PER,The conspirators
 23219,23220,NOM_FAC,the rooms
@@ -3143,7 +3142,6 @@
 23277,23279,NOM_FAC,an abandoned boardroom
 23282,23282,PRON_PER,they
 23287,23287,PRON_PER,he
-23294,23297,NOM_PER,The first to speak
 23299,23299,PROP_PER,Gogol
 23312,23312,PROP_PER,Zso
 23314,23314,PROP_PER,Zso
@@ -3179,7 +3177,6 @@
 23468,23469,NOM_PER,zare oppressors
 23471,23471,PRON_PER,I
 23480,23480,PRON_PER,I
-23483,23484,NOM_PER,ze tyrant
 23486,23488,NOM_FAC,ze open square
 23492,23492,PRON_PER,I
 23495,23495,PRON_PER,I
@@ -3210,7 +3207,6 @@
 23677,23677,PRON_PER,I
 23680,23680,PRON_PER,you
 23685,23685,PRON_PER,you
-23692,23701,NOM_PER,even the waiters upstairs ( long inured to our levities
 23693,23695,NOM_PER,the waiters upstairs
 23700,23700,PRON_PER,our
 23709,23709,PRON_PER,my
@@ -3227,7 +3223,6 @@
 23777,23777,PRON_PER,their
 23796,23796,PROP_PER,Sunday
 23825,23825,PRON_PER,we
-23833,23834,NOM_ORG,this company
 23837,23837,PROP_PER,Sunday
 23840,23840,PRON_PER,his
 23844,23844,PRON_PER,his
@@ -3253,17 +3248,17 @@
 23947,23947,PRON_PER,us
 23951,23951,PRON_PER,They
 23954,23954,PRON_PER,we
-23974,23999,NOM_PER,"one actually among us who is not of us , who knows our grave purpose , but does not share it , who "" The Secretary"
+23974,23982,NOM_PER,one actually among us who is not of us
 23977,23977,PRON_PER,us
 23982,23982,PRON_PER,us
 23986,23986,PRON_PER,our
-23998,23999,NOM_PER,The Secretary
+23998,23999,PROP_PER,The Secretary
 24004,24005,NOM_PER,a woman
 24014,24014,PRON_PER,he
 24024,24025,NOM_PER,The President
 24027,24027,PRON_PER,his
 24046,24046,PRON_PER,he
-24053,24054,NOM_PER,a spy
+24053,24057,NOM_PER,a spy in this room
 24056,24057,NOM_FAC,this room
 24061,24065,NOM_PER,a traitor at this table
 24067,24067,PRON_PER,I
@@ -3286,11 +3281,12 @@
 24159,24159,PRON_PER,he
 24167,24167,PRON_PER,he
 24172,24172,PRON_PER,his
+24186,24192,NOM_PER,THE UNACCOUNTABLE CONDUCT OF PROFESSOR DE WORMS
 24190,24192,PROP_PER,PROFESSOR DE WORMS
 24199,24199,PROP_PER,Sunday
 24204,24204,PRON_PER,he
 24210,24210,PRON_PER,his
-24217,24220,NOM_PER,men drop drawn swords
+24217,24217,NOM_PER,men
 24222,24226,NOM_PER,The three who had risen
 24230,24230,PROP_PER,Gogol
 24233,24235,NOM_PER,that equivocal person
@@ -3328,6 +3324,7 @@
 24426,24426,PRON_PER,we
 24440,24442,PROP_PER,the late Gogol
 24446,24446,NOM_PER,everyone
+24461,24465,NOM_LOC,that forest of foreign hair
 24473,24474,NOM_PER,a Chinaman
 24484,24484,PRON_PER,I
 24487,24487,PRON_PER,you
@@ -3393,11 +3390,11 @@
 24895,24895,PRON_PER,us
 24901,24901,PRON_PER,I
 24907,24908,NOM_PER,the President
-24924,24925,PROP_PER,Let Saturday
+24924,24925,NOM_PER,Let Saturday
 24929,24929,PRON_PER,I
 24953,24954,NOM_PER,the Secretary
 24956,24956,PRON_PER,He
-24960,24967,NOM_PER,those men who are conscientious even in crime
+24958,24967,NOM_PER,one of those men who are conscientious even in crime
 24970,24970,PRON_PER,I
 24974,24974,NOM_PER,President
 24983,24983,PRON_PER,he
@@ -3419,6 +3416,7 @@
 25108,25108,PRON_PER,you
 25113,25113,PRON_PER,You
 25120,25120,PRON_PER,you
+25122,25122,NOM_PER,donkey
 25125,25125,PRON_PER,he
 25131,25131,PRON_PER,you
 25139,25140,NOM_PER,a spy
@@ -3466,7 +3464,7 @@
 25401,25402,NOM_FAC,the balcony
 25417,25417,PRON_PER,he
 25422,25423,NOM_FAC,the street
-25434,25442,NOM_FAC,a small and greasy hair - dresser 's shop
+25434,25440,NOM_PER,a small and greasy hair - dresser
 25454,25460,NOM_PER,a sickly wax lady in evening dress
 25474,25474,PROP_PER,Syme
 25481,25483,NOM_PER,the wax lady
@@ -3479,13 +3477,13 @@
 25534,25535,PROP_PER,Father Christmas
 25543,25543,PRON_PER,his
 25556,25556,PRON_PER,him
+25562,25569,NOM_PER,the colourless wax doll in dirty evening dress
 25572,25574,NOM_PER,any human being
-25582,25584,NOM_FAC,such a shop
+25583,25584,NOM_FAC,a shop
 25592,25592,PROP_PER,Syme
 25595,25595,PRON_PER,his
 25606,25606,PRON_PER,he
 25609,25612,NOM_PER,the man standing there
-25614,25619,NOM_PER,the paralytic old Professor de Worms
 25617,25619,PROP_PER,Professor de Worms
 25627,25633,NOM_PER,a person of his years and infirmities
 25630,25630,PRON_PER,his
@@ -3511,12 +3509,11 @@
 25785,25785,PROP_PER,Gregory
 25787,25787,PRON_PER,He
 25797,25800,NOM_FAC,two or three streets
-25804,25807,NOM_PER,two or three others
 25811,25814,NOM_FAC,a small Soho restaurant
 25818,25818,PRON_PER,He
 25850,25850,PRON_PER,He
 25853,25853,PRON_PER,his
-25856,25875,NOM_FAC,"the upper room of the restaurant , which was full of the chink of knives and the chatter of foreigners"
+25856,25861,NOM_FAC,the upper room of the restaurant
 25860,25861,NOM_FAC,the restaurant
 25875,25875,NOM_PER,foreigners
 25877,25877,PRON_PER,He
@@ -3527,7 +3524,7 @@
 25922,25924,NOM_FAC,the familiar place
 25929,25932,NOM_PER,natural and talkative men
 25935,25935,PRON_PER,him
-25940,25945,NOM_PER,the Council of the Seven Days
+25943,25945,PROP_PER,the Seven Days
 25954,25954,PRON_PER,he
 25971,25972,NOM_FAC,Tall houses
 25974,25975,NOM_FAC,populous streets
@@ -3536,9 +3533,10 @@
 25984,25986,NOM_PER,the shameful seven
 25988,25988,PRON_PER,he
 25993,25993,PROP_GPE,London
-25999,26000,NOM_GPE,the free
+25999,26000,NOM_PER,the free
 26008,26008,PRON_PER,he
 26010,26010,PRON_PER,his
+26017,26018,NOM_FAC,the stair
 26020,26022,NOM_FAC,the shop below
 26025,26025,PRON_PER,he
 26027,26029,NOM_FAC,that lower room
@@ -3551,6 +3549,7 @@
 26100,26100,PRON_PER,he
 26103,26104,NOM_PER,the Professor
 26114,26114,PRON_PER,him
+26125,26127,NOM_PER,that old corpse
 26130,26130,PRON_PER,me
 26133,26133,PRON_PER,he
 26135,26135,PRON_PER,himself
@@ -3573,7 +3572,6 @@
 26237,26239,NOM_FAC,the great market
 26260,26260,PRON_PER,him
 26270,26270,PRON_PER,his
-26277,26277,PRON_PER,their
 26281,26281,PRON_PER,his
 26291,26291,PRON_PER,he
 26302,26303,PROP_FAC,Fleet Street
@@ -3600,9 +3598,9 @@
 26456,26456,PRON_PER,He
 26461,26461,PRON_PER,his
 26482,26482,PRON_PER,his
+26486,26487,NOM_VEH,An omnibus
 26490,26491,NOM_FAC,the Bank
 26500,26500,PRON_PER,He
-26511,26511,PRON_FAC,it
 26514,26514,PRON_PER,he
 26534,26534,PRON_PER,he
 26542,26542,PRON_PER,he
@@ -3621,19 +3619,18 @@
 26678,26678,PRON_PER,he
 26680,26680,PRON_PER,himself
 26713,26713,PRON_PER,he
-26717,26718,NOM_PER,the omnibus
+26717,26718,NOM_VEH,the omnibus
 26720,26720,PROP_PER,Syme
 26724,26726,NOM_VEH,the rocking car
 26743,26743,PRON_PER,he
+26746,26747,NOM_FAC,the steps
 26749,26749,PRON_PER,He
 26770,26770,PRON_PER,he
-26773,26783,NOM_FAC,one of the little courts at the side of Fleet Street
 26775,26783,NOM_FAC,the little courts at the side of Fleet Street
 26782,26783,PROP_FAC,Fleet Street
 26792,26792,PRON_PER,He
 26799,26808,NOM_PER,this incomprehensible old Jack - in - the - box
 26812,26812,PRON_PER,him
-26816,26820,NOM_FAC,that labyrinth of little streets
 26819,26820,NOM_FAC,little streets
 26821,26821,PRON_PER,he
 26825,26825,PRON_PER,him
@@ -3645,7 +3642,6 @@
 26891,26893,NOM_FAC,the little streets
 26903,26905,PROP_FAC,Red Lion Court
 26909,26909,PRON_PER,he
-26911,26937,NOM_FAC,"a place where some energetic citizen had cleared away the snow for a space of about twenty yards , leaving the wet , glistening cobble - stones"
 26914,26916,NOM_PER,some energetic citizen
 26939,26939,PRON_PER,He
 26945,26945,PRON_PER,he
@@ -3653,13 +3649,11 @@
 26967,26967,PRON_PER,he
 26974,26974,PRON_PER,his
 26981,26981,PRON_PER,he
-26984,26988,NOM_FAC,that space of rugged stones
 26996,26998,NOM_PER,the infernal cripple
 27012,27012,PROP_GPE,London
 27030,27030,PROP_PER,Syme
 27034,27035,NOM_FAC,the alley
 27052,27052,PRON_PER,He
-27061,27064,NOM_FAC,this hive of houses
 27064,27064,NOM_FAC,houses
 27072,27078,NOM_FAC,the open and lamp - lit street
 27081,27081,PRON_PER,he
@@ -3676,28 +3670,25 @@
 27157,27158,NOM_GPE,the city
 27161,27161,PRON_PER,he
 27163,27163,PRON_PER,himself
-27195,27195,PROP_PER,Sunday
 27196,27196,PRON_PER,he
 27198,27198,PRON_PER,his
+27221,27222,NOM_LOC,the heaven
 27227,27228,NOM_GPE,the city
+27242,27242,NOM_PER,men
 27244,27245,NOM_LOC,the sea
-27253,27259,NOM_FAC,the dark dome of St. Paul 's
+27253,27259,NOM_LOC,the dark dome of St. Paul 's
 27257,27259,PROP_FAC,St. Paul 's
-27262,27262,PRON_LOC,it
 27304,27305,NOM_FAC,the cathedral
 27312,27313,NOM_FAC,the cathedral
-27348,27348,PRON_FAC,its
 27368,27368,PROP_PER,Syme
 27371,27371,PRON_PER,he
 27374,27374,PRON_PER,himself
 27379,27379,PRON_PER,his
 27387,27387,PRON_PER,He
-27390,27392,NOM_PER,that evil figure
 27394,27394,PRON_PER,his
 27403,27403,PRON_PER,him
 27406,27406,PRON_PER,he
 27426,27431,NOM_LOC,that high place of the earth
-27435,27436,NOM_PER,The devils
 27440,27440,NOM_LOC,heaven
 27443,27443,PRON_PER,they
 27451,27451,PRON_PER,He
@@ -3713,7 +3704,6 @@
 27510,27510,PRON_PER,his
 27543,27543,PRON_PER,He
 27548,27548,PRON_PER,he
-27556,27562,NOM_FAC,the tortuous streets he had been threading
 27559,27559,PRON_PER,he
 27564,27564,PRON_PER,He
 27574,27574,PRON_PER,his
@@ -3740,10 +3730,9 @@
 27746,27748,NOM_PER,the old gentleman
 27751,27751,PRON_PER,him
 27758,27763,NOM_PER,a man winning a mile race
-27784,27791,NOM_PER,a lecturer upon the body of a harlequin
-27790,27791,NOM_PER,a harlequin
+27766,27771,NOM_PER,the head upon that bounding body
 27798,27799,PROP_FAC,Ludgate Circus
-27802,27803,PROP_FAC,Ludgate Hill
+27802,27803,PROP_LOC,Ludgate Hill
 27806,27809,PROP_FAC,St. Paul 's Cathedral
 27812,27812,PROP_GPE,Cheapside
 27814,27814,PROP_PER,Syme
@@ -3766,12 +3755,12 @@
 27940,27941,NOM_PER,the Professor
 27943,27943,PRON_PER,his
 27948,27954,NOM_PER,This incomprehensible man from the fierce council
-27952,27954,NOM_PER,the fierce council
 27962,27962,PRON_PER,him
 27965,27966,NOM_PER,the man
 27968,27969,NOM_PER,one character
 27971,27972,NOM_PER,a paralytic
-27974,27978,NOM_PER,another character as a pursuer
+27974,27976,NOM_PER,another character as
+27977,27978,NOM_PER,a pursuer
 27984,27984,PRON_PER,him
 28001,28001,PRON_PER,he
 28005,28006,NOM_PER,the Professor
@@ -3787,6 +3776,7 @@
 28100,28102,NOM_PER,the new Thursday
 28107,28107,PROP_GPE,Cheapside
 28110,28113,NOM_PER,the new Lord Mayor
+28118,28118,PRON_FAC,it
 28120,28120,PRON_PER,He
 28129,28131,NOM_PER,the old Professor
 28137,28137,PRON_PER,him
@@ -3825,7 +3815,6 @@
 28351,28351,PRON_PER,your
 28356,28356,NOM_PER,policeman
 28367,28367,NOM_PER,sir
-28369,28370,NOM_PER,the ape
 28375,28376,NOM_PER,the policeman
 28379,28379,PRON_PER,I
 28380,28380,PRON_PER,myself
@@ -3872,6 +3861,7 @@
 28620,28620,PRON_PER,your
 28624,28624,PRON_PER,you
 28631,28631,PRON_PER,your
+28631,28632,NOM_FAC,your grave
 28641,28641,PRON_PER,You
 28643,28644,NOM_PER,an anarchist
 28646,28646,PRON_PER,you
@@ -3879,7 +3869,7 @@
 28654,28654,PRON_PER,you
 28660,28661,NOM_PER,a detective
 28663,28663,PRON_PER,You
-28667,28669,NOM_PER,the British police
+28667,28669,NOM_ORG,the British police
 28672,28672,PRON_PER,He
 28674,28674,PRON_PER,his
 28685,28685,PRON_PER,his
@@ -3915,6 +3905,7 @@
 28846,28846,PRON_PER,I
 28848,28848,PRON_PER,you
 28850,28853,NOM_FAC,a dynamiters ' club
+28851,28851,NOM_PER,dynamiters
 28855,28855,PRON_PER,I
 28857,28857,PRON_PER,I
 28861,28861,PRON_PER,you
@@ -3925,12 +3916,13 @@
 28894,28894,PRON_PER,his
 28897,28898,NOM_PER,the police
 28900,28900,PROP_PER,Syme
+28908,28909,NOM_LOC,the cosmos
 28928,28928,PRON_PER,his
 28945,28946,NOM_LOC,the cosmos
 28955,28957,NOM_LOC,the capsized universe
 28965,28974,NOM_PER,This devil from whom he had been fleeing all day
 28969,28969,PRON_PER,he
-28977,29033,NOM_PER,"an elder brother of his own house , who on the other side of the table lay back and laughed at him . He did not for the moment ask any questions of detail ; he only knew the happy and silly fact that this shadow , which had pursued him with an intolerable oppression of peril"
+28977,28998,NOM_PER,"an elder brother of his own house , who on the other side of the table lay back and laughed at him"
 28981,28981,PRON_PER,his
 28981,28983,NOM_FAC,his own house
 28998,28998,PRON_PER,him
@@ -3954,7 +3946,6 @@
 29202,29202,PROP_PER,Syme
 29207,29211,NOM_PER,many half - drunken men
 29217,29217,PRON_PER,yer
-29221,29221,PROP_PER,guv'nor
 29225,29230,NOM_PER,one wondering labourer from the docks
 29229,29230,NOM_FAC,the docks
 29234,29234,PRON_PER,myself
@@ -4040,7 +4031,6 @@
 29711,29712,NOM_PER,the Professor
 29718,29718,PROP_PER,Gogol
 29722,29722,PROP_PER,Syme
-29735,29737,NOM_PER,three of us
 29737,29737,PRON_PER,us
 29741,29741,PRON_PER,he
 29755,29755,PRON_PER,we
@@ -4119,9 +4109,10 @@
 30216,30216,PRON_PER,he
 30224,30224,PRON_PER,himself
 30231,30233,NOM_PER,any common prizefighter
+30235,30243,NOM_PER,Who would stoop to be fearless like a tree
 30249,30249,PRON_PER,you
 30252,30252,PRON_PER,You
-30258,30270,NOM_PER,the English clergyman who gave the last rites to the brigand of Sicily
+30258,30265,NOM_PER,the English clergyman who gave the last rites
 30267,30270,NOM_PER,the brigand of Sicily
 30270,30270,PROP_GPE,Sicily
 30275,30275,PRON_PER,his
@@ -4155,13 +4146,14 @@
 30443,30444,NOM_PER,the other
 30451,30451,PROP_PER,Syme
 30457,30457,PRON_PER,You
-30465,30470,NOM_PER,the soi - disant de Worms
+30465,30468,NOM_PER,the soi - disant
+30469,30470,PROP_PER,de Worms
 30473,30473,PRON_PER,his
 30485,30485,PRON_PER,we
 30503,30504,NOM_PER,the Marquis
 30506,30507,PROP_PER,Dr. Bull
-30509,30510,NOM_PER,The Marquis
-30517,30518,NOM_LOC,the Channel
+30509,30510,PROP_PER,The Marquis
+30517,30518,PROP_LOC,the Channel
 30522,30522,PRON_PER,he
 30527,30527,PRON_PER,he
 30535,30536,NOM_PER,the President
@@ -4181,7 +4173,6 @@
 30608,30608,PROP_PER,Syme
 30614,30614,PRON_PER,I
 30617,30617,PRON_PER,you
-30618,30618,NOM_FAC,there
 30622,30623,NOM_PER,the Professor
 30628,30628,PRON_PER,his
 30635,30635,PROP_PER,Syme
@@ -4208,7 +4199,6 @@
 30767,30769,NOM_FAC,the dark streets
 30771,30772,NOM_FAC,the docks
 30803,30805,NOM_FAC,The small streets
-30827,30831,NOM_LOC,some other and fallen world
 30833,30833,PROP_PER,Syme
 30838,30838,PRON_PER,he
 30850,30850,PRON_PER,his
@@ -4237,16 +4227,16 @@
 30998,31000,NOM_LOC,the dim river
 31006,31006,PRON_PER,he
 31009,31009,PRON_PER,his
-31018,31018,PROP_GPE,Surrey
+31012,31014,NOM_LOC,the other bank
+31017,31018,PROP_LOC,the Surrey
 31027,31028,PROP_LOC,the Thames
-31034,31034,PRON_LOC,it
-31036,31043,NOM_FAC,a bulk and cluster of those tall tenements
-31041,31043,NOM_FAC,those tall tenements
+31034,31034,PRON_FAC,it
+31041,31054,NOM_FAC,"those tall tenements , dotted with lighted windows , and rising like factory chimneys"
 31061,31061,PRON_PER,Their
 31067,31070,NOM_FAC,one block of buildings
-31074,31077,NOM_FAC,a Tower of Babel
+31074,31081,NOM_FAC,a Tower of Babel with a hundred eyes
 31083,31083,PROP_PER,Syme
-31089,31095,NOM_FAC,the sky - scraping buildings in America
+31087,31095,NOM_FAC,any of the sky - scraping buildings in America
 31095,31095,PROP_GPE,America
 31098,31098,PRON_PER,he
 31103,31104,NOM_FAC,the buildings
@@ -4265,7 +4255,6 @@
 31182,31182,PRON_PER,you
 31187,31187,PROP_PER,Syme
 31191,31191,PRON_PER,he
-31194,31194,NOM_FAC,there
 31204,31205,PROP_PER,de Worms
 31213,31213,PRON_PER,you
 31225,31225,PRON_PER,We
@@ -4277,7 +4266,7 @@
 31270,31270,PRON_PER,his
 31273,31274,NOM_FAC,the neighbourhood
 31281,31285,NOM_FAC,the line of lighted shops
-31299,31307,NOM_FAC,"an old white inn , all out of repair"
+31299,31302,NOM_FAC,an old white inn
 31315,31316,NOM_FAC,the road
 31319,31319,PRON_PER,You
 31322,31328,NOM_FAC,good English inns left by accident everywhere
@@ -4287,10 +4276,10 @@
 31346,31348,PROP_LOC,the West End
 31352,31352,PRON_PER,I
 31357,31357,PROP_PER,Syme
-31365,31372,NOM_LOC,the corresponding decent place in the East End
-31370,31372,NOM_LOC,the East End
+31365,31372,NOM_FAC,the corresponding decent place in the East End
+31370,31372,PROP_LOC,the East End
 31381,31382,NOM_PER,the Professor
-31390,31391,NOM_GPE,that place
+31390,31391,NOM_FAC,that place
 31392,31392,PRON_PER,they
 31407,31409,NOM_PER,these unaccountable people
 31417,31417,PROP_PER,Burgundy
@@ -4317,8 +4306,7 @@
 31587,31587,PROP_PER,Syme
 31599,31599,PRON_PER,yours
 31603,31603,PROP_PER,Syme
-31609,31609,PROP_PER,Macon
-31616,31617,PROP_PER,old Gogol
+31617,31617,PROP_PER,Gogol
 31624,31624,PRON_PER,I
 31626,31626,PRON_PER,he
 31643,31644,NOM_PER,the Professor
@@ -4368,9 +4356,11 @@
 31850,31850,PROP_PER,Wilks
 31853,31853,PRON_PER,I
 31858,31858,PRON_PER,I
-31861,31867,NOM_PER,all sorts of Bohemian and blackguard company
+31864,31867,NOM_PER,Bohemian and blackguard company
 31870,31870,PRON_PER,I
+31879,31885,NOM_PER,the riff - raff of the arts
 31889,31891,NOM_PER,the political refugee
+31894,31898,NOM_FAC,some den of exiled dreamers
 31897,31898,NOM_PER,exiled dreamers
 31899,31899,PRON_PER,I
 31903,31907,NOM_PER,the great German Nihilist philosopher
@@ -4402,9 +4392,8 @@
 32039,32039,PRON_PER,I
 32041,32041,PRON_PER,myself
 32052,32054,NOM_PER,the old Professor
-32052,32058,NOM_PER,the old Professor 's dirty old self
 32061,32061,PRON_PER,I
-32064,32065,NOM_FAC,the room
+32064,32069,NOM_FAC,the room full of his supporters
 32068,32068,PRON_PER,his
 32068,32069,NOM_PER,his supporters
 32070,32070,PRON_PER,I
@@ -4444,12 +4433,11 @@
 32296,32297,NOM_FAC,the room
 32301,32301,PRON_PER,I
 32310,32311,NOM_PER,The pessimists
-32310,32314,NOM_PER,The pessimists all round me
 32314,32314,PRON_PER,me
 32318,32319,NOM_PER,one Professor
 32321,32323,NOM_PER,the other Professor
 32334,32334,PRON_PER,I
-32337,32342,NOM_PER,An old man in poor health
+32337,32346,NOM_PER,"An old man in poor health , like my rival"
 32345,32345,PRON_PER,my
 32345,32346,NOM_PER,my rival
 32358,32365,NOM_PER,a young actor in the prime of life
@@ -4515,7 +4503,7 @@
 32784,32785,NOM_PER,the impersonator
 32789,32789,PRON_PER,I
 32790,32790,PRON_PER,myself
-32792,32793,NOM_FAC,the company
+32792,32793,NOM_PER,the company
 32800,32800,PRON_PER,I
 32804,32806,NOM_FAC,the dark street
 32810,32810,PRON_PER,I
@@ -4550,6 +4538,7 @@
 32991,32991,PRON_PER,I
 32995,32998,NOM_FAC,a number of rooms
 33006,33008,NOM_PER,a police officer
+33020,33023,NOM_GPE,the centres of anarchy
 33029,33029,PRON_PER,my
 33043,33043,PRON_PER,He
 33045,33045,PRON_PER,me
@@ -4569,7 +4558,8 @@
 33111,33113,NOM_FAC,a dark room
 33116,33118,PROP_PER,Professor de Worms
 33122,33122,PRON_PER,his
-33128,33129,NOM_PER,THE MAN
+33125,33126,PROP_PER,CHAPTER IX
+33128,33131,PROP_PER,THE MAN IN SPECTACLES
 33133,33133,PROP_PER,Burgundy
 33141,33142,NOM_PER,the Professor
 33146,33146,PRON_PER,he
@@ -4688,6 +4678,7 @@
 34001,34001,PRON_PER,yours
 34013,34014,NOM_PER,the Professor
 34018,34018,PRON_PER,You
+34029,34029,PROP_PER,Lush
 34035,34035,PROP_PER,Syme
 34038,34038,PRON_PER,his
 34043,34043,PRON_PER,we
@@ -4709,7 +4700,6 @@
 34174,34174,PROP_PER,Syme
 34189,34189,PRON_PER,you
 34192,34192,PRON_PER,I
-34197,34197,PRON_PER,yours
 34203,34203,PRON_PER,I
 34205,34205,PRON_PER,we
 34222,34222,PRON_PER,our
@@ -4767,10 +4757,10 @@
 34620,34620,PRON_PER,he
 34625,34626,NOM_PER,the man
 34636,34636,PRON_PER,him
-34649,34653,NOM_PER,another friend there beside Gogol
+34649,34650,NOM_PER,another friend
 34653,34653,PROP_PER,Gogol
 34656,34657,NOM_PER,this man
-34678,34680,NOM_PER,some threefold traitor
+34678,34688,NOM_PER,"some threefold traitor , who had turned for the last time"
 34690,34690,PRON_PER,He
 34694,34694,PRON_PER,his
 34701,34701,PRON_PER,He
@@ -4787,6 +4777,7 @@
 34771,34771,PRON_PER,I
 34778,34778,PRON_PER,We
 34786,34786,PRON_PER,He
+34800,34800,PRON_PER,Let
 34808,34808,PRON_PER,They
 34810,34810,PRON_PER,their
 34819,34819,PROP_PER,Syme
@@ -4796,7 +4787,7 @@
 34847,34849,NOM_FAC,a coffee stall
 34854,34854,PRON_PER,their
 34857,34858,NOM_LOC,the river
-34871,34871,PROP_PER,Acheron
+34871,34871,PROP_GPE,Acheron
 34873,34873,PRON_PER,They
 34878,34890,NOM_FAC,the huge block of buildings which they had seen from across the river
 34884,34884,PRON_PER,they
@@ -4809,13 +4800,14 @@
 34997,34999,NOM_FAC,the tall tenements
 35003,35003,PRON_PER,him
 35012,35012,PRON_PER,he
+35016,35020,NOM_FAC,the weary and perpetual steps
 35022,35022,PRON_PER,he
 35028,35028,PRON_PER,their
 35053,35053,PRON_PER,Their
 35089,35089,PRON_PER,He
 35092,35095,NOM_FAC,the house of reason
 35108,35108,PRON_PER,they
-35110,35111,PROP_PER,Dr. Bull
+35110,35111,PROP_FAC,Dr. Bull
 35110,35113,NOM_FAC,Dr. Bull 's landing
 35119,35119,PRON_PER,them
 35145,35145,PRON_PER,they
@@ -4835,7 +4827,7 @@
 35263,35263,PRON_PER,he
 35274,35275,PROP_PER,The Jacobins
 35277,35277,NOM_PER,idealists
-35282,35283,NOM_PER,this man
+35282,35286,NOM_PER,this man a murderous materialism
 35288,35288,PRON_PER,His
 35291,35291,PRON_PER,him
 35313,35313,PRON_PER,him
@@ -4940,7 +4932,7 @@
 36121,36121,PRON_PER,he
 36127,36127,PRON_PER,me
 36138,36138,PRON_PER,they
-36142,36143,PROP_PER,the Marquis
+36142,36143,NOM_PER,the Marquis
 36145,36145,PROP_GPE,France
 36151,36151,PRON_PER,you
 36153,36153,PRON_PER,I
@@ -5000,7 +4992,6 @@
 36490,36490,PRON_PER,his
 36501,36502,NOM_LOC,the sea
 36508,36512,NOM_LOC,the heart of lush woods
-36511,36512,NOM_LOC,lush woods
 36515,36515,PRON_PER,His
 36515,36516,NOM_PER,His companion
 36528,36528,PROP_PER,Syme
@@ -5056,12 +5047,12 @@
 36920,36920,PROP_PER,Syme
 36928,36928,PRON_PER,I
 36930,36930,PRON_PER,my
-36936,36937,NOM_PER,the Pope
+36936,36937,PROP_PER,the Pope
 36964,36964,PRON_PER,him
 36965,36965,PRON_PER,his
 36968,36968,PRON_PER,his
 36973,36973,PRON_PER,him
-36974,36979,NOM_PER,a live devil among dead ones
+36978,36979,NOM_PER,dead ones
 36993,36994,NOM_PER,the Professor
 37004,37005,PROP_PER,Dr. Bull
 37014,37014,PROP_PER,Syme
@@ -5102,6 +5093,7 @@
 37198,37198,PRON_PER,I
 37208,37208,PRON_PER,he
 37214,37214,PRON_PER,them
+37222,37222,PROP_PER,Clapping
 37227,37227,PRON_PER,his
 37231,37231,PRON_PER,his
 37235,37236,NOM_PER,the Doctor
@@ -5111,21 +5103,22 @@
 37259,37259,PRON_PER,he
 37264,37264,PRON_PER,he
 37267,37267,PRON_PER,his
+37270,37272,NOM_FAC,the stone passage
 37280,37282,PROP_PER,Lord God Almighty
 37285,37285,PRON_PER,he
 37298,37300,NOM_PER,more damned detectives
 37304,37309,NOM_PER,damned dynamiters at the damned Council
-37307,37309,NOM_GPE,the damned Council
+37307,37309,NOM_FAC,the damned Council
 37313,37313,PRON_PER,We
 37321,37321,PROP_PER,Bull
 37324,37324,PRON_PER,we
 37331,37332,NOM_PER,The Professor
 37339,37339,PRON_PER,his
-37351,37352,NOM_PER,the voice
 37355,37355,PRON_PER,we
+37360,37360,NOM_PER,three
 37361,37361,PRON_PER,we
 37367,37367,PRON_PER,We
-37371,37371,PROP_PER,One
+37371,37371,NOM_PER,One
 37374,37375,NOM_PER,The others
 37378,37379,NOM_FAC,the stairs
 37383,37385,NOM_PER,The young man
@@ -5141,6 +5134,7 @@
 37443,37444,NOM_PER,some pals
 37447,37447,PRON_PER,he
 37451,37451,PRON_PER,I
+37457,37458,NOM_PER,the jumps
 37464,37464,PRON_PER,I
 37467,37467,PRON_PER,my
 37470,37470,PROP_PER,Gogol
@@ -5159,6 +5153,7 @@
 37555,37555,PRON_PER,I
 37562,37562,PRON_PER,You
 37565,37565,PRON_PER,I
+37570,37572,NOM_ORG,the detective service
 37585,37585,PRON_PER,they
 37587,37587,NOM_PER,someone
 37592,37593,NOM_PER,a dynamiter
@@ -5191,7 +5186,6 @@
 37745,37746,NOM_PER,the others
 37751,37751,NOM_PER,One
 37759,37759,PRON_PER,my
-37763,37763,NOM_PER,another
 37767,37767,PRON_PER,they
 37769,37769,PRON_PER,my
 37771,37771,PRON_PER,I
@@ -5240,8 +5234,9 @@
 38063,38065,NOM_PER,Their new ally
 38074,38076,NOM_FAC,the inquiry office
 38077,38077,PRON_PER,he
-38083,38084,NOM_VEH,the trains
+38083,38086,NOM_VEH,the trains for Dover
 38086,38086,PROP_GPE,Dover
+38088,38088,PROP_PER,Having
 38090,38090,PRON_PER,his
 38093,38093,PRON_PER,he
 38095,38096,NOM_PER,the company
@@ -5251,7 +5246,7 @@
 38107,38109,NOM_VEH,a railway carriage
 38111,38111,PRON_PER,they
 38119,38119,PRON_PER,They
-38123,38125,NOM_VEH,the Calais boat
+38124,38124,PROP_GPE,Calais
 38132,38132,PRON_PER,I
 38138,38138,PRON_PER,he
 38145,38145,PROP_GPE,France
@@ -5266,12 +5261,12 @@
 38181,38182,NOM_PER,the President
 38184,38184,PRON_PER,his
 38187,38187,PRON_PER,me
-38190,38190,PROP_PER,God
 38194,38194,PRON_PER,I
 38197,38197,PRON_PER,you
 38209,38209,PRON_PER,I
 38216,38216,PRON_PER,I
 38218,38219,NOM_PER,the President
+38230,38231,NOM_FAC,a club
 38236,38236,PRON_PER,his
 38239,38239,PRON_PER,me
 38244,38245,NOM_VEH,an omnibus
@@ -5282,7 +5277,6 @@
 38258,38259,NOM_PER,that fellow
 38261,38261,PRON_PER,himself
 38266,38266,PRON_PER,he
-38270,38271,NOM_LOC,six places
 38278,38278,PRON_PER,you
 38280,38281,NOM_PER,the Marquis
 38284,38284,PRON_PER,I
@@ -5309,7 +5303,7 @@
 38405,38405,PRON_PER,I
 38409,38409,PRON_PER,myself
 38412,38412,PRON_PER,I
-38414,38434,NOM_PER,"a poor fellow , who was a real modern pessimist , on my word of honour not to tell the police"
+38414,38416,NOM_PER,a poor fellow
 38420,38423,NOM_PER,a real modern pessimist
 38426,38426,PRON_PER,my
 38433,38434,NOM_PER,the police
@@ -5351,7 +5345,6 @@
 38608,38608,PRON_PER,his
 38612,38612,PRON_PER,his
 38616,38616,PRON_PER,his
-38619,38620,NOM_LOC,the universe
 38623,38623,PRON_PER,he
 38627,38627,PRON_PER,he
 38634,38634,PRON_PER,I
@@ -5382,7 +5375,7 @@
 38805,38805,PRON_PER,you
 38811,38811,PRON_PER,we
 38817,38817,PRON_PER,I
-38820,38822,NOM_PER,the Grey Nose
+38820,38822,PROP_PER,the Grey Nose
 38826,38826,PROP_GPE,France
 38839,38839,PROP_PER,Syme
 38847,38847,PRON_PER,we
@@ -5449,7 +5442,6 @@
 39178,39179,NOM_PER,the Professor
 39182,39183,PROP_PER,The Symes
 39194,39194,PROP_PER,Syme
-39203,39205,NOM_PER,one of them
 39205,39205,PRON_PER,them
 39208,39208,PROP_PER,Bruce
 39210,39210,PROP_GPE,Bannockburn
@@ -5463,11 +5455,11 @@
 39277,39277,PRON_PER,We
 39283,39283,PRON_PER,he
 39288,39288,PRON_PER,you
+39293,39295,NOM_LOC,the wrong place
 39299,39299,PRON_PER,My
 39308,39308,PROP_PER,Syme
 39316,39320,NOM_FAC,The house of St. Eustache
-39319,39320,PROP_FAC,St. Eustache
-39326,39327,PROP_PER,The Marquis
+39326,39327,NOM_PER,The Marquis
 39332,39332,PRON_PER,he
 39334,39335,NOM_PER,a gentleman
 39337,39337,PRON_PER,He
@@ -5485,6 +5477,7 @@
 39412,39412,PROP_GPE,London
 39415,39415,PRON_PER,them
 39423,39423,PRON_PER,he
+39426,39428,NOM_FAC,some caf s
 39438,39439,NOM_LOC,the sea
 39442,39442,PRON_PER,he
 39445,39445,PRON_PER,them
@@ -5492,7 +5485,6 @@
 39453,39453,PRON_PER,he
 39455,39455,PRON_PER,his
 39461,39461,PRON_PER,He
-39473,39474,NOM_FAC,caf s
 39477,39477,PRON_PER,he
 39485,39485,PRON_PER,he
 39487,39487,PRON_PER,them
@@ -5502,18 +5494,19 @@
 39521,39521,PRON_PER,his
 39528,39528,PRON_PER,his
 39543,39545,NOM_LOC,the violet sea
-39547,39551,PROP_PER,CHAPTER X. THE DUEL Syme
+39547,39548,NOM_ORG,CHAPTER X.
+39547,39548,PROP_PER,CHAPTER X.
+39549,39551,PROP_PER,THE DUEL Syme
 39559,39559,PRON_PER,his
 39559,39560,NOM_PER,his companions
 39562,39562,PRON_PER,his
-39567,39570,NOM_LOC,the bright sea below
 39583,39583,PRON_PER,He
 39595,39595,PRON_PER,His
 39605,39606,PROP_LOC,the Saumur
 39614,39614,PRON_PER,his
 39622,39622,PRON_PER,He
 39639,39639,PRON_PER,himself
-39641,39643,NOM_PER,the deadly Marquis
+39641,39643,PROP_PER,the deadly Marquis
 39645,39645,PRON_PER,He
 39678,39678,PRON_PER,I
 39685,39685,PRON_PER,his
@@ -5574,6 +5567,7 @@
 40116,40116,PRON_PER,he
 40121,40121,PRON_PER,his
 40131,40132,NOM_PER,A band
+40136,40140,NOM_FAC,a _ caf chantant _
 40148,40149,NOM_PER,a woman
 40156,40156,PROP_PER,Syme
 40178,40179,PROP_FAC,Leicester Square
@@ -5582,15 +5576,14 @@
 40202,40203,NOM_PER,the Marquis
 40206,40207,NOM_PER,The man
 40209,40210,NOM_PER,two companions
-40213,40214,NOM_PER,solemn Frenchmen
 40223,40234,NOM_PER,one of them with the red rosette of the Legion of Honour
 40225,40225,PRON_PER,them
-40231,40234,NOM_PER,the Legion of Honour
 40237,40242,NOM_PER,people of a solid social position
 40251,40252,NOM_PER,the Marquis
 40255,40255,PRON_PER,his
 40271,40271,PRON_PER,he
 40273,40274,NOM_PER,the Marquis
+40278,40278,NOM_PER,one
 40282,40282,PRON_PER,he
 40284,40285,NOM_PER,the king
 40288,40288,PRON_PER,his
@@ -5601,7 +5594,6 @@
 40309,40311,NOM_PER,no Christian king
 40317,40317,PRON_PER,he
 40322,40324,NOM_PER,some swarthy despot
-40326,40327,NOM_PER,half Greek
 40329,40330,NOM_PER,half Asiatic
 40343,40344,PROP_LOC,the Mediterranean
 40347,40347,PRON_PER,his
@@ -5666,7 +5658,6 @@
 40682,40682,PROP_PER,Syme
 40686,40686,PRON_PER,I
 40694,40695,NOM_PER,the Marquis
-40701,40702,NOM_PER,the band
 40704,40704,PRON_PER,I
 40708,40708,PRON_PER,I
 40710,40710,PROP_PER,Wagner
@@ -5712,12 +5703,12 @@
 40961,40961,PRON_PER,me
 40972,40972,PRON_PER,us
 40978,40978,PROP_PER,Syme
-40987,40987,NOM_PER,Marquis
+40987,40987,PROP_PER,Marquis
 40990,40990,PRON_PER,he
 40994,40994,PRON_PER,your
 40999,40999,PRON_PER,your
 41005,41005,PRON_PER,me
-41012,41020,NOM_PER,the gentlemen in whose hands I shall place myself
+41012,41048,NOM_PER,"the gentlemen in whose hands I shall place myself . "" In three long strides he rejoined his companions , and they , who had seen his champagne - inspired attack and listened to his idiotic explanations"
 41017,41017,PRON_PER,I
 41020,41020,PRON_PER,myself
 41027,41027,PRON_PER,he
@@ -5736,6 +5727,7 @@
 41099,41099,PRON_PER,I
 41123,41123,PRON_PER,You
 41125,41125,PRON_PER,my
+41125,41126,NOM_PER,my seconds
 41133,41133,PRON_PER,you
 41136,41136,PRON_PER,you
 41157,41157,PRON_PER,me
@@ -5748,7 +5740,6 @@
 41185,41185,PRON_PER,you
 41200,41200,PRON_PER,he
 41204,41204,PRON_PER,He
-41207,41221,NOM_LOC,"a field somewhere near a wayside station , where he can pick up the train"
 41211,41213,NOM_FAC,a wayside station
 41216,41216,PRON_PER,he
 41220,41221,NOM_VEH,the train
@@ -5813,8 +5804,7 @@
 41538,41538,PRON_PER,his
 41538,41539,NOM_VEH,his train
 41543,41543,PRON_PER,his
-41543,41544,NOM_PER,his seconds
-41552,41555,NOM_PER,two of his servants
+41552,41562,NOM_PER,two of his servants carrying a portmanteau and a luncheon basket
 41554,41554,PRON_PER,his
 41554,41555,NOM_PER,his servants
 41578,41578,PROP_PER,Syme
@@ -5828,16 +5818,15 @@
 41671,41675,NOM_LOC,the rich and glistening meadow
 41715,41715,PRON_PER,his
 41725,41725,PRON_PER,his
-41732,41734,NOM_FAC,the railway line
 41737,41737,PRON_PER,he
-41746,41747,NOM_PER,the Marquis
+41746,41753,NOM_PER,"the Marquis , whose goal and escape it"
 41759,41759,PRON_PER,him
 41762,41767,NOM_PER,the black group of his opponents
 41766,41766,PRON_PER,his
 41766,41767,NOM_PER,his opponents
 41769,41769,PRON_PER,he
 41789,41790,NOM_LOC,the sea
-41792,41798,NOM_PER,The member of the Legion of Honour
+41795,41798,NOM_ORG,the Legion of Honour
 41805,41806,PROP_PER,Colonel Ducroix
 41809,41810,NOM_PER,the Professor
 41812,41813,PROP_PER,Dr. Bull
@@ -5850,7 +5839,7 @@
 41882,41883,NOM_PER,the Marquis
 41886,41887,NOM_PER,the Marquis
 41890,41890,PRON_PER,him
-41901,41901,PROP_GPE,Paris
+41900,41902,NOM_VEH,the Paris train
 41910,41919,NOM_PER,a man of the well - known skill and valour
 41921,41924,PROP_PER,Monsieur de St. Eustache
 41928,41929,NOM_PER,the Professor
@@ -5882,7 +5871,7 @@
 42194,42195,NOM_PER,The Colonel
 42220,42220,PROP_PER,Syme
 42238,42238,PRON_PER,him
-42242,42243,NOM_PER,a man
+42242,42247,NOM_PER,a man waking up in bed
 42249,42249,PRON_PER,He
 42266,42267,NOM_PER,the Professor
 42284,42285,NOM_PER,the Doctor
@@ -5902,7 +5891,7 @@
 42432,42434,NOM_PER,a terrible fighter
 42439,42439,PRON_PER,his
 42445,42445,PRON_PER,He
-42453,42457,NOM_LOC,all the earth around him
+42454,42455,NOM_LOC,the earth
 42457,42457,PRON_PER,him
 42463,42463,PRON_PER,his
 42466,42466,PRON_PER,he
@@ -5946,7 +5935,7 @@
 42800,42801,NOM_FAC,the railway
 42805,42805,PRON_PER,he
 42810,42810,PRON_PER,He
-42816,42817,NOM_PER,the Marquis
+42816,42817,PROP_PER,the Marquis
 42824,42824,PROP_GPE,Paris
 42831,42832,PROP_PER,the Marquis
 42842,42842,PROP_PER,Syme
@@ -5968,11 +5957,11 @@
 42949,42950,NOM_PER,an idiot
 42971,42971,PROP_PER,Syme
 42973,42973,PRON_PER,his
-42987,42988,PROP_PER,The Marquis
+42987,42988,NOM_PER,The Marquis
 42997,42999,NOM_PER,a better fencer
 43001,43001,PRON_PER,he
 43004,43004,PRON_PER,he
-43015,43016,PROP_PER,the Marquis
+43015,43016,NOM_PER,the Marquis
 43024,43024,PRON_PER,He
 43032,43032,PRON_PER,he
 43037,43039,NOM_FAC,the railway line
@@ -5981,7 +5970,7 @@
 43054,43054,PROP_PER,Syme
 43078,43078,PRON_PER,his
 43087,43087,PRON_PER,he
-43091,43092,PROP_PER,the Marquis
+43091,43092,NOM_PER,the Marquis
 43099,43099,PRON_PER,his
 43110,43110,PRON_PER,he
 43112,43112,PRON_PER,his
@@ -5990,9 +5979,8 @@
 43145,43146,NOM_PER,the Marquis
 43162,43162,PROP_PER,Syme
 43171,43172,NOM_PER,the man
-43199,43203,NOM_PER,the paralytic who pursued him
 43203,43203,PRON_PER,him
-43205,43206,NOM_PER,The Professor
+43205,43206,PROP_PER,The Professor
 43209,43210,NOM_PER,a goblin
 43212,43213,NOM_PER,this man
 43215,43216,NOM_PER,a devil
@@ -6005,7 +5993,6 @@
 43261,43261,PRON_PER,him
 43277,43277,PRON_PER,He
 43285,43285,PRON_PER,his
-43288,43293,NOM_FAC,the Chinese lanterns in Saffron Park
 43292,43293,PROP_FAC,Saffron Park
 43296,43297,NOM_PER,the girl
 43302,43303,NOM_FAC,the garden
@@ -6014,6 +6001,7 @@
 43319,43319,PRON_PER,his
 43319,43321,NOM_PER,his loyal companions
 43326,43326,PRON_PER,he
+43331,43348,NOM_PER,a champion of all these fresh and kindly things to cross swords with the enemy of all creation
 43344,43348,NOM_PER,the enemy of all creation
 43355,43355,PRON_PER,he
 43358,43358,PRON_PER,himself
@@ -6029,15 +6017,14 @@
 43399,43399,PRON_PER,he
 43416,43418,NOM_VEH,the Paris train
 43420,43420,PRON_PER,He
-43431,43432,NOM_PER,a Mohammedan
+43431,43435,NOM_PER,a Mohammedan panting for Paradise
 43438,43439,NOM_VEH,the train
 43444,43444,PRON_PER,he
 43446,43446,PRON_PER,he
 43449,43449,NOM_PER,people
-43452,43456,NOM_FAC,the floral arches in Paris
 43456,43456,PROP_GPE,Paris
 43458,43458,PRON_PER,he
-43468,43477,NOM_FAC,the great Republic whose gate he was guarding against Hell
+43468,43477,NOM_GPE,the great Republic whose gate he was guarding against Hell
 43473,43473,PRON_PER,he
 43477,43477,PROP_GPE,Hell
 43479,43479,PRON_PER,His
@@ -6055,9 +6042,9 @@
 43613,43614,PROP_PER,Dr. Bull
 43623,43623,PRON_PER,Our
 43623,43624,NOM_PER,Our principal
-43627,43628,NOM_PER,the Marquis
+43627,43628,PROP_PER,the Marquis
 43635,43635,PRON_PER,he
-43642,43643,NOM_PER,The Marquis
+43642,43643,PROP_PER,The Marquis
 43646,43646,PRON_PER,his
 43659,43659,PRON_PER,me
 43663,43663,PRON_PER,he
@@ -6082,9 +6069,11 @@
 43765,43766,NOM_PER,his principal
 43772,43772,PRON_PER,I
 43780,43781,PROP_PER,Captain Bellegarde
-43783,43785,NOM_PER,the Baron Zumpt
+43783,43785,PROP_PER,the Baron Zumpt
 43803,43806,NOM_PER,one of the combatants
 43805,43806,NOM_PER,the combatants
+43809,43809,NOM_PER,one
+43813,43813,NOM_PER,one
 43822,43822,PRON_PER,you
 43825,43825,PRON_PER,you
 43828,43828,PRON_PER,my
@@ -6097,7 +6086,7 @@
 43881,43881,PRON_PER,I
 43883,43883,PRON_PER,you
 43887,43887,PRON_PER,he
-43897,43897,PROP_GPE,Paris
+43896,43898,NOM_VEH,The Paris train
 43907,43913,NOM_FAC,a little station behind the neighbouring hill
 43911,43913,NOM_LOC,the neighbouring hill
 43915,43915,PROP_PER,Syme
@@ -6120,7 +6109,7 @@
 44078,44078,PRON_PER,he
 44084,44084,PRON_PER,his
 44092,44092,PRON_PER,his
-44103,44104,NOM_PER,the Colonel
+44103,44112,NOM_PER,"the Colonel , who stood crimson and speechless with rage"
 44116,44116,PRON_PER,I
 44121,44121,PRON_PER,he
 44126,44126,PRON_PER,I
@@ -6144,6 +6133,7 @@
 44230,44232,NOM_PER,The mysterious Marquis
 44234,44234,PRON_PER,his
 44241,44241,PRON_PER,He
+44243,44250,NOM_PER,a strange scarecrow standing there in the sun
 44253,44253,PRON_PER,his
 44271,44271,PRON_PER,you
 44273,44273,PRON_PER,me
@@ -6155,12 +6145,11 @@
 44300,44300,PRON_PER,his
 44303,44305,NOM_PER,The wild figure
 44308,44308,PROP_PER,Syme
-44315,44315,PRON_PER,itself
 44324,44324,PRON_PER,You
-44325,44345,NOM_PER,"great fat , blasted , blear - eyed , blundering , thundering , brainless , Godforsaken , doddering , damned fool"
+44330,44345,NOM_PER,"blear - eyed , blundering , thundering , brainless , Godforsaken , doddering , damned fool"
 44348,44348,PRON_PER,he
 44355,44355,PRON_PER,You
-44356,44364,NOM_PER,"great silly , pink - faced , towheaded turnip"
+44355,44364,NOM_PER,"You great silly , pink - faced , towheaded turnip"
 44366,44366,PRON_PER,You
 44369,44369,PRON_PER,You
 44374,44375,NOM_VEH,this train
@@ -6172,7 +6161,7 @@
 44411,44412,NOM_PER,the Professor
 44416,44416,PRON_PER,You
 44420,44420,PROP_GPE,Paris
-44430,44430,PROP_PER,Jericho
+44430,44430,PROP_GPE,Jericho
 44438,44439,NOM_PER,the other
 44442,44442,PRON_PER,his
 44452,44452,PRON_PER,you
@@ -6182,6 +6171,7 @@
 44473,44473,PRON_PER,I
 44477,44478,NOM_VEH,that train
 44480,44482,NOM_VEH,Twenty Paris trains
+44481,44481,PROP_GPE,Paris
 44487,44487,PRON_PER,me
 44490,44490,PROP_GPE,Paris
 44498,44498,PRON_PER,you
@@ -6261,7 +6251,7 @@
 44973,44973,PRON_PER,We
 44975,44976,NOM_PER,not buffoons
 44979,44987,NOM_PER,very desperate men at war with a vast conspiracy
-44989,44993,NOM_PER,A secret society of anarchists
+44989,44993,NOM_ORG,A secret society of anarchists
 44996,44996,PRON_PER,us
 45019,45025,NOM_ORG,a rich and powerful and fanatical church
 45027,45035,NOM_ORG,"a church of eastern pessimism , which holds it"
@@ -6282,7 +6272,7 @@
 45123,45123,PRON_PER,you
 45126,45126,PRON_PER,your
 45131,45131,PRON_PER,myself
-45140,45146,NOM_PER,an acquaintance and distinguished fellow - townsman
+45140,45153,NOM_PER,an acquaintance and distinguished fellow - townsman coming to pieces in the open air
 45168,45169,PROP_PER,Colonel Ducroix
 45171,45171,PRON_PER,I
 45177,45177,PRON_PER,your
@@ -6342,15 +6332,16 @@
 45502,45502,PROP_PER,Sunday
 45507,45507,PRON_PER,he
 45511,45511,PRON_PER,his
-45511,45513,NOM_PER,his powerful enemies
 45529,45529,PRON_PER,I
 45531,45531,PRON_PER,you
 45532,45532,PRON_PER,he
 45538,45538,PRON_PER,he
 45544,45544,PRON_PER,he
-45553,45557,NOM_FAC,_ that _ railway line
+45548,45557,NOM_FAC,every railway line especially of _ that _ railway line
+45554,45557,NOM_FAC,that _ railway line
 45561,45561,PRON_PER,he
 45567,45570,NOM_FAC,the small wayside station
+45573,45575,NOM_PER,The whole movement
 45579,45579,PRON_PER,him
 45582,45583,NOM_LOC,the world
 45589,45589,PRON_PER,him
@@ -6358,9 +6349,9 @@
 45604,45604,PRON_PER,him
 45607,45609,NOM_PER,the old devil
 45611,45611,PRON_PER,them
-45613,45615,PROP_FAC,the Supreme Council
 45619,45619,PRON_PER,their
 45623,45624,NOM_PER,each other
+45626,45626,NOM_PER,Idiots
 45628,45628,PRON_PER,we
 45631,45631,PRON_PER,he
 45636,45636,PRON_PER,our
@@ -6424,7 +6415,6 @@
 45971,45971,PRON_PER,his
 45982,45982,PRON_PER,you
 45987,45988,NOM_PER,the Professor
-46000,46000,PRON_PER,them
 46004,46004,PRON_PER,they
 46008,46009,NOM_PER,ordinary tourists
 46014,46015,NOM_PER,ordinary tourists
@@ -6440,10 +6430,8 @@
 46120,46125,NOM_PER,the men talking in the front
 46130,46130,PRON_PER,they
 46132,46132,PRON_PER,they
-46136,46138,NOM_PER,one of them
 46138,46138,PRON_PER,them
-46144,46145,PROP_FAC,CHAPTER XI
-46150,46152,PROP_PER,THE POLICE Syme
+46144,46152,PROP_PER,CHAPTER XI . THE CRIMINALS CHASE THE POLICE Syme
 46159,46159,PRON_PER,his
 46168,46169,NOM_PER,The President
 46173,46173,PRON_PER,them
@@ -6466,7 +6454,7 @@
 46269,46269,PROP_PER,God
 46271,46271,PRON_PER,I
 46273,46274,NOM_LOC,this ground
-46284,46288,NOM_PER,the new man called Ratcliffe
+46284,46286,NOM_PER,the new man
 46288,46288,PROP_PER,Ratcliffe
 46296,46297,NOM_PER,the President
 46301,46301,PRON_PER,them
@@ -6481,25 +6469,26 @@
 46353,46353,PRON_PER,he
 46358,46359,NOM_LOC,the world
 46372,46372,PRON_PER,he
-46378,46386,NOM_LOC,the distant fields that lay towards the little station
+46378,46380,NOM_LOC,the distant fields
 46384,46386,NOM_FAC,the little station
 46398,46399,NOM_PER,a crowd
 46405,46405,PRON_PER,they
+46408,46414,NOM_PER,all the army that you make out
 46412,46412,PRON_PER,you
 46420,46420,PRON_PER,they
 46424,46426,NOM_PER,the new detective
 46431,46431,PRON_PER,they
+46434,46437,NOM_PER,a very valuable force
 46441,46441,PRON_PER,me
 46443,46443,PRON_PER,you
-46446,46446,PRON_PER,they
 46451,46451,PRON_PER,our
 46453,46453,PRON_PER,we
 46458,46458,PRON_PER,my
 46458,46459,NOM_PER,my boy
-46462,46464,NOM_FAC,Sunday 's universe
+46462,46462,PROP_PER,Sunday
 46466,46466,PRON_PER,He
 46476,46476,PRON_PER,himself
-46481,46483,NOM_ORG,the Supreme Council
+46481,46483,NOM_PER,the Supreme Council
 46484,46484,PRON_PER,he
 46501,46501,PRON_PER,his
 46501,46503,NOM_PER,his private secretary
@@ -6512,7 +6501,6 @@
 46553,46553,PRON_PER,me
 46560,46560,PRON_PER,he
 46562,46562,PRON_PER,his
-46571,46572,NOM_LOC,the wood
 46574,46575,NOM_PER,The others
 46580,46580,PRON_PER,their
 46590,46590,NOM_PER,men
@@ -6523,7 +6511,6 @@
 46632,46632,PRON_PER,They
 46636,46636,PRON_PER,their
 46636,46637,NOM_PER,their leader
-46643,46644,NOM_LOC,the wood
 46667,46668,NOM_LOC,the wood
 46669,46669,PRON_PER,they
 46679,46685,NOM_PER,divers who plunge into a dim pool
@@ -6543,7 +6530,6 @@
 46831,46831,PRON_PER,he
 46837,46840,NOM_PER,anyone wearing a mask
 46843,46843,NOM_PER,anyone
-46846,46849,NOM_FAC,This wood of witchery
 46853,46853,NOM_PER,men
 46865,46865,PRON_PER,their
 46893,46893,PROP_PER,Syme
@@ -6565,13 +6551,15 @@
 46963,46963,PRON_PER,He
 46975,46976,NOM_PER,a friend
 46979,46980,NOM_PER,an enemy
-46993,46994,NOM_PER,The Marquis
+46993,46994,PROP_PER,The Marquis
 46998,46998,PRON_PER,his
 47005,47006,NOM_PER,a detective
 47009,47009,PRON_PER,he
 47016,47016,PRON_PER,his
 47023,47024,NOM_PER,a hobgoblin
+47034,47036,NOM_LOC,this bewildering woodland
 47060,47061,PROP_PER,Gabriel Syme
+47068,47072,NOM_LOC,that sun - splashed wood
 47074,47076,NOM_PER,many modern painters
 47081,47081,PRON_PER,He
 47087,47089,NOM_PER,the modern people
@@ -6595,6 +6583,7 @@
 47221,47222,NOM_PER,his companion
 47232,47232,PRON_PER,We
 47237,47240,NOM_GPE,the town of Lancy
+47240,47240,PROP_GPE,Lancy
 47242,47243,NOM_LOC,the sea
 47246,47246,PRON_PER,he
 47250,47250,PRON_PER,I
@@ -6609,7 +6598,7 @@
 47298,47298,NOM_PER,anarchists
 47303,47303,PRON_PER,they
 47306,47307,NOM_PER,mere mobs
-47311,47312,NOM_PER,modern armies
+47311,47312,NOM_ORG,modern armies
 47314,47314,NOM_PER,police
 47318,47319,NOM_PER,Mere mobs
 47323,47323,PRON_PER,his
@@ -6625,13 +6614,11 @@
 47378,47378,PRON_PER,they
 47382,47382,NOM_PER,anarchists
 47384,47384,PRON_PER,they
-47394,47396,NOM_ORG,some decent government
 47398,47400,NOM_PER,The poor man
 47406,47407,NOM_GPE,the country
 47409,47411,NOM_PER,The rich man
 47415,47415,PRON_PER,he
 47420,47421,PROP_GPE,New Guinea
-47423,47424,NOM_VEH,a yacht
 47426,47427,NOM_PER,The poor
 47436,47437,NOM_PER,the rich
 47447,47447,NOM_PER,Aristocrats
@@ -6644,7 +6631,7 @@
 47503,47503,PRON_PER,his
 47503,47504,NOM_PER,his informant
 47508,47516,NOM_PER,most of old Sunday 's right - hand men
-47510,47511,PROP_PER,old Sunday
+47510,47516,NOM_PER,old Sunday 's right - hand men
 47518,47522,NOM_PER,South African and American millionaires
 47527,47527,PRON_PER,he
 47540,47550,NOM_PER,the last four champions of the anti - anarchist police force
@@ -6668,7 +6655,6 @@
 47696,47696,PROP_PER,Syme
 47701,47701,PRON_PER,his
 47711,47713,NOM_LOC,this forest clearing
-47715,47749,NOM_PER,"a figure that might well stand for that common sense in an almost awful actuality . Burnt by the sun and stained with perspiration , and grave with the bottomless gravity of small necessary toils"
 47751,47754,NOM_PER,a heavy French peasant
 47762,47762,PRON_PER,His
 47762,47763,NOM_VEH,His cart
@@ -6704,7 +6690,6 @@
 47975,47975,PRON_PER,he
 47979,47979,PRON_PER,us
 47983,47983,PRON_PER,his
-47983,47984,NOM_VEH,his cart
 47994,47994,PRON_PER,we
 47998,47998,PRON_PER,them
 48006,48006,PRON_PER,him
@@ -6735,7 +6720,6 @@
 48159,48160,NOM_PER,the Colonel
 48165,48168,NOM_PER,the wood - cutter
 48171,48171,PRON_PER,their
-48192,48200,NOM_PER,a solicitor who had been paid the proper fee
 48202,48202,PRON_PER,He
 48204,48204,PRON_PER,them
 48209,48209,PRON_PER,they
@@ -6770,11 +6754,11 @@
 48406,48406,PRON_PER,he
 48409,48412,NOM_LOC,the sunlit slopes beyond
 48413,48413,PRON_FAC,it
+48416,48416,PRON_LOC,it
 48424,48427,NOM_PER,the square black mob
 48440,48440,PRON_PER,his
 48451,48451,PROP_PER,Syme
 48454,48457,NOM_PER,this mass of men
-48457,48457,NOM_PER,men
 48461,48461,PRON_PER,He
 48464,48464,PRON_PER,them
 48466,48468,NOM_PER,separate human figures
@@ -6787,7 +6771,6 @@
 48508,48508,PRON_PER,they
 48528,48530,NOM_PER,an ordinary mob
 48532,48532,PRON_PER,They
-48544,48548,NOM_PER,a staring army of automatons
 48550,48550,PROP_PER,Syme
 48555,48555,PROP_PER,Ratcliffe
 48562,48563,NOM_PER,the policeman
@@ -6801,11 +6784,11 @@
 48609,48609,PRON_PER,your
 48612,48612,PRON_PER,they
 48629,48629,PRON_PER,us
-48632,48632,PRON_PER,they
 48638,48638,PROP_PER,Syme
 48649,48651,NOM_PER,the pursuing men
 48658,48659,NOM_PER,the peasant
 48661,48661,PRON_PER,his
+48667,48669,NOM_LOC,the sunlit landscape
 48684,48685,NOM_LOC,the wood
 48692,48693,NOM_LOC,the sea
 48700,48706,NOM_LOC,the lower slopes of the Sussex downs
@@ -6813,7 +6796,7 @@
 48714,48714,PROP_GPE,Sussex
 48715,48716,NOM_FAC,the road
 48724,48726,NOM_LOC,a little brook
-48730,48733,NOM_FAC,the white French road
+48729,48733,NOM_FAC,here the white French road
 48739,48739,PRON_PER,them
 48748,48749,NOM_VEH,the cart
 48762,48763,NOM_FAC,the road
@@ -6825,7 +6808,7 @@
 48783,48784,NOM_LOC,the sea
 48790,48790,PRON_PER,their
 48790,48791,NOM_PER,their enemies
-48799,48802,NOM_PER,The horse and cart
+48799,48802,NOM_VEH,The horse and cart
 48823,48840,NOM_PER,"an old gentleman who was sitting on the benches outside the little caf of "" Le Soleil d'Or"
 48833,48840,NOM_FAC,"the little caf of "" Le Soleil d'Or"
 48838,48840,NOM_FAC,Le Soleil d'Or
@@ -6866,6 +6849,7 @@
 49055,49055,PROP_PER,Colonel
 49058,49058,PRON_PER,he
 49067,49067,PRON_PER,we
+49070,49070,NOM_FAC,here
 49073,49074,PROP_PER,Colonel Ducroix
 49077,49077,PRON_PER,his
 49087,49087,NOM_PER,sir
@@ -6873,7 +6857,7 @@
 49095,49095,PRON_PER,I
 49110,49110,PRON_PER,We
 49112,49112,NOM_FAC,here
-49116,49127,NOM_LOC,the only place within twenty miles in which we can get horses
+49116,49127,NOM_FAC,the only place within twenty miles in which we can get horses
 49124,49124,PRON_PER,we
 49135,49135,PROP_PER,Syme
 49146,49147,NOM_PER,the other
@@ -6910,7 +6894,6 @@
 49291,49291,NOM_FAC,here
 49295,49295,PROP_PER,Ducroix
 49308,49310,NOM_PER,a good man
-49314,49314,NOM_PER,one
 49322,49322,PROP_PER,Syme
 49341,49341,PRON_PER,he
 49344,49344,PRON_PER,You
@@ -6921,6 +6904,7 @@
 49383,49383,PRON_PER,I
 49387,49390,NOM_PER,Those enemies of yours
 49398,49398,PRON_PER,they
+49406,49410,NOM_PER,a well - trained army
 49412,49412,PRON_PER,I
 49417,49418,NOM_PER,the anarchists
 49424,49424,PRON_PER,You
@@ -6928,7 +6912,6 @@
 49438,49447,NOM_PER,the old innkeeper with the blue eyes and white hair
 49451,49452,NOM_FAC,the room
 49464,49464,PROP_PER,Ducroix
-49467,49469,NOM_PER,the five others
 49471,49471,PRON_PER,themselves
 49483,49483,PRON_PER,their
 49492,49492,PRON_PER,they
@@ -6937,6 +6920,7 @@
 49509,49510,NOM_PER,the Marquis
 49514,49514,PRON_PER,he
 49516,49517,NOM_PER,a marquis
+49525,49526,NOM_FAC,the caf
 49536,49536,PRON_PER,their
 49554,49554,PROP_PER,Syme
 49561,49563,NOM_PER,the old innkeeper
@@ -6949,18 +6933,15 @@
 49618,49618,PRON_PER,he
 49623,49624,NOM_LOC,the earth
 49626,49626,PRON_PER,He
-49631,49646,NOM_PER,"this dwindling figure , which stood as a mere grey blot touched with a white flame"
 49653,49657,NOM_LOC,the steep down behind him
 49657,49657,PRON_PER,him
 49661,49661,PRON_PER,he
-49664,49671,NOM_LOC,the top of the down behind the innkeeper
 49670,49671,NOM_PER,the innkeeper
 49675,49683,NOM_PER,an army of black - clad and marching men
 49685,49685,PRON_PER,They
 49690,49692,NOM_PER,the good man
 49694,49694,PRON_PER,his
 49694,49695,NOM_FAC,his house
-49715,49716,NOM_LOC,THE EARTH
 49718,49718,PROP_GPE,ANARCHY
 49734,49735,NOM_FAC,the road
 49737,49738,NOM_PER,the horsemen
@@ -6973,11 +6954,11 @@
 49766,49767,NOM_PER,their pursuers
 49783,49783,PRON_PER,they
 49785,49787,NOM_GPE,the real town
+49788,49789,NOM_LOC,the west
 49800,49801,NOM_PER,The Colonel
 49809,49811,NOM_FAC,the police station
 49813,49813,PRON_PER,they
 49825,49825,PRON_PER,themselves
-49826,49832,NOM_PER,one more individual who might be useful
 49835,49844,NOM_PER,Four out of the five rich men in this town
 49838,49844,NOM_PER,the five rich men in this town
 49843,49844,NOM_GPE,this town
@@ -7017,7 +6998,7 @@
 50052,50052,PRON_PER,your
 50057,50057,PROP_PER,Syme
 50070,50070,PRON_PER,they
-50092,50092,NOM_LOC,earth
+50090,50092,NOM_LOC,heaven and earth
 50099,50099,PRON_PER,their
 50110,50111,NOM_FAC,the road
 50124,50125,NOM_PER,The Colonel
@@ -7052,6 +7033,7 @@
 50348,50348,PRON_PER,his
 50351,50352,PROP_PER,Dr. Renard
 50354,50365,NOM_FAC,a high and comfortable house at the top of a steep street
+50360,50365,NOM_FAC,the top of a steep street
 50363,50365,NOM_FAC,a steep street
 50370,50371,NOM_PER,the riders
 50374,50374,PRON_PER,his
@@ -7060,13 +7042,14 @@
 50386,50387,NOM_LOC,the hill
 50390,50392,NOM_FAC,the white road
 50394,50394,PRON_FAC,it
-50400,50404,NOM_FAC,the roofs of the town
+50399,50404,NOM_FAC,all the roofs of the town
 50403,50404,NOM_GPE,the town
 50406,50406,PRON_PER,They
 50412,50413,NOM_FAC,the road
 50420,50420,PRON_PER,they
 50425,50426,PROP_PER,Dr. Renard
 50428,50434,NOM_PER,"a beaming , brown - bearded man"
+50440,50455,NOM_PER,that silent but very busy professional class which France has preserved even more perfectly than England
 50448,50448,PROP_GPE,France
 50455,50455,PROP_GPE,England
 50463,50463,PRON_PER,him
@@ -7078,13 +7061,16 @@
 50502,50502,PRON_PER,he
 50506,50506,PRON_PER,his
 50524,50525,NOM_PER,the Colonel
+50530,50531,NOM_PER,the other
 50546,50546,PRON_PER,They
 50556,50557,NOM_PER,black cavalry
 50561,50565,NOM_LOC,the top of the hill
-50564,50565,NOM_LOC,the hill
 50571,50571,PROP_PER,Attila
 50575,50575,PRON_PER,they
+50580,50582,NOM_PER,the whole rank
 50589,50589,PRON_PER,they
+50592,50605,NOM_PER,the black vizards of the first line as level as a line of uniforms
+50609,50612,NOM_FAC,the main black square
 50628,50628,PRON_PER,they
 50633,50637,NOM_LOC,the slope of the hill
 50636,50637,NOM_LOC,the hill
@@ -7095,7 +7081,6 @@
 50683,50683,NOM_PER,one
 50688,50688,PRON_PER,he
 50691,50692,NOM_PER,the pursuer
-50694,50695,NOM_PER,the pursued
 50703,50703,PRON_PER,they
 50713,50713,PRON_PER,his
 50717,50717,PRON_PER,they
@@ -7106,17 +7091,19 @@
 50744,50744,PRON_PER,you
 50746,50746,PRON_PER,me
 50747,50747,PRON_PER,your
+50747,50750,NOM_VEH,your motor - car
 50748,50750,NOM_VEH,motor - car
 50759,50759,PRON_PER,I
 50764,50764,PRON_PER,you
 50771,50772,PROP_PER,Dr. Renard
+50779,50779,PROP_PER,God
 50791,50791,PRON_PER,us
 50795,50796,NOM_FAC,the garage
 50799,50800,PROP_PER,Dr. Renard
 50802,50807,NOM_PER,a mild man with monstrous wealth
 50809,50809,PRON_PER,his
 50809,50810,NOM_FAC,his rooms
-50813,50816,NOM_FAC,the Musee de Cluny
+50813,50816,PROP_FAC,the Musee de Cluny
 50819,50819,PRON_PER,he
 50821,50824,NOM_VEH,three motor - cars
 50830,50830,PRON_PER,he
@@ -7136,7 +7123,6 @@
 50900,50900,PRON_PER,they
 50916,50917,NOM_LOC,the tropics
 50920,50920,PRON_PER,they
-50925,50926,NOM_LOC,the place
 50928,50928,PRON_PER,they
 50940,50941,NOM_GPE,the town
 50943,50943,PRON_PER,They
@@ -7147,7 +7133,7 @@
 50986,50987,NOM_PER,the Professor
 50996,50996,PRON_PER,they
 51019,51021,NOM_PER,the whole cavalcade
-51025,51027,NOM_PER,the one horseman
+51025,51037,NOM_PER,"the one horseman , who had left it far behind the insane Secretary"
 51035,51037,NOM_PER,the insane Secretary
 51039,51039,PROP_PER,Syme
 51039,51041,NOM_PER,Syme 's family
@@ -7156,18 +7142,18 @@
 51061,51061,PRON_PER,he
 51065,51065,PRON_PER,them
 51067,51067,PRON_PER,He
+51073,51074,NOM_PER,the chauffeur
 51091,51091,PRON_PER,He
 51093,51093,PRON_PER,his
 51105,51105,PRON_PER,I
 51115,51115,PRON_PER,he
-51123,51124,NOM_PER,a man
 51127,51127,PRON_PER,his
 51140,51140,PRON_PER,He
 51147,51147,PRON_PER,his
 51155,51155,PRON_PER,He
 51159,51161,NOM_VEH,the stationary car
-51165,51165,PRON_PER,its
 51172,51172,PRON_PER,his
+51178,51178,PRON_PER,It
 51180,51181,NOM_PER,the Secretary
 51184,51184,PRON_PER,his
 51195,51195,PROP_PER,Syme
@@ -7199,7 +7185,6 @@
 51381,51382,NOM_PER,the Colonel
 51389,51390,NOM_VEH,the car
 51391,51391,PRON_PER,he
-51422,51422,PRON_FAC,its
 51454,51454,PRON_PER,you
 51460,51461,NOM_PER,the Professor
 51464,51464,PRON_PER,I
@@ -7209,7 +7194,7 @@
 51482,51482,PRON_PER,my
 51482,51484,NOM_PER,my best friend
 51487,51487,PRON_PER,our
-51487,51488,NOM_PER,our friend
+51487,51489,NOM_PER,our friend here
 51497,51497,PRON_PER,I
 51504,51505,NOM_FAC,the house
 51509,51509,PROP_PER,Renard
@@ -7237,10 +7222,11 @@
 51648,51648,PROP_PER,Syme
 51666,51666,PRON_PER,their
 51673,51675,NOM_VEH,the modern automobile
+51677,51677,PRON_FAC,its
 51683,51683,PRON_PER,they
 51687,51692,NOM_LOC,the quietest part of the town
 51691,51692,NOM_GPE,the town
-51697,51700,NOM_PER,one or two pedestrians
+51699,51716,NOM_PER,"two pedestrians , who could give them no hint of the peace or the hostility of the place"
 51705,51705,PRON_PER,them
 51715,51716,NOM_GPE,the place
 51725,51726,NOM_FAC,the houses
@@ -7249,7 +7235,6 @@
 51755,51755,PRON_PER,their
 51760,51760,PRON_PER,himself
 51763,51763,PRON_PER,his
-51773,51773,NOM_PER,one
 51779,51780,PROP_PER,Inspector Ratcliffe
 51782,51782,PRON_PER,his
 51796,51796,PRON_PER,me
@@ -7298,7 +7283,6 @@
 52040,52042,NOM_VEH,motor - cars
 52045,52046,NOM_PER,the Professor
 52056,52056,PRON_PER,they
-52058,52068,NOM_PER,the other two motor - cars from Dr. Renard 's garage
 52065,52066,PROP_PER,Dr. Renard
 52065,52068,NOM_FAC,Dr. Renard 's garage
 52071,52071,PRON_PER,I
@@ -7329,7 +7313,6 @@
 52225,52225,PRON_PER,his
 52229,52230,NOM_VEH,the car
 52233,52233,PRON_VEH,it
-52242,52242,PRON_FAC,it
 52245,52245,PROP_PER,Syme
 52252,52252,PRON_PER,his
 52256,52256,PRON_PER,My
@@ -7337,7 +7320,6 @@
 52261,52262,NOM_PER,the Colonel
 52265,52265,NOM_PER,someone
 52269,52269,PRON_PER,us
-52273,52273,PRON_PER,It
 52281,52283,PROP_PER,the gloomy Ratcliffe
 52288,52288,PRON_PER,your
 52291,52291,PROP_PER,Colonel
@@ -7353,13 +7335,13 @@
 52344,52346,NOM_PER,A fastidious person
 52350,52350,PROP_PER,Syme
 52361,52361,PRON_PER,I
+52367,52371,NOM_FAC,the field beyond this street
 52370,52371,NOM_FAC,this street
 52373,52374,NOM_PER,the Gendarmerie
 52376,52376,PRON_PER,We
 52380,52380,NOM_GPE,there
 52388,52389,PROP_PER,Inspector Ratcliffe
 52392,52392,PRON_PER,we
-52396,52396,NOM_GPE,there
 52399,52399,PRON_PER,He
 52409,52409,PRON_PER,him
 52412,52412,PRON_PER,he
@@ -7368,10 +7350,9 @@
 52433,52433,PROP_PER,Bull
 52437,52437,PRON_PER,I
 52440,52440,PRON_PER,we
-52444,52444,NOM_GPE,there
+52444,52444,NOM_FAC,there
 52448,52449,NOM_PER,the pessimist
 52453,52453,PRON_PER,They
-52455,52462,NOM_PER,two rows of armed men across the road
 52458,52459,NOM_PER,armed men
 52461,52462,NOM_FAC,the road
 52465,52465,PRON_PER,I
@@ -7392,20 +7373,23 @@
 52547,52557,NOM_LOC,a side street that ran down very steeply to the sea
 52556,52557,NOM_LOC,the sea
 52559,52560,NOM_GPE,The town
+52574,52574,PRON_FAC,its
+52581,52581,PRON_FAC,it
 52589,52591,NOM_FAC,this side street
 52608,52609,NOM_FAC,the theatre
 52613,52618,NOM_VEH,the car of the five friends
 52616,52618,NOM_PER,the five friends
+52629,52633,NOM_LOC,the rest of the street
 52632,52633,NOM_FAC,the street
 52640,52640,PRON_FAC,it
 52652,52652,PRON_PER,they
 52658,52658,PROP_PER,Syme
 52684,52685,NOM_PER,a crowd
+52687,52688,NOM_PER,an army
 52697,52698,NOM_FAC,that street
 52710,52710,PROP_PER,Bull
 52723,52724,NOM_PER,the mayor
 52730,52730,PRON_PER,I
-52737,52746,NOM_PER,"that plain , jolly people in a place like this"
 52752,52752,PRON_PER,their
 52760,52760,PROP_PER,Syme
 52764,52764,PRON_PER,us
@@ -7443,17 +7427,17 @@
 53004,53004,PRON_PER,his
 53012,53012,PRON_PER,He
 53016,53017,NOM_VEH,the car
-53021,53023,NOM_LOC,the intervening space
+53021,53023,NOM_FAC,the intervening space
 53028,53029,PROP_PER,Dr. Renard
 53031,53032,PROP_PER,Dr. Renard
 53038,53038,PROP_PER,Syme
 53040,53040,PRON_PER,his
 53047,53047,PRON_PER,his
-53053,53054,PROP_PER,Dr. Renard
+53051,53054,PROP_PER,the philanthropic Dr. Renard
 53058,53058,PRON_PER,his
 53064,53064,PROP_PER,Bull
 53072,53073,NOM_FAC,the road
-53105,53107,PROP_PER,the cynical Ratcliffe
+53107,53107,PROP_PER,Ratcliffe
 53113,53113,PRON_PER,he
 53120,53120,PRON_PER,he
 53123,53124,PROP_PER,Dr. Bull
@@ -7466,7 +7450,8 @@
 53195,53195,PRON_PER,I
 53200,53201,PROP_PER,Dr. Bull
 53207,53207,PRON_PER,I
-53213,53217,PROP_FAC,No . 217 Peabody Buildings
+53213,53213,PROP_GPE,No
+53215,53217,NOM_FAC,217 Peabody Buildings
 53221,53221,PRON_PER,I
 53238,53238,PRON_PER,I
 53241,53241,PRON_PER,I
@@ -7482,7 +7467,7 @@
 53286,53286,PRON_PER,you
 53289,53289,PRON_PER,I
 53295,53295,PRON_PER,I
-53301,53305,NOM_PER,the mass of ordinary men
+53304,53305,NOM_PER,ordinary men
 53307,53312,NOM_PER,a pack of dirty modern thinkers
 53316,53316,NOM_PER,sir
 53318,53318,PRON_PER,I
@@ -7503,7 +7488,6 @@
 53400,53400,PRON_PER,you
 53405,53405,NOM_PER,humanity
 53408,53408,NOM_PER,peasants
-53410,53410,NOM_PER,people
 53410,53415,NOM_PER,people like that jolly old innkeeper
 53412,53415,NOM_PER,that jolly old innkeeper
 53418,53418,PRON_PER,you
@@ -7517,12 +7501,12 @@
 53471,53475,NOM_PER,the man with a cigarette
 53480,53480,PRON_PER,his
 53483,53483,PRON_PER,his
-53494,53500,NOM_PER,The men in the motor - car
-53497,53500,NOM_VEH,the motor - car
+53487,53488,NOM_PER,The devils
+53494,53497,NOM_PER,The men in the
+53498,53500,NOM_VEH,motor - car
 53507,53507,PRON_PER,his
 53512,53512,PRON_PER,they
 53515,53523,NOM_PER,the whole regiment at the end of the road
-53522,53523,NOM_FAC,the road
 53527,53527,PRON_PER,them
 53529,53530,PROP_PER,Dr. Renard
 53536,53536,PRON_PER,his
@@ -7550,7 +7534,6 @@
 53654,53654,PRON_PER,he
 53669,53670,NOM_PER,the smoker
 53673,53673,PRON_PER,He
-53680,53682,NOM_PER,all of us
 53682,53682,PRON_PER,us
 53686,53688,NOM_PER,the impatient Colonel
 53697,53699,NOM_PER,the advancing enemy
@@ -7569,7 +7552,6 @@
 53771,53771,PROP_PER,Bull
 53775,53775,PRON_PER,We
 53782,53782,PRON_PER,we
-53785,53789,NOM_PER,a tidy number of them
 53789,53789,PRON_PER,them
 53793,53793,PRON_PER,I
 53802,53803,PROP_PER,Dr. Bull
@@ -7587,11 +7569,11 @@
 53881,53881,PROP_PER,Syme
 53893,53893,PRON_PER,they
 53897,53897,PRON_PER,He
-53903,53903,NOM_PER,horsemen
 53908,53908,PRON_PER,them
 53913,53913,PRON_PER,He
 53936,53938,NOM_PER,an old man
 53950,53950,PRON_PER,he
+53958,53958,PRON_VEH,it
 53961,53964,NOM_FAC,the steep side street
 53966,53967,NOM_LOC,the sea
 53970,53976,NOM_PER,a man that desired only to die
@@ -7648,6 +7630,7 @@
 54343,54345,NOM_LOC,the beach below
 54347,54348,NOM_PER,The others
 54351,54351,PRON_PER,him
+54366,54368,NOM_PER,the gathering mob
 54370,54370,PRON_PER,them
 54373,54373,PRON_PER,We
 54381,54381,PROP_PER,Syme
@@ -7656,7 +7639,6 @@
 54400,54402,NOM_FAC,the police station
 54405,54405,PRON_PER,us
 54407,54407,PRON_PER,We
-54411,54411,NOM_FAC,there
 54414,54414,PRON_PER,they
 54422,54423,NOM_FAC,a pier
 54429,54430,NOM_LOC,the sea
@@ -7666,7 +7648,7 @@
 54446,54447,NOM_FAC,his bridge
 54449,54449,PRON_PER,We
 54452,54452,PRON_FAC,it
-54454,54455,PROP_PER,the Gendarmerie
+54454,54455,NOM_PER,the Gendarmerie
 54461,54461,PRON_PER,me
 54464,54464,PRON_PER,They
 54466,54466,PRON_PER,him
@@ -7684,6 +7666,7 @@
 54540,54540,PRON_PER,They
 54544,54545,NOM_GPE,the town
 54547,54548,NOM_GPE,That town
+54556,54558,NOM_FAC,the high parade
 54561,54561,PRON_PER,they
 54585,54585,PRON_PER,them
 54609,54609,PRON_PER,they
@@ -7698,6 +7681,7 @@
 54672,54672,NOM_PER,These
 54676,54678,NOM_LOC,the deep sand
 54688,54689,NOM_LOC,the sea
+54699,54703,NOM_PER,the whole black mass of
 54704,54704,NOM_PER,men
 54719,54723,NOM_PER,the men on the beach
 54722,54723,NOM_LOC,the beach
@@ -7706,6 +7690,7 @@
 54731,54731,PRON_PER,their
 54731,54732,NOM_VEH,their cart
 54734,54734,PRON_PER,He
+54737,54738,NOM_LOC,the surf
 54740,54744,NOM_VEH,a huge cart - horse
 54748,54748,PRON_PER,his
 54751,54751,PRON_PER,them
@@ -7728,13 +7713,11 @@
 54861,54861,PRON_PER,his
 54903,54903,PRON_PER,thy
 54919,54919,PRON_PER,Thy
-54922,54923,PROP_PER,great Anarch
 54943,54943,PROP_PER,Bull
 54947,54948,NOM_PER,the gendarmes
 54957,54959,NOM_FAC,the police station
 54966,54967,NOM_PER,hurrying figures
 54970,54970,PRON_PER,they
-54980,54982,NOM_VEH,a disciplined cavalry
 54985,54985,PRON_PER,They
 54988,54989,NOM_PER,the mob
 54993,54993,PROP_PER,Bull
@@ -7773,7 +7756,6 @@
 55241,55241,PROP_PER,Syme
 55247,55251,NOM_PER,a man I never saw
 55249,55249,PRON_PER,I
-55255,55256,NOM_PER,the other
 55260,55262,NOM_LOC,the leaden sea
 55265,55265,PRON_PER,I
 55268,55268,PRON_PER,you
@@ -7782,9 +7764,9 @@
 55283,55285,NOM_FAC,the dark room
 55288,55288,PROP_PER,Sunday
 55292,55292,PRON_PER,him
-55302,55304,NOM_PER,the other steadily
+55302,55303,NOM_PER,the other
 55311,55311,PRON_PER,he
-55313,55322,NOM_PER,the only man whom Sunday found it hard to kill
+55313,55317,NOM_PER,the only man whom Sunday
 55317,55317,PROP_PER,Sunday
 55326,55326,PRON_PER,I
 55329,55329,PRON_PER,you
@@ -7792,7 +7774,7 @@
 55338,55338,PRON_PER,his
 55343,55343,PRON_PER,I
 55352,55352,PRON_PER,I
-55361,55371,NOM_PER,"Syme , who was standing as if blind with introspective thought"
+55361,55361,PROP_PER,Syme
 55380,55384,NOM_PER,a man waking from sleep
 55388,55389,NOM_PER,the Colonel
 55391,55391,PRON_PER,I
@@ -7814,7 +7796,7 @@
 55471,55471,PRON_PER,He
 55476,55476,PRON_PER,He
 55488,55488,PROP_PER,Syme
-55497,55498,NOM_PER,the Colonel
+55497,55498,PROP_PER,the Colonel
 55501,55501,PRON_PER,I
 55510,55510,PRON_PER,you
 55512,55512,PRON_PER,your
@@ -7822,7 +7804,7 @@
 55523,55524,NOM_LOC,the beach
 55526,55529,NOM_PER,Many of their pursuers
 55528,55528,PRON_PER,their
-55528,55529,NOM_PER,their pursuers
+55533,55534,NOM_LOC,the water
 55536,55536,PRON_PER,their
 55540,55541,NOM_LOC,the sea
 55546,55546,PRON_PER,they
@@ -7831,12 +7813,12 @@
 55565,55567,NOM_FAC,the stone footway
 55576,55576,PRON_FAC,it
 55589,55591,NOM_PER,the two foremost
+55593,55594,NOM_PER,One face
 55633,55634,NOM_PER,The other
 55643,55644,PROP_PER,Colonel Ducroix
 55646,55646,PRON_PER,They
 55655,55655,PRON_PER,he
 55662,55663,NOM_PER,the Professor
-55673,55673,NOM_PER,Everything
 55677,55677,PRON_PER,I
 55681,55681,PRON_PER,I
 55685,55685,PRON_PER,my
@@ -7849,7 +7831,7 @@
 55725,55725,PRON_PER,he
 55728,55729,NOM_FAC,the pier
 55731,55732,NOM_PER,the Colonel
-55756,55757,NOM_PER,the Colonel
+55756,55762,NOM_PER,"the Colonel , who saw him coming"
 55761,55761,PRON_PER,him
 55765,55765,PRON_PER,his
 55768,55768,PRON_PER,him
@@ -7862,14 +7844,13 @@
 55808,55808,PRON_PER,he
 55813,55814,NOM_PER,the Colonel
 55821,55821,PRON_PER,he
-55824,55829,NOM_PER,"the Secretary , whose frightful mouth"
+55824,55825,NOM_PER,the Secretary
 55849,55850,NOM_PER,the man
 55869,55869,PRON_PER,you
 55876,55876,PROP_PER,Syme
 55884,55884,PRON_PER,you
 55897,55897,PRON_PER,You
 55903,55903,PRON_PER,You
-55909,55912,NOM_PER,Better men than you
 55912,55912,PRON_PER,you
 55914,55919,NOM_PER,men who could believe and obey
 55936,55937,NOM_FAC,a street
@@ -7937,17 +7918,16 @@
 56305,56305,PRON_PER,You
 56309,56310,NOM_PER,the Secretary
 56317,56317,PRON_PER,I
-56323,56328,NOM_PER,members of the Supreme Anarchist Council
-56325,56328,NOM_ORG,the Supreme Anarchist Council
+56326,56328,PROP_ORG,Supreme Anarchist Council
 56334,56334,PRON_PER,you
 56336,56336,PRON_PER,I
 56338,56339,PROP_PER,Dr. Bull
 56341,56341,PRON_PER,his
 56344,56345,NOM_LOC,the sea
-56351,56354,NOM_ORG,any Supreme Anarchist Council
+56351,56354,NOM_PER,any Supreme Anarchist Council
 56357,56357,PRON_PER,he
 56361,56361,PRON_PER,We
-56367,56368,NOM_PER,silly policemen
+56363,56368,NOM_PER,all a lot of silly policemen
 56371,56372,NOM_PER,each other
 56375,56385,NOM_PER,all these nice people who have been peppering us with shot
 56383,56383,PRON_PER,us
@@ -7963,13 +7943,15 @@
 56436,56436,PRON_PER,I
 56439,56439,PRON_PER,I
 56444,56444,NOM_LOC,shore
-56450,56451,NOM_PER,everybody here
-56457,56459,NOM_PER,THE PURSUIT OF
+56450,56450,NOM_PER,everybody
+56454,56455,PROP_PER,CHAPTER XIII
+56457,56461,NOM_PER,THE PURSUIT OF THE PRESIDENT
 56460,56461,NOM_PER,THE PRESIDENT
+56464,56468,NOM_PER,five bewildered but hilarious people
 56467,56468,NOM_PER,hilarious people
 56470,56471,NOM_VEH,the boat
 56473,56473,PROP_GPE,Dover
-56475,56478,NOM_PER,The poor old Colonel
+56475,56478,PROP_PER,The poor old Colonel
 56494,56508,NOM_PER,"two factions that did n't exist , and then knocked down with an iron lantern"
 56511,56511,PRON_PER,he
 56513,56516,NOM_PER,a magnanimous old gentleman
@@ -7996,10 +7978,9 @@
 56653,56653,PRON_PER,he
 56658,56659,PROP_PER,Inspector Ratcliffe
 56667,56667,PRON_PER,I
-56676,56676,PROP_PER,Sunday
+56675,56676,NOM_PER,old Sunday
 56683,56683,PRON_PER,you
 56687,56687,PRON_PER,he
-56694,56694,PROP_PER,Sunday
 56697,56697,PRON_PER,he
 56700,56702,NOM_PER,a blameless citizen
 56708,56708,PRON_PER,you
@@ -8040,7 +8021,6 @@
 56892,56892,PRON_PER,they
 56897,56898,PROP_PER,Dr. Bull
 56904,56908,NOM_PER,the optimist of the party
-56907,56908,NOM_PER,the party
 56913,56915,NOM_PER,the other four
 56917,56919,NOM_PER,the whole company
 56922,56925,NOM_VEH,the same hansom cab
@@ -8073,12 +8053,12 @@
 57126,57126,PRON_PER,him
 57137,57137,PROP_PER,Syme
 57141,57142,NOM_PER,Hairy man
-57146,57147,NOM_PER,the other
 57156,57158,PROP_PER,hairy man Gogol
 57161,57161,PRON_PER,he
 57166,57166,PRON_PER,he
 57173,57206,NOM_PER,"the identical young man who five days before had marched out of the Council with thin red hair and a pale face , the first of all the sham anarchists who had been exposed"
-57185,57186,NOM_FAC,the Council
+57185,57194,NOM_PER,the Council with thin red hair and a pale face
+57200,57206,NOM_PER,the sham anarchists who had been exposed
 57211,57211,PRON_PER,you
 57214,57214,PRON_PER,me
 57217,57217,PRON_PER,he
@@ -8121,7 +8101,7 @@
 57411,57411,PRON_PER,They
 57416,57416,PRON_PER,their
 57421,57421,PRON_PER,they
-57424,57426,PROP_PER,the unmasked Gogol
+57424,57426,NOM_PER,the unmasked Gogol
 57434,57434,PRON_PER,they
 57437,57437,PRON_PER,him
 57450,57450,PROP_PER,Syme
@@ -8138,9 +8118,9 @@
 57495,57495,PRON_PER,him
 57498,57498,PRON_PER,They
 57500,57500,PROP_PER,Syme
-57502,57504,NOM_FAC,the dark stair
 57509,57509,PRON_PER,they
 57526,57526,PROP_PER,Sunday
+57531,57531,PROP_PER,Delightful
 57534,57534,PRON_PER,he
 57542,57542,PRON_PER,you
 57553,57554,NOM_PER,the Czar
@@ -8170,7 +8150,6 @@
 57722,57723,NOM_PER,the President
 57732,57732,PRON_PER,you
 57737,57737,PRON_PER,I
-57745,57748,PROP_LOC,the Tree of Life
 57750,57750,PRON_PER,I
 57757,57757,PRON_PER,me
 57763,57763,PRON_PER,We
@@ -8221,7 +8200,6 @@
 58012,58012,PROP_PER,Bull
 58014,58014,PRON_PER,you
 58016,58019,NOM_PER,a man of science
-58034,58034,PRON_PER,them
 58036,58036,PROP_PER,Syme
 58038,58038,PRON_PER,you
 58040,58041,NOM_PER,a poet
@@ -8237,11 +8215,8 @@
 58112,58113,NOM_LOC,the world
 58114,58115,NOM_PER,all men
 58118,58118,PRON_PER,me
-58120,58122,NOM_PER,a wolf kings
-58124,58124,NOM_PER,sages
-58127,58127,NOM_PER,poets
-58129,58129,NOM_PER,lawgivers
-58131,58133,NOM_PER,all the churches
+58120,58124,NOM_PER,a wolf kings and sages
+58127,58129,NOM_PER,poets and lawgivers
 58141,58141,PRON_PER,I
 58156,58156,PRON_PER,I
 58159,58159,NOM_LOC,bay
@@ -8268,8 +8243,8 @@
 58261,58261,NOM_PER,policemen
 58266,58266,PRON_PER,he
 58269,58270,NOM_FAC,the balcony
-58291,58295,NOM_LOC,the corner of the Alhambra
-58294,58295,PROP_LOC,the Alhambra
+58291,58295,NOM_FAC,the corner of the Alhambra
+58294,58295,NOM_FAC,the Alhambra
 58298,58298,PRON_PER,he
 58300,58303,NOM_VEH,a hansom - cab
 58307,58307,PRON_FAC,it
@@ -8289,7 +8264,7 @@
 58370,58371,NOM_PER,the Professor
 58373,58374,NOM_PER,the Inspector
 58379,58380,NOM_PER,the Secretary
-58382,58384,NOM_PER,the late Gogol
+58382,58384,PROP_PER,the late Gogol
 58396,58396,PROP_PER,Syme
 58401,58403,NOM_PER,the flying President
 58405,58405,PROP_PER,Sunday
@@ -8325,8 +8300,7 @@
 58588,58590,NOM_VEH,this preposterous vehicle
 58601,58602,NOM_PER,the driver
 58607,58607,PRON_PER,it
-58609,58612,NOM_PER,The other three cabs
-58615,58615,PRON_VEH,it
+58615,58615,PRON_PER,it
 58623,58624,NOM_VEH,a cab
 58630,58630,NOM_FAC,Shops
 58632,58632,NOM_FAC,streets
@@ -8358,13 +8332,14 @@
 58857,58857,PRON_PER,I.
 58858,58858,PRON_PER,I
 58876,58876,PRON_PER,your
+58879,58880,NOM_PER,The thing
 58888,58888,NOM_PER,uncle
-58892,58893,NOM_PER,The President
+58892,58893,PROP_PER,The President
 58892,58895,NOM_PER,The President 's cabman
 58903,58903,PRON_PER,his
 58907,58908,NOM_PER,the pursuers
 58913,58913,PRON_PER,they
-58917,58919,PROP_FAC,the Edgware Road
+58917,58919,NOM_FAC,the Edgware Road
 58928,58929,NOM_PER,the allies
 58934,58937,NOM_PER,Traffic of every kind
 58949,58951,NOM_FAC,the long road
@@ -8380,7 +8355,7 @@
 59065,59065,PRON_PER,their
 59073,59073,PRON_PER,themselves
 59075,59075,PRON_PER,their
-59079,59080,NOM_PER,The President
+59079,59080,PROP_PER,The President
 59090,59091,NOM_VEH,the car
 59097,59097,PRON_PER,his
 59112,59113,PROP_PER,Inspector Ratcliffe
@@ -8388,21 +8363,21 @@
 59125,59125,PRON_PER,he
 59140,59140,PRON_PER,your
 59147,59148,NOM_PER,A FRIEND
-59151,59154,NOM_PER,The fire - engine
-59160,59161,NOM_LOC,the north
+59151,59154,NOM_VEH,The fire - engine
 59164,59170,NOM_LOC,a region that they did not recognise
 59167,59167,PRON_PER,they
 59186,59188,NOM_PER,the six friends
-59198,59199,NOM_PER,the President
+59198,59199,PROP_PER,the President
+59202,59205,NOM_PER,the fire - engine
 59217,59217,PRON_PER,his
 59217,59218,NOM_PER,his entertainers
 59219,59219,PRON_PER,they
+59225,59227,NOM_PER,the three cabs
 59238,59238,PRON_PER,he
 59252,59252,PRON_PER,himself
 59263,59263,PROP_PER,Syme
 59269,59269,PRON_PER,his
-59269,59270,NOM_VEH,his cab
-59279,59280,NOM_VEH,the escalade
+59279,59280,NOM_FAC,the escalade
 59283,59283,PRON_PER,he
 59291,59291,PRON_PER,his
 59291,59292,NOM_PER,his friends
@@ -8430,12 +8405,14 @@
 59453,59453,PRON_PER,He
 59456,59456,PRON_PER,his
 59494,59494,PRON_PER,them
+59497,59500,NOM_PER,The dogs of Sunday
 59500,59500,PROP_GPE,Sunday
 59509,59509,PROP_PER,Gogol
 59514,59514,PROP_PER,Syme
 59524,59524,PRON_PER,he
 59538,59538,PRON_PER,he
-59544,59546,NOM_PER,a dog anybody
+59544,59545,NOM_PER,a dog
+59546,59546,NOM_PER,anybody
 59554,59554,PRON_PER,their
 59589,59589,PRON_PER,his
 59589,59590,NOM_FAC,his house
@@ -8489,7 +8466,7 @@
 59933,59933,PRON_PER,his
 59937,59940,NOM_PER,a huge grey elephant
 59947,59947,PRON_PER,his
-59954,59955,NOM_VEH,a ship
+59954,59957,NOM_VEH,a ship 's bowsprit
 59977,59978,PROP_PER,President Sunday
 59984,59985,NOM_PER,a sultan
 60000,60000,PRON_PER,his
@@ -8501,7 +8478,6 @@
 60044,60044,PRON_PER,he
 60067,60069,NOM_FAC,the Zoological Gardens
 60075,60076,PROP_FAC,Albany Street
-60078,60084,NOM_VEH,a new and swift sort of omnibus
 60087,60088,PROP_PER,Great Lord
 60092,60092,PROP_PER,Bull
 60095,60095,PRON_PER,I
@@ -8543,6 +8519,7 @@
 60349,60349,PRON_PER,he
 60362,60363,NOM_PER,a boy
 60375,60375,PRON_PER,their
+60386,60389,NOM_FAC,the cab containing Gogol
 60389,60389,PROP_PER,Gogol
 60404,60404,PRON_PER,he
 60406,60406,PRON_PER,his
@@ -8552,24 +8529,29 @@
 60491,60496,NOM_PER,The man once known as Gogol
 60496,60496,PROP_PER,Gogol
 60504,60504,PRON_PER,his
-60512,60519,NOM_PER,a man urging a horse to renewed efforts
+60512,60513,NOM_PER,a man
 60522,60522,NOM_FAC,street
 60524,60524,NOM_FAC,street
-60527,60527,NOM_FAC,district
+60527,60527,NOM_GPE,district
 60529,60529,NOM_FAC,district
 60540,60540,NOM_PER,crowds
+60560,60562,NOM_PER,the three cabs
 60568,60568,PRON_PER,they
+60584,60585,NOM_FAC,a circus
 60587,60587,PRON_PER,They
 60601,60601,PROP_PER,Syme
-60603,60605,PROP_FAC,the Albert Hall
+60603,60607,NOM_FAC,the Albert Hall in Kensington
 60607,60607,PROP_GPE,Kensington
 60609,60609,PRON_PER,he
 60612,60612,PRON_PER,he
 60616,60616,PROP_GPE,Paddington
 60629,60636,NOM_FAC,"the empty , aristocratic streets of South Kensington"
-60635,60636,PROP_GPE,South Kensington
+60635,60636,PROP_FAC,South Kensington
 60639,60639,PRON_PER,he
-60646,60657,NOM_FAC,the sky - line where the enormous Wheel of Earl 's Court
+60651,60657,PROP_FAC,the enormous Wheel of Earl 's Court
+60655,60655,PROP_PER,Earl
+60681,60682,NOM_PER,The beast
+60684,60685,NOM_VEH,the cabs
 60687,60687,PRON_PER,They
 60689,60689,PRON_PER,him
 60696,60696,PRON_PER,they
@@ -8594,15 +8576,16 @@
 60810,60810,PRON_PER,He
 60825,60831,NOM_PER,the Secretary of the Central Anarchist Council
 60828,60831,PROP_FAC,the Central Anarchist Council
-60834,60835,PROP_PER,The Secretary
+60834,60835,NOM_PER,The Secretary
 60858,60859,NOM_PER,the Secretary
+60863,60864,NOM_PER,the herring
 60872,60873,NOM_PER,the Secretary
-60882,60884,NOM_PER,the eternal crikey
 60888,60889,NOM_PER,the Secretary
 60893,60893,PRON_PER,you
 60895,60896,NOM_PER,the man
 60900,60900,NOM_PER,people
 60904,60904,PRON_PER,your
+60904,60905,NOM_FAC,your Exhibition
 60918,60918,PROP_PER,Syme
 60934,60935,NOM_PER,the Secretary
 60947,60947,PROP_PER,Syme
@@ -8613,7 +8596,6 @@
 61002,61002,PRON_PER,their
 61019,61020,NOM_PER,a child
 61034,61035,NOM_VEH,the car
-61055,61057,NOM_PER,Ten thousand devils
 61061,61062,NOM_PER,the Secretary
 61065,61065,PRON_PER,He
 61073,61073,PRON_PER,he
@@ -8639,11 +8621,12 @@
 61228,61228,PRON_PER,his
 61231,61231,PRON_PER,I
 61254,61259,NOM_FAC,THE SIX PHILOSOPHERS Across green fields
+61258,61259,NOM_LOC,green fields
 61268,61270,NOM_PER,six draggled detectives
 61277,61277,PROP_GPE,London
 61279,61283,NOM_PER,The optimist of the party
 61289,61289,PRON_PER,they
-61292,61300,NOM_FAC,the balloon across South England in hansom - cabs
+61292,61293,NOM_VEH,the balloon
 61295,61296,PROP_GPE,South England
 61303,61303,PRON_PER,he
 61312,61313,NOM_VEH,the balloon
@@ -8652,7 +8635,7 @@
 61330,61331,NOM_VEH,the balloon
 61334,61338,NOM_PER,the tireless though exasperated travellers
 61346,61347,NOM_FAC,ploughed fields
-61361,61362,NOM_PER,a tramp
+61349,61362,NOM_PER,each was turned into a figure too outrageous to be mistaken for a tramp
 61364,61368,NOM_LOC,Those green hills of Surrey
 61368,61368,PROP_GPE,Surrey
 61383,61383,PROP_PER,Syme
@@ -8666,7 +8649,6 @@
 61432,61432,PRON_PER,his
 61444,61444,PRON_PER,his
 61475,61475,PRON_PER,he
-61486,61486,PRON_FAC,It
 61495,61496,NOM_PER,the Professor
 61499,61499,PRON_PER,I
 61515,61516,PROP_PER,Dr. Bull
@@ -8679,7 +8661,7 @@
 61554,61554,PRON_PER,him
 61556,61556,PRON_PER,I
 61561,61561,PRON_PER,him
-61563,61564,PROP_LOC,Little Snowdrop
+61563,61564,PROP_PER,Little Snowdrop
 61568,61568,PRON_PER,I
 61572,61572,PRON_PER,him
 61579,61580,PROP_PER,Dr. Bull
@@ -8736,7 +8718,6 @@
 61897,61897,PROP_PER,Syme
 61919,61919,PROP_PER,Bull
 61925,61925,PRON_PER,I
-61930,61931,PROP_PER,old Sunday
 61962,61962,PRON_PER,he
 61972,61972,PRON_PER,you
 61981,61981,PRON_PER,You
@@ -8748,12 +8729,14 @@
 62026,62027,NOM_LOC,The hills
 62033,62033,PRON_PER,they
 62039,62039,PRON_PER,I
+62041,62041,PROP_PER,Sunday
 62046,62046,PRON_PER,I
 62048,62048,PRON_PER,you
 62052,62052,PRON_PER,he
 62055,62056,NOM_PER,a Bounder
 62067,62068,NOM_PER,the Secretary
 62077,62077,PRON_PER,You
+62081,62081,PROP_PER,Sunday
 62089,62089,PRON_PER,you
 62093,62093,PRON_PER,I
 62101,62101,PRON_PER,I
@@ -8776,16 +8759,18 @@
 62204,62204,PRON_PER,I
 62206,62206,PRON_PER,him
 62209,62211,NOM_FAC,a twilight room
+62213,62218,NOM_FAC,a room with brown blind down
 62229,62229,PRON_PER,our
 62229,62230,NOM_PER,our master
 62233,62233,PRON_PER,He
-62244,62245,NOM_PER,a man
+62240,62251,NOM_PER,"a huge heap of a man , dark and out of shape"
 62253,62253,PRON_PER,He
 62257,62257,PRON_PER,my
 62265,62265,PRON_PER,I
 62268,62268,PRON_PER,my
 62275,62275,PRON_PER,my
 62294,62294,PRON_PER,I
+62307,62311,NOM_PER,a loathsome and living jelly
 62315,62315,PRON_PER,me
 62318,62318,PRON_PER,I
 62356,62356,PRON_PER,I
@@ -8802,8 +8787,9 @@
 62435,62436,NOM_PER,you fellows
 62448,62449,PROP_PER,Inspector Ratcliffe
 62452,62453,PROP_PER,President Sunday
-62455,62459,NOM_PER,a terrible fellow for one
+62459,62459,NOM_PER,one
 62464,62464,PRON_PER,he
+62468,62471,NOM_PER,a Barnum 's freak
 62469,62469,PROP_PER,Barnum
 62474,62474,PRON_PER,you
 62478,62478,PRON_PER,He
@@ -8844,6 +8830,7 @@
 62678,62679,NOM_LOC,wild forests
 62694,62694,PRON_PER,They
 62702,62702,PRON_PER,you
+62710,62711,NOM_FAC,a parlour
 62724,62724,PRON_PER,you
 62727,62727,PROP_PER,Sunday
 62729,62729,PROP_PER,Gogol
@@ -8901,7 +8888,6 @@
 63189,63190,NOM_PER,a Buddhist
 63192,63192,PRON_PER,I
 63207,63207,PRON_PER,My
-63207,63208,NOM_PER,My poor
 63210,63210,PROP_PER,Bull
 63212,63212,PRON_PER,I
 63217,63217,PRON_PER,you
@@ -8921,9 +8907,9 @@
 63307,63307,PROP_PER,Bull
 63309,63309,PRON_PER,him
 63311,63312,NOM_LOC,the earth
-63316,63316,PROP_PER,Gogol
+63316,63316,PROP_GPE,Gogol
 63323,63324,NOM_PER,The Secretary
-63333,63334,PROP_PER,the Inspector
+63334,63334,PROP_PER,Inspector
 63339,63340,NOM_LOC,virgin forests
 63342,63343,NOM_PER,The Professor
 63345,63345,PRON_PER,he
@@ -9056,6 +9042,7 @@
 64265,64266,NOM_VEH,the car
 64268,64268,PRON_PER,we
 64271,64271,PRON_PER,him
+64274,64275,NOM_PER,a colt
 64278,64279,NOM_FAC,a field
 64282,64282,PRON_PER,his
 64290,64290,PRON_PER,his
@@ -9068,7 +9055,6 @@
 64324,64324,PROP_PER,Pan
 64331,64331,PRON_PER,he
 64336,64337,NOM_PER,the Professor
-64341,64341,PROP_GPE,Greek
 64343,64343,PRON_PER,He
 64355,64356,NOM_PER,the Secretary
 64363,64363,PRON_PER,he
@@ -9085,7 +9071,7 @@
 64451,64451,PRON_PER,him
 64466,64468,NOM_PER,all six men
 64471,64471,PRON_PER,they
-64476,64478,NOM_LOC,the little field
+64476,64478,NOM_FAC,the little field
 64481,64484,NOM_FAC,the square of turf
 64485,64487,NOM_PER,a tall man
 64491,64491,PRON_PER,them
@@ -9096,7 +9082,7 @@
 64568,64568,PRON_PER,His
 64580,64580,PRON_PER,his
 64583,64583,PRON_PER,he
-64587,64593,NOM_PER,one to the shadows of the wood
+64592,64593,NOM_LOC,the wood
 64596,64596,NOM_PER,Gentlemen
 64599,64599,PRON_PER,he
 64603,64603,PRON_PER,my
@@ -9113,6 +9099,7 @@
 64643,64644,NOM_PER,the man
 64654,64655,NOM_PER,the Secretary
 64660,64661,NOM_VEH,this carriage
+64665,64665,PRON_PER,It
 64676,64677,NOM_PER,the stranger
 64680,64680,PRON_PER,My
 64680,64681,NOM_PER,My master
@@ -9122,7 +9109,7 @@
 64702,64702,PRON_PER,he
 64704,64704,PRON_PER,himself
 64719,64719,PRON_PER,he
-64722,64726,NOM_PER,a man entrapped in fairyland
+64722,64723,NOM_PER,a man
 64728,64728,PRON_PER,He
 64730,64732,NOM_PER,the mysterious ambassador
 64738,64738,PRON_PER,he
@@ -9138,16 +9125,15 @@
 64827,64828,NOM_FAC,this thoroughfare
 64830,64830,PRON_PER,they
 64832,64834,NOM_FAC,the white road
-64840,64844,NOM_VEH,a long row of carriages
 64857,64861,NOM_FAC,some house in Park Lane
 64860,64861,PROP_FAC,Park Lane
-64867,64868,NOM_VEH,these carriages
+64867,64868,NOM_FAC,these carriages
 64870,64874,NOM_PER,a rank of splendid servants
 64901,64905,NOM_PER,the servants of a gentleman
 64904,64905,NOM_PER,a gentleman
 64910,64917,NOM_PER,the officials and ambassadors of a great king
 64915,64917,NOM_PER,a great king
-64930,64936,NOM_PER,each of the tattered and miserable band
+64924,64925,NOM_VEH,six carriages
 64932,64936,NOM_PER,the tattered and miserable band
 64938,64940,NOM_PER,All the attendants
 64954,64955,NOM_PER,each man
@@ -9155,9 +9141,7 @@
 64958,64959,NOM_VEH,his carriage
 64960,64960,PRON_PER,they
 64962,64962,PRON_PER,them
-64982,64982,PROP_PER,Bull
-64982,64984,NOM_PER,Bull of Syme
-64984,64984,PROP_PER,Syme
+64982,64984,PROP_PER,Bull of Syme
 64986,64986,PRON_PER,they
 64995,64995,PROP_PER,Sunday
 65000,65000,PRON_PER,I
@@ -9184,6 +9168,7 @@
 65142,65142,PRON_PER,them
 65144,65145,NOM_VEH,the carriages
 65147,65147,PROP_PER,Syme
+65150,65154,NOM_LOC,a drifting darkness of trees
 65163,65163,PRON_PER,him
 65166,65166,PRON_PER,he
 65169,65169,PRON_PER,his
@@ -9196,15 +9181,17 @@
 65223,65223,PRON_PER,they
 65233,65234,NOM_FAC,a park
 65237,65237,PRON_PER,they
+65242,65258,NOM_LOC,"a hill which , while wooded on both sides , was somewhat more orderly than a forest"
 65257,65258,NOM_LOC,a forest
 65266,65266,PRON_PER,him
-65270,65271,NOM_PER,a man
+65270,65282,NOM_PER,"a man slowly waking from a healthy sleep , a pleasure in everything"
 65284,65284,PRON_PER,He
+65303,65307,NOM_PER,"a human army , disciplined"
 65315,65315,PRON_PER,He
 65328,65328,NOM_PER,boys
+65332,65332,NOM_FAC,there
 65335,65335,PRON_PER,his
 65335,65336,NOM_VEH,his carriage
-65341,65342,NOM_FAC,the path
 65345,65345,PRON_PER,he
 65360,65364,NOM_FAC,"a long , low house"
 65374,65377,NOM_PER,All the six friends
@@ -9213,6 +9200,8 @@
 65396,65396,PRON_PER,them
 65398,65398,PRON_PER,their
 65398,65399,NOM_PER,their boyhood
+65409,65411,NOM_FAC,that crooked path
+65416,65419,NOM_LOC,this scrap of orchard
 65428,65431,NOM_PER,each man of them
 65431,65431,PRON_PER,them
 65434,65434,PRON_PER,he
@@ -9226,11 +9215,11 @@
 65478,65478,PRON_PER,his
 65485,65485,PRON_PER,them
 65487,65489,NOM_PER,This impressive person
-65494,65494,PROP_PER,Syme
+65492,65494,PROP_PER,the bewildered Syme
 65500,65500,PRON_PER,you
 65502,65502,PRON_PER,your
 65502,65503,NOM_FAC,your room
-65506,65506,PROP_PER,Syme
+65506,65517,NOM_PER,"Syme , under the influence of the same mesmeric sleep of amazement"
 65521,65524,NOM_FAC,the large oaken stairs
 65526,65528,NOM_PER,the respectful attendant
 65530,65530,PRON_PER,He
@@ -9250,7 +9239,7 @@
 65629,65629,PRON_PER,he
 65632,65632,NOM_FAC,there
 65636,65636,PRON_PER,he
-65648,65659,NOM_PER,"a man in blue , who had been appointed as his valet"
+65648,65651,NOM_PER,a man in blue
 65658,65658,PRON_PER,his
 65658,65659,NOM_PER,his valet
 65665,65665,PRON_PER,I
@@ -9325,6 +9314,7 @@
 66272,66272,PRON_PER,his
 66278,66278,PRON_PER,his
 66287,66287,PRON_PER,he
+66293,66294,NOM_PER,a troubadour
 66309,66310,NOM_PER,THE ACCUSER
 66312,66312,PROP_PER,Syme
 66315,66316,NOM_FAC,the corridor
@@ -9341,7 +9331,6 @@
 66454,66454,PRON_PER,his
 66460,66460,PRON_PER,him
 66466,66467,NOM_PER,the anarchists
-66475,66477,NOM_PER,one of them
 66477,66477,PRON_PER,them
 66479,66479,PROP_PER,Syme
 66494,66494,PRON_PER,their
@@ -9363,9 +9352,7 @@
 66634,66634,PRON_PER,they
 66640,66640,PRON_PER,they
 66642,66642,PROP_PER,Ratcliffe
-66651,66652,NOM_PER,a huntsman
 66668,66668,PRON_PER,he
-66676,66680,NOM_LOC,the earth and green things
 66685,66685,PRON_PER,his
 66703,66703,PRON_PER,They
 66714,66725,NOM_FAC,"a very large old English garden , full of torches and bonfires"
@@ -9377,6 +9364,7 @@
 66784,66788,NOM_PER,"the two last , together"
 66796,66796,PRON_PER,their
 66800,66800,PROP_PER,Syme
+66809,66815,NOM_PER,one dancer dressed like an enormous hornbill
 66824,66824,PRON_PER,himself
 66833,66833,PRON_PER,his
 66840,66840,PRON_PER,he
@@ -9390,6 +9378,7 @@
 66945,66952,NOM_PER,a strayed reveller from that revel of masquerade
 66958,66959,NOM_FAC,this lawn
 66963,66963,NOM_PER,dancers
+66973,66980,NOM_FAC,the terrace in such old - fashioned gardens
 66976,66980,NOM_FAC,such old - fashioned gardens
 67003,67003,PROP_PER,Gogol
 67005,67006,PROP_PER,Dr. Bull
@@ -9402,14 +9391,12 @@
 67039,67040,NOM_LOC,the waters
 67047,67047,PRON_PER,his
 67052,67052,PRON_PER,his
-67065,67084,NOM_PER,"The Professor , whose day was that on which the birds and fishes the ruder forms of life were created"
+67065,67082,NOM_PER,"The Professor , whose day was that on which the birds and fishes the ruder forms of life"
 67108,67108,PRON_PER,him
 67116,67117,PROP_PER,Dr. Bull
 67139,67139,PRON_PER,his
-67141,67143,NOM_PER,a man rampant
 67145,67145,PRON_PER,He
 67149,67149,PRON_PER,his
-67159,67163,NOM_PER,an optimist in his element
 67162,67162,PRON_PER,his
 67168,67169,NOM_PER,the wanderers
 67171,67172,NOM_LOC,the bank
@@ -9420,12 +9407,13 @@
 67219,67226,NOM_PER,The men for whom these thrones were reserved
 67228,67233,NOM_PER,men crowned with some extraordinary laurels
 67242,67242,PROP_PER,Syme
-67251,67252,NOM_PER,the Secretary
-67257,67258,NOM_PER,The Secretary
+67251,67255,NOM_PER,the Secretary on the right
+67257,67258,PROP_PER,The Secretary
 67265,67265,PROP_PER,Syme
 67271,67271,PRON_PER,his
 67274,67274,PRON_PER,We
 67280,67280,PRON_PER,he
+67285,67286,NOM_LOC,a field
 67291,67291,PROP_PER,Syme
 67296,67296,PRON_PER,he
 67307,67307,PRON_PER,him
@@ -9439,14 +9427,13 @@
 67394,67395,NOM_PER,Every couple
 67405,67412,NOM_PER,a fairy dancing with a pillar - box
 67415,67421,NOM_PER,a peasant girl dancing with the moon
-67435,67437,PROP_PER,Alice in Wonderland
+67435,67435,PROP_PER,Alice
 67454,67456,NOM_PER,the thick crowd
 67462,67462,NOM_PER,Couples
 67466,67469,NOM_FAC,the garden - walks
 67479,67480,NOM_FAC,the building
 67518,67519,NOM_FAC,the house
-67533,67536,NOM_LOC,the land for miles
-67584,67586,NOM_PER,the dim groups
+67533,67534,NOM_LOC,the land
 67604,67610,NOM_FAC,the inner passages of that ancient house
 67608,67610,NOM_FAC,that ancient house
 67616,67621,NOM_PER,some ten loiterers in the garden
@@ -9478,6 +9465,7 @@
 67822,67822,PRON_PER,I
 67838,67838,PRON_PER,you
 67839,67839,PRON_PER,I
+67842,67849,NOM_PER,a voice commanding valour and an unnatural virtue
 67851,67851,PRON_PER,You
 67860,67860,PRON_PER,you
 67869,67869,NOM_LOC,heaven
@@ -9513,7 +9501,7 @@
 68034,68035,NOM_PER,the other
 68040,68040,PRON_PER,I
 68045,68045,PROP_PER,God
-68048,68049,NOM_PER,The Secretary
+68048,68049,PROP_PER,The Secretary
 68056,68056,PRON_PER,his
 68060,68060,PRON_PER,his
 68064,68064,PRON_PER,I
@@ -9546,7 +9534,7 @@
 68179,68179,PRON_PER,I
 68182,68182,PROP_PER,God
 68183,68183,PRON_PER,His
-68189,68189,PRON_PER,nations
+68189,68189,NOM_PER,nations
 68192,68192,PRON_PER,I
 68196,68196,PRON_PER,Him
 68197,68197,PRON_PER,His
@@ -9558,6 +9546,7 @@
 68232,68232,PRON_PER,I
 68240,68240,PRON_PER,I
 68244,68244,PRON_PER,you
+68256,68262,NOM_PER,many a fine scamper and free fight
 68265,68265,PRON_PER,I
 68271,68271,PRON_PER,My
 68282,68284,NOM_FAC,this old garden
@@ -9583,7 +9572,7 @@
 68401,68401,PRON_PER,I
 68403,68403,PRON_PER,I
 68406,68406,PRON_PER,I
-68413,68414,PROP_PER,Still Sunday
+68414,68414,PROP_PER,Sunday
 68422,68422,PRON_PER,his
 68426,68426,PRON_PER,his
 68438,68438,PRON_PER,he
@@ -9592,8 +9581,6 @@
 68452,68452,PRON_PER,I
 68461,68461,PRON_PER,we
 68464,68464,PRON_PER,him
-68472,68474,NOM_FAC,the great cresset
-68489,68491,NOM_LOC,the dim grass
 68506,68510,NOM_PER,a black - clad figure
 68512,68512,PRON_PER,He
 68531,68535,NOM_PER,the servants of the house
@@ -9609,7 +9596,6 @@
 68613,68613,PRON_PER,his
 68613,68615,NOM_PER,his old friend
 68616,68616,PROP_PER,Gregory
-68624,68624,PRON_PER,its
 68629,68629,PROP_PER,Gregory
 68633,68633,PROP_PER,Syme
 68639,68639,PRON_PER,his
@@ -9621,7 +9607,7 @@
 68698,68701,NOM_PER,the sons of God
 68701,68701,PROP_PER,God
 68705,68705,PRON_PER,themselves
-68707,68708,PROP_PER,the Lord
+68707,68708,NOM_PER,the Lord
 68711,68711,PROP_PER,Satan
 68715,68715,PRON_PER,them
 68720,68720,PRON_PER,You
@@ -9652,7 +9638,6 @@
 68848,68848,PRON_PER,I
 68851,68851,PRON_PER,you
 68855,68855,PROP_PER,Syme
-68862,68867,NOM_PER,this unintelligible creature the last thunders
 68871,68871,PRON_PER,You
 68874,68874,PRON_PER,he
 68878,68878,PRON_PER,You
@@ -9673,6 +9658,7 @@
 68956,68956,PRON_PER,We
 68972,68973,NOM_ORG,the Government
 68984,68985,NOM_ORG,the Government
+68988,68988,PRON_GPE,it
 69004,69004,PRON_PER,I
 69008,69008,PRON_PER,you
 69013,69013,PRON_PER,I
@@ -9697,14 +9683,11 @@
 69112,69112,PRON_PER,I
 69117,69117,PRON_PER,he
 69131,69132,NOM_LOC,the earth
-69135,69137,NOM_PER,each other thing
 69145,69146,NOM_LOC,the world
-69151,69152,NOM_LOC,the world
-69153,69153,PRON_PER,itself
+69151,69153,NOM_LOC,the world itself
 69162,69164,NOM_LOC,the whole universe
 69173,69175,NOM_LOC,the whole universe
 69182,69182,PRON_PER,I
-69188,69193,NOM_PER,the dreadful Council of the Days
 69197,69201,NOM_PER,each thing that obeys law
 69209,69210,NOM_PER,the anarchist
 69214,69218,NOM_PER,each man fighting for order
@@ -9721,13 +9704,14 @@
 69307,69307,PRON_PER,We
 69320,69320,PRON_PER,we
 69328,69328,PRON_PER,We
+69332,69332,NOM_LOC,hell
 69334,69334,PRON_PER,We
 69346,69347,NOM_PER,this man
 69352,69352,PRON_PER,us
 69356,69356,PRON_PER,I
 69361,69361,PRON_PER,we
 69367,69367,PRON_PER,I
-69371,69382,NOM_PER,every one of the great guards of Law whom he has accused
+69371,69407,NOM_PER,"every one of the great guards of Law whom he has accused . At least "" He had turned his eyes so as to see suddenly the great face of Sunday , which wore a strange smile"
 69374,69382,NOM_PER,the great guards of Law whom he has accused
 69380,69380,PRON_PER,he
 69387,69387,PRON_PER,He
