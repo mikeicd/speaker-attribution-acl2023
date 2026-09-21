@@ -61,7 +61,7 @@ def process_novel(novel, chap_dict):
 if __name__ == '__main__':
     #spacy.require_gpu()
     source_nlp = spacy.load("en_core_web_sm")
-    nlp = spacy.load("en_core_web_trf", exclude=["ner"])
+    nlp = spacy.load("en_coreference_web_trf")
 
     nlp.add_pipe('ner', source=source_nlp)
 
