@@ -20,9 +20,10 @@ class LitBankEntityTagger:
 
 		self.model.to(device)
 		state_dict = torch.load(model_file, map_location=device)
-		# Filter out unexpected keys
+		# Older checkpoint files do not include BERT buffer keys added by newer
+		# transformers versions; tolerate those missing entries instead of failing.
 		state_dict = {k: v for k, v in state_dict.items() if not k.startswith('bert.embeddings.position_ids')}
-		self.model.load_state_dict(state_dict)
+		self.model.load_state_dict(state_dict, strict=False)
 	
 
 		wnsFile = pkg_resources.resource_filename(__name__, "data/wordnet.first.sense")
