@@ -1,5 +1,4 @@
-from booknlpen.english.english_booknlp import EnglishBookNLP as BookNLP 
-import spacy
+from booknlpen.english.english_booknlp import EnglishBookNLP as BookNLP
 import os
 
 model_params={
