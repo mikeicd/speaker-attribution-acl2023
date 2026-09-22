@@ -7,8 +7,8 @@ from collections import Counter, defaultdict
 import pickle as pkl
 
 DATA_ROOT = 'data/pdnc_source'
-
-COREF_ROOT = 'pdnc_output'
+# TODO Need to make sure this is the correct ouptut. It could be the coref/outputs/spacy
+COREF_ROOT = 'booknlpen/pdnc_output'
 SAVE_ROOT = COREF_ROOT
 
 IGNORE = ['_unknowable', '_group', '_narr', 'Unknowable', '(Unknown)', 'Unknown']
