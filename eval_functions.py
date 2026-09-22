@@ -38,13 +38,13 @@ def mcus_eval_booknlp(novel, limit_speakers=False):
     coref2names = {}
     name2corefs = {}
     for coref, text in zip(entdf['COREF'], entdf['text']):
-        name = text.lower()
+        name = str(text).lower()
         if coref not in coref2names:
             coref2names[coref] = []
         coref2names[coref].append(name)
         if name not in name2corefs:
             name2corefs[name] = []
-        name2corefs[text.lower()].append(coref)
+        name2corefs[str(text).lower()].append(coref)
 
     #PDNC
     charInfo = create_book_corefs.read_char_info(novel)
@@ -185,13 +185,13 @@ def mcus_eval_spacy(novel):
     coref2names = {}
     name2corefs = {}
     for coref, text in zip(entdf['clusID'], entdf['text']):
-        name = text.lower()
+        name = str(text).lower()
         if coref not in coref2names:
             coref2names[coref] = []
         coref2names[coref].append(name)
         if name not in name2corefs:
             name2corefs[name] = []
-        name2corefs[text.lower()].append(coref)
+        name2corefs[str(text).lower()].append(coref)
 
     #PDNC
     charInfo = create_book_corefs.read_char_info(novel)
