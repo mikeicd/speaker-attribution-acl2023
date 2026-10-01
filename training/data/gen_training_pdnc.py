@@ -1,5 +1,6 @@
 from email.quoprimime import quote
 import os, re, sys, json, csv, string, gzip
+from pathlib import Path
 import pandas as pd
 import pickle as pkl
 import numpy as np
@@ -10,12 +11,16 @@ from transformers import BertTokenizer
 
 from sklearn.model_selection import train_test_split
 
-sys.path.append('/h/vkpriya/quoteAttr')
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 import bert_data_utils
 import data_utils
 
 NOVELS = []
-for folder in os.scandir('/h/vkpriya/data/pdnc/'):
+DATA_ROOT = REPO_ROOT / 'data' / 'pdnc_source'
+for folder in os.scandir(DATA_ROOT):
     if os.path.isdir(folder) and folder.name[0] not in ['.', '!']:
         NOVELS.append(folder.name)
 NOVELS = sorted(NOVELS)
@@ -536,9 +541,9 @@ def read_train_splits(folder):
 
 def main(readFolder, writeFolder=None):
 
-	tokensFolder='booknlpen/pdnc_output'
-	quoteFolder='data/pdnc_source'
-	corefFolder = 'data/pdnc_source'
+	tokensFolder = REPO_ROOT / 'booknlpen' / 'pdnc_output'
+	quoteFolder = REPO_ROOT / 'data' / 'pdnc_source'
+	corefFolder = REPO_ROOT / 'data' / 'pdnc_source'
 
 	train_ids, val_ids, test_ids = read_train_splits(readFolder)
 	train_data = []

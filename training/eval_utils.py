@@ -4,8 +4,13 @@ import logging
 import math
 import os
 import random
+import sys
 from itertools import chain
 from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 import datasets
 import torch
@@ -46,7 +51,7 @@ import collections
 import scipy.stats as stats
 import scipy
 import importlib
-sys.path.append('/h/vkpriya/bookNLP/booknlp-en/')
+
 import utils
 import training.vad_dimensions.configs.generate_configs as generate_configs
 

@@ -1,5 +1,9 @@
 import sys
-sys.path.append('/h/vkpriya/bookNLP/booknlp-en')
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from booknlpen.english.speaker_attribution import BERTSpeakerID
 import torch.nn as nn
@@ -109,7 +113,7 @@ def resolve_sequential(pred_eids, meta_info, assigned_speakers):
 	resolved_pinfos = {}
 
 	for novel, pinfos in novel2pinfo.items():
-		qdf = pd.read_csv(os.path.join('../data/pdnc_source', novel, 'quote_info.csv'))
+		qdf = pd.read_csv(os.path.join(REPO_ROOT, 'data', 'pdnc_source', novel, 'quote_info.csv'))
 		qdf.sort_values(by='startByte', inplace=True)
 		sorted_qids = {x:i for i,x in enumerate(qdf['qID'].tolist())}
 		pinfos = sorted(pinfos, key=lambda x: sorted_qids[x[0]])
@@ -145,6 +149,7 @@ if __name__ == "__main__":
 	parser.add_argument('--testData', help='Filename containing test data', required=False)
 	parser.add_argument('--base_model', help='Base BERT model', required=False)
 	parser.add_argument('--savePath', help='Folder to save outputs', required=False)
+	parser.add_argument('--batch_size', type=int, default=2, help='Batch size for training/dev/test preparation. Smaller values reduce memory usage.')
 
 	args = vars(parser.parse_args())
 
@@ -153,6 +158,7 @@ if __name__ == "__main__":
 	testData=args["testData"]
 	base_model=args["base_model"]
 	savePath=args["savePath"]
+	batch_size=args["batch_size"]
 
 	os.makedirs(savePath, exist_ok=True)
 
@@ -175,9 +181,9 @@ if __name__ == "__main__":
 	metric="accuracy"
 	bertSpeaker=BERTSpeakerID(base_model=base_model)
 	bertSpeaker.to(device)
-	train_x_batches, train_m_batches, train_y_batches, train_o_batches, train_i_batches=bertSpeaker.get_batches(train_x, train_m, train_i)
-	dev_x_batches, dev_m_batches, dev_y_batches, dev_o_batches, dev_i_batches=bertSpeaker.get_batches(dev_x, dev_m, dev_i)
-	test_x_batches, test_m_batches, test_y_batches, test_o_batches, test_i_batches=bertSpeaker.get_batches(test_x, test_m, test_i)
+	train_x_batches, train_m_batches, train_y_batches, train_o_batches, train_i_batches=bertSpeaker.get_batches(train_x, train_m, train_i, batch_size=batch_size)
+	dev_x_batches, dev_m_batches, dev_y_batches, dev_o_batches, dev_i_batches=bertSpeaker.get_batches(dev_x, dev_m, dev_i, batch_size=batch_size)
+	test_x_batches, test_m_batches, test_y_batches, test_o_batches, test_i_batches=bertSpeaker.get_batches(test_x, test_m, test_i, batch_size=batch_size)
 	
 	optimizer = torch.optim.Adam(bertSpeaker.parameters(), lr=1e-5)
 	cross_entropy=nn.CrossEntropyLoss()

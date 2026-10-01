@@ -1,5 +1,9 @@
 import sys
-sys.path.append('/h/vkpriya/bookNLP/booknlp-en')
+from pathlib import Path
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 from booknlpen.english.speaker_attribution import BERTSpeakerID
 import torch.nn as nn
@@ -164,7 +168,7 @@ def resolve_sequential(pred_eids, meta_info, assigned_speakers):
 	resolved_pinfos = {}
 
 	for novel, pinfos in novel2pinfo.items():
-		qdf = pd.read_csv(os.path.join('/h/vkpriya/quoteAttr/data', novel, 'quote_info.csv'))
+		qdf = pd.read_csv(os.path.join(REPO_ROOT, 'data', 'pdnc_source', novel, 'quote_info.csv'))
 		qdf.sort_values(by='startByte', inplace=True)
 		sorted_qids = {x:i for i,x in enumerate(qdf['qID'].tolist())}
 		pinfos = sorted(pinfos, key=lambda x: sorted_qids[x[0]])

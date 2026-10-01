@@ -1,17 +1,22 @@
 import os, re, sys, json, csv, string, gzip
 import importlib
+from pathlib import Path
 import pandas as pd
 import numpy as np
 
 from collections import Counter, defaultdict
 import pickle as pkl
-sys.path.append('/h/vkpriya/qa_eval')
+
+REPO_ROOT = Path(__file__).resolve().parent
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
+
 from gen_utils import *
 
-metadf = pd.read_csv('data/pdnc_source/ListOfNovels.txt')
+metadf = pd.read_csv(os.path.join(REPO_ROOT, 'data', 'pdnc_source', 'ListOfNovels.txt'))
 novels = sorted(metadf['folder'].tolist())
 
-DATA_READ_ROOT = 'data/pdnc_source'
+DATA_READ_ROOT = os.path.join(REPO_ROOT, 'data', 'pdnc_source')
 
 IGNORE = ['_unknowable', '_group', '_narr', 'Unknowable', '(Unknown)', 'Unknown']
 PREFIXES = ['Mr.', 'Mrs.', 'Miss.', 'Lady', 'Sir', 'Mrs', 'Mr', 'Miss', 'Dr.', 'Dr', 'Madame', 'Madam', \
