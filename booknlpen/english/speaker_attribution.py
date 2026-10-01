@@ -38,9 +38,19 @@ class BERTSpeakerID(nn.Module):
 		if matcher is not None:
 			bert_dim=int(matcher.group(2))
 			self.num_layers=min(4, int(matcher.group(1)))
-
 			modelSize=self.num_layers*bert_dim
+		elif "bert-large" in modelName:
+			bert_dim = 1024
+			self.num_layers = 24
+		elif "bert-base" in modelName or "bert" in modelName:
+			bert_dim = 768
+			self.num_layers = 12
+		else:
+			# Fallback for standard HF names such as bert-base-cased.
+			bert_dim = 768
+			self.num_layers = 12
 
+		modelSize=self.num_layers*bert_dim
 		assert bert_dim != 0
 
 		# tokPath = base_model
