@@ -1,11 +1,5 @@
-import sys, csv
-from pathlib import Path
-
-REPO_ROOT = Path(__file__).resolve().parents[2]
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
-
 import booknlpen
+import sys, csv
 import spacy
 import copy
 from booknlpen.common.pipelines import SpacyPipeline
@@ -25,6 +19,10 @@ from pathlib import Path
 import urllib.request 
 import pkg_resources
 import torch
+
+REPO_ROOT = Path(__file__).resolve().parents[2]
+if str(REPO_ROOT) not in sys.path:
+    sys.path.insert(0, str(REPO_ROOT))
 
 class EnglishBookNLP:
 
