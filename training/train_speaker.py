@@ -209,7 +209,7 @@ if __name__ == "__main__":
 			all_sum=torch.logsumexp(y_pred, 1)
 
 			loss=torch.sum(all_sum-golds_sum)
-			bigLoss+=loss
+			bigLoss+=loss.item() # Using .item() to save just the number instead of the tensor
 
 			optimizer.zero_grad()
 			loss.backward()
