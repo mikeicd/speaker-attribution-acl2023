@@ -291,6 +291,8 @@ def is_conflict(exists, s, e):
     return False
 
 def merge_mentions(novel):
+    """Merge candidate mentions by deterministic priority.
+    """
     print(novel)
     
     bookdf = read_booknlp_mens(novel)
@@ -355,6 +357,8 @@ def read_men_df(novel):
     return df
 
 def check_conflicts(novel):
+    """Sanity-check overlaps after merge.
+    """
     print(novel)
     merged_df = read_men_df(novel)
     merged_df.sort_values(by='startByte', inplace=True)
