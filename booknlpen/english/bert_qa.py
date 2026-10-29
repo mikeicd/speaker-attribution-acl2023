@@ -13,8 +13,11 @@ class QuotationAttribution:
 
 		device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-		base_model=re.sub("google_bert", "google/bert", modelFile.split("/")[-1])
-		base_model=re.sub(".model", "", base_model)
+		basename = modelFile.split("/")[-1]
+		base_model = re.sub("google_bert", "google/bert", basename)
+		base_model = re.sub(".model", "", base_model)
+		base_model = re.sub("^speaker_", "", base_model)
+		base_model = re.sub("-v\\d.*$", "", base_model)
 
 		self.model = BERTSpeakerID(base_model=base_model)
 		state_dict = torch.load(modelFile, map_location=device)
