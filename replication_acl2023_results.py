@@ -14,9 +14,10 @@ import booknlpen.create_book_corefs as create_book_corefs
 import pdnc_utils
 
 HOME = str(Path.home())
-MODEL_FILE = os.path.join(
-    HOME, "booknlp_models", "speaker_google_bert_uncased_L-8_H-768_A-12-v1.0.model"
-)
+# MODEL_FILE = os.path.join(
+#     HOME, "booknlp_models", "speaker_google_bert_uncased_L-8_H-768_A-12-v1.0.model"
+# )
+MODEL_FILE = os.path.join(pdnc_utils.REPO_ROOT, "training", "trained_models", "lxo_split_0_uncased", "speaker_bert-base-uncased.model")
 OUT_ROOT = "booknlpen/pdnc_output"
 DATA_ROOT = "data/pdnc_source"
 PERSON_CANDIDATE_TYPES = {"PRON_PER", "PROP_PER", "NOM_PER"}
@@ -306,6 +307,20 @@ def main():
     acc_og_gold = []  # 2. BookNLP-OG + Oráculo de Rótulo
     acc_plus_pred = []  # 3. BookNLP+ (Candidate Pruning)
     acc_plus_gold = []  # 4. BookNLP+ + Oráculo de Rótulo (Teto Absoluto do Pipeline)
+    coverage = {
+        "BookNLP-OG": {
+            "quotes": 0,
+            "with_candidates": 0,
+            "processed": 0,
+            "attributed": 0,
+        },
+        "BookNLP+": {
+            "quotes": 0,
+            "with_candidates": 0,
+            "processed": 0,
+            "attributed": 0,
+        },
+    }
 
     print("\n--- Executando as 4 Configurações Determinísticas ---")
 
@@ -349,6 +364,10 @@ def main():
             oracle_pid = cand["gold_pid"] if cand["gold_pid"] is not None else pid
             labels_plus_gold.append(oracle_pid)
 
+        # Match the model's own candidate-window logic to count quotes it processes.
+        og_representation = qa_model.get_representation(quotes, ent_og, tokens)
+        plus_representation = qa_model.get_representation(quotes, ent_plus, tokens)
+
         # ==========================================
         # INFERÊNCIA NEURAL
         # ==========================================
@@ -359,6 +378,19 @@ def main():
                     mentions_og = qa_model.tag(quotes, ent_og, tokens)
                     # Roda o BERT no conjunto limpo (BookNLP+)
                     mentions_plus = qa_model.tag(quotes, ent_plus, tokens)
+
+        for name, mentions, representation in [
+            ("BookNLP-OG", mentions_og, og_representation),
+            ("BookNLP+", mentions_plus, plus_representation),
+        ]:
+            metas = representation[1]
+            quote_indexes = representation[-1]
+            coverage[name]["quotes"] += len(quotes)
+            coverage[name]["with_candidates"] += sum(bool(meta[1]) for meta in metas)
+            coverage[name]["processed"] += len(quote_indexes)
+            coverage[name]["attributed"] += sum(
+                mention_idx is not None for mention_idx in mentions
+            )
 
         # ==========================================
         # AVALIAÇÃO DAS 4 MÉTRICAS
@@ -385,9 +417,75 @@ def main():
     print(f"2. BookNLP-OG + Oráculo de Rótulos:           {np.mean(acc_og_gold):.4f}")
     print(f"3. BookNLP+ (Filtragem de Candidatos):        {np.mean(acc_plus_pred):.4f}")
     print(f"4. BookNLP+ + Oráculo de Rótulos (Teto Real): {np.mean(acc_plus_gold):.4f}")
+    print("\nCobertura por conjunto de candidatos:")
+    for name, counts in coverage.items():
+        quote_count = counts["quotes"]
+        candidate_count = counts["with_candidates"]
+        processed_count = counts["processed"]
+        attributed_count = counts["attributed"]
+        candidate_coverage = candidate_count / quote_count if quote_count else 0.0
+        attribution_coverage = attributed_count / quote_count if quote_count else 0.0
+        print(
+            f"{name}: quotes={quote_count}, com candidatos utilizáveis="
+            f"{candidate_count} ({candidate_coverage:.4f}), "
+            f"representadas/processadas={processed_count}, "
+            f"processadas sem candidato utilizável={processed_count - candidate_count}, "
+            f"sem candidato utilizável={quote_count - candidate_count}, "
+            f"saídas não nulas={attributed_count} "
+            f"({attribution_coverage:.4f} do total), "
+            f"processadas sem saída não nula={processed_count - attributed_count}"
+        )
     print("=====================================================")
 
     # Salva o CSV para seus registros
+    coverage_regime = {
+        "BookNLP-OG": "BookNLP-OG",
+        "BookNLP-OG (Oracle Label)": "BookNLP-OG",
+        "BookNLP+": "BookNLP+",
+        "BookNLP+ (Oracle Label)": "BookNLP+",
+    }
+    coverage_columns = {
+        "Quotes_Totais": [],
+        "Quotes_Com_Candidatos_Usaveis": [],
+        "Quotes_Representadas_Processadas": [],
+        "Quotes_Sem_Candidatos_Usaveis": [],
+        "Cobertura_Candidatos": [],
+        "Saidas_Nao_Nulas": [],
+        "Cobertura_Saidas_Nao_Nulas": [],
+        "Processadas_Sem_Candidato_Usavel": [],
+        "Processadas_Sem_Saida_Nao_Nula": [],
+    }
+    for config in [
+        "BookNLP-OG",
+        "BookNLP-OG (Oracle Label)",
+        "BookNLP+",
+        "BookNLP+ (Oracle Label)",
+    ]:
+        counts = coverage[coverage_regime[config]]
+        quote_count = counts["quotes"]
+        candidate_count = counts["with_candidates"]
+        processed_count = counts["processed"]
+        attributed_count = counts["attributed"]
+        coverage_columns["Quotes_Totais"].append(quote_count)
+        coverage_columns["Quotes_Com_Candidatos_Usaveis"].append(candidate_count)
+        coverage_columns["Quotes_Representadas_Processadas"].append(processed_count)
+        coverage_columns["Quotes_Sem_Candidatos_Usaveis"].append(
+            quote_count - candidate_count
+        )
+        coverage_columns["Cobertura_Candidatos"].append(
+            candidate_count / quote_count if quote_count else 0.0
+        )
+        coverage_columns["Saidas_Nao_Nulas"].append(attributed_count)
+        coverage_columns["Cobertura_Saidas_Nao_Nulas"].append(
+            attributed_count / quote_count if quote_count else 0.0
+        )
+        coverage_columns["Processadas_Sem_Candidato_Usavel"].append(
+            processed_count - candidate_count
+        )
+        coverage_columns["Processadas_Sem_Saida_Nao_Nula"].append(
+            processed_count - attributed_count
+        )
+
     df_results = pd.DataFrame(
         {
             "Configuração": [
@@ -402,6 +500,7 @@ def main():
                 np.mean(acc_plus_pred),
                 np.mean(acc_plus_gold),
             ],
+            **coverage_columns,
         }
     )
     df_results.to_csv("replicacao_acl2023_results.csv", index=False)

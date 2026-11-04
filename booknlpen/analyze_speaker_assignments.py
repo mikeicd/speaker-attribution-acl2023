@@ -1,4 +1,5 @@
 import argparse
+import ast
 import json
 import os
 from collections import Counter, defaultdict
@@ -16,6 +17,34 @@ def _as_int(value):
     if pd.isna(value):
         return None
     return int(value)
+
+
+def _candidate_ids(value):
+    if isinstance(value, list):
+        raw_ids = value
+    elif pd.isna(value):
+        raw_ids = []
+    else:
+        raw_ids = ast.literal_eval(str(value))
+    if not isinstance(raw_ids, list):
+        raise ValueError("Expected coref_matches.matches to contain a list")
+    return sorted({int(candidate_id) for candidate_id in raw_ids})
+
+
+def _cluster_resolution_detail(coref_id, coref_match_rows):
+    match_row = coref_match_rows.get(coref_id)
+    if match_row is None:
+        return 'missing_cluster_match', []
+
+    pdnc_id = _as_int(match_row.pdncID)
+    candidate_ids = _candidate_ids(match_row.matches)
+    if pdnc_id is not None and pdnc_id >= 0:
+        return 'resolved', candidate_ids
+    if len(candidate_ids) > 1:
+        return 'ambiguous', candidate_ids
+    if len(candidate_ids) == 1:
+        return 'unresolved_single_candidate', candidate_ids
+    return 'unmatched', candidate_ids
 
 
 def _gold_speakers_by_byte(novel):
@@ -74,6 +103,9 @@ def analyze_novel_assignments(novel):
         int(row.COREF): int(row.pdncID)
         for row in matches.itertuples(index=False)
     }
+    coref_match_rows = {
+        int(row.COREF): row for row in matches.itertuples(index=False)
+    }
     entity_corefs_by_span = defaultdict(set)
     for row in entities.itertuples(index=False):
         entity_corefs_by_span[(int(row.start_token), int(row.end_token))].add(
@@ -85,6 +117,9 @@ def analyze_novel_assignments(novel):
     cluster_gold_correct = Counter()
     cluster_gold_comparable = Counter()
     attribution_status_counts = Counter()
+    assignment_resolution_counts = Counter()
+    cluster_resolution_counts = Counter()
+    resolution_detail_by_cluster = {}
 
     for quote_index, row in enumerate(quotes.itertuples(index=False)):
         quote_start = int(row.quote_start)
@@ -118,8 +153,13 @@ def analyze_novel_assignments(novel):
             character_name = None
             status = 'no_attributed_mention'
             mention_matches_assignment = None
+            resolution_detail = 'no_attributed_mention'
+            resolution_candidate_ids = []
         else:
             pdnc_id = coref_matches.get(cluster_id)
+            resolution_detail, resolution_candidate_ids = (
+                _cluster_resolution_detail(cluster_id, coref_match_rows)
+            )
             if pdnc_id is None:
                 status = 'missing_cluster_match'
                 character_name = None
@@ -140,6 +180,8 @@ def analyze_novel_assignments(novel):
                 )
             )
             cluster_quote_counts[cluster_id] += 1
+            assignment_resolution_counts[resolution_detail] += 1
+            resolution_detail_by_cluster[cluster_id] = resolution_detail
 
         is_gold_comparable = pdnc_id is not None and pdnc_id >= 0 and bool(
             gold_speaker_ids
@@ -168,6 +210,9 @@ def analyze_novel_assignments(novel):
             'mention_end_token': mention_end,
             'speaker_cluster_id': cluster_id,
             'speaker_resolution_status': status,
+            'cluster_resolution_detail': resolution_detail,
+            'resolution_candidate_count': len(resolution_candidate_ids),
+            'resolution_candidate_pdnc_ids': json.dumps(resolution_candidate_ids),
             'predicted_pdnc_id': pdnc_id if pdnc_id is not None and pdnc_id >= 0 else None,
             'predicted_character_name': character_name,
             'gold_speaker_ids': json.dumps(gold_speaker_ids),
@@ -185,6 +230,10 @@ def analyze_novel_assignments(novel):
     cluster_rows = []
     for cluster_id, quote_count in cluster_quote_counts.items():
         pdnc_id = coref_matches.get(cluster_id)
+        resolution_detail, candidate_ids = _cluster_resolution_detail(
+            cluster_id, coref_match_rows
+        )
+        cluster_resolution_counts[resolution_detail] += 1
         if pdnc_id is None:
             status = 'missing_cluster_match'
             character_name = None
@@ -205,6 +254,9 @@ def analyze_novel_assignments(novel):
             'novel': novel,
             'speaker_cluster_id': cluster_id,
             'speaker_resolution_status': status,
+            'cluster_resolution_detail': resolution_detail,
+            'resolution_candidate_count': len(candidate_ids),
+            'resolution_candidate_pdnc_ids': json.dumps(candidate_ids),
             'pdnc_id': pdnc_id if pdnc_id is not None and pdnc_id >= 0 else None,
             'character_name': character_name,
             'attributed_quote_count': quote_count,
@@ -219,6 +271,9 @@ def analyze_novel_assignments(novel):
         'novel',
         'speaker_cluster_id',
         'speaker_resolution_status',
+        'cluster_resolution_detail',
+        'resolution_candidate_count',
+        'resolution_candidate_pdnc_ids',
         'pdnc_id',
         'character_name',
         'attributed_quote_count',
@@ -250,6 +305,12 @@ def analyze_novel_assignments(novel):
     no_attribution_count = int(
         quote_df['speaker_resolution_status'].eq('no_attributed_mention').sum()
     )
+    assigned_quote_count = attributed_count
+    unresolved_speaker_cluster_count = sum(
+        count
+        for detail, count in cluster_resolution_counts.items()
+        if detail != 'resolved'
+    )
     gold_comparable_count = int(quote_df['gold_comparable'].sum())
     gold_correct_count = int(
         quote_df['gold_correct_if_resolved'].eq(True).sum()
@@ -279,9 +340,47 @@ def analyze_novel_assignments(novel):
             resolved_count / attributed_count if attributed_count else 0
         ),
         'distinct_speaker_clusters': len(cluster_quote_counts),
-        'distinct_unresolved_speaker_clusters': sum(
-            coref_matches.get(cluster_id, -1) < 0
-            for cluster_id in cluster_quote_counts
+        'distinct_unresolved_speaker_clusters': unresolved_speaker_cluster_count,
+        'distinct_ambiguous_speaker_clusters': cluster_resolution_counts['ambiguous'],
+        'distinct_single_candidate_speaker_clusters': (
+            cluster_resolution_counts['unresolved_single_candidate']
+        ),
+        'distinct_unmatched_speaker_clusters': cluster_resolution_counts['unmatched'],
+        'distinct_missing_match_speaker_clusters': (
+            cluster_resolution_counts['missing_cluster_match']
+        ),
+        'ambiguous_assignment_count': assignment_resolution_counts['ambiguous'],
+        'single_candidate_assignment_count': (
+            assignment_resolution_counts['unresolved_single_candidate']
+        ),
+        'unmatched_assignment_count': assignment_resolution_counts['unmatched'],
+        'missing_match_assignment_count': (
+            assignment_resolution_counts['missing_cluster_match']
+        ),
+        'unresolved_assignment_count': sum(
+            count
+            for detail, count in assignment_resolution_counts.items()
+            if detail != 'resolved'
+        ),
+        'ambiguous_cluster_rate_of_speaker_clusters': (
+            cluster_resolution_counts['ambiguous'] / len(cluster_quote_counts)
+            if cluster_quote_counts else 0
+        ),
+        'unresolved_cluster_rate_of_speaker_clusters': (
+            unresolved_speaker_cluster_count / len(cluster_quote_counts)
+            if cluster_quote_counts else 0
+        ),
+        'ambiguous_assignment_rate_of_assigned_quotes': (
+            assignment_resolution_counts['ambiguous'] / assigned_quote_count
+            if assigned_quote_count else 0
+        ),
+        'unresolved_assignment_rate_of_assigned_quotes': (
+            sum(
+                count
+                for detail, count in assignment_resolution_counts.items()
+                if detail != 'resolved'
+            ) / assigned_quote_count
+            if assigned_quote_count else 0
         ),
         'gold_comparable_resolved_attributions': gold_comparable_count,
         'gold_correct_resolved_attributions': gold_correct_count,
@@ -291,6 +390,8 @@ def analyze_novel_assignments(novel):
         ),
         'selected_mention_assignment_mismatch_count': inconsistent_mention_count,
         'attribution_status_counts': dict(attribution_status_counts),
+        'assignment_resolution_detail_counts': dict(assignment_resolution_counts),
+        'speaker_cluster_resolution_detail_counts': dict(cluster_resolution_counts),
         'quote_level_report': quote_output_path,
         'cluster_level_report': cluster_output_path,
     }
@@ -302,12 +403,19 @@ def analyze_novel_assignments(novel):
 
     print(
         "{}: {} quotes; unresolved-cluster attributions: {}/{} ({:.1%}); "
+        "ambiguous clusters: {}/{} ({:.1%}); ambiguous assignments: {}/{} ({:.1%}); "
         "gold accuracy among resolved: {}".format(
             novel,
             quote_count,
             unresolved_count,
             attributed_count,
             summary['unresolved_attribution_rate_assigned_quotes'],
+            cluster_resolution_counts['ambiguous'],
+            len(cluster_quote_counts),
+            summary['ambiguous_cluster_rate_of_speaker_clusters'],
+            assignment_resolution_counts['ambiguous'],
+            attributed_count,
+            summary['ambiguous_assignment_rate_of_assigned_quotes'],
             (
                 "{:.1%}".format(summary['gold_accuracy_when_cluster_resolved'])
                 if summary['gold_accuracy_when_cluster_resolved'] is not None
@@ -355,12 +463,33 @@ def generate_population_report(novels=None):
     total_gold_correct = sum(
         summary['gold_correct_resolved_attributions'] for summary in summaries
     )
+    count_fields = [
+        'distinct_speaker_clusters',
+        'distinct_unresolved_speaker_clusters',
+        'distinct_ambiguous_speaker_clusters',
+        'distinct_single_candidate_speaker_clusters',
+        'distinct_unmatched_speaker_clusters',
+        'distinct_missing_match_speaker_clusters',
+        'unresolved_assignment_count',
+        'ambiguous_assignment_count',
+        'single_candidate_assignment_count',
+        'unmatched_assignment_count',
+        'missing_match_assignment_count',
+    ]
+    pooled_counts = {
+        field: sum(summary[field] for summary in summaries)
+        for field in count_fields
+    }
 
     rate_columns = [
         'quote_attribution_coverage',
         'unresolved_attribution_rate_all_quotes',
         'unresolved_attribution_rate_assigned_quotes',
         'resolved_attribution_rate_assigned_quotes',
+        'ambiguous_cluster_rate_of_speaker_clusters',
+        'unresolved_cluster_rate_of_speaker_clusters',
+        'ambiguous_assignment_rate_of_assigned_quotes',
+        'unresolved_assignment_rate_of_assigned_quotes',
         'gold_accuracy_when_cluster_resolved',
     ]
     macro_statistics = {}
@@ -387,6 +516,22 @@ def generate_population_report(novels=None):
             ),
             'unresolved_attribution_rate_assigned_quotes': (
                 'Quotes whose selected speaker cluster is unresolved / quotes with an attributed mention.'
+            ),
+            'ambiguous_cluster_rate_of_speaker_clusters': (
+                'Distinct ambiguous clusters used by at least one quote / '
+                'distinct speaker clusters used by at least one quote.'
+            ),
+            'unresolved_cluster_rate_of_speaker_clusters': (
+                'Distinct non-resolved clusters used by at least one quote / '
+                'distinct speaker clusters used by at least one quote.'
+            ),
+            'ambiguous_assignment_rate_of_assigned_quotes': (
+                'Attributed quotes whose speaker cluster has multiple distinct '
+                'name-matching candidates / all attributed quotes.'
+            ),
+            'unresolved_assignment_rate_of_assigned_quotes': (
+                'Attributed quotes whose speaker cluster has no unique resolved '
+                'PDNC ID / all attributed quotes.'
             ),
             'gold_accuracy_when_cluster_resolved': (
                 'Resolved cluster predictions in the PDNC gold speaker set / '
@@ -416,6 +561,25 @@ def generate_population_report(novels=None):
             'resolved_attribution_rate_assigned_quotes': (
                 total_resolved / total_attributed if total_attributed else 0
             ),
+            **pooled_counts,
+            'ambiguous_cluster_rate_of_speaker_clusters': (
+                pooled_counts['distinct_ambiguous_speaker_clusters']
+                / pooled_counts['distinct_speaker_clusters']
+                if pooled_counts['distinct_speaker_clusters'] else 0
+            ),
+            'unresolved_cluster_rate_of_speaker_clusters': (
+                pooled_counts['distinct_unresolved_speaker_clusters']
+                / pooled_counts['distinct_speaker_clusters']
+                if pooled_counts['distinct_speaker_clusters'] else 0
+            ),
+            'ambiguous_assignment_rate_of_assigned_quotes': (
+                pooled_counts['ambiguous_assignment_count'] / total_attributed
+                if total_attributed else 0
+            ),
+            'unresolved_assignment_rate_of_assigned_quotes': (
+                pooled_counts['unresolved_assignment_count'] / total_attributed
+                if total_attributed else 0
+            ),
             'gold_comparable_resolved_attributions': total_gold_comparable,
             'gold_correct_resolved_attributions': total_gold_correct,
             'gold_accuracy_when_cluster_resolved': (
@@ -435,6 +599,17 @@ def generate_population_report(novels=None):
     print("Wrote per-novel assignment table: {}".format(per_novel_path))
     print("Wrote assignment population summary: {}".format(summary_path))
     pooled = report['pooled_totals_and_rates']
+    print(
+        "Pooled: ambiguous clusters {}/{} ({:.1%}); ambiguous assignments "
+        "{}/{} ({:.1%})".format(
+            pooled['distinct_ambiguous_speaker_clusters'],
+            pooled['distinct_speaker_clusters'],
+            pooled['ambiguous_cluster_rate_of_speaker_clusters'],
+            pooled['ambiguous_assignment_count'],
+            total_attributed,
+            pooled['ambiguous_assignment_rate_of_assigned_quotes'],
+        )
+    )
     print(
         "Pooled: {} quotes; unresolved cluster attributions {}/{} ({:.1%}); "
         "resolved-cluster accuracy {}".format(

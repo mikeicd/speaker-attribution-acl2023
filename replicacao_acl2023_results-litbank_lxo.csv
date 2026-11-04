@@ -1,0 +1,5 @@
+Configuração,Acurácia_Média,Quotes_Totais,Quotes_Com_Candidatos_Usaveis,Quotes_Representadas_Processadas,Quotes_Sem_Candidatos_Usaveis,Cobertura_Candidatos,Saidas_Nao_Nulas,Cobertura_Saidas_Nao_Nulas,Processadas_Sem_Candidato_Usavel,Processadas_Sem_Saida_Nao_Nula
+BookNLP-OG,0.3830643646433956,37156,37156,37156,0,1.0,37156,1.0,0,0
+BookNLP-OG (Oracle Label),0.3830643646433956,37156,37156,37156,0,1.0,37156,1.0,0,0
+BookNLP+,0.42092462240508444,37156,37005,37005,151,0.9959360533964905,36639,0.9860856927548713,0,366
+BookNLP+ (Oracle Label),0.4190248658469428,37156,37005,37005,151,0.9959360533964905,36639,0.9860856927548713,0,366

@@ -2,24 +2,24 @@ from booknlpen.english.english_booknlp import EnglishBookNLP as BookNLP
 import os
 from pathlib import Path
 
-model_params = {"pipeline": "entity,quote,supersense,event,coref", "model": "big"}
+# model_params = {"pipeline": "entity,quote,supersense,event,coref", "model": "big"}
 
-# entityName="entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model"
-# corefName="coref_google_bert_uncased_L-12_H-768_A-12-v1.0.model"
-# quoteAttribName="speaker_bert-base-uncased.model"
+entityName="entities_google_bert_uncased_L-6_H-768_A-12-v1.0.model"
+corefName="coref_google_bert_uncased_L-12_H-768_A-12-v1.0.model"
+quoteAttribName="speaker_bert-base-uncased.model"
 
-# home = str(Path.home())
-# repo_root = Path(__file__).resolve().parent
-# modelsPath=os.path.join(home, "booknlp_models")
-# repo_modelsPath=os.path.join(repo_root, "training/trained_models/random_split_0_uncased")
+home = str(Path.home())
+repo_root = Path(__file__).resolve().parent
+modelsPath=os.path.join(home, "booknlp_models")
+repo_modelsPath=os.path.join(repo_root, "training/trained_models/lxo_split_0_uncased")
 
-# model_params={
-# 		"pipeline":"entity,quote,supersense,event,coref",
-# 		"model":"custom",
-#         "entity_model_path": os.path.join(modelsPath, entityName),
-#         "coref_model_path": os.path.join(modelsPath, corefName),
-#         "quote_attribution_model_path": os.path.join(repo_modelsPath, quoteAttribName)
-# 	}
+model_params={
+		"pipeline":"entity,quote,supersense,event,coref",
+		"model":"custom",
+        "entity_model_path": os.path.join(modelsPath, entityName),
+        "coref_model_path": os.path.join(modelsPath, corefName),
+        "quote_attribution_model_path": os.path.join(repo_modelsPath, quoteAttribName)
+	}
 
 booknlp = BookNLP(model_params)
 
