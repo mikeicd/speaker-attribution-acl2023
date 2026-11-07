@@ -1,6 +1,7 @@
 # Project output
 booknlpen/pdnc_output/
 coref/outputs/
+nop/*
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/python
@@ -179,3 +180,5 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+booknlpen/pdnc_output*
+training/trained_models/

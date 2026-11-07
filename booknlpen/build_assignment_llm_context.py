@@ -8,6 +8,11 @@ from datetime import datetime, timezone
 import pandas as pd
 
 from booknlpen import create_book_corefs
+from booknlpen.assignment_llm_artifacts import (
+    context_package_filename,
+    context_summary_filename,
+    split_passage_group,
+)
 
 
 DEFAULT_CONTEXT_WINDOW = 40
@@ -145,6 +150,7 @@ def build_novel_assignment_context(
     novel,
     context_window=DEFAULT_CONTEXT_WINDOW,
     max_passage_tokens=DEFAULT_MAX_PASSAGE_TOKENS,
+    max_decisions_per_passage=None,
 ):
     """Build shared, bounded LLM passages for unresolved speaker assignments."""
     if novel not in create_book_corefs.novels:
@@ -153,6 +159,11 @@ def build_novel_assignment_context(
         raise ValueError("context_window must be non-negative")
     if max_passage_tokens < 1:
         raise ValueError("max_passage_tokens must be positive")
+    if (
+        max_decisions_per_passage is not None
+        and max_decisions_per_passage < 1
+    ):
+        raise ValueError("max_decisions_per_passage must be positive")
 
     novel_output = os.path.join(create_book_corefs.COREF_ROOT, novel)
     quotes_path = os.path.join(novel_output, novel + '.quotes')
@@ -286,9 +297,17 @@ def build_novel_assignment_context(
         assignment['COREF'] for assignment in assignment_rows
         if assignment['decision_required'] and assignment['COREF'] is not None
     }
-    for group in _group_overlapping_ranges(
+    grouped_ranges = _group_overlapping_ranges(
         unresolved_context_rows, max_passage_tokens
-    ):
+    )
+    passage_groups = [
+        group
+        for original_group in grouped_ranges
+        for group in split_passage_group(
+            original_group, max_decisions_per_passage
+        )
+    ]
+    for group in passage_groups:
         start = group['context_start']
         end = group['context_end']
         paragraph_id = paragraph_ids[start]
@@ -459,7 +478,11 @@ def build_novel_assignment_context(
             token_ids[start],
             token_ids[end],
         )
-        passages.append({
+        if 'part_number' in group:
+            passage_id = '{}:part{}-of-{}'.format(
+                passage_id, group['part_number'], group['part_count']
+            )
+        passage = {
             'passage_id': passage_id,
             'paragraph_id': paragraph_id,
             'end_paragraph_id': end_paragraph_id,
@@ -491,7 +514,13 @@ def build_novel_assignment_context(
             'speaker_clusters': sorted(
                 passage_clusters.values(), key=lambda cluster: cluster['COREF']
             ),
-        })
+        }
+        if 'part_number' in group:
+            passage['decision_part'] = {
+                'number': group['part_number'],
+                'count': group['part_count'],
+            }
+        passages.append(passage)
 
     unresolved_assignment_count = sum(
         assignment['decision_required'] for assignment in assignment_rows
@@ -533,6 +562,7 @@ def build_novel_assignment_context(
         },
         'context_window_tokens_per_side': context_window,
         'max_passage_tokens': max_passage_tokens,
+        'max_decisions_per_passage': max_decisions_per_passage,
         'passage_limit_is_soft_for_single_assignment_context': True,
         'source_files': {
             'quotes': quotes_path,
@@ -564,6 +594,11 @@ def build_novel_assignment_context(
             assignment['assignment_id'] for passage in passages
             for assignment in passage['assignments']
         }),
+        'unique_decision_assignment_count': len({
+            assignment['assignment_id'] for passage in passages
+            for assignment in passage['assignments']
+            if assignment['decision_required']
+        }),
         'mean_assignments_per_passage': (
             passage_assignment_entry_count / len(passages) if passages else 0
         ),
@@ -589,8 +624,22 @@ def build_novel_assignment_context(
         },
     }
 
+    if (
+        passage_decision_count != unresolved_assignment_count
+        or package['unique_decision_assignment_count']
+        != unresolved_assignment_count
+    ):
+        raise ValueError(
+            'Decision assignments are missing or duplicated across passages'
+        )
+    if max_decisions_per_passage is not None and any(
+        passage['expected_decision_count'] > max_decisions_per_passage
+        for passage in passages
+    ):
+        raise ValueError('A passage exceeds max_decisions_per_passage')
+
     output_path = os.path.join(
-        novel_output, 'speaker_assignment_llm_context_packages.json'
+        novel_output, context_package_filename(max_decisions_per_passage)
     )
     with open(output_path, 'w', encoding='utf-8') as output_file:
         json.dump(package, output_file, indent=2, ensure_ascii=False)
@@ -616,10 +665,11 @@ def build_novel_assignment_context(
         'passages_over_merge_limit_count': package[
             'passages_over_merge_limit_count'
         ],
+        'max_decisions_per_passage': max_decisions_per_passage,
         'context_package': output_path,
     }
     summary_path = os.path.join(
-        novel_output, 'speaker_assignment_llm_context_summary.json'
+        novel_output, context_summary_filename(max_decisions_per_passage)
     )
     with open(summary_path, 'w', encoding='utf-8') as summary_file:
         json.dump(summary, summary_file, indent=2, ensure_ascii=False)
@@ -664,11 +714,22 @@ def main():
         default=DEFAULT_MAX_PASSAGE_TOKENS,
         help='Maximum token count when merging overlapping quote contexts.',
     )
+    parser.add_argument(
+        '--max-decisions-per-passage',
+        type=int,
+        help=(
+            'Split decision targets into passage parts with at most this many '
+            'assignments. Context remains shared across the parts.'
+        ),
+    )
     args = parser.parse_args()
     novels = create_book_corefs.novels if args.all_novels else [args.novel]
     for novel in novels:
         build_novel_assignment_context(
-            novel, args.context_window, args.max_passage_tokens
+            novel,
+            args.context_window,
+            args.max_passage_tokens,
+            args.max_decisions_per_passage,
         )
 
 
